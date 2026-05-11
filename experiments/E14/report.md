@@ -41,9 +41,8 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E14_action_threshold_modulation\charts\e14_threshold_modulation_e14_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E14_action_threshold_modulation\charts\e14_execution_timing_e14_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E14_action_threshold_modulation\charts\e14_local_drive_e14_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E14_action_threshold_modulation\charts\e14_family_pass_matrix_e14_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E14_action_threshold_modulation\charts\e14_drive_threshold_curves_e14_final_v1.png
-
+- `charts/e14_drive_threshold_curves_final.png`
+- `charts/e14_execution_timing_final.png`
+- `charts/e14_family_pass_matrix_final.png`
+- `charts/e14_local_drive_final.png`
+- `charts/e14_threshold_modulation_final.png`

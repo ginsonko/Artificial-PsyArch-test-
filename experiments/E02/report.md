@@ -23,8 +23,9 @@
 - design_reproducibility: strict_all_replicates_pass_rate=1.000
 
 ## 图表
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E02_label_switch_sensitivity\charts\e02_label_switch_growth_core_e02_label_switch_holdout_confirm_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E02_label_switch_sensitivity\charts\e02_label_switch_growth_extended_e02_label_switch_holdout_confirm_v1.png
+
+- `charts/e02_label_switch_growth_core_final.png`
+- `charts/e02_label_switch_growth_extended_final.png`
 
 ## 数据规模
 - datasets: 96

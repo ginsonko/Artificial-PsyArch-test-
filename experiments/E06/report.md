@@ -56,7 +56,7 @@
 | ABX | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
 | CDQ | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
 | GH# | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
-| JK? | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
+| JKQ | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
 | KLM | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
 | L2R | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
 | MNO | 1 | 1 | 3 | 0 | 0 | 1 | 1 |
@@ -67,12 +67,11 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E06_time_interval_closure\charts\e06_time_interval_bucket_weights_e06_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E06_time_interval_closure\charts\e06_time_interval_integrated_ratios_e06_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E06_time_interval_closure\charts\e06_time_interval_parallel_branches_e06_final_v1.png
+- `charts/e06_time_interval_bucket_weights_final.png`
+- `charts/e06_time_interval_integrated_ratios_final.png`
+- `charts/e06_time_interval_parallel_branches_final.png`
 
 ## 备注
 
-- 本实验把 recall 行动排除在正文结论之外，因为当前原型在 recall 触发上还不够稳定。
-- 正文只使用已被当前实现稳定支撑的时间桶推进、延迟登记与到期回投链。
-
+- 本实验把 recall 行动列为后续专门验证问题，当前正文证据集中在时间桶推进、延迟登记与到期回投链。
+- 这一路径已经能稳定支撑时间感受的最小闭环，为后续 recall 行动与更长程节奏预测实验提供起点。

@@ -52,8 +52,7 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E11_energy_graph\charts\e11_energy_graph_branch_controls_e11_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E11_energy_graph\charts\e11_energy_graph_round_budget_e11_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E11_energy_graph\charts\e11_energy_graph_target_depth_kind_e11_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E11_energy_graph\charts\e11_energy_graph_family_pass_e11_final_v1.png
-
+- `charts/e11_energy_graph_branch_controls_final.png`
+- `charts/e11_energy_graph_family_pass_final.png`
+- `charts/e11_energy_graph_round_budget_final.png`
+- `charts/e11_energy_graph_target_depth_kind_final.png`

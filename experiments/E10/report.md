@@ -47,12 +47,11 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E10_repeat_fatigue\charts\e10_repeat_fatigue_attention_contrast_e10_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E10_repeat_fatigue\charts\e10_repeat_fatigue_boredom_gating_e10_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E10_repeat_fatigue\charts\e10_repeat_fatigue_family_pass_e10_final_v1.png
+- `charts/e10_repeat_fatigue_attention_contrast_final.png`
+- `charts/e10_repeat_fatigue_boredom_gating_final.png`
+- `charts/e10_repeat_fatigue_family_pass_final.png`
 
 ## 备注
 
 - 注意力层和 boredom 层故意分开建模，以避免把“重复惩罚”和“缺少新鲜收益”混成同一件事。
 - 这比直接跑一组自然语言重复课程更窄，但因果也更干净。
-

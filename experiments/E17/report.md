@@ -40,8 +40,7 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E17_internal_narrative_chain\charts\e17_branch_pass_rates_e17_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E17_internal_narrative_chain\charts\e17_chain_step_delta_ev_e17_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E17_internal_narrative_chain\charts\e17_family_pass_matrix_e17_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E17_internal_narrative_chain\charts\e17_sample_path_contrast_e17_final_v1.png
-
+- `charts/e17_branch_pass_rates_final.png`
+- `charts/e17_chain_step_delta_ev_final.png`
+- `charts/e17_family_pass_matrix_final.png`
+- `charts/e17_sample_path_contrast_final.png`

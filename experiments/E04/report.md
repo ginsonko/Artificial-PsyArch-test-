@@ -22,8 +22,9 @@
 - alias_ttl：8
 
 ## 图表
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E04_punish_correction\charts\e04_punish_correction_key_drives_e04_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E04_punish_correction\charts\e04_punish_correction_effects_e04_final_v1.png
+
+- `charts/e04_punish_correction_effects_final.png`
+- `charts/e04_punish_correction_key_drives_final.png`
 
 ## Pair 明细
 

@@ -35,8 +35,8 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E05_action_closure\charts\e05_action_closure_probe_drive_e05_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E05_action_closure\charts\e05_action_closure_chain_ratios_e05_final_v1.png
+- `charts/e05_action_closure_chain_ratios_final.png`
+- `charts/e05_action_closure_probe_drive_final.png`
 
 ## Pair 明细
 

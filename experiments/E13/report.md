@@ -40,8 +40,7 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E13_agent_memory_projection\charts\e13_context_field_scores_e13_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E13_agent_memory_projection\charts\e13_branch_pass_rates_e13_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E13_agent_memory_projection\charts\e13_family_advantage_e13_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E13_agent_memory_projection\charts\e13_field_matrix_e13_final_v1.png
-
+- `charts/e13_branch_pass_rates_final.png`
+- `charts/e13_context_field_scores_final.png`
+- `charts/e13_family_advantage_final.png`
+- `charts/e13_field_matrix_final.png`

@@ -39,8 +39,7 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E12_process_memory_state\charts\e12_process_memory_role_split_e12_final_v2.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E12_process_memory_state\charts\e12_memory_convergence_e12_final_v2.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E12_process_memory_state\charts\e12_memory_decay_e12_final_v2.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E12_process_memory_state\charts\e12_process_memory_family_pass_e12_final_v2.png
-
+- `charts/e12_memory_convergence_final.png`
+- `charts/e12_memory_decay_final.png`
+- `charts/e12_process_memory_family_pass_final.png`
+- `charts/e12_process_memory_role_split_final.png`

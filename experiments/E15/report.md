@@ -43,8 +43,7 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E15_auto_tuner_stability\charts\e15_branch_pass_rates_e15_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E15_auto_tuner_stability\charts\e15_param_delta_directions_e15_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E15_auto_tuner_stability\charts\e15_family_pass_matrix_e15_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E15_auto_tuner_stability\charts\e15_branch_param_heatmap_e15_final_v1.png
-
+- `charts/e15_branch_param_heatmap_final.png`
+- `charts/e15_branch_pass_rates_final.png`
+- `charts/e15_family_pass_matrix_final.png`
+- `charts/e15_param_delta_directions_final.png`

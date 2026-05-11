@@ -51,12 +51,11 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E09_conflict_relief\charts\e09_conflict_relief_branch_contrast_e09_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E09_conflict_relief\charts\e09_conflict_relief_family_pass_e09_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E09_conflict_relief\charts\e09_conflict_relief_gating_contrast_e09_final_v1.png
+- `charts/e09_conflict_relief_branch_contrast_final.png`
+- `charts/e09_conflict_relief_family_pass_final.png`
+- `charts/e09_conflict_relief_gating_contrast_final.png`
 
 ## 备注
 
 - 本实验故意使用双拍白箱构造，以避免把恢复链门槛与更高层的语言理解能力混写。
 - 对正文来说，这比一个松散的“安抚故事样本”更窄，但也更硬。
-

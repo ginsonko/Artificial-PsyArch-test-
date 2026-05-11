@@ -28,11 +28,10 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E07_attention_complexity\charts\e07_attention_complexity_source_transition_e07_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E07_attention_complexity\charts\e07_attention_complexity_probe_contrast_e07_final_v1.png
+- `charts/e07_attention_complexity_probe_contrast_final.png`
+- `charts/e07_attention_complexity_source_transition_final.png`
 
 ## 备注
 
 - 本实验故意不使用自然语言课程样本作为主要证据，因为那类样本会混入更多旁路机制。
 - 本实验也不把“复杂文本更像人”作为已证结论；正文只保留当前实现已经稳固支撑的最小白箱命题。
-

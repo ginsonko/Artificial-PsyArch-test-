@@ -32,7 +32,7 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E16_multimodal_symbol_grounding\charts\e16_branch_pass_rates_e16_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E16_multimodal_symbol_grounding\charts\e16_family_pass_matrix_e16_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E16_multimodal_symbol_grounding\charts\e16_attribute_integrity_e16_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E16_multimodal_symbol_grounding\charts\e16_anchor_isolation_e16_final_v1.png
+- `charts/e16_anchor_isolation_final.png`
+- `charts/e16_attribute_integrity_final.png`
+- `charts/e16_branch_pass_rates_final.png`
+- `charts/e16_family_pass_matrix_final.png`

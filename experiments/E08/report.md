@@ -53,11 +53,10 @@
 
 ## 图表
 
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E08_time_like_residual_promotion\charts\e08_time_like_residual_promotion_contrast_e08_final_v1.png
-- H:\PA原型测试\docs\paper_artifacts_2026-05-11\E08_time_like_residual_promotion\charts\e08_time_like_residual_promotion_family_pass_e08_final_v1.png
+- `charts/e08_time_like_residual_promotion_contrast_final.png`
+- `charts/e08_time_like_residual_promotion_family_pass_final.png`
 
 ## 备注
 
 - 本实验不主张广义情景回忆，只主张“时间显影下的残差记忆受控晋升”。
 - 本实验不主张线索词身份选择性，因为当前实现中，错误 cue 并不会稳定熄灭这条链。
-
