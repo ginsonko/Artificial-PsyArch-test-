@@ -1,6 +1,6 @@
-# Strong Evidence Manifest
+# 强证据实验清单（Strong Evidence Manifest）
 
-| ID | Title | Support | Records | Summary | Note |
+| 编号 | 实验标题 | 证据级别 | 判定记录数 | 汇总文件 | 说明 |
 |---|---|---|---:|---|---|
 | E01 | 历史特异性局部结构复用 | strong_evidence | 2 | `experiments\E01\tables\summary.json` | 严格交叉探针输入设计，样本规模小但因果控制强；正文使用时按机制证据理解。 |
 | E02 | 稳定句壳下标签替换导致结构生长 | strong_evidence | 48 | `experiments\E02\tables\summary.json` | 仅保留 holdout 长句壳确认批次；早期探索性批次不进入主索引。 |
@@ -20,8 +20,8 @@
 | E16 | 多来源属性化接地入口与锚点隔离 | strong_evidence | 72 | `experiments\E16\tables\summary.json` |  |
 | E17 | 内部候选链的跨拍承接与续写 | strong_evidence | 192 | `experiments\E17\tables\summary.json` |  |
 
-Total judgement records: **914**.
+判定记录总数：**914**。
 
-The file-level mapping and SHA-256 hashes are stored in `manifest.json`.
+文件级来源映射与 SHA-256 哈希保存在 `manifest.json`。
 
-`manifest.json` 中保留原始 artifact 的源路径和源文件名，以便复现者追溯哈希来源。个别源文件名包含早期批次 token；这些 token 只是历史文件名的一部分，不改变本清单以 `strong_evidence` 为准的正文证据级别。
+`manifest.json` 中保留原始实验输出目录（artifact）的源路径和源文件名，以便复现者追溯哈希来源。个别源文件名包含早期批次 token；这些 token 只是历史文件名的一部分。本清单以 `strong_evidence` 为正文证据准入级别。
