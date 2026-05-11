@@ -1,0 +1,18 @@
+{
+  "pair_count": 12,
+  "explicit_train_trigger_ratio": 1.0,
+  "weak_control_quiet_ratio": 1.0,
+  "source_visible_execution_ratio": 1.0,
+  "runtime_projection_ratio": 1.0,
+  "probe_runtime_presence_ratio": 1.0,
+  "probe_drive_advantage_ratio": 1.0,
+  "probe_margin_advantage_ratio": 1.0,
+  "clean_closure_chain_ratio": 1.0,
+  "probe_drive_advantage_mean": 0.19277994,
+  "probe_margin_advantage_mean": 0.19277994,
+  "explicit_probe_drive_mean": 0.33056801,
+  "weak_probe_drive_mean": 0.13778806,
+  "probe_drive_advantage_sign_p": 0.00048828,
+  "probe_margin_advantage_sign_p": 0.00048828,
+  "support_level": "strong_evidence"
+}

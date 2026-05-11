@@ -1,0 +1,13 @@
+﻿family,chain_follow_pass,wrong_seed_control_pass,low_budget_control_pass,no_carry_control_pass,branch_switch_pass,terminal_stop_pass,chain_sequence,wrong_seed_sequence,no_carry_sequence,branch_switch_sequence,chain_carry_ratio,no_carry_ratio,terminal_followup_target_count,all_ok
+F01,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F02,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F03,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F04,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F05,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F06,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F07,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F08,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F09,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F10,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F11,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1
+F12,1,1,1,1,1,1,AB>ABC>memory:terminal,memory:distractor>none,AB>AB>AB,AB>ABY>memory:switch,1.0,0.0,0,1

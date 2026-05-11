@@ -1,0 +1,1239 @@
+{
+  "experiment": "E03_reward_shaping",
+  "stamp": "e03_final_v1",
+  "created_at": "2026-05-11T20:52:43",
+  "support_level": "strong_evidence",
+  "summary": {
+    "pair_count": 12,
+    "ordered_drive_ratio": 0.0,
+    "ordered_margin_ratio": 0.0,
+    "reward_lookup_ratio": 1.0,
+    "punish_lookup_ratio": 1.0,
+    "neutral_quiet_ratio": 1.0,
+    "clean_causal_chain_ratio": 1.0,
+    "reward_drive_mean_diff": -0.208,
+    "punish_drive_mean_diff": 0.392,
+    "reward_bonus_effect_mean": 0.392,
+    "punish_penalty_effect_mean": 0.392,
+    "reward_drive_win_ratio": 0.0,
+    "punish_drive_win_ratio": 1.0,
+    "reward_drive_sign_p": 0.00048828,
+    "punish_drive_sign_p": 0.00048828,
+    "reward_bonus_sign_p": 0.00048828,
+    "punish_penalty_sign_p": 0.00048828,
+    "support_level": "strong_evidence"
+  },
+  "params": {
+    "reward_strength": 0.75,
+    "punish_strength": 0.7,
+    "reward_coef": 0.9,
+    "punish_coef": 0.9,
+    "alias_ttl": 6
+  },
+  "datasets": [
+    {
+      "case_id": "F01",
+      "branch": "reward_history",
+      "replicate": 1,
+      "city": "上海",
+      "event": "图书馆自习",
+      "explicit_train": "我明天要去上海图书馆自习，上海天气呢？请帮我查一下。",
+      "weak_probe": "上海天气呢",
+      "dataset_id": "paper_e03_F01_reward_history_r1_v1",
+      "dataset_name": "paper_e03_F01_reward_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F01_reward_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F01_reward_history_r1_v1.yaml",
+      "sha256": "743e3aaea4c735a3656cfe3b84f8b2107601ba31a7c19f1d27074c15638b6d6a"
+    },
+    {
+      "case_id": "F01",
+      "branch": "punish_history",
+      "replicate": 1,
+      "city": "上海",
+      "event": "图书馆自习",
+      "explicit_train": "我明天要去上海图书馆自习，上海天气呢？请帮我查一下。",
+      "weak_probe": "上海天气呢",
+      "dataset_id": "paper_e03_F01_punish_history_r1_v1",
+      "dataset_name": "paper_e03_F01_punish_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F01_punish_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F01_punish_history_r1_v1.yaml",
+      "sha256": "6baf76584dd690abf9753b036d1a9fef9c1695e030dd7ad498fb5e268c81b511"
+    },
+    {
+      "case_id": "F01",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "city": "上海",
+      "event": "图书馆自习",
+      "explicit_train": "我明天要去上海图书馆自习，上海天气呢？请帮我查一下。",
+      "weak_probe": "上海天气呢",
+      "dataset_id": "paper_e03_F01_neutral_control_r1_v1",
+      "dataset_name": "paper_e03_F01_neutral_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F01_neutral_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F01_neutral_control_r1_v1.yaml",
+      "sha256": "25c15c625c74397e860e122c6ce9f4b327b7a9c38c8f7f8b493b95e0ffb345b8"
+    },
+    {
+      "case_id": "F01",
+      "branch": "reward_history",
+      "replicate": 2,
+      "city": "上海",
+      "event": "图书馆自习",
+      "explicit_train": "我明天要去上海图书馆自习，上海天气呢？请帮我查一下。",
+      "weak_probe": "上海天气呢",
+      "dataset_id": "paper_e03_F01_reward_history_r2_v1",
+      "dataset_name": "paper_e03_F01_reward_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F01_reward_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F01_reward_history_r2_v1.yaml",
+      "sha256": "ef7e92858ee591609f8dddae91e0a1139e2da5fcc07098cd9010aec25a46de49"
+    },
+    {
+      "case_id": "F01",
+      "branch": "punish_history",
+      "replicate": 2,
+      "city": "上海",
+      "event": "图书馆自习",
+      "explicit_train": "我明天要去上海图书馆自习，上海天气呢？请帮我查一下。",
+      "weak_probe": "上海天气呢",
+      "dataset_id": "paper_e03_F01_punish_history_r2_v1",
+      "dataset_name": "paper_e03_F01_punish_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F01_punish_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F01_punish_history_r2_v1.yaml",
+      "sha256": "646b984c4d88b0f2159672f6137d7c36930da9961c47978dd5c14337242c3540"
+    },
+    {
+      "case_id": "F01",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "city": "上海",
+      "event": "图书馆自习",
+      "explicit_train": "我明天要去上海图书馆自习，上海天气呢？请帮我查一下。",
+      "weak_probe": "上海天气呢",
+      "dataset_id": "paper_e03_F01_neutral_control_r2_v1",
+      "dataset_name": "paper_e03_F01_neutral_control_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F01_neutral_control_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F01_neutral_control_r2_v1.yaml",
+      "sha256": "548677f75b9b662af033c7f45380e2689146078e607ed2740c482e4747e20b2d"
+    },
+    {
+      "case_id": "F02",
+      "branch": "reward_history",
+      "replicate": 1,
+      "city": "北京",
+      "event": "去医院复查",
+      "explicit_train": "我明天要去北京医院复查，北京天气呢？请帮我查一下。",
+      "weak_probe": "北京天气呢",
+      "dataset_id": "paper_e03_F02_reward_history_r1_v1",
+      "dataset_name": "paper_e03_F02_reward_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F02_reward_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F02_reward_history_r1_v1.yaml",
+      "sha256": "05917444b2c8ff1289c0cf2ca7f5b4c51a50c99aea4f75a0974ad0dc72a3f87c"
+    },
+    {
+      "case_id": "F02",
+      "branch": "punish_history",
+      "replicate": 1,
+      "city": "北京",
+      "event": "去医院复查",
+      "explicit_train": "我明天要去北京医院复查，北京天气呢？请帮我查一下。",
+      "weak_probe": "北京天气呢",
+      "dataset_id": "paper_e03_F02_punish_history_r1_v1",
+      "dataset_name": "paper_e03_F02_punish_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F02_punish_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F02_punish_history_r1_v1.yaml",
+      "sha256": "d59201a5d8227094e71b945e8cccf867a3dc80f8fb51d82412b95a1ba69828c7"
+    },
+    {
+      "case_id": "F02",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "city": "北京",
+      "event": "去医院复查",
+      "explicit_train": "我明天要去北京医院复查，北京天气呢？请帮我查一下。",
+      "weak_probe": "北京天气呢",
+      "dataset_id": "paper_e03_F02_neutral_control_r1_v1",
+      "dataset_name": "paper_e03_F02_neutral_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F02_neutral_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F02_neutral_control_r1_v1.yaml",
+      "sha256": "8f3ad5f3954e3e104089b67bc2b17116db119a7b443321745f00c9835b7cb628"
+    },
+    {
+      "case_id": "F02",
+      "branch": "reward_history",
+      "replicate": 2,
+      "city": "北京",
+      "event": "去医院复查",
+      "explicit_train": "我明天要去北京医院复查，北京天气呢？请帮我查一下。",
+      "weak_probe": "北京天气呢",
+      "dataset_id": "paper_e03_F02_reward_history_r2_v1",
+      "dataset_name": "paper_e03_F02_reward_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F02_reward_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F02_reward_history_r2_v1.yaml",
+      "sha256": "683732b6e294fa4f51dc66b5ee17b91d2f2d218c3ebfdf410994e14e43301d29"
+    },
+    {
+      "case_id": "F02",
+      "branch": "punish_history",
+      "replicate": 2,
+      "city": "北京",
+      "event": "去医院复查",
+      "explicit_train": "我明天要去北京医院复查，北京天气呢？请帮我查一下。",
+      "weak_probe": "北京天气呢",
+      "dataset_id": "paper_e03_F02_punish_history_r2_v1",
+      "dataset_name": "paper_e03_F02_punish_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F02_punish_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F02_punish_history_r2_v1.yaml",
+      "sha256": "ae06a4123bf3c91094f05aac531485ee8dc81f68a6eb01bfd4e4a8b898b676f0"
+    },
+    {
+      "case_id": "F02",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "city": "北京",
+      "event": "去医院复查",
+      "explicit_train": "我明天要去北京医院复查，北京天气呢？请帮我查一下。",
+      "weak_probe": "北京天气呢",
+      "dataset_id": "paper_e03_F02_neutral_control_r2_v1",
+      "dataset_name": "paper_e03_F02_neutral_control_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F02_neutral_control_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F02_neutral_control_r2_v1.yaml",
+      "sha256": "ade2a86d87bd35c4d57c67097816428010b226e877846bee2711a541ac77fc77"
+    },
+    {
+      "case_id": "F03",
+      "branch": "reward_history",
+      "replicate": 1,
+      "city": "广州",
+      "event": "参加答辩",
+      "explicit_train": "我后天要去广州参加答辩，广州天气呢？请帮我查一下。",
+      "weak_probe": "广州天气呢",
+      "dataset_id": "paper_e03_F03_reward_history_r1_v1",
+      "dataset_name": "paper_e03_F03_reward_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F03_reward_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F03_reward_history_r1_v1.yaml",
+      "sha256": "80d8e7f7831e7a95c4df521708c156b03995906ee92a396f457177758d01d913"
+    },
+    {
+      "case_id": "F03",
+      "branch": "punish_history",
+      "replicate": 1,
+      "city": "广州",
+      "event": "参加答辩",
+      "explicit_train": "我后天要去广州参加答辩，广州天气呢？请帮我查一下。",
+      "weak_probe": "广州天气呢",
+      "dataset_id": "paper_e03_F03_punish_history_r1_v1",
+      "dataset_name": "paper_e03_F03_punish_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F03_punish_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F03_punish_history_r1_v1.yaml",
+      "sha256": "03fc1efbd43582785bb0ecc47a998e01207f58696f18450c3b5bc4dc38b8c548"
+    },
+    {
+      "case_id": "F03",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "city": "广州",
+      "event": "参加答辩",
+      "explicit_train": "我后天要去广州参加答辩，广州天气呢？请帮我查一下。",
+      "weak_probe": "广州天气呢",
+      "dataset_id": "paper_e03_F03_neutral_control_r1_v1",
+      "dataset_name": "paper_e03_F03_neutral_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F03_neutral_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F03_neutral_control_r1_v1.yaml",
+      "sha256": "fc6968800d1a4e662b8044e1f06389f22e4c1ef7075772cf4233426fb03ecce4"
+    },
+    {
+      "case_id": "F03",
+      "branch": "reward_history",
+      "replicate": 2,
+      "city": "广州",
+      "event": "参加答辩",
+      "explicit_train": "我后天要去广州参加答辩，广州天气呢？请帮我查一下。",
+      "weak_probe": "广州天气呢",
+      "dataset_id": "paper_e03_F03_reward_history_r2_v1",
+      "dataset_name": "paper_e03_F03_reward_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F03_reward_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F03_reward_history_r2_v1.yaml",
+      "sha256": "0e462dade5c063c86305cefcb048145af7c93466f036d7e2be44f3547c2f88cf"
+    },
+    {
+      "case_id": "F03",
+      "branch": "punish_history",
+      "replicate": 2,
+      "city": "广州",
+      "event": "参加答辩",
+      "explicit_train": "我后天要去广州参加答辩，广州天气呢？请帮我查一下。",
+      "weak_probe": "广州天气呢",
+      "dataset_id": "paper_e03_F03_punish_history_r2_v1",
+      "dataset_name": "paper_e03_F03_punish_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F03_punish_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F03_punish_history_r2_v1.yaml",
+      "sha256": "a965a8c9ad57cc6f0bc7f9e87417c2e58f62a9ed55a73a17a450f703eb870772"
+    },
+    {
+      "case_id": "F03",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "city": "广州",
+      "event": "参加答辩",
+      "explicit_train": "我后天要去广州参加答辩，广州天气呢？请帮我查一下。",
+      "weak_probe": "广州天气呢",
+      "dataset_id": "paper_e03_F03_neutral_control_r2_v1",
+      "dataset_name": "paper_e03_F03_neutral_control_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F03_neutral_control_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F03_neutral_control_r2_v1.yaml",
+      "sha256": "1d339b85c97a2eae0fb50613afdefa2b1c4d9023a598ea54266cacdd7916a0b7"
+    },
+    {
+      "case_id": "F04",
+      "branch": "reward_history",
+      "replicate": 1,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "我周末要去杭州外出拍照，杭州天气呢？请帮我查一下。",
+      "weak_probe": "杭州天气呢",
+      "dataset_id": "paper_e03_F04_reward_history_r1_v1",
+      "dataset_name": "paper_e03_F04_reward_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F04_reward_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F04_reward_history_r1_v1.yaml",
+      "sha256": "fa642f48dfc697443024df2f3237c971fd96db09eceff889f88a6eaf4b5da97b"
+    },
+    {
+      "case_id": "F04",
+      "branch": "punish_history",
+      "replicate": 1,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "我周末要去杭州外出拍照，杭州天气呢？请帮我查一下。",
+      "weak_probe": "杭州天气呢",
+      "dataset_id": "paper_e03_F04_punish_history_r1_v1",
+      "dataset_name": "paper_e03_F04_punish_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F04_punish_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F04_punish_history_r1_v1.yaml",
+      "sha256": "7a851a47c0777fda441d79e496b7b2fdae91414f22430efabce85135f738f55e"
+    },
+    {
+      "case_id": "F04",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "我周末要去杭州外出拍照，杭州天气呢？请帮我查一下。",
+      "weak_probe": "杭州天气呢",
+      "dataset_id": "paper_e03_F04_neutral_control_r1_v1",
+      "dataset_name": "paper_e03_F04_neutral_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F04_neutral_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F04_neutral_control_r1_v1.yaml",
+      "sha256": "f12bc18cd19f5897a22767c1a9d859fbc0a01a8260411ad1931d4c5795066579"
+    },
+    {
+      "case_id": "F04",
+      "branch": "reward_history",
+      "replicate": 2,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "我周末要去杭州外出拍照，杭州天气呢？请帮我查一下。",
+      "weak_probe": "杭州天气呢",
+      "dataset_id": "paper_e03_F04_reward_history_r2_v1",
+      "dataset_name": "paper_e03_F04_reward_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F04_reward_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F04_reward_history_r2_v1.yaml",
+      "sha256": "6f4e45c2520802ca66402ae78847e39434b3b0a8aced1bd9f9a140e6a3aeb5c5"
+    },
+    {
+      "case_id": "F04",
+      "branch": "punish_history",
+      "replicate": 2,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "我周末要去杭州外出拍照，杭州天气呢？请帮我查一下。",
+      "weak_probe": "杭州天气呢",
+      "dataset_id": "paper_e03_F04_punish_history_r2_v1",
+      "dataset_name": "paper_e03_F04_punish_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F04_punish_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F04_punish_history_r2_v1.yaml",
+      "sha256": "cbe45d86670d9ea3e067da9130faae0f025dba212aea0ca00c38521397a65130"
+    },
+    {
+      "case_id": "F04",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "我周末要去杭州外出拍照，杭州天气呢？请帮我查一下。",
+      "weak_probe": "杭州天气呢",
+      "dataset_id": "paper_e03_F04_neutral_control_r2_v1",
+      "dataset_name": "paper_e03_F04_neutral_control_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F04_neutral_control_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F04_neutral_control_r2_v1.yaml",
+      "sha256": "7eb14cda67fae3e9fa6b8ff8ecb81b1f55049869097744c37533e2a6a6db68aa"
+    },
+    {
+      "case_id": "F05",
+      "branch": "reward_history",
+      "replicate": 1,
+      "city": "成都",
+      "event": "见客户",
+      "explicit_train": "我明天下午要去成都见客户，成都天气呢？请帮我查一下。",
+      "weak_probe": "成都天气呢",
+      "dataset_id": "paper_e03_F05_reward_history_r1_v1",
+      "dataset_name": "paper_e03_F05_reward_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F05_reward_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F05_reward_history_r1_v1.yaml",
+      "sha256": "a90932e3c971eaeb76f2597131cb5095b8286142de0fccfc383ff474a1ae73bb"
+    },
+    {
+      "case_id": "F05",
+      "branch": "punish_history",
+      "replicate": 1,
+      "city": "成都",
+      "event": "见客户",
+      "explicit_train": "我明天下午要去成都见客户，成都天气呢？请帮我查一下。",
+      "weak_probe": "成都天气呢",
+      "dataset_id": "paper_e03_F05_punish_history_r1_v1",
+      "dataset_name": "paper_e03_F05_punish_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F05_punish_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F05_punish_history_r1_v1.yaml",
+      "sha256": "2348b4a11f6e842995f33c2c3ef0673f2c75142cd22f13a35d5df79dca14d83b"
+    },
+    {
+      "case_id": "F05",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "city": "成都",
+      "event": "见客户",
+      "explicit_train": "我明天下午要去成都见客户，成都天气呢？请帮我查一下。",
+      "weak_probe": "成都天气呢",
+      "dataset_id": "paper_e03_F05_neutral_control_r1_v1",
+      "dataset_name": "paper_e03_F05_neutral_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F05_neutral_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F05_neutral_control_r1_v1.yaml",
+      "sha256": "d615b9822fb9c1a90a3913d6b2fa3219fea20561a856759cf4d2f45cc607423d"
+    },
+    {
+      "case_id": "F05",
+      "branch": "reward_history",
+      "replicate": 2,
+      "city": "成都",
+      "event": "见客户",
+      "explicit_train": "我明天下午要去成都见客户，成都天气呢？请帮我查一下。",
+      "weak_probe": "成都天气呢",
+      "dataset_id": "paper_e03_F05_reward_history_r2_v1",
+      "dataset_name": "paper_e03_F05_reward_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F05_reward_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F05_reward_history_r2_v1.yaml",
+      "sha256": "cba6fe34887dd5d2c5687e89ee322d061664995d9d67c2c31600095fc6206a8c"
+    },
+    {
+      "case_id": "F05",
+      "branch": "punish_history",
+      "replicate": 2,
+      "city": "成都",
+      "event": "见客户",
+      "explicit_train": "我明天下午要去成都见客户，成都天气呢？请帮我查一下。",
+      "weak_probe": "成都天气呢",
+      "dataset_id": "paper_e03_F05_punish_history_r2_v1",
+      "dataset_name": "paper_e03_F05_punish_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F05_punish_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F05_punish_history_r2_v1.yaml",
+      "sha256": "3efba27121a11ba9f78e5a9a647248a8cdfd62d46f58d1a0345d9dab92e7133d"
+    },
+    {
+      "case_id": "F05",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "city": "成都",
+      "event": "见客户",
+      "explicit_train": "我明天下午要去成都见客户，成都天气呢？请帮我查一下。",
+      "weak_probe": "成都天气呢",
+      "dataset_id": "paper_e03_F05_neutral_control_r2_v1",
+      "dataset_name": "paper_e03_F05_neutral_control_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F05_neutral_control_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F05_neutral_control_r2_v1.yaml",
+      "sha256": "f2f673fea5f7914e3353ec18b0ecdd74248217ccb59ad14aae817b575a4f2df0"
+    },
+    {
+      "case_id": "F06",
+      "branch": "reward_history",
+      "replicate": 1,
+      "city": "武汉",
+      "event": "去学校办手续",
+      "explicit_train": "我明天要去武汉学校办手续，武汉天气呢？请帮我查一下。",
+      "weak_probe": "武汉天气呢",
+      "dataset_id": "paper_e03_F06_reward_history_r1_v1",
+      "dataset_name": "paper_e03_F06_reward_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F06_reward_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F06_reward_history_r1_v1.yaml",
+      "sha256": "cdaab6419513a1da49ad174e89d97e9bb352284160b37cd27282b50896ebebbe"
+    },
+    {
+      "case_id": "F06",
+      "branch": "punish_history",
+      "replicate": 1,
+      "city": "武汉",
+      "event": "去学校办手续",
+      "explicit_train": "我明天要去武汉学校办手续，武汉天气呢？请帮我查一下。",
+      "weak_probe": "武汉天气呢",
+      "dataset_id": "paper_e03_F06_punish_history_r1_v1",
+      "dataset_name": "paper_e03_F06_punish_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F06_punish_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F06_punish_history_r1_v1.yaml",
+      "sha256": "549023c6c827a7ac1cf2b4dff2b23986aa3e6d40f8f40e76c66a29d031f82c0c"
+    },
+    {
+      "case_id": "F06",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "city": "武汉",
+      "event": "去学校办手续",
+      "explicit_train": "我明天要去武汉学校办手续，武汉天气呢？请帮我查一下。",
+      "weak_probe": "武汉天气呢",
+      "dataset_id": "paper_e03_F06_neutral_control_r1_v1",
+      "dataset_name": "paper_e03_F06_neutral_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F06_neutral_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F06_neutral_control_r1_v1.yaml",
+      "sha256": "43b23aecb7fc5ddcc1d88a6bc2d6d668b1fcece82ac31d0055523a5d33c65328"
+    },
+    {
+      "case_id": "F06",
+      "branch": "reward_history",
+      "replicate": 2,
+      "city": "武汉",
+      "event": "去学校办手续",
+      "explicit_train": "我明天要去武汉学校办手续，武汉天气呢？请帮我查一下。",
+      "weak_probe": "武汉天气呢",
+      "dataset_id": "paper_e03_F06_reward_history_r2_v1",
+      "dataset_name": "paper_e03_F06_reward_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F06_reward_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F06_reward_history_r2_v1.yaml",
+      "sha256": "a2bf02194d31d3b4229785779dc3a77c90a69ce46cd68ee658f9eeace6ae4d77"
+    },
+    {
+      "case_id": "F06",
+      "branch": "punish_history",
+      "replicate": 2,
+      "city": "武汉",
+      "event": "去学校办手续",
+      "explicit_train": "我明天要去武汉学校办手续，武汉天气呢？请帮我查一下。",
+      "weak_probe": "武汉天气呢",
+      "dataset_id": "paper_e03_F06_punish_history_r2_v1",
+      "dataset_name": "paper_e03_F06_punish_history_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F06_punish_history_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F06_punish_history_r2_v1.yaml",
+      "sha256": "b3cd2e86d4fc4c65552cded5c0de4b231c58156cb73f55bfbc418524b9aad2f0"
+    },
+    {
+      "case_id": "F06",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "city": "武汉",
+      "event": "去学校办手续",
+      "explicit_train": "我明天要去武汉学校办手续，武汉天气呢？请帮我查一下。",
+      "weak_probe": "武汉天气呢",
+      "dataset_id": "paper_e03_F06_neutral_control_r2_v1",
+      "dataset_name": "paper_e03_F06_neutral_control_r2_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\datasets\\paper_e03_F06_neutral_control_r2_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e03_F06_neutral_control_r2_v1.yaml",
+      "sha256": "74bde0affefd983f8033be2d43559bb6d15c505881378a3ae6774b105da0caaf"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "paper_e03_F01_reward_history_r1_e03_final_v1",
+      "case_id": "F01",
+      "branch": "reward_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F01_punish_history_r1_e03_final_v1",
+      "case_id": "F01",
+      "branch": "punish_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F01_neutral_control_r1_e03_final_v1",
+      "case_id": "F01",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F01_reward_history_r2_e03_final_v1",
+      "case_id": "F01",
+      "branch": "reward_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F01_punish_history_r2_e03_final_v1",
+      "case_id": "F01",
+      "branch": "punish_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F01_neutral_control_r2_e03_final_v1",
+      "case_id": "F01",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F02_reward_history_r1_e03_final_v1",
+      "case_id": "F02",
+      "branch": "reward_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F02_punish_history_r1_e03_final_v1",
+      "case_id": "F02",
+      "branch": "punish_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F02_neutral_control_r1_e03_final_v1",
+      "case_id": "F02",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F02_reward_history_r2_e03_final_v1",
+      "case_id": "F02",
+      "branch": "reward_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F02_punish_history_r2_e03_final_v1",
+      "case_id": "F02",
+      "branch": "punish_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F02_neutral_control_r2_e03_final_v1",
+      "case_id": "F02",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F03_reward_history_r1_e03_final_v1",
+      "case_id": "F03",
+      "branch": "reward_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F03_punish_history_r1_e03_final_v1",
+      "case_id": "F03",
+      "branch": "punish_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F03_neutral_control_r1_e03_final_v1",
+      "case_id": "F03",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F03_reward_history_r2_e03_final_v1",
+      "case_id": "F03",
+      "branch": "reward_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F03_punish_history_r2_e03_final_v1",
+      "case_id": "F03",
+      "branch": "punish_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F03_neutral_control_r2_e03_final_v1",
+      "case_id": "F03",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F04_reward_history_r1_e03_final_v1",
+      "case_id": "F04",
+      "branch": "reward_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F04_punish_history_r1_e03_final_v1",
+      "case_id": "F04",
+      "branch": "punish_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F04_neutral_control_r1_e03_final_v1",
+      "case_id": "F04",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F04_reward_history_r2_e03_final_v1",
+      "case_id": "F04",
+      "branch": "reward_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F04_punish_history_r2_e03_final_v1",
+      "case_id": "F04",
+      "branch": "punish_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F04_neutral_control_r2_e03_final_v1",
+      "case_id": "F04",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F05_reward_history_r1_e03_final_v1",
+      "case_id": "F05",
+      "branch": "reward_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F05_punish_history_r1_e03_final_v1",
+      "case_id": "F05",
+      "branch": "punish_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F05_neutral_control_r1_e03_final_v1",
+      "case_id": "F05",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F05_reward_history_r2_e03_final_v1",
+      "case_id": "F05",
+      "branch": "reward_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F05_punish_history_r2_e03_final_v1",
+      "case_id": "F05",
+      "branch": "punish_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F05_neutral_control_r2_e03_final_v1",
+      "case_id": "F05",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F06_reward_history_r1_e03_final_v1",
+      "case_id": "F06",
+      "branch": "reward_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F06_punish_history_r1_e03_final_v1",
+      "case_id": "F06",
+      "branch": "punish_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F06_neutral_control_r1_e03_final_v1",
+      "case_id": "F06",
+      "branch": "neutral_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F06_reward_history_r2_e03_final_v1",
+      "case_id": "F06",
+      "branch": "reward_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F06_punish_history_r2_e03_final_v1",
+      "case_id": "F06",
+      "branch": "punish_history",
+      "replicate": 2,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e03_F06_neutral_control_r2_e03_final_v1",
+      "case_id": "F06",
+      "branch": "neutral_control",
+      "replicate": 2,
+      "status": "completed"
+    }
+  ],
+  "copied_runs": [
+    {
+      "run_id": "paper_e03_F01_reward_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F01_reward_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F01_punish_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F01_punish_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F01_neutral_control_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F01_neutral_control_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F01_reward_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F01_reward_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F01_punish_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F01_punish_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F01_neutral_control_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F01_neutral_control_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F02_reward_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F02_reward_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F02_punish_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F02_punish_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F02_neutral_control_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F02_neutral_control_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F02_reward_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F02_reward_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F02_punish_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F02_punish_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F02_neutral_control_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F02_neutral_control_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F03_reward_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F03_reward_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F03_punish_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F03_punish_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F03_neutral_control_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F03_neutral_control_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F03_reward_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F03_reward_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F03_punish_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F03_punish_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F03_neutral_control_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F03_neutral_control_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F04_reward_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F04_reward_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F04_punish_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F04_punish_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F04_neutral_control_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F04_neutral_control_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F04_reward_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F04_reward_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F04_punish_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F04_punish_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F04_neutral_control_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F04_neutral_control_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F05_reward_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F05_reward_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F05_punish_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F05_punish_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F05_neutral_control_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F05_neutral_control_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F05_reward_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F05_reward_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F05_punish_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F05_punish_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F05_neutral_control_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F05_neutral_control_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F06_reward_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F06_reward_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F06_punish_history_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F06_punish_history_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F06_neutral_control_r1_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F06_neutral_control_r1_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F06_reward_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F06_reward_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F06_punish_history_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F06_punish_history_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e03_F06_neutral_control_r2_e03_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\runs\\paper_e03_F06_neutral_control_r2_e03_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl",
+        "expectation_contract_events.jsonl"
+      ]
+    }
+  ],
+  "tables": {
+    "row_metrics": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\tables\\e03_reward_shaping_row_metrics_e03_final_v1.csv",
+    "probe_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\tables\\e03_reward_shaping_probe_rows_e03_final_v1.csv",
+    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\tables\\e03_reward_shaping_pair_rows_e03_final_v1.csv",
+    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\tables\\e03_reward_shaping_summary_e03_final_v1.json"
+  },
+  "charts": [
+    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\charts\\e03_reward_shaping_ordered_probe_e03_final_v1.png",
+    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\charts\\e03_reward_shaping_differences_e03_final_v1.png"
+  ],
+  "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\reports\\E03_reward_shaping_report_e03_final_v1.md",
+  "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E03_reward_shaping\\reports\\E03_reward_shaping_design_logic.md"
+}

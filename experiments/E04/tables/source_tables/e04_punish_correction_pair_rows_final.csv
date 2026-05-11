@@ -1,0 +1,13 @@
+﻿case_id,replicate,city_wrong,city_right,corrected_right_drive,corrected_wrong_drive,punished_right_drive,punished_wrong_drive,neutral_right_drive,neutral_wrong_drive,corrected_right_reward_bonus,corrected_right_punish_penalty,corrected_wrong_reward_bonus,corrected_wrong_punish_penalty,punished_wrong_reward_bonus,punished_wrong_punish_penalty,neutral_right_reward_bonus,neutral_wrong_punish_penalty,corrected_right_lookup,corrected_right_text_hit,corrected_right_overlay,punished_wrong_lookup,punished_wrong_text_hit,punished_wrong_overlay,neutral_right_lookup,neutral_wrong_lookup,rightward_shift_effect,corrected_internal_selectivity,corrected_total_local_signal,corrected_vs_neutral_right_effect,punished_vs_neutral_wrong_effect,supports_corrected_right_lookup,supports_punished_wrong_lookup,supports_neutral_quiet,supports_shift_direction,supports_clean_causal_chain
+F01,1,上海,北京,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F02,1,广州,杭州,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F03,1,成都,武汉,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F04,1,西安,南京,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F05,1,苏州,长沙,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F06,1,青岛,天津,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F07,1,福州,郑州,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F08,1,厦门,济南,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F09,1,昆明,合肥,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F10,1,宁波,南昌,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F11,1,太原,海口,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1
+F12,1,兰州,大连,0.282,0.098,0.49,0.098,0.49,0.49,0.392,0.0,0.0,0.392,0.0,0.392,0.0,0.0,1,1,1,1,1,1,0,0,-0.208,0.0,0.784,0.392,0.392,1,1,1,1,1

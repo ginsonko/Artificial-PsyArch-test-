@@ -1,0 +1,22 @@
+{
+  "case_count": 48,
+  "family_count": 12,
+  "memory_converge_pass_ratio": 1.0,
+  "structure_process_pass_ratio": 1.0,
+  "split_memory_control_pass_ratio": 1.0,
+  "memory_decay_pass_ratio": 1.0,
+  "all_ok_ratio": 1.0,
+  "converge_apply_count_mean": 1.0,
+  "converge_snapshot_count_mean": 1.0,
+  "converge_hit_count_mean": 3.0,
+  "converge_source_count_mean": 4.0,
+  "converge_ev_mean": 0.65613011,
+  "converge_ev_mode_mean": 0.572292,
+  "converge_er_mode_mean": 0.0838381,
+  "process_target_count_mean": 2.0,
+  "process_memory_snapshot_count_mean": 0.0,
+  "split_memory_count_mean": 2.0,
+  "decay_ratio_mean": 0.5,
+  "all_ok_sign_p": 0.00048828,
+  "support_level": "strong_evidence"
+}

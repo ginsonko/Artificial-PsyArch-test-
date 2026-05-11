@@ -1,0 +1,64 @@
+{
+  "pair_count": 48,
+  "unique_design_pair_count": 16,
+  "replicate_count_mean": 3.0,
+  "design_control_count": 48,
+  "design_control_ratio": 1.0,
+  "growth_core_count": 48,
+  "growth_core_ratio": 1.0,
+  "growth_strict_count": 48,
+  "growth_strict_ratio": 1.0,
+  "core_pattern_count": 48,
+  "strict_pattern_count": 48,
+  "core_pattern_ratio": 1.0,
+  "strict_pattern_ratio": 1.0,
+  "metrics": {
+    "induction_growth_identity_created_count": {
+      "direction": "switch_higher",
+      "win_ratio": 1.0,
+      "mean_diff": 1.0,
+      "min_diff": 1.0,
+      "max_diff": 1.0
+    },
+    "hdb_structure_count": {
+      "direction": "switch_higher",
+      "win_ratio": 1.0,
+      "mean_diff": 4.0,
+      "min_diff": 4.0,
+      "max_diff": 4.0
+    },
+    "hdb_residual_diff_entry_count": {
+      "direction": "switch_higher",
+      "win_ratio": 1.0,
+      "mean_diff": 2.0,
+      "min_diff": 2.0,
+      "max_diff": 2.0
+    },
+    "hdb_diff_entry_with_memory_ref_count": {
+      "direction": "switch_higher",
+      "win_ratio": 1.0,
+      "mean_diff": 1.0,
+      "min_diff": 1.0,
+      "max_diff": 1.0
+    },
+    "design_reproducibility": {
+      "strict_all_replicates_pass_rate": 1.0,
+      "unique_design_pair_count": 16
+    },
+    "replicate_consistency": {
+      "induction_growth_identity_created_count": {
+        "all_replicates_pass_rate": 1.0
+      },
+      "hdb_structure_count": {
+        "all_replicates_pass_rate": 1.0
+      },
+      "hdb_residual_diff_entry_count": {
+        "all_replicates_pass_rate": 1.0
+      },
+      "hdb_diff_entry_with_memory_ref_count": {
+        "all_replicates_pass_rate": 1.0
+      }
+    }
+  },
+  "support_level": "strong_evidence"
+}

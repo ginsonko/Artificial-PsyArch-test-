@@ -1,0 +1,44 @@
+{
+  "experiment_id": "E13",
+  "stamp": "e13_final_v1",
+  "support_level": "strong_evidence",
+  "summary": {
+    "experiment_id": "E13",
+    "case_count": 48,
+    "family_count": 12,
+    "support_level": "strong_evidence",
+    "family_all_ok_count": 12,
+    "family_all_ok_ratio": 1.0,
+    "family_all_ok_sign_p": 0.00048828,
+    "case_all_ok_count": 48,
+    "case_all_ok_ratio": 1.0,
+    "case_all_ok_sign_p": 0.0,
+    "ap_field_score_mean": 7.75,
+    "summary_field_score_mean": 0.75,
+    "rag_field_score_mean": 1.25,
+    "ap_advantage_vs_summary_mean": 7.0,
+    "ap_advantage_vs_rag_mean": 6.5,
+    "ap_memory_hit_ratio": 1.0,
+    "rag_memory_hit_ratio": 0.5,
+    "summary_memory_hit_ratio": 0.75,
+    "rag_wrong_top_ratio": 0.25,
+    "direct_memory_handoff_pass_ratio": 1.0,
+    "paraphrase_state_handoff_pass_ratio": 1.0,
+    "conflict_energy_selection_pass_ratio": 1.0,
+    "action_feedback_handoff_pass_ratio": 1.0
+  },
+  "artifacts": {
+    "case_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\tables\\e13_agent_memory_projection_case_rows_e13_final_v1.csv",
+    "family_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\tables\\e13_agent_memory_projection_family_rows_e13_final_v1.csv",
+    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\tables\\e13_agent_memory_projection_summary_e13_final_v1.json",
+    "whitebox": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\tables\\e13_agent_memory_projection_whitebox_e13_final_v1.json",
+    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\reports\\E13_agent_memory_projection_report_e13_final_v1.md",
+    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\reports\\E13_agent_memory_projection_design_logic.md",
+    "charts": [
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\charts\\e13_context_field_scores_e13_final_v1.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\charts\\e13_branch_pass_rates_e13_final_v1.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\charts\\e13_family_advantage_e13_final_v1.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E13_agent_memory_projection\\charts\\e13_field_matrix_e13_final_v1.png"
+    ]
+  }
+}

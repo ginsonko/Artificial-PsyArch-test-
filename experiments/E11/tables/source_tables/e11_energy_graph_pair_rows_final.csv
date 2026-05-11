@@ -1,0 +1,13 @@
+﻿family,deep_multilayer_pass,single_round_cap_pass,high_frontier_threshold_pass,high_budget_threshold_pass,width_cap_pass,no_er_reinduction_pass,deep_depth_max,single_depth_max,high_frontier_depth_max,high_budget_depth_max,width_cap_frontier_out_max,deep_terminal_memory_count,deep_root_reinduction_count,no_er_root_reinduction_count,deep_total_delta_ev,no_er_total_delta_ev,all_ok
+F01,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.3113064,1.8,1
+F02,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.36168328,1.8,1
+F03,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.41206016,1.8,1
+F04,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.46243704,1.8,1
+F05,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.51281391,1.8,1
+F06,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.5631908,1.8,1
+F07,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.61356768,1.8,1
+F08,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.66394456,1.8,1
+F09,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.3826608,1.8564,1
+F10,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.48441152,1.8564,1
+F11,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.58616223,1.8564,1
+F12,1,1,1,1,1,1,2,1,1,1,1,11,3,0,3.68791296,1.8564,1

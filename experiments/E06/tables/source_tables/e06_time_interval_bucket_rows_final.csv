@@ -1,0 +1,13 @@
+﻿case_id,interval_ticks,source_energy,delta_value,expected_delta_value,delta_match,bucket_1,w1,bucket_2,w2,expected_bucket_1,expected_w1,expected_bucket_2,expected_w2,expected_primary_bucket,bucket_match,weight_match,binding_count,binding_target_item_id,binding_bucket_id,binding_bucket_center_tick,binding_primary_match,registered_count,registered_task_kind,registered_due_tick,expected_due_tick,due_match
+B01,0,1.0,0.0,0.0,1,0_5t,1.0,0_5t,0.0,0_5t,1.0,0_5t,0.0,0_5t,1,1,1,item_parent,0_5t,0.5,1,1,anchor_item,102,102,1
+B07,0,2.0,0.0,0.0,1,0_5t,1.0,0_5t,0.0,0_5t,1.0,0_5t,0.0,0_5t,1,1,1,item_parent,0_5t,0.5,1,1,anchor_item,102,102,1
+B02,1,1.0,1.0,1.0,1,0_5t,0.5,1_5t,0.5,0_5t,0.5,1_5t,0.5,0_5t,1,1,1,item_parent,0_5t,0.5,1,1,anchor_item,102,102,1
+B08,1,2.0,1.0,1.0,1,0_5t,0.5,1_5t,0.5,0_5t,0.5,1_5t,0.5,0_5t,1,1,1,item_parent,0_5t,0.5,1,1,anchor_item,102,102,1
+B03,2,1.0,2.0,2.0,1,1_5t,0.6667,3t,0.3333,1_5t,0.6667,3t,0.3333,1_5t,1,1,1,item_parent,1_5t,1.5,1,1,anchor_item,102,102,1
+B09,2,2.0,2.0,2.0,1,1_5t,0.6667,3t,0.3333,1_5t,0.6667,3t,0.3333,1_5t,1,1,1,item_parent,1_5t,1.5,1,1,anchor_item,102,102,1
+B04,3,1.0,3.0,3.0,1,1_5t,0.0,3t,1.0,1_5t,0.0,3t,1.0,3t,1,1,1,item_parent,3t,3.0,1,1,anchor_item,103,103,1
+B10,3,2.0,3.0,3.0,1,1_5t,0.0,3t,1.0,1_5t,0.0,3t,1.0,3t,1,1,1,item_parent,3t,3.0,1,1,anchor_item,103,103,1
+B05,6,1.0,6.0,6.0,1,3t,0.0,6t,1.0,3t,0.0,6t,1.0,6t,1,1,1,item_parent,6t,6.0,1,1,anchor_item,106,106,1
+B11,6,2.0,6.0,6.0,1,3t,0.0,6t,1.0,3t,0.0,6t,1.0,6t,1,1,1,item_parent,6t,6.0,1,1,anchor_item,106,106,1
+B06,12,1.0,12.0,12.0,1,6t,0.0,12t,1.0,6t,0.0,12t,1.0,12t,1,1,1,item_parent,12t,12.0,1,1,anchor_item,112,112,1
+B12,12,2.0,12.0,12.0,1,6t,0.0,12t,1.0,6t,0.0,12t,1.0,12t,1,1,1,item_parent,12t,12.0,1,1,anchor_item,112,112,1

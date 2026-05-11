@@ -1,0 +1,17 @@
+# Local rerun outputs
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Large local prototype/runtime folders
+Artificial-PsyArch/
+docs/paper_artifacts_2026-05-11/**/runs/
+**/outputs/
+**/*.sqlite3
+**/*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+~$*

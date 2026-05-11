@@ -1,0 +1,13 @@
+﻿case_id,replicate,city,event,probe_text,executed_train_attempted,weak_train_attempted,executed_buffer_executed_source_visible,weak_buffer_executed_source_visible,executed_buffer_runtime_action_weather_executed,weak_buffer_runtime_action_weather_executed,executed_probe_drive,weak_probe_drive,executed_probe_margin,weak_probe_margin,executed_probe_action_node_count,weak_probe_action_node_count,executed_probe_runtime_action_count,weak_probe_runtime_action_count,executed_probe_runtime_action_active_count,weak_probe_runtime_action_active_count,probe_drive_advantage,probe_margin_advantage,supports_explicit_train_trigger,supports_weak_train_quiet,supports_source_visible_execution,supports_runtime_projection,supports_probe_drive_advantage,supports_probe_margin_advantage,supports_probe_runtime_presence,supports_clean_closure_chain
+F01,1,北京,医院复查,北京天气提示,1,0,1,0,1,0,0.32536101,0.13487735,-0.27463899,-0.46512265,1,1,1,1,1,1,0.19048366,0.19048366,1,1,1,1,1,1,1,1
+F02,1,杭州,外出拍照,杭州天气提示,1,0,1,0,1,0,0.32620838,0.13307924,-0.27379162,-0.46692076,1,1,1,1,1,1,0.19312914,0.19312914,1,1,1,1,1,1,1,1
+F03,1,武汉,学校办手续,武汉天气提示,1,0,1,0,1,0,0.32654004,0.13307924,-0.27345996,-0.46692076,1,1,1,1,1,1,0.1934608,0.1934608,1,1,1,1,1,1,1,1
+F04,1,南京,参加答辩,南京天气提示,1,0,1,0,1,0,0.32369107,0.13307924,-0.27630893,-0.46692076,1,1,1,1,1,1,0.19061183,0.19061183,1,1,1,1,1,1,1,1
+F05,1,长沙,见客户,长沙天气提示,1,0,1,0,1,0,0.32336385,0.13307924,-0.27663615,-0.46692076,1,1,1,1,1,1,0.19028461,0.19028461,1,1,1,1,1,1,1,1
+F06,1,天津,图书馆自习,天津天气提示,1,0,1,0,1,0,0.32557323,0.18778703,-0.27442677,-0.41221297,1,1,1,1,1,1,0.1377862,0.1377862,1,1,1,1,1,1,1,1
+F07,1,郑州,参加培训,郑州天气提示,1,0,1,0,1,0,0.32620838,0.13307924,-0.27379162,-0.46692076,1,1,1,1,1,1,0.19312914,0.19312914,1,1,1,1,1,1,1,1
+F08,1,济南,转机出差,济南天气提示,1,0,1,0,1,0,0.32620838,0.13307924,-0.27379162,-0.46692076,1,1,1,1,1,1,0.19312914,0.19312914,1,1,1,1,1,1,1,1
+F09,1,合肥,去展会,合肥天气提示,1,0,1,0,1,0,0.3263782,0.13307924,-0.2736218,-0.46692076,1,1,1,1,1,1,0.19329896,0.19329896,1,1,1,1,1,1,1,1
+F10,1,南昌,看演出,南昌天气提示,1,0,1,0,1,0,0.35585515,0.13307924,-0.24414485,-0.46692076,1,1,1,1,1,1,0.22277591,0.22277591,1,1,1,1,1,1,1,1
+F11,1,海口,实验室开会,海口天气提示,1,0,1,0,1,0,0.32557323,0.13307924,-0.27442677,-0.46692076,1,1,1,1,1,1,0.19249399,0.19249399,1,1,1,1,1,1,1,1
+F12,1,大连,探望亲戚,大连天气提示,1,0,1,0,1,0,0.35585515,0.13307924,-0.24414485,-0.46692076,1,1,1,1,1,1,0.22277591,0.22277591,1,1,1,1,1,1,1,1

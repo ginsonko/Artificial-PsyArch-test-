@@ -1,0 +1,817 @@
+{
+  "experiment": "E05_action_closure",
+  "stamp": "e05_final_v1",
+  "created_at": "2026-05-11T22:49:03",
+  "support_level": "strong_evidence",
+  "summary": {
+    "pair_count": 12,
+    "explicit_train_trigger_ratio": 1.0,
+    "weak_control_quiet_ratio": 1.0,
+    "source_visible_execution_ratio": 1.0,
+    "runtime_projection_ratio": 1.0,
+    "probe_runtime_presence_ratio": 1.0,
+    "probe_drive_advantage_ratio": 1.0,
+    "probe_margin_advantage_ratio": 1.0,
+    "clean_closure_chain_ratio": 1.0,
+    "probe_drive_advantage_mean": 0.19277994,
+    "probe_margin_advantage_mean": 0.19277994,
+    "explicit_probe_drive_mean": 0.33056801,
+    "weak_probe_drive_mean": 0.13778806,
+    "probe_drive_advantage_sign_p": 0.00048828,
+    "probe_margin_advantage_sign_p": 0.00048828,
+    "support_level": "strong_evidence"
+  },
+  "params": {
+    "reward_coef": 0.9,
+    "punish_coef": 0.9,
+    "alias_ttl": 6,
+    "drive_decay_ratio": 0.0,
+    "action_fatigue_enabled": false,
+    "threshold_scale_by_rwd_pun_enabled": false
+  },
+  "datasets": [
+    {
+      "case_id": "F01",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "北京",
+      "event": "医院复查",
+      "explicit_train": "不是上海，是北京。我明天要去北京医院复查，北京天气提示，请帮我查一下。",
+      "weak_probe": "北京天气提示",
+      "dataset_id": "paper_e05_F01_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F01_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F01_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F01_executed_history_r1_v1.yaml",
+      "sha256": "8bcf189764c6d2f0a01a667ef45e906c91668307c97749c85b5d69d839d847b6"
+    },
+    {
+      "case_id": "F01",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "北京",
+      "event": "医院复查",
+      "explicit_train": "不是上海，是北京。我明天要去北京医院复查，北京天气提示，请帮我查一下。",
+      "weak_probe": "北京天气提示",
+      "dataset_id": "paper_e05_F01_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F01_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F01_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F01_weak_only_control_r1_v1.yaml",
+      "sha256": "5dd00c5169dc483dcd2444a1a3f6ffe79fbb46d734be28cde6ade14f588d6822"
+    },
+    {
+      "case_id": "F02",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "更正一下，不是广州，是杭州。我周末要去杭州外出拍照，杭州天气提示，请帮我查一下。",
+      "weak_probe": "杭州天气提示",
+      "dataset_id": "paper_e05_F02_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F02_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F02_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F02_executed_history_r1_v1.yaml",
+      "sha256": "ab3eeffbc8c1cebc6cdee1b3018c2407651bb4641c58d95e74d060e1bfa222e7"
+    },
+    {
+      "case_id": "F02",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "杭州",
+      "event": "外出拍照",
+      "explicit_train": "更正一下，不是广州，是杭州。我周末要去杭州外出拍照，杭州天气提示，请帮我查一下。",
+      "weak_probe": "杭州天气提示",
+      "dataset_id": "paper_e05_F02_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F02_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F02_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F02_weak_only_control_r1_v1.yaml",
+      "sha256": "1a84063d16701577ef7d25a5f7958d32e77156a538b2ffb160bfe24fa35d45e3"
+    },
+    {
+      "case_id": "F03",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "武汉",
+      "event": "学校办手续",
+      "explicit_train": "刚刚说错了，不是成都，是武汉。我明天要去武汉学校办手续，武汉天气提示，请帮我查一下。",
+      "weak_probe": "武汉天气提示",
+      "dataset_id": "paper_e05_F03_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F03_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F03_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F03_executed_history_r1_v1.yaml",
+      "sha256": "a6418902f6b73a73be49a58167f69608e39e8272b1b702d10440e68c64b331e7"
+    },
+    {
+      "case_id": "F03",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "武汉",
+      "event": "学校办手续",
+      "explicit_train": "刚刚说错了，不是成都，是武汉。我明天要去武汉学校办手续，武汉天气提示，请帮我查一下。",
+      "weak_probe": "武汉天气提示",
+      "dataset_id": "paper_e05_F03_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F03_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F03_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F03_weak_only_control_r1_v1.yaml",
+      "sha256": "cd03d18b6d3a8509e4f29dfa256ca151986089f180336849d58f38d9a95c8e03"
+    },
+    {
+      "case_id": "F04",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "南京",
+      "event": "参加答辩",
+      "explicit_train": "更正一下，是去南京参加答辩。南京天气提示，请帮我查一下。",
+      "weak_probe": "南京天气提示",
+      "dataset_id": "paper_e05_F04_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F04_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F04_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F04_executed_history_r1_v1.yaml",
+      "sha256": "005182b38c8587f0b51e05c6a0a6fa287c8881e3969da0d17fd59a7a27689f62"
+    },
+    {
+      "case_id": "F04",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "南京",
+      "event": "参加答辩",
+      "explicit_train": "更正一下，是去南京参加答辩。南京天气提示，请帮我查一下。",
+      "weak_probe": "南京天气提示",
+      "dataset_id": "paper_e05_F04_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F04_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F04_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F04_weak_only_control_r1_v1.yaml",
+      "sha256": "946f54c0e3278fb4af75bd34c89b86f35fbfe52877f0d2dbc7808ec9b9d598e9"
+    },
+    {
+      "case_id": "F05",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "长沙",
+      "event": "见客户",
+      "explicit_train": "修正一下，是去长沙见客户。长沙天气提示，请帮我查一下。",
+      "weak_probe": "长沙天气提示",
+      "dataset_id": "paper_e05_F05_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F05_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F05_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F05_executed_history_r1_v1.yaml",
+      "sha256": "980796a13dbf50d495e1ed2873f35d7f37e3fc021a7eae8aa1891a1eae34c371"
+    },
+    {
+      "case_id": "F05",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "长沙",
+      "event": "见客户",
+      "explicit_train": "修正一下，是去长沙见客户。长沙天气提示，请帮我查一下。",
+      "weak_probe": "长沙天气提示",
+      "dataset_id": "paper_e05_F05_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F05_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F05_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F05_weak_only_control_r1_v1.yaml",
+      "sha256": "ad1e427c8071de4674a7961731a4131e23a87bc8ffb82e1199b4b8604aab8546"
+    },
+    {
+      "case_id": "F06",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "天津",
+      "event": "图书馆自习",
+      "explicit_train": "不是青岛，是天津。我明天要去天津图书馆自习，天津天气提示，请帮我查一下。",
+      "weak_probe": "天津天气提示",
+      "dataset_id": "paper_e05_F06_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F06_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F06_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F06_executed_history_r1_v1.yaml",
+      "sha256": "83bba0877ad907e2fb0de17b35b8a4db1993439aaad8fdafdb14adcfd655073c"
+    },
+    {
+      "case_id": "F06",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "天津",
+      "event": "图书馆自习",
+      "explicit_train": "不是青岛，是天津。我明天要去天津图书馆自习，天津天气提示，请帮我查一下。",
+      "weak_probe": "天津天气提示",
+      "dataset_id": "paper_e05_F06_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F06_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F06_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F06_weak_only_control_r1_v1.yaml",
+      "sha256": "05c35243342d3daedd907ebb8eed5c47b7fe955100e7e2215ef805f1a5344261"
+    },
+    {
+      "case_id": "F07",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "郑州",
+      "event": "参加培训",
+      "explicit_train": "更正一下，不是福州，是郑州。我下周要去郑州参加培训，郑州天气提示，请帮我查一下。",
+      "weak_probe": "郑州天气提示",
+      "dataset_id": "paper_e05_F07_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F07_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F07_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F07_executed_history_r1_v1.yaml",
+      "sha256": "a0ad9832f5137c1fd52332fac235b717f5b31474e169a06c1d6d2d5e932ad91e"
+    },
+    {
+      "case_id": "F07",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "郑州",
+      "event": "参加培训",
+      "explicit_train": "更正一下，不是福州，是郑州。我下周要去郑州参加培训，郑州天气提示，请帮我查一下。",
+      "weak_probe": "郑州天气提示",
+      "dataset_id": "paper_e05_F07_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F07_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F07_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F07_weak_only_control_r1_v1.yaml",
+      "sha256": "7621f9e51329d78e4dff3c8ad86c8e3aca90d2549cd16ce09872a9661eb4fe90"
+    },
+    {
+      "case_id": "F08",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "济南",
+      "event": "转机出差",
+      "explicit_train": "修正一下，不是厦门，是济南。我后天要去济南转机出差，济南天气提示，请帮我查一下。",
+      "weak_probe": "济南天气提示",
+      "dataset_id": "paper_e05_F08_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F08_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F08_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F08_executed_history_r1_v1.yaml",
+      "sha256": "dbd295f952168fd8d45a20a26a415ad0552ce0c0eeb29a1984e877086c00f21f"
+    },
+    {
+      "case_id": "F08",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "济南",
+      "event": "转机出差",
+      "explicit_train": "修正一下，不是厦门，是济南。我后天要去济南转机出差，济南天气提示，请帮我查一下。",
+      "weak_probe": "济南天气提示",
+      "dataset_id": "paper_e05_F08_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F08_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F08_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F08_weak_only_control_r1_v1.yaml",
+      "sha256": "fa7a87e1b9812ac57d686594d8bf240a01cfc0e352d744b65477953a332a5687"
+    },
+    {
+      "case_id": "F09",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "合肥",
+      "event": "去展会",
+      "explicit_train": "刚刚说错了，不是昆明，是合肥。我周末要去合肥参加展会，合肥天气提示，请帮我查一下。",
+      "weak_probe": "合肥天气提示",
+      "dataset_id": "paper_e05_F09_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F09_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F09_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F09_executed_history_r1_v1.yaml",
+      "sha256": "c247cc9d6a049d560da877cf52f50ff6f96777c10b6697b825bf52327e430963"
+    },
+    {
+      "case_id": "F09",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "合肥",
+      "event": "去展会",
+      "explicit_train": "刚刚说错了，不是昆明，是合肥。我周末要去合肥参加展会，合肥天气提示，请帮我查一下。",
+      "weak_probe": "合肥天气提示",
+      "dataset_id": "paper_e05_F09_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F09_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F09_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F09_weak_only_control_r1_v1.yaml",
+      "sha256": "180097e4760d23c6f709aee64ed2734ac476cca8d73ecaf5fc9735630bb5abc8"
+    },
+    {
+      "case_id": "F10",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "南昌",
+      "event": "看演出",
+      "explicit_train": "更正一下，地点不是宁波，是南昌。南昌天气提示，请帮我查一下。",
+      "weak_probe": "南昌天气提示",
+      "dataset_id": "paper_e05_F10_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F10_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F10_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F10_executed_history_r1_v1.yaml",
+      "sha256": "e76a420ebe71d5073b0cb230cd1f2afed0029a77dfe86d9b57f5ec51fa48da88"
+    },
+    {
+      "case_id": "F10",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "南昌",
+      "event": "看演出",
+      "explicit_train": "更正一下，地点不是宁波，是南昌。南昌天气提示，请帮我查一下。",
+      "weak_probe": "南昌天气提示",
+      "dataset_id": "paper_e05_F10_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F10_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F10_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F10_weak_only_control_r1_v1.yaml",
+      "sha256": "e675dec25f32ec90fccdbcdd0b819943a5acf89e5b259d6d84b73ba6dc49b54c"
+    },
+    {
+      "case_id": "F11",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "海口",
+      "event": "实验室开会",
+      "explicit_train": "不是太原，是海口。我明天要去海口实验室开会，海口天气提示，请帮我查一下。",
+      "weak_probe": "海口天气提示",
+      "dataset_id": "paper_e05_F11_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F11_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F11_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F11_executed_history_r1_v1.yaml",
+      "sha256": "a928473b9dc56dda65129b02c082dc8179f1bd03d97b10d0ff13a8945398a38d"
+    },
+    {
+      "case_id": "F11",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "海口",
+      "event": "实验室开会",
+      "explicit_train": "不是太原，是海口。我明天要去海口实验室开会，海口天气提示，请帮我查一下。",
+      "weak_probe": "海口天气提示",
+      "dataset_id": "paper_e05_F11_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F11_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F11_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F11_weak_only_control_r1_v1.yaml",
+      "sha256": "89ac4eeb340720c19872192b579384f6f23a5982c6527f27b3482d2e70baa096"
+    },
+    {
+      "case_id": "F12",
+      "branch": "executed_history",
+      "replicate": 1,
+      "city": "大连",
+      "event": "探望亲戚",
+      "explicit_train": "更正一下，这次不是兰州，是大连。大连天气提示，请帮我查一下。",
+      "weak_probe": "大连天气提示",
+      "dataset_id": "paper_e05_F12_executed_history_r1_v1",
+      "dataset_name": "paper_e05_F12_executed_history_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F12_executed_history_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F12_executed_history_r1_v1.yaml",
+      "sha256": "bd470858c2a57675d499226b24ffa417d97ddd7d7ad0331e3d425582cee11ecf"
+    },
+    {
+      "case_id": "F12",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "city": "大连",
+      "event": "探望亲戚",
+      "explicit_train": "更正一下，这次不是兰州，是大连。大连天气提示，请帮我查一下。",
+      "weak_probe": "大连天气提示",
+      "dataset_id": "paper_e05_F12_weak_only_control_r1_v1",
+      "dataset_name": "paper_e05_F12_weak_only_control_r1_v1.yaml",
+      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\datasets\\paper_e05_F12_weak_only_control_r1_v1.yaml",
+      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e05_F12_weak_only_control_r1_v1.yaml",
+      "sha256": "6f152dd928752cfc77e3eca95b8da2618c63500ecd2a51047794bd73355966c5"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "paper_e05_F01_executed_history_r1_e05_final_v1",
+      "case_id": "F01",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F01_weak_only_control_r1_e05_final_v1",
+      "case_id": "F01",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F02_executed_history_r1_e05_final_v1",
+      "case_id": "F02",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F02_weak_only_control_r1_e05_final_v1",
+      "case_id": "F02",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F03_executed_history_r1_e05_final_v1",
+      "case_id": "F03",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F03_weak_only_control_r1_e05_final_v1",
+      "case_id": "F03",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F04_executed_history_r1_e05_final_v1",
+      "case_id": "F04",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F04_weak_only_control_r1_e05_final_v1",
+      "case_id": "F04",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F05_executed_history_r1_e05_final_v1",
+      "case_id": "F05",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F05_weak_only_control_r1_e05_final_v1",
+      "case_id": "F05",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F06_executed_history_r1_e05_final_v1",
+      "case_id": "F06",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F06_weak_only_control_r1_e05_final_v1",
+      "case_id": "F06",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F07_executed_history_r1_e05_final_v1",
+      "case_id": "F07",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F07_weak_only_control_r1_e05_final_v1",
+      "case_id": "F07",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F08_executed_history_r1_e05_final_v1",
+      "case_id": "F08",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F08_weak_only_control_r1_e05_final_v1",
+      "case_id": "F08",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F09_executed_history_r1_e05_final_v1",
+      "case_id": "F09",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F09_weak_only_control_r1_e05_final_v1",
+      "case_id": "F09",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F10_executed_history_r1_e05_final_v1",
+      "case_id": "F10",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F10_weak_only_control_r1_e05_final_v1",
+      "case_id": "F10",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F11_executed_history_r1_e05_final_v1",
+      "case_id": "F11",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F11_weak_only_control_r1_e05_final_v1",
+      "case_id": "F11",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F12_executed_history_r1_e05_final_v1",
+      "case_id": "F12",
+      "branch": "executed_history",
+      "replicate": 1,
+      "status": "completed"
+    },
+    {
+      "run_id": "paper_e05_F12_weak_only_control_r1_e05_final_v1",
+      "case_id": "F12",
+      "branch": "weak_only_control",
+      "replicate": 1,
+      "status": "completed"
+    }
+  ],
+  "copied_runs": [
+    {
+      "run_id": "paper_e05_F01_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F01_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F01_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F01_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F02_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F02_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F02_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F02_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F03_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F03_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F03_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F03_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F04_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F04_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F04_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F04_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F05_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F05_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F05_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F05_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F06_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F06_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F06_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F06_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F07_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F07_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F07_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F07_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F08_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F08_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F08_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F08_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F09_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F09_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F09_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F09_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F10_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F10_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F10_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F10_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F11_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F11_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F11_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F11_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F12_executed_history_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F12_executed_history_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    },
+    {
+      "run_id": "paper_e05_F12_weak_only_control_r1_e05_final_v1",
+      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\runs\\paper_e05_F12_weak_only_control_r1_e05_final_v1",
+      "files": [
+        "manifest.json",
+        "dataset.normalized.yaml",
+        "dataset.source.yaml",
+        "metrics.jsonl",
+        "runner_timing.jsonl"
+      ]
+    }
+  ],
+  "tables": {
+    "row_metrics": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\tables\\e05_action_closure_row_metrics_e05_final_v1.csv",
+    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\tables\\e05_action_closure_pair_rows_e05_final_v1.csv",
+    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\tables\\e05_action_closure_summary_e05_final_v1.json"
+  },
+  "charts": [
+    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\charts\\e05_action_closure_probe_drive_e05_final_v1.png",
+    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\charts\\e05_action_closure_chain_ratios_e05_final_v1.png"
+  ],
+  "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\reports\\E05_action_closure_report_e05_final_v1.md",
+  "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E05_action_closure\\reports\\E05_action_closure_design_logic.md"
+}

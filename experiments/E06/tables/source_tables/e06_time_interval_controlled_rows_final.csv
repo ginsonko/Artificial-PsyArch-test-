@@ -1,0 +1,7 @@
+﻿repeat,registered_count,registered_task_kinds,register_parallel_ok,executed_count,executed_task_kinds,execute_parallel_ok,seeded_ev_before,seeded_ev_after,anchor_energy_increase,stripped_structure_id,stripped_structure_present,stripped_ev_after
+1,2,anchor_item|structure_projection,1,2,anchor_item|structure_projection,1,0.2,1.69249974,1.49249974,st_000002,1,1.69249974
+2,2,anchor_item|structure_projection,1,2,anchor_item|structure_projection,1,0.2,1.69249974,1.49249974,st_000004,1,1.69249974
+3,2,anchor_item|structure_projection,1,2,anchor_item|structure_projection,1,0.2,1.69249974,1.49249974,st_000006,1,1.69249974
+4,2,anchor_item|structure_projection,1,2,anchor_item|structure_projection,1,0.2,1.69249974,1.49249974,st_000008,1,1.69249974
+5,2,anchor_item|structure_projection,1,2,anchor_item|structure_projection,1,0.2,1.69249974,1.49249974,st_000010,1,1.69249974
+6,2,anchor_item|structure_projection,1,2,anchor_item|structure_projection,1,0.2,1.69249974,1.49249974,st_000012,1,1.69249974

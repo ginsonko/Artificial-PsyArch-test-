@@ -1,0 +1,122 @@
+dataset_id: paper_e05_F02_weak_only_control_r1_v1
+title: E05 先天行动闭环 - F02 - weak_only_control - r1
+description: E05 定向实验：验证显式天气请求是否完成原生行动闭环，并在后续弱 probe 上留下更强的行动准备度。
+schema_version: observatory.dataset.v1
+created_at: '2026-05-11T22:47:59'
+time_basis: tick
+tick_dt_ms: 3000
+seed: 2026051106
+app_config_override:
+  input_chunking_enabled: false
+  sensor_enable_echo: false
+  sensor_include_echoes_in_packet: false
+  threshold_scale_by_rwd_pun_enabled: false
+  action_fatigue_enabled: false
+  drive_decay_ratio: 0.0
+  local_drive_modulation_by_rwd_pun_enabled: true
+  local_drive_reward_bonus_coef: 0.9
+  local_drive_punish_penalty_coef: 0.9
+  teacher_feedback_local_alias_cache_enabled: true
+  teacher_feedback_local_alias_cache_ttl_ticks: 6
+  teacher_feedback_local_alias_cache_min_score: 0.55
+  teacher_feedback_local_alias_cache_min_chars: 4
+  local_drive_feedback_text_fallback_min_chars: 4
+meta:
+  paper_experiment: E05_action_closure
+  curriculum_version: paper_e05_v1_action_closure
+  case_id: F02
+  branch: weak_only_control
+  replicate: 1
+  city: 杭州
+  event: 外出拍照
+  explicit_train: 更正一下，不是广州，是杭州。我周末要去杭州外出拍照，杭州天气提示，请帮我查一下。
+  weak_probe: 杭州天气提示
+  reward_coef: 0.9
+  punish_coef: 0.9
+  alias_ttl: 6
+episodes:
+- id: paper_e05_F02_weak_only_control_r1
+  title: E05 F02 weak_only_control r1
+  tags:
+  - paper
+  - E05
+  - action_closure
+  - weak_only_control
+  - F02
+  repeat: 1
+  ticks:
+  - text: 杭州天气提示
+    tags:
+    - paper
+    - E05
+    - action_closure
+    - weak_only_control
+    - F02
+    - train
+    labels:
+      paper_e05_action_closure:
+        case_id: F02
+        branch: weak_only_control
+        phase: train
+        source_text_index: 0
+        curriculum_version: paper_e05_v1_action_closure
+      stream:
+        role: user
+        kind: message
+        phase: action_closure
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: action_closure
+      real_input_index: 0
+  - text: 我再整理一下拍摄清单。
+    tags:
+    - paper
+    - E05
+    - action_closure
+    - weak_only_control
+    - F02
+    - buffer
+    labels:
+      paper_e05_action_closure:
+        case_id: F02
+        branch: weak_only_control
+        phase: buffer
+        source_text_index: 1
+        curriculum_version: paper_e05_v1_action_closure
+      stream:
+        role: user
+        kind: message
+        phase: action_closure
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: action_closure
+      real_input_index: 1
+  - text: 杭州天气提示
+    tags:
+    - paper
+    - E05
+    - action_closure
+    - weak_only_control
+    - F02
+    - probe
+    labels:
+      paper_e05_action_closure:
+        case_id: F02
+        branch: weak_only_control
+        phase: probe
+        source_text_index: 2
+        curriculum_version: paper_e05_v1_action_closure
+      stream:
+        role: user
+        kind: message
+        phase: action_closure
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: action_closure
+      real_input_index: 2

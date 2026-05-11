@@ -1,0 +1,160 @@
+dataset_id: paper_e03_F06_punish_history_r2_v1
+title: E03 教师局部塑形 - F06 - punish_history - r2
+description: E03 定向实验：控制教师奖励/惩罚历史，观察后续弱天气 probe 的局部行动偏置变化。
+schema_version: observatory.dataset.v1
+created_at: '2026-05-11T20:51:29'
+time_basis: tick
+tick_dt_ms: 3000
+seed: 2026051105
+app_config_override:
+  input_chunking_enabled: false
+  sensor_enable_echo: false
+  sensor_include_echoes_in_packet: false
+  threshold_scale_by_rwd_pun_enabled: false
+  action_fatigue_enabled: false
+  drive_decay_ratio: 0.0
+  local_drive_modulation_by_rwd_pun_enabled: true
+  local_drive_reward_bonus_coef: 0.9
+  local_drive_punish_penalty_coef: 0.9
+  teacher_feedback_local_alias_cache_enabled: true
+  teacher_feedback_local_alias_cache_ttl_ticks: 6
+  teacher_feedback_local_alias_cache_min_score: 0.55
+  teacher_feedback_local_alias_cache_min_chars: 4
+  local_drive_feedback_text_fallback_min_chars: 4
+meta:
+  paper_experiment: E03_reward_shaping
+  curriculum_version: paper_e03_v1_reward_shaping
+  case_id: F06
+  branch: punish_history
+  replicate: 2
+  city: 武汉
+  event: 去学校办手续
+  reward_strength: 0.75
+  punish_strength: 0.7
+  reward_coef: 0.9
+  punish_coef: 0.9
+  alias_ttl: 6
+episodes:
+- id: paper_e03_F06_punish_history_r2
+  title: E03 F06 punish_history r2
+  tags:
+  - paper
+  - E03
+  - reward_shaping
+  - punish_history
+  - F06
+  repeat: 1
+  ticks:
+  - text: 武汉天气呢
+    tags:
+    - paper
+    - E03
+    - reward_shaping
+    - punish_history
+    - F06
+    - train
+    labels:
+      paper_e03_reward_shaping:
+        case_id: F06
+        branch: punish_history
+        phase: train
+        source_text_index: 0
+        curriculum_version: paper_e03_v1_reward_shaping
+      stream:
+        role: user
+        kind: message
+        phase: reward_shaping
+        pure_text: true
+      expectation_contracts:
+      - id: e03_F06_punish_history_contract
+        within_ticks: 2
+        success_conditions:
+          all:
+          - kind: action_executed_kind_min
+            action_kind: weather_stub
+            min_count: 1
+        failure_conditions:
+          all:
+          - kind: metric_eq
+            metric: action_executed_weather_stub_source_visible
+            value: 0
+        anchor_policy:
+          mode: contains_text
+          contains_text: 武汉天气呢
+          ref_object_types:
+          - st
+        on_success:
+          teacher_rwd: 0.75
+          teacher_pun: 0.0
+          feedback_text: 教师反馈：刚才这次天气行动是合适的。
+          labels:
+            stream:
+              role: teacher
+              kind: expectation_success
+              phase: reward_shaping
+              pure_text: true
+        on_failure:
+          teacher_rwd: 0.0
+          teacher_pun: 0.7
+          feedback_text: 教师反馈：刚才这次天气相关处理并不合适。
+          labels:
+            stream:
+              role: teacher
+              kind: expectation_failure
+              phase: reward_shaping
+              pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: reward_shaping
+      real_input_index: 0
+  - text: 我先把证件材料收拾好。
+    tags:
+    - paper
+    - E03
+    - reward_shaping
+    - punish_history
+    - F06
+    - buffer
+    labels:
+      paper_e03_reward_shaping:
+        case_id: F06
+        branch: punish_history
+        phase: buffer
+        source_text_index: 1
+        curriculum_version: paper_e03_v1_reward_shaping
+      stream:
+        role: user
+        kind: message
+        phase: reward_shaping
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: reward_shaping
+      real_input_index: 1
+  - text: 武汉天气呢
+    tags:
+    - paper
+    - E03
+    - reward_shaping
+    - punish_history
+    - F06
+    - probe
+    labels:
+      paper_e03_reward_shaping:
+        case_id: F06
+        branch: punish_history
+        phase: probe
+        source_text_index: 2
+        curriculum_version: paper_e03_v1_reward_shaping
+      stream:
+        role: user
+        kind: message
+        phase: reward_shaping
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: reward_shaping
+      real_input_index: 2

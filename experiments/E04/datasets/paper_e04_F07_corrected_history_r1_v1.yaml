@@ -1,0 +1,278 @@
+dataset_id: paper_e04_F07_corrected_history_r1_v1
+title: E04 教师惩罚纠偏 - F07 - corrected_history - r1
+description: E04 定向实验：先对错误天气目标施加惩罚，再观察纠正目标是否在弱 probe 中获得局部偏置转移。
+schema_version: observatory.dataset.v1
+created_at: '2026-05-11T21:44:34'
+time_basis: tick
+tick_dt_ms: 3000
+seed: 2026051105
+app_config_override:
+  input_chunking_enabled: false
+  sensor_enable_echo: false
+  sensor_include_echoes_in_packet: false
+  threshold_scale_by_rwd_pun_enabled: false
+  action_fatigue_enabled: false
+  drive_decay_ratio: 0.0
+  local_drive_modulation_by_rwd_pun_enabled: true
+  local_drive_reward_bonus_coef: 0.9
+  local_drive_punish_penalty_coef: 0.9
+  teacher_feedback_focus_directive_enabled: false
+  teacher_feedback_focus_context_carrier_enabled: false
+  teacher_feedback_context_binding_enabled: false
+  teacher_feedback_local_alias_cache_enabled: true
+  teacher_feedback_local_alias_cache_ttl_ticks: 8
+  teacher_feedback_local_alias_cache_min_score: 0.8
+  teacher_feedback_local_alias_cache_min_chars: 4
+  local_drive_feedback_text_fallback_min_score: 0.8
+  local_drive_feedback_text_fallback_min_chars: 4
+meta:
+  paper_experiment: E04_punish_correction
+  curriculum_version: paper_e04_v1_punish_correction
+  case_id: F07
+  branch: corrected_history
+  replicate: 1
+  city_wrong: 福州
+  city_right: 郑州
+  event: 参加培训
+  reward_strength: 0.75
+  punish_strength: 0.7
+  reward_coef: 0.9
+  punish_coef: 0.9
+  alias_ttl: 8
+episodes:
+- id: paper_e04_F07_corrected_history_r1
+  title: E04 F07 corrected_history r1
+  tags:
+  - paper
+  - E04
+  - punish_correction
+  - corrected_history
+  - F07
+  repeat: 1
+  ticks:
+  - text: 我下周要去福州参加培训，福州天气备忘。
+    tags:
+    - paper
+    - E04
+    - punish_correction
+    - corrected_history
+    - F07
+    - punish_train
+    labels:
+      paper_e04_punish_correction:
+        case_id: F07
+        branch: corrected_history
+        phase: punish_train
+        source_text_index: 0
+        curriculum_version: paper_e04_v1_punish_correction
+      stream:
+        role: user
+        kind: message
+        phase: punish_correction
+        pure_text: true
+      expectation_contracts:
+      - id: e04_F07_corrected_history_wrong_contract
+        within_ticks: 2
+        success_conditions:
+          all:
+          - kind: action_executed_kind_min
+            action_kind: weather_stub
+            min_count: 1
+        failure_conditions:
+          all:
+          - kind: metric_eq
+            metric: action_executed_weather_stub_source_visible
+            value: 0
+        anchor_policy:
+          mode: contains_text
+          contains_text: 福州天气备忘
+          ref_object_types:
+          - st
+        on_success:
+          teacher_rwd: 0.75
+          teacher_pun: 0.0
+          feedback_text: 教师反馈：这次天气目标已经纠正并处理正确。
+          labels:
+            stream:
+              role: teacher
+              kind: expectation_success
+              phase: punish_correction
+              pure_text: true
+        on_failure:
+          teacher_rwd: 0.0
+          teacher_pun: 0.7
+          feedback_text: 教师反馈：这次天气目标仍然不对，需要把注意力从错误目标上移开。
+          labels:
+            stream:
+              role: teacher
+              kind: expectation_failure
+              phase: punish_correction
+              pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: punish_correction
+      real_input_index: 0
+  - text: 我先把培训资料整理好。
+    tags:
+    - paper
+    - E04
+    - punish_correction
+    - corrected_history
+    - F07
+    - buffer_after_punish
+    labels:
+      paper_e04_punish_correction:
+        case_id: F07
+        branch: corrected_history
+        phase: buffer_after_punish
+        source_text_index: 1
+        curriculum_version: paper_e04_v1_punish_correction
+      stream:
+        role: user
+        kind: message
+        phase: punish_correction
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: punish_correction
+      real_input_index: 1
+  - text: 更正一下，不是福州，是郑州。我下周要去郑州参加培训，郑州天气提示，请帮我查一下。
+    tags:
+    - paper
+    - E04
+    - punish_correction
+    - corrected_history
+    - F07
+    - reward_train
+    labels:
+      paper_e04_punish_correction:
+        case_id: F07
+        branch: corrected_history
+        phase: reward_train
+        source_text_index: 2
+        curriculum_version: paper_e04_v1_punish_correction
+      stream:
+        role: user
+        kind: message
+        phase: punish_correction
+        pure_text: true
+      expectation_contracts:
+      - id: e04_F07_corrected_history_right_contract
+        within_ticks: 2
+        success_conditions:
+          all:
+          - kind: action_executed_kind_min
+            action_kind: weather_stub
+            min_count: 1
+        failure_conditions:
+          all:
+          - kind: metric_eq
+            metric: action_executed_weather_stub_source_visible
+            value: 0
+        anchor_policy:
+          mode: contains_text
+          contains_text: 郑州天气提示
+          ref_object_types:
+          - st
+        on_success:
+          teacher_rwd: 0.75
+          teacher_pun: 0.0
+          feedback_text: 教师反馈：这次天气目标已经纠正并处理正确。
+          labels:
+            stream:
+              role: teacher
+              kind: expectation_success
+              phase: punish_correction
+              pure_text: true
+        on_failure:
+          teacher_rwd: 0.0
+          teacher_pun: 0.7
+          feedback_text: 教师反馈：这次天气目标仍然不对，需要把注意力从错误目标上移开。
+          labels:
+            stream:
+              role: teacher
+              kind: expectation_failure
+              phase: punish_correction
+              pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: punish_correction
+      real_input_index: 2
+  - text: 我再确认一下出发时间。
+    tags:
+    - paper
+    - E04
+    - punish_correction
+    - corrected_history
+    - F07
+    - buffer_after_reward
+    labels:
+      paper_e04_punish_correction:
+        case_id: F07
+        branch: corrected_history
+        phase: buffer_after_reward
+        source_text_index: 3
+        curriculum_version: paper_e04_v1_punish_correction
+      stream:
+        role: user
+        kind: message
+        phase: punish_correction
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: punish_correction
+      real_input_index: 3
+  - text: 福州天气备忘
+    tags:
+    - paper
+    - E04
+    - punish_correction
+    - corrected_history
+    - F07
+    - probe_wrong
+    labels:
+      paper_e04_punish_correction:
+        case_id: F07
+        branch: corrected_history
+        phase: probe_wrong
+        source_text_index: 4
+        curriculum_version: paper_e04_v1_punish_correction
+      stream:
+        role: user
+        kind: message
+        phase: punish_correction
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: punish_correction
+      real_input_index: 4
+  - text: 郑州天气提示
+    tags:
+    - paper
+    - E04
+    - punish_correction
+    - corrected_history
+    - F07
+    - probe_right
+    labels:
+      paper_e04_punish_correction:
+        case_id: F07
+        branch: corrected_history
+        phase: probe_right
+        source_text_index: 5
+        curriculum_version: paper_e04_v1_punish_correction
+      stream:
+        role: user
+        kind: message
+        phase: punish_correction
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: punish_correction
+      real_input_index: 5

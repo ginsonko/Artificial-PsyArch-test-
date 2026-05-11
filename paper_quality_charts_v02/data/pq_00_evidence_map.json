@@ -1,0 +1,172 @@
+[
+  {
+    "id": "E01",
+    "domain": "结构学习",
+    "claim": "历史顺序改变后续同序输入的结构复用成本",
+    "n": 2,
+    "effect": 2.3,
+    "effect_label": "同序 probe 存储优势",
+    "control": "同字符乱序历史",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E02",
+    "domain": "结构学习",
+    "claim": "稳定句壳中的局部替换会触发可测结构生长",
+    "n": 48,
+    "effect": 4.0,
+    "effect_label": "结构数差",
+    "control": "完全重复句壳",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E03",
+    "domain": "反馈与行动",
+    "claim": "教师奖惩能写入局部上下文并在弱 probe 中重放",
+    "n": 12,
+    "effect": 0.392,
+    "effect_label": "奖励局部效应",
+    "control": "中性历史",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E04",
+    "domain": "反馈与行动",
+    "claim": "先惩罚错误目标、再奖励正确目标会形成双向纠偏",
+    "n": 12,
+    "effect": 0.784,
+    "effect_label": "纠偏局部信号",
+    "control": "中性目标",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E05",
+    "domain": "反馈与行动",
+    "claim": "真实执行过的行动会留下可复用行动准备痕迹",
+    "n": 12,
+    "effect": 0.19277994,
+    "effect_label": "弱 probe drive 优势",
+    "control": "只见过弱文本",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E06",
+    "domain": "时间与注意",
+    "claim": "时间间隔感受可注册、到期并回投到目标对象",
+    "n": 12,
+    "effect": 1.0,
+    "effect_label": "成对闭环通过率",
+    "control": "关闭延迟通道",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E07",
+    "domain": "时间与注意",
+    "claim": "复杂度状态能调制下一拍注意力容量与预算",
+    "n": 36,
+    "effect": 4.0,
+    "effect_label": "高低预算差",
+    "control": "低/中复杂度分支",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E08",
+    "domain": "时间与注意",
+    "claim": "时间显影下残差记忆只在种子和线索同时满足时晋升",
+    "n": 48,
+    "effect": 1.0,
+    "effect_label": "匹配晋升率",
+    "control": "无种子/无线索/关闭通道",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E09",
+    "domain": "自我状态",
+    "claim": "恢复类认知感受能按条件分层出现",
+    "n": 84,
+    "effect": 0.24,
+    "effect_label": "缓解信号强度",
+    "control": "高复杂/高惩罚/低把握阻断",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E10",
+    "domain": "自我状态",
+    "claim": "重复调节区分短期疲劳、变体和恢复后再出现",
+    "n": 12,
+    "effect": 0.25,
+    "effect_label": "同项重复惩罚",
+    "control": "变体/恢复/低重复",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E11",
+    "domain": "能量图景",
+    "claim": "感应能量会形成有限深度扩散并受阈值剪枝约束",
+    "n": 72,
+    "effect": 2.0,
+    "effect_label": "深扩散最大深度",
+    "control": "单轮/高阈值/宽度上限",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E12",
+    "domain": "能量图景",
+    "claim": "结构承担过程态，记忆承担目标态与审计锚点",
+    "n": 48,
+    "effect": 3.0,
+    "effect_label": "记忆汇聚命中数",
+    "control": "分离记忆/衰减分支",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E13",
+    "domain": "Agent 接入",
+    "claim": "AP 投影比摘要/RAG更能保留可审计上下文字段",
+    "n": 12,
+    "effect": 6.5,
+    "effect_label": "AP 对 RAG 优势",
+    "control": "摘要与关键词检索",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E14",
+    "domain": "行动调制",
+    "claim": "奖惩状态改变全局阈值，局部奖惩改变目标驱动力",
+    "n": 144,
+    "effect": 0.27532877,
+    "effect_label": "奖励阈值下降幅度",
+    "control": "固定阈值/局部关闭",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E15",
+    "domain": "自适应调参",
+    "claim": "自适应调参器按运行状态给出方向稳定的参数调整",
+    "n": 96,
+    "effect": -2.0,
+    "effect_label": "过热 CAM 预算调整",
+    "control": "健康静默/禁用调参",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E16",
+    "domain": "接地入口",
+    "claim": "多来源属性能作为可审计对象进入状态池并保持锚点隔离",
+    "n": 72,
+    "effect": 1.0,
+    "effect_label": "属性入池保真率",
+    "control": "错误锚点/折叠属性/非法角色",
+    "support": "strong_evidence"
+  },
+  {
+    "id": "E17",
+    "domain": "内部叙事链",
+    "claim": "上一拍高能候选能承接为下一拍 source 并推动候选链续写",
+    "n": 192,
+    "effect": 1.0,
+    "effect_label": "跨拍承接率",
+    "control": "错误种子/低预算/无承接/终端记忆",
+    "support": "strong_evidence"
+  }
+]

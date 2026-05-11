@@ -1,0 +1,13 @@
+﻿seed,baseline_conforms_on,baseline_conforms_off,on_tick1_registered,on_tick1_due_tick,on_first_exec_tick,on_tick3_executed,on_tick4_executed,on_bind_total,off_tick1_registered,off_tick1_due_tick,off_first_exec_tick,off_tick3_executed,off_tick4_executed,off_bind_total,supports_on_registration,supports_on_due3,supports_on_exec3,supports_off_quiet,supports_bindings_persist,supports_pair_contrast
+123,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+ABX,1,1,1,3,3,1,1,5,0,0,0,0,0,5,1,1,1,1,1,1
+CDQ,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+GH#,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+JK?,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+KLM,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+L2R,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+MNO,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+PQT,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+UV7,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+XYZ!,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1
+Z9$,1,1,1,3,3,1,0,5,0,0,0,0,0,5,1,1,1,1,1,1

@@ -1,0 +1,481 @@
+﻿family,branch,target_index,projection_kind,memory_id,target_structure_id,target_display_text,delta_ev,runtime_weight,modes,energy_graph_round_first,energy_graph_round_last,energy_graph_depth_min,energy_graph_depth_max,energy_graph_emit_count,frontier_source_kinds
+F01,deep_multilayer,0,structure,,st_000002,{A + B},0.52,5.2,ev_propagation,1,1,1,1,1,root_ev
+F01,deep_multilayer,1,structure,,st_000003,{A + C},0.28,2.8,ev_propagation,1,1,1,1,1,root_ev
+F01,deep_multilayer,2,memory,em_000001,st_000004,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F01,deep_multilayer,3,structure,,st_000002,{A + B},0.47482781,5.2,er_induction,1,4,1,1,4,root_er
+F01,deep_multilayer,4,structure,,st_000003,{A + C},0.25567651,2.8,er_induction,1,4,1,1,4,root_er
+F01,deep_multilayer,5,memory,em_000001,st_000004,{A + M},0.18262608,2.0,er_induction,1,4,1,1,4,root_er
+F01,deep_multilayer,6,structure,,st_000005,{A + B + D},0.58164122,6.4,ev_propagation,2,4,2,2,3,frontier_ev
+F01,deep_multilayer,7,memory,em_000002,st_000006,{A + B + E},0.32717318,3.6,ev_propagation,2,4,2,2,3,frontier_ev
+F01,deep_multilayer,8,structure,,st_000007,{A + C + F},0.28382973,5.8,ev_propagation,2,4,2,2,3,frontier_ev
+F01,deep_multilayer,9,memory,em_000003,st_000008,{A + C + G},0.20553187,4.2,ev_propagation,2,4,2,2,3,frontier_ev
+F01,single_round_cap,0,structure,,st_000010,{A + B},0.52,5.2,ev_propagation,1,1,1,1,1,root_ev
+F01,single_round_cap,1,structure,,st_000011,{A + C},0.28,2.8,ev_propagation,1,1,1,1,1,root_ev
+F01,single_round_cap,2,memory,em_000004,st_000012,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F01,single_round_cap,3,structure,,st_000010,{A + B},0.156,5.2,er_induction,1,1,1,1,1,root_er
+F01,single_round_cap,4,structure,,st_000011,{A + C},0.084,2.8,er_induction,1,1,1,1,1,root_er
+F01,single_round_cap,5,memory,em_000004,st_000012,{A + M},0.06,2.0,er_induction,1,1,1,1,1,root_er
+F01,high_frontier_threshold,0,structure,,st_000018,{A + B},0.52,5.2,ev_propagation,1,1,1,1,1,root_ev
+F01,high_frontier_threshold,1,structure,,st_000019,{A + C},0.28,2.8,ev_propagation,1,1,1,1,1,root_ev
+F01,high_frontier_threshold,2,memory,em_000007,st_000020,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F01,high_frontier_threshold,3,structure,,st_000018,{A + B},0.47482781,5.2,er_induction,1,4,1,1,4,root_er
+F01,high_frontier_threshold,4,structure,,st_000019,{A + C},0.25567651,2.8,er_induction,1,4,1,1,4,root_er
+F01,high_frontier_threshold,5,memory,em_000007,st_000020,{A + M},0.18262608,2.0,er_induction,1,4,1,1,4,root_er
+F01,high_budget_threshold,0,structure,,st_000026,{A + B},0.52,5.2,ev_propagation,1,1,1,1,1,root_ev
+F01,high_budget_threshold,1,structure,,st_000027,{A + C},0.28,2.8,ev_propagation,1,1,1,1,1,root_ev
+F01,high_budget_threshold,2,memory,em_000010,st_000028,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F01,width_cap_one,0,structure,,st_000034,{A + B},0.52,5.2,ev_propagation,1,1,1,1,1,root_ev
+F01,width_cap_one,1,structure,,st_000035,{A + C},0.28,2.8,ev_propagation,1,1,1,1,1,root_ev
+F01,width_cap_one,2,memory,em_000013,st_000036,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F01,width_cap_one,3,structure,,st_000034,{A + B},0.47482781,5.2,er_induction,1,4,1,1,4,root_er
+F01,width_cap_one,4,structure,,st_000035,{A + C},0.25567651,2.8,er_induction,1,4,1,1,4,root_er
+F01,width_cap_one,5,memory,em_000013,st_000036,{A + M},0.18262608,2.0,er_induction,1,4,1,1,4,root_er
+F01,width_cap_one,6,structure,,st_000037,{A + B + D},0.49977242,6.4,ev_propagation,2,4,2,2,2,frontier_ev
+F01,width_cap_one,7,memory,em_000014,st_000038,{A + B + E},0.28112198,3.6,ev_propagation,2,4,2,2,2,frontier_ev
+F01,no_er_reinduction,0,structure,,st_000042,{A + B},0.52,5.2,ev_propagation,1,1,1,1,1,root_ev
+F01,no_er_reinduction,1,structure,,st_000043,{A + C},0.28,2.8,ev_propagation,1,1,1,1,1,root_ev
+F01,no_er_reinduction,2,memory,em_000016,st_000044,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F01,no_er_reinduction,3,structure,,st_000045,{A + B + D},0.3328,6.4,ev_propagation,2,2,2,2,1,frontier_ev
+F01,no_er_reinduction,4,memory,em_000017,st_000046,{A + B + E},0.1872,3.6,ev_propagation,2,2,2,2,1,frontier_ev
+F01,no_er_reinduction,5,structure,,st_000047,{A + C + F},0.1624,5.8,ev_propagation,2,2,2,2,1,frontier_ev
+F01,no_er_reinduction,6,memory,em_000018,st_000048,{A + C + G},0.1176,4.2,ev_propagation,2,2,2,2,1,frontier_ev
+F02,deep_multilayer,0,structure,,st_000050,{A + B},0.51,5.1,ev_propagation,1,1,1,1,1,root_ev
+F02,deep_multilayer,1,structure,,st_000051,{A + C},0.29,2.9,ev_propagation,1,1,1,1,1,root_ev
+F02,deep_multilayer,2,memory,em_000019,st_000052,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F02,deep_multilayer,3,structure,,st_000050,{A + B},0.48121972,5.1,er_induction,1,4,1,1,4,root_er
+F02,deep_multilayer,4,structure,,st_000051,{A + C},0.27363474,2.9,er_induction,1,4,1,1,4,root_er
+F02,deep_multilayer,5,memory,em_000019,st_000052,{A + M},0.18871362,2.0,er_induction,1,4,1,1,4,root_er
+F02,deep_multilayer,6,structure,,st_000053,{A + B + D},0.56955052,6.3,ev_propagation,2,4,2,2,3,frontier_ev
+F02,deep_multilayer,7,memory,em_000020,st_000054,{A + B + E},0.33449792,3.7,ev_propagation,2,4,2,2,3,frontier_ev
+F02,deep_multilayer,8,structure,,st_000055,{A + C + F},0.30329939,5.9,ev_propagation,2,4,2,2,3,frontier_ev
+F02,deep_multilayer,9,memory,em_000021,st_000056,{A + C + G},0.21076737,4.1,ev_propagation,2,4,2,2,3,frontier_ev
+F02,single_round_cap,0,structure,,st_000058,{A + B},0.51,5.1,ev_propagation,1,1,1,1,1,root_ev
+F02,single_round_cap,1,structure,,st_000059,{A + C},0.29,2.9,ev_propagation,1,1,1,1,1,root_ev
+F02,single_round_cap,2,memory,em_000022,st_000060,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F02,single_round_cap,3,structure,,st_000058,{A + B},0.1581,5.1,er_induction,1,1,1,1,1,root_er
+F02,single_round_cap,4,structure,,st_000059,{A + C},0.0899,2.9,er_induction,1,1,1,1,1,root_er
+F02,single_round_cap,5,memory,em_000022,st_000060,{A + M},0.062,2.0,er_induction,1,1,1,1,1,root_er
+F02,high_frontier_threshold,0,structure,,st_000066,{A + B},0.51,5.1,ev_propagation,1,1,1,1,1,root_ev
+F02,high_frontier_threshold,1,structure,,st_000067,{A + C},0.29,2.9,ev_propagation,1,1,1,1,1,root_ev
+F02,high_frontier_threshold,2,memory,em_000025,st_000068,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F02,high_frontier_threshold,3,structure,,st_000066,{A + B},0.48121972,5.1,er_induction,1,4,1,1,4,root_er
+F02,high_frontier_threshold,4,structure,,st_000067,{A + C},0.27363474,2.9,er_induction,1,4,1,1,4,root_er
+F02,high_frontier_threshold,5,memory,em_000025,st_000068,{A + M},0.18871362,2.0,er_induction,1,4,1,1,4,root_er
+F02,high_budget_threshold,0,structure,,st_000074,{A + B},0.51,5.1,ev_propagation,1,1,1,1,1,root_ev
+F02,high_budget_threshold,1,structure,,st_000075,{A + C},0.29,2.9,ev_propagation,1,1,1,1,1,root_ev
+F02,high_budget_threshold,2,memory,em_000028,st_000076,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F02,width_cap_one,0,structure,,st_000082,{A + B},0.51,5.1,ev_propagation,1,1,1,1,1,root_ev
+F02,width_cap_one,1,structure,,st_000083,{A + C},0.29,2.9,ev_propagation,1,1,1,1,1,root_ev
+F02,width_cap_one,2,memory,em_000031,st_000084,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F02,width_cap_one,3,structure,,st_000082,{A + B},0.48121972,5.1,er_induction,1,4,1,1,4,root_er
+F02,width_cap_one,4,structure,,st_000083,{A + C},0.27363474,2.9,er_induction,1,4,1,1,4,root_er
+F02,width_cap_one,5,memory,em_000031,st_000084,{A + M},0.18871362,2.0,er_induction,1,4,1,1,4,root_er
+F02,width_cap_one,6,structure,,st_000085,{A + B + D},0.48787606,6.3,ev_propagation,2,4,2,2,2,frontier_ev
+F02,width_cap_one,7,memory,em_000032,st_000086,{A + B + E},0.28653038,3.7,ev_propagation,2,4,2,2,2,frontier_ev
+F02,no_er_reinduction,0,structure,,st_000090,{A + B},0.51,5.1,ev_propagation,1,1,1,1,1,root_ev
+F02,no_er_reinduction,1,structure,,st_000091,{A + C},0.29,2.9,ev_propagation,1,1,1,1,1,root_ev
+F02,no_er_reinduction,2,memory,em_000034,st_000092,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F02,no_er_reinduction,3,structure,,st_000093,{A + B + D},0.3213,6.3,ev_propagation,2,2,2,2,1,frontier_ev
+F02,no_er_reinduction,4,memory,em_000035,st_000094,{A + B + E},0.1887,3.7,ev_propagation,2,2,2,2,1,frontier_ev
+F02,no_er_reinduction,5,structure,,st_000095,{A + C + F},0.1711,5.9,ev_propagation,2,2,2,2,1,frontier_ev
+F02,no_er_reinduction,6,memory,em_000036,st_000096,{A + C + G},0.1189,4.1,ev_propagation,2,2,2,2,1,frontier_ev
+F03,deep_multilayer,0,structure,,st_000098,{A + B},0.5,5.0,ev_propagation,1,1,1,1,1,root_ev
+F03,deep_multilayer,1,structure,,st_000099,{A + C},0.3,3.0,ev_propagation,1,1,1,1,1,root_ev
+F03,deep_multilayer,2,memory,em_000037,st_000100,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F03,deep_multilayer,3,structure,,st_000098,{A + B},0.48700288,5.0,er_induction,1,4,1,1,4,root_er
+F03,deep_multilayer,4,structure,,st_000099,{A + C},0.29220173,3.0,er_induction,1,4,1,1,4,root_er
+F03,deep_multilayer,5,memory,em_000037,st_000100,{A + M},0.19480115,2.0,er_induction,1,4,1,1,4,root_er
+F03,deep_multilayer,6,structure,,st_000101,{A + B + D},0.55724608,6.2,ev_propagation,2,4,2,2,3,frontier_ev
+F03,deep_multilayer,7,memory,em_000038,st_000102,{A + B + E},0.34153792,3.8,ev_propagation,2,4,2,2,3,frontier_ev
+F03,deep_multilayer,8,structure,,st_000103,{A + C + F},0.32356224,6.0,ev_propagation,2,4,2,2,3,frontier_ev
+F03,deep_multilayer,9,memory,em_000039,st_000104,{A + C + G},0.21570816,4.0,ev_propagation,2,4,2,2,3,frontier_ev
+F03,single_round_cap,0,structure,,st_000106,{A + B},0.5,5.0,ev_propagation,1,1,1,1,1,root_ev
+F03,single_round_cap,1,structure,,st_000107,{A + C},0.3,3.0,ev_propagation,1,1,1,1,1,root_ev
+F03,single_round_cap,2,memory,em_000040,st_000108,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F03,single_round_cap,3,structure,,st_000106,{A + B},0.16,5.0,er_induction,1,1,1,1,1,root_er
+F03,single_round_cap,4,structure,,st_000107,{A + C},0.096,3.0,er_induction,1,1,1,1,1,root_er
+F03,single_round_cap,5,memory,em_000040,st_000108,{A + M},0.064,2.0,er_induction,1,1,1,1,1,root_er
+F03,high_frontier_threshold,0,structure,,st_000114,{A + B},0.5,5.0,ev_propagation,1,1,1,1,1,root_ev
+F03,high_frontier_threshold,1,structure,,st_000115,{A + C},0.3,3.0,ev_propagation,1,1,1,1,1,root_ev
+F03,high_frontier_threshold,2,memory,em_000043,st_000116,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F03,high_frontier_threshold,3,structure,,st_000114,{A + B},0.48700288,5.0,er_induction,1,4,1,1,4,root_er
+F03,high_frontier_threshold,4,structure,,st_000115,{A + C},0.29220173,3.0,er_induction,1,4,1,1,4,root_er
+F03,high_frontier_threshold,5,memory,em_000043,st_000116,{A + M},0.19480115,2.0,er_induction,1,4,1,1,4,root_er
+F03,high_budget_threshold,0,structure,,st_000122,{A + B},0.5,5.0,ev_propagation,1,1,1,1,1,root_ev
+F03,high_budget_threshold,1,structure,,st_000123,{A + C},0.3,3.0,ev_propagation,1,1,1,1,1,root_ev
+F03,high_budget_threshold,2,memory,em_000046,st_000124,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F03,width_cap_one,0,structure,,st_000130,{A + B},0.5,5.0,ev_propagation,1,1,1,1,1,root_ev
+F03,width_cap_one,1,structure,,st_000131,{A + C},0.3,3.0,ev_propagation,1,1,1,1,1,root_ev
+F03,width_cap_one,2,memory,em_000049,st_000132,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F03,width_cap_one,3,structure,,st_000130,{A + B},0.48700288,5.0,er_induction,1,4,1,1,4,root_er
+F03,width_cap_one,4,structure,,st_000131,{A + C},0.29220173,3.0,er_induction,1,4,1,1,4,root_er
+F03,width_cap_one,5,memory,em_000049,st_000132,{A + M},0.19480115,2.0,er_induction,1,4,1,1,4,root_er
+F03,width_cap_one,6,structure,,st_000133,{A + B + D},0.47590208,6.2,ev_propagation,2,4,2,2,2,frontier_ev
+F03,width_cap_one,7,memory,em_000050,st_000134,{A + B + E},0.29168192,3.8,ev_propagation,2,4,2,2,2,frontier_ev
+F03,no_er_reinduction,0,structure,,st_000138,{A + B},0.5,5.0,ev_propagation,1,1,1,1,1,root_ev
+F03,no_er_reinduction,1,structure,,st_000139,{A + C},0.3,3.0,ev_propagation,1,1,1,1,1,root_ev
+F03,no_er_reinduction,2,memory,em_000052,st_000140,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F03,no_er_reinduction,3,structure,,st_000141,{A + B + D},0.31,6.2,ev_propagation,2,2,2,2,1,frontier_ev
+F03,no_er_reinduction,4,memory,em_000053,st_000142,{A + B + E},0.19,3.8,ev_propagation,2,2,2,2,1,frontier_ev
+F03,no_er_reinduction,5,structure,,st_000143,{A + C + F},0.18,6.0,ev_propagation,2,2,2,2,1,frontier_ev
+F03,no_er_reinduction,6,memory,em_000054,st_000144,{A + C + G},0.12,4.0,ev_propagation,2,2,2,2,1,frontier_ev
+F04,deep_multilayer,0,structure,,st_000146,{A + B},0.53,5.3,ev_propagation,1,1,1,1,1,root_ev
+F04,deep_multilayer,1,structure,,st_000147,{A + C},0.27,2.7,ev_propagation,1,1,1,1,1,root_ev
+F04,deep_multilayer,2,memory,em_000055,st_000148,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F04,deep_multilayer,3,structure,,st_000146,{A + B},0.53235502,5.3,er_induction,1,4,1,1,4,root_er
+F04,deep_multilayer,4,structure,,st_000147,{A + C},0.27119973,2.7,er_induction,1,4,1,1,4,root_er
+F04,deep_multilayer,5,memory,em_000055,st_000148,{A + M},0.20088869,2.0,er_induction,1,4,1,1,4,root_er
+F04,deep_multilayer,6,structure,,st_000149,{A + B + D},0.62784849,6.5,ev_propagation,2,4,2,2,3,frontier_ev
+F04,deep_multilayer,7,memory,em_000056,st_000150,{A + B + E},0.33807227,3.5,ev_propagation,2,4,2,2,3,frontier_ev
+F04,deep_multilayer,8,structure,,st_000151,{A + C + F},0.28048152,5.7,ev_propagation,2,4,2,2,3,frontier_ev
+F04,deep_multilayer,9,memory,em_000057,st_000152,{A + C + G},0.21159132,4.3,ev_propagation,2,4,2,2,3,frontier_ev
+F04,single_round_cap,0,structure,,st_000154,{A + B},0.53,5.3,ev_propagation,1,1,1,1,1,root_ev
+F04,single_round_cap,1,structure,,st_000155,{A + C},0.27,2.7,ev_propagation,1,1,1,1,1,root_ev
+F04,single_round_cap,2,memory,em_000058,st_000156,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F04,single_round_cap,3,structure,,st_000154,{A + B},0.1749,5.3,er_induction,1,1,1,1,1,root_er
+F04,single_round_cap,4,structure,,st_000155,{A + C},0.0891,2.7,er_induction,1,1,1,1,1,root_er
+F04,single_round_cap,5,memory,em_000058,st_000156,{A + M},0.066,2.0,er_induction,1,1,1,1,1,root_er
+F04,high_frontier_threshold,0,structure,,st_000162,{A + B},0.53,5.3,ev_propagation,1,1,1,1,1,root_ev
+F04,high_frontier_threshold,1,structure,,st_000163,{A + C},0.27,2.7,ev_propagation,1,1,1,1,1,root_ev
+F04,high_frontier_threshold,2,memory,em_000061,st_000164,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F04,high_frontier_threshold,3,structure,,st_000162,{A + B},0.53235502,5.3,er_induction,1,4,1,1,4,root_er
+F04,high_frontier_threshold,4,structure,,st_000163,{A + C},0.27119973,2.7,er_induction,1,4,1,1,4,root_er
+F04,high_frontier_threshold,5,memory,em_000061,st_000164,{A + M},0.20088869,2.0,er_induction,1,4,1,1,4,root_er
+F04,high_budget_threshold,0,structure,,st_000170,{A + B},0.53,5.3,ev_propagation,1,1,1,1,1,root_ev
+F04,high_budget_threshold,1,structure,,st_000171,{A + C},0.27,2.7,ev_propagation,1,1,1,1,1,root_ev
+F04,high_budget_threshold,2,memory,em_000064,st_000172,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F04,width_cap_one,0,structure,,st_000178,{A + B},0.53,5.3,ev_propagation,1,1,1,1,1,root_ev
+F04,width_cap_one,1,structure,,st_000179,{A + C},0.27,2.7,ev_propagation,1,1,1,1,1,root_ev
+F04,width_cap_one,2,memory,em_000067,st_000180,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F04,width_cap_one,3,structure,,st_000178,{A + B},0.53235502,5.3,er_induction,1,4,1,1,4,root_er
+F04,width_cap_one,4,structure,,st_000179,{A + C},0.27119973,2.7,er_induction,1,4,1,1,4,root_er
+F04,width_cap_one,5,memory,em_000067,st_000180,{A + M},0.20088869,2.0,er_induction,1,4,1,1,4,root_er
+F04,width_cap_one,6,structure,,st_000181,{A + B + D},0.53462679,6.5,ev_propagation,2,4,2,2,2,frontier_ev
+F04,width_cap_one,7,memory,em_000068,st_000182,{A + B + E},0.28787597,3.5,ev_propagation,2,4,2,2,2,frontier_ev
+F04,no_er_reinduction,0,structure,,st_000186,{A + B},0.53,5.3,ev_propagation,1,1,1,1,1,root_ev
+F04,no_er_reinduction,1,structure,,st_000187,{A + C},0.27,2.7,ev_propagation,1,1,1,1,1,root_ev
+F04,no_er_reinduction,2,memory,em_000070,st_000188,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F04,no_er_reinduction,3,structure,,st_000189,{A + B + D},0.3445,6.5,ev_propagation,2,2,2,2,1,frontier_ev
+F04,no_er_reinduction,4,memory,em_000071,st_000190,{A + B + E},0.1855,3.5,ev_propagation,2,2,2,2,1,frontier_ev
+F04,no_er_reinduction,5,structure,,st_000191,{A + C + F},0.1539,5.7,ev_propagation,2,2,2,2,1,frontier_ev
+F04,no_er_reinduction,6,memory,em_000072,st_000192,{A + C + G},0.1161,4.3,ev_propagation,2,2,2,2,1,frontier_ev
+F05,deep_multilayer,0,structure,,st_000194,{A + B},0.54,5.4,ev_propagation,1,1,1,1,1,root_ev
+F05,deep_multilayer,1,structure,,st_000195,{A + C},0.26,2.6,ev_propagation,1,1,1,1,1,root_ev
+F05,deep_multilayer,2,memory,em_000073,st_000196,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F05,deep_multilayer,3,structure,,st_000194,{A + B},0.5588358,5.4,er_induction,1,4,1,1,4,root_er
+F05,deep_multilayer,4,structure,,st_000195,{A + C},0.26906909,2.6,er_induction,1,4,1,1,4,root_er
+F05,deep_multilayer,5,memory,em_000073,st_000196,{A + M},0.20697622,2.0,er_induction,1,4,1,1,4,root_er
+F05,deep_multilayer,6,structure,,st_000197,{A + B + D},0.65841906,6.6,ev_propagation,2,4,2,2,3,frontier_ev
+F05,deep_multilayer,7,memory,em_000074,st_000198,{A + B + E},0.33918558,3.4,ev_propagation,2,4,2,2,3,frontier_ev
+F05,deep_multilayer,8,structure,,st_000199,{A + C + F},0.26898377,5.6,ev_propagation,2,4,2,2,3,frontier_ev
+F05,deep_multilayer,9,memory,em_000075,st_000200,{A + C + G},0.21134439,4.4,ev_propagation,2,4,2,2,3,frontier_ev
+F05,single_round_cap,0,structure,,st_000202,{A + B},0.54,5.4,ev_propagation,1,1,1,1,1,root_ev
+F05,single_round_cap,1,structure,,st_000203,{A + C},0.26,2.6,ev_propagation,1,1,1,1,1,root_ev
+F05,single_round_cap,2,memory,em_000076,st_000204,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F05,single_round_cap,3,structure,,st_000202,{A + B},0.1836,5.4,er_induction,1,1,1,1,1,root_er
+F05,single_round_cap,4,structure,,st_000203,{A + C},0.0884,2.6,er_induction,1,1,1,1,1,root_er
+F05,single_round_cap,5,memory,em_000076,st_000204,{A + M},0.068,2.0,er_induction,1,1,1,1,1,root_er
+F05,high_frontier_threshold,0,structure,,st_000210,{A + B},0.54,5.4,ev_propagation,1,1,1,1,1,root_ev
+F05,high_frontier_threshold,1,structure,,st_000211,{A + C},0.26,2.6,ev_propagation,1,1,1,1,1,root_ev
+F05,high_frontier_threshold,2,memory,em_000079,st_000212,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F05,high_frontier_threshold,3,structure,,st_000210,{A + B},0.5588358,5.4,er_induction,1,4,1,1,4,root_er
+F05,high_frontier_threshold,4,structure,,st_000211,{A + C},0.26906909,2.6,er_induction,1,4,1,1,4,root_er
+F05,high_frontier_threshold,5,memory,em_000079,st_000212,{A + M},0.20697622,2.0,er_induction,1,4,1,1,4,root_er
+F05,high_budget_threshold,0,structure,,st_000218,{A + B},0.54,5.4,ev_propagation,1,1,1,1,1,root_ev
+F05,high_budget_threshold,1,structure,,st_000219,{A + C},0.26,2.6,ev_propagation,1,1,1,1,1,root_ev
+F05,high_budget_threshold,2,memory,em_000082,st_000220,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F05,width_cap_one,0,structure,,st_000226,{A + B},0.54,5.4,ev_propagation,1,1,1,1,1,root_ev
+F05,width_cap_one,1,structure,,st_000227,{A + C},0.26,2.6,ev_propagation,1,1,1,1,1,root_ev
+F05,width_cap_one,2,memory,em_000085,st_000228,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F05,width_cap_one,3,structure,,st_000226,{A + B},0.5588358,5.4,er_induction,1,4,1,1,4,root_er
+F05,width_cap_one,4,structure,,st_000227,{A + C},0.26906909,2.6,er_induction,1,4,1,1,4,root_er
+F05,width_cap_one,5,memory,em_000085,st_000228,{A + M},0.20697622,2.0,er_induction,1,4,1,1,4,root_er
+F05,width_cap_one,6,structure,,st_000229,{A + B + D},0.55905474,6.6,ev_propagation,2,4,2,2,2,frontier_ev
+F05,width_cap_one,7,memory,em_000086,st_000230,{A + B + E},0.2879979,3.4,ev_propagation,2,4,2,2,2,frontier_ev
+F05,no_er_reinduction,0,structure,,st_000234,{A + B},0.54,5.4,ev_propagation,1,1,1,1,1,root_ev
+F05,no_er_reinduction,1,structure,,st_000235,{A + C},0.26,2.6,ev_propagation,1,1,1,1,1,root_ev
+F05,no_er_reinduction,2,memory,em_000088,st_000236,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F05,no_er_reinduction,3,structure,,st_000237,{A + B + D},0.3564,6.6,ev_propagation,2,2,2,2,1,frontier_ev
+F05,no_er_reinduction,4,memory,em_000089,st_000238,{A + B + E},0.1836,3.4,ev_propagation,2,2,2,2,1,frontier_ev
+F05,no_er_reinduction,5,structure,,st_000239,{A + C + F},0.1456,5.6,ev_propagation,2,2,2,2,1,frontier_ev
+F05,no_er_reinduction,6,memory,em_000090,st_000240,{A + C + G},0.1144,4.4,ev_propagation,2,2,2,2,1,frontier_ev
+F06,deep_multilayer,0,structure,,st_000242,{A + B},0.49,4.9,ev_propagation,1,1,1,1,1,root_ev
+F06,deep_multilayer,1,structure,,st_000243,{A + C},0.31,3.1,ev_propagation,1,1,1,1,1,root_ev
+F06,deep_multilayer,2,memory,em_000091,st_000244,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F06,deep_multilayer,3,structure,,st_000242,{A + B},0.52200621,4.9,er_induction,1,4,1,1,4,root_er
+F06,deep_multilayer,4,structure,,st_000243,{A + C},0.33024883,3.1,er_induction,1,4,1,1,4,root_er
+F06,deep_multilayer,5,memory,em_000091,st_000244,{A + M},0.21306376,2.0,er_induction,1,4,1,1,4,root_er
+F06,deep_multilayer,6,structure,,st_000245,{A + B + D},0.55964243,6.1,ev_propagation,2,4,2,2,3,frontier_ev
+F06,deep_multilayer,7,memory,em_000092,st_000246,{A + B + E},0.35780417,3.9,ev_propagation,2,4,2,2,3,frontier_ev
+F06,deep_multilayer,8,structure,,st_000247,{A + C + F},0.35405949,6.1,ev_propagation,2,4,2,2,3,frontier_ev
+F06,deep_multilayer,9,memory,em_000093,st_000248,{A + C + G},0.22636591,3.9,ev_propagation,2,4,2,2,3,frontier_ev
+F06,single_round_cap,0,structure,,st_000250,{A + B},0.49,4.9,ev_propagation,1,1,1,1,1,root_ev
+F06,single_round_cap,1,structure,,st_000251,{A + C},0.31,3.1,ev_propagation,1,1,1,1,1,root_ev
+F06,single_round_cap,2,memory,em_000094,st_000252,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F06,single_round_cap,3,structure,,st_000250,{A + B},0.1715,4.9,er_induction,1,1,1,1,1,root_er
+F06,single_round_cap,4,structure,,st_000251,{A + C},0.1085,3.1,er_induction,1,1,1,1,1,root_er
+F06,single_round_cap,5,memory,em_000094,st_000252,{A + M},0.07,2.0,er_induction,1,1,1,1,1,root_er
+F06,high_frontier_threshold,0,structure,,st_000258,{A + B},0.49,4.9,ev_propagation,1,1,1,1,1,root_ev
+F06,high_frontier_threshold,1,structure,,st_000259,{A + C},0.31,3.1,ev_propagation,1,1,1,1,1,root_ev
+F06,high_frontier_threshold,2,memory,em_000097,st_000260,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F06,high_frontier_threshold,3,structure,,st_000258,{A + B},0.52200621,4.9,er_induction,1,4,1,1,4,root_er
+F06,high_frontier_threshold,4,structure,,st_000259,{A + C},0.33024883,3.1,er_induction,1,4,1,1,4,root_er
+F06,high_frontier_threshold,5,memory,em_000097,st_000260,{A + M},0.21306376,2.0,er_induction,1,4,1,1,4,root_er
+F06,high_budget_threshold,0,structure,,st_000266,{A + B},0.49,4.9,ev_propagation,1,1,1,1,1,root_ev
+F06,high_budget_threshold,1,structure,,st_000267,{A + C},0.31,3.1,ev_propagation,1,1,1,1,1,root_ev
+F06,high_budget_threshold,2,memory,em_000100,st_000268,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F06,width_cap_one,0,structure,,st_000274,{A + B},0.49,4.9,ev_propagation,1,1,1,1,1,root_ev
+F06,width_cap_one,1,structure,,st_000275,{A + C},0.31,3.1,ev_propagation,1,1,1,1,1,root_ev
+F06,width_cap_one,2,memory,em_000103,st_000276,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F06,width_cap_one,3,structure,,st_000274,{A + B},0.52200621,4.9,er_induction,1,4,1,1,4,root_er
+F06,width_cap_one,4,structure,,st_000275,{A + C},0.33024883,3.1,er_induction,1,4,1,1,4,root_er
+F06,width_cap_one,5,memory,em_000103,st_000276,{A + M},0.21306376,2.0,er_induction,1,4,1,1,4,root_er
+F06,width_cap_one,6,structure,,st_000277,{A + B + D},0.47385813,6.1,ev_propagation,2,4,2,2,2,frontier_ev
+F06,width_cap_one,7,memory,em_000104,st_000278,{A + B + E},0.30295847,3.9,ev_propagation,2,4,2,2,2,frontier_ev
+F06,no_er_reinduction,0,structure,,st_000282,{A + B},0.49,4.9,ev_propagation,1,1,1,1,1,root_ev
+F06,no_er_reinduction,1,structure,,st_000283,{A + C},0.31,3.1,ev_propagation,1,1,1,1,1,root_ev
+F06,no_er_reinduction,2,memory,em_000106,st_000284,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F06,no_er_reinduction,3,structure,,st_000285,{A + B + D},0.2989,6.1,ev_propagation,2,2,2,2,1,frontier_ev
+F06,no_er_reinduction,4,memory,em_000107,st_000286,{A + B + E},0.1911,3.9,ev_propagation,2,2,2,2,1,frontier_ev
+F06,no_er_reinduction,5,structure,,st_000287,{A + C + F},0.1891,6.1,ev_propagation,2,2,2,2,1,frontier_ev
+F06,no_er_reinduction,6,memory,em_000108,st_000288,{A + C + G},0.1209,3.9,ev_propagation,2,2,2,2,1,frontier_ev
+F07,deep_multilayer,0,structure,,st_000290,{A + B},0.48,4.8,ev_propagation,1,1,1,1,1,root_ev
+F07,deep_multilayer,1,structure,,st_000291,{A + C},0.32,3.2,ev_propagation,1,1,1,1,1,root_ev
+F07,deep_multilayer,2,memory,em_000109,st_000292,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F07,deep_multilayer,3,structure,,st_000290,{A + B},0.52596311,4.8,er_induction,1,4,1,1,4,root_er
+F07,deep_multilayer,4,structure,,st_000291,{A + C},0.35064207,3.2,er_induction,1,4,1,1,4,root_er
+F07,deep_multilayer,5,memory,em_000109,st_000292,{A + M},0.2191513,2.0,er_induction,1,4,1,1,4,root_er
+F07,deep_multilayer,6,structure,,st_000293,{A + B + D},0.54641203,6.0,ev_propagation,2,4,2,2,3,frontier_ev
+F07,deep_multilayer,7,memory,em_000110,st_000294,{A + B + E},0.36427469,4.0,ev_propagation,2,4,2,2,3,frontier_ev
+F07,deep_multilayer,8,structure,,st_000295,{A + C + F},0.37641718,6.2,ev_propagation,2,4,2,2,3,frontier_ev
+F07,deep_multilayer,9,memory,em_000111,st_000296,{A + C + G},0.2307073,3.8,ev_propagation,2,4,2,2,3,frontier_ev
+F07,single_round_cap,0,structure,,st_000298,{A + B},0.48,4.8,ev_propagation,1,1,1,1,1,root_ev
+F07,single_round_cap,1,structure,,st_000299,{A + C},0.32,3.2,ev_propagation,1,1,1,1,1,root_ev
+F07,single_round_cap,2,memory,em_000112,st_000300,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F07,single_round_cap,3,structure,,st_000298,{A + B},0.1728,4.8,er_induction,1,1,1,1,1,root_er
+F07,single_round_cap,4,structure,,st_000299,{A + C},0.1152,3.2,er_induction,1,1,1,1,1,root_er
+F07,single_round_cap,5,memory,em_000112,st_000300,{A + M},0.072,2.0,er_induction,1,1,1,1,1,root_er
+F07,high_frontier_threshold,0,structure,,st_000306,{A + B},0.48,4.8,ev_propagation,1,1,1,1,1,root_ev
+F07,high_frontier_threshold,1,structure,,st_000307,{A + C},0.32,3.2,ev_propagation,1,1,1,1,1,root_ev
+F07,high_frontier_threshold,2,memory,em_000115,st_000308,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F07,high_frontier_threshold,3,structure,,st_000306,{A + B},0.52596311,4.8,er_induction,1,4,1,1,4,root_er
+F07,high_frontier_threshold,4,structure,,st_000307,{A + C},0.35064207,3.2,er_induction,1,4,1,1,4,root_er
+F07,high_frontier_threshold,5,memory,em_000115,st_000308,{A + M},0.2191513,2.0,er_induction,1,4,1,1,4,root_er
+F07,high_budget_threshold,0,structure,,st_000314,{A + B},0.48,4.8,ev_propagation,1,1,1,1,1,root_ev
+F07,high_budget_threshold,1,structure,,st_000315,{A + C},0.32,3.2,ev_propagation,1,1,1,1,1,root_ev
+F07,high_budget_threshold,2,memory,em_000118,st_000316,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F07,width_cap_one,0,structure,,st_000322,{A + B},0.48,4.8,ev_propagation,1,1,1,1,1,root_ev
+F07,width_cap_one,1,structure,,st_000323,{A + C},0.32,3.2,ev_propagation,1,1,1,1,1,root_ev
+F07,width_cap_one,2,memory,em_000121,st_000324,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F07,width_cap_one,3,structure,,st_000322,{A + B},0.52596311,4.8,er_induction,1,4,1,1,4,root_er
+F07,width_cap_one,4,structure,,st_000323,{A + C},0.35064207,3.2,er_induction,1,4,1,1,4,root_er
+F07,width_cap_one,5,memory,em_000121,st_000324,{A + M},0.2191513,2.0,er_induction,1,4,1,1,4,root_er
+F07,width_cap_one,6,structure,,st_000325,{A + B + D},0.46139443,6.0,ev_propagation,2,4,2,2,2,frontier_ev
+F07,width_cap_one,7,memory,em_000122,st_000326,{A + B + E},0.30759629,4.0,ev_propagation,2,4,2,2,2,frontier_ev
+F07,no_er_reinduction,0,structure,,st_000330,{A + B},0.48,4.8,ev_propagation,1,1,1,1,1,root_ev
+F07,no_er_reinduction,1,structure,,st_000331,{A + C},0.32,3.2,ev_propagation,1,1,1,1,1,root_ev
+F07,no_er_reinduction,2,memory,em_000124,st_000332,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F07,no_er_reinduction,3,structure,,st_000333,{A + B + D},0.288,6.0,ev_propagation,2,2,2,2,1,frontier_ev
+F07,no_er_reinduction,4,memory,em_000125,st_000334,{A + B + E},0.192,4.0,ev_propagation,2,2,2,2,1,frontier_ev
+F07,no_er_reinduction,5,structure,,st_000335,{A + C + F},0.1984,6.2,ev_propagation,2,2,2,2,1,frontier_ev
+F07,no_er_reinduction,6,memory,em_000126,st_000336,{A + C + G},0.1216,3.8,ev_propagation,2,2,2,2,1,frontier_ev
+F08,deep_multilayer,0,structure,,st_000338,{A + B},0.55,5.5,ev_propagation,1,1,1,1,1,root_ev
+F08,deep_multilayer,1,structure,,st_000339,{A + C},0.25,2.5,ev_propagation,1,1,1,1,1,root_ev
+F08,deep_multilayer,2,memory,em_000127,st_000340,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F08,deep_multilayer,3,structure,,st_000338,{A + B},0.61940679,5.5,er_induction,1,4,1,1,4,root_er
+F08,deep_multilayer,4,structure,,st_000339,{A + C},0.28154854,2.5,er_induction,1,4,1,1,4,root_er
+F08,deep_multilayer,5,memory,em_000127,st_000340,{A + M},0.22523883,2.0,er_induction,1,4,1,1,4,root_er
+F08,deep_multilayer,6,structure,,st_000341,{A + B + D},0.70832628,6.7,ev_propagation,2,4,2,2,3,frontier_ev
+F08,deep_multilayer,7,memory,em_000128,st_000342,{A + B + E},0.34887712,3.3,ev_propagation,2,4,2,2,3,frontier_ev
+F08,deep_multilayer,8,structure,,st_000343,{A + C + F},0.26430085,5.5,ev_propagation,2,4,2,2,3,frontier_ev
+F08,deep_multilayer,9,memory,em_000129,st_000344,{A + C + G},0.21624615,4.5,ev_propagation,2,4,2,2,3,frontier_ev
+F08,single_round_cap,0,structure,,st_000346,{A + B},0.55,5.5,ev_propagation,1,1,1,1,1,root_ev
+F08,single_round_cap,1,structure,,st_000347,{A + C},0.25,2.5,ev_propagation,1,1,1,1,1,root_ev
+F08,single_round_cap,2,memory,em_000130,st_000348,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F08,single_round_cap,3,structure,,st_000346,{A + B},0.2035,5.5,er_induction,1,1,1,1,1,root_er
+F08,single_round_cap,4,structure,,st_000347,{A + C},0.0925,2.5,er_induction,1,1,1,1,1,root_er
+F08,single_round_cap,5,memory,em_000130,st_000348,{A + M},0.074,2.0,er_induction,1,1,1,1,1,root_er
+F08,high_frontier_threshold,0,structure,,st_000354,{A + B},0.55,5.5,ev_propagation,1,1,1,1,1,root_ev
+F08,high_frontier_threshold,1,structure,,st_000355,{A + C},0.25,2.5,ev_propagation,1,1,1,1,1,root_ev
+F08,high_frontier_threshold,2,memory,em_000133,st_000356,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F08,high_frontier_threshold,3,structure,,st_000354,{A + B},0.61940679,5.5,er_induction,1,4,1,1,4,root_er
+F08,high_frontier_threshold,4,structure,,st_000355,{A + C},0.28154854,2.5,er_induction,1,4,1,1,4,root_er
+F08,high_frontier_threshold,5,memory,em_000133,st_000356,{A + M},0.22523883,2.0,er_induction,1,4,1,1,4,root_er
+F08,high_budget_threshold,0,structure,,st_000362,{A + B},0.55,5.5,ev_propagation,1,1,1,1,1,root_ev
+F08,high_budget_threshold,1,structure,,st_000363,{A + C},0.25,2.5,ev_propagation,1,1,1,1,1,root_ev
+F08,high_budget_threshold,2,memory,em_000136,st_000364,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F08,width_cap_one,0,structure,,st_000370,{A + B},0.55,5.5,ev_propagation,1,1,1,1,1,root_ev
+F08,width_cap_one,1,structure,,st_000371,{A + C},0.25,2.5,ev_propagation,1,1,1,1,1,root_ev
+F08,width_cap_one,2,memory,em_000139,st_000372,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F08,width_cap_one,3,structure,,st_000370,{A + B},0.61940679,5.5,er_induction,1,4,1,1,4,root_er
+F08,width_cap_one,4,structure,,st_000371,{A + C},0.28154854,2.5,er_induction,1,4,1,1,4,root_er
+F08,width_cap_one,5,memory,em_000139,st_000372,{A + M},0.22523883,2.0,er_induction,1,4,1,1,4,root_er
+F08,width_cap_one,6,structure,,st_000373,{A + B + D},0.59652338,6.7,ev_propagation,2,4,2,2,2,frontier_ev
+F08,width_cap_one,7,memory,em_000140,st_000374,{A + B + E},0.29381002,3.3,ev_propagation,2,4,2,2,2,frontier_ev
+F08,no_er_reinduction,0,structure,,st_000378,{A + B},0.55,5.5,ev_propagation,1,1,1,1,1,root_ev
+F08,no_er_reinduction,1,structure,,st_000379,{A + C},0.25,2.5,ev_propagation,1,1,1,1,1,root_ev
+F08,no_er_reinduction,2,memory,em_000142,st_000380,{A + M},0.2,2.0,ev_propagation,1,1,1,1,1,root_ev
+F08,no_er_reinduction,3,structure,,st_000381,{A + B + D},0.3685,6.7,ev_propagation,2,2,2,2,1,frontier_ev
+F08,no_er_reinduction,4,memory,em_000143,st_000382,{A + B + E},0.1815,3.3,ev_propagation,2,2,2,2,1,frontier_ev
+F08,no_er_reinduction,5,structure,,st_000383,{A + C + F},0.1375,5.5,ev_propagation,2,2,2,2,1,frontier_ev
+F08,no_er_reinduction,6,memory,em_000144,st_000384,{A + C + G},0.1125,4.5,ev_propagation,2,2,2,2,1,frontier_ev
+F09,deep_multilayer,0,structure,,st_000386,{A + B},0.5304,5.2,ev_propagation,1,1,1,1,1,root_ev
+F09,deep_multilayer,1,structure,,st_000387,{A + C},0.306,3.0,ev_propagation,1,1,1,1,1,root_ev
+F09,deep_multilayer,2,memory,em_000145,st_000388,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F09,deep_multilayer,3,structure,,st_000386,{A + B},0.47482781,5.2,er_induction,1,4,1,1,4,root_er
+F09,deep_multilayer,4,structure,,st_000387,{A + C},0.27393912,3.0,er_induction,1,4,1,1,4,root_er
+F09,deep_multilayer,5,memory,em_000145,st_000388,{A + M},0.16436347,1.8,er_induction,1,4,1,1,4,root_er
+F09,deep_multilayer,6,structure,,st_000389,{A + B + D},0.58829722,6.4,ev_propagation,2,4,2,2,3,frontier_ev
+F09,deep_multilayer,7,memory,em_000146,st_000390,{A + B + E},0.33091718,3.6,ev_propagation,2,4,2,2,3,frontier_ev
+F09,deep_multilayer,8,structure,,st_000391,{A + C + F},0.30758328,5.8,ev_propagation,2,4,2,2,3,frontier_ev
+F09,deep_multilayer,9,memory,em_000147,st_000392,{A + C + G},0.22273272,4.2,ev_propagation,2,4,2,2,3,frontier_ev
+F09,single_round_cap,0,structure,,st_000394,{A + B},0.5304,5.2,ev_propagation,1,1,1,1,1,root_ev
+F09,single_round_cap,1,structure,,st_000395,{A + C},0.306,3.0,ev_propagation,1,1,1,1,1,root_ev
+F09,single_round_cap,2,memory,em_000148,st_000396,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F09,single_round_cap,3,structure,,st_000394,{A + B},0.156,5.2,er_induction,1,1,1,1,1,root_er
+F09,single_round_cap,4,structure,,st_000395,{A + C},0.09,3.0,er_induction,1,1,1,1,1,root_er
+F09,single_round_cap,5,memory,em_000148,st_000396,{A + M},0.054,1.8,er_induction,1,1,1,1,1,root_er
+F09,high_frontier_threshold,0,structure,,st_000402,{A + B},0.5304,5.2,ev_propagation,1,1,1,1,1,root_ev
+F09,high_frontier_threshold,1,structure,,st_000403,{A + C},0.306,3.0,ev_propagation,1,1,1,1,1,root_ev
+F09,high_frontier_threshold,2,memory,em_000151,st_000404,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F09,high_frontier_threshold,3,structure,,st_000402,{A + B},0.47482781,5.2,er_induction,1,4,1,1,4,root_er
+F09,high_frontier_threshold,4,structure,,st_000403,{A + C},0.27393912,3.0,er_induction,1,4,1,1,4,root_er
+F09,high_frontier_threshold,5,memory,em_000151,st_000404,{A + M},0.16436347,1.8,er_induction,1,4,1,1,4,root_er
+F09,high_budget_threshold,0,structure,,st_000410,{A + B},0.5304,5.2,ev_propagation,1,1,1,1,1,root_ev
+F09,high_budget_threshold,1,structure,,st_000411,{A + C},0.306,3.0,ev_propagation,1,1,1,1,1,root_ev
+F09,high_budget_threshold,2,memory,em_000154,st_000412,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F09,width_cap_one,0,structure,,st_000418,{A + B},0.5304,5.2,ev_propagation,1,1,1,1,1,root_ev
+F09,width_cap_one,1,structure,,st_000419,{A + C},0.306,3.0,ev_propagation,1,1,1,1,1,root_ev
+F09,width_cap_one,2,memory,em_000157,st_000420,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F09,width_cap_one,3,structure,,st_000418,{A + B},0.47482781,5.2,er_induction,1,4,1,1,4,root_er
+F09,width_cap_one,4,structure,,st_000419,{A + C},0.27393912,3.0,er_induction,1,4,1,1,4,root_er
+F09,width_cap_one,5,memory,em_000157,st_000420,{A + M},0.16436347,1.8,er_induction,1,4,1,1,4,root_er
+F09,width_cap_one,6,structure,,st_000421,{A + B + D},0.50642842,6.4,ev_propagation,2,4,2,2,2,frontier_ev
+F09,width_cap_one,7,memory,em_000158,st_000422,{A + B + E},0.28486598,3.6,ev_propagation,2,4,2,2,2,frontier_ev
+F09,no_er_reinduction,0,structure,,st_000426,{A + B},0.5304,5.2,ev_propagation,1,1,1,1,1,root_ev
+F09,no_er_reinduction,1,structure,,st_000427,{A + C},0.306,3.0,ev_propagation,1,1,1,1,1,root_ev
+F09,no_er_reinduction,2,memory,em_000160,st_000428,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F09,no_er_reinduction,3,structure,,st_000429,{A + B + D},0.339456,6.4,ev_propagation,2,2,2,2,1,frontier_ev
+F09,no_er_reinduction,4,memory,em_000161,st_000430,{A + B + E},0.190944,3.6,ev_propagation,2,2,2,2,1,frontier_ev
+F09,no_er_reinduction,5,structure,,st_000431,{A + C + F},0.17748,5.8,ev_propagation,2,2,2,2,1,frontier_ev
+F09,no_er_reinduction,6,memory,em_000162,st_000432,{A + C + G},0.12852,4.2,ev_propagation,2,2,2,2,1,frontier_ev
+F10,deep_multilayer,0,structure,,st_000434,{A + B},0.51,5.0,ev_propagation,1,1,1,1,1,root_ev
+F10,deep_multilayer,1,structure,,st_000435,{A + C},0.3264,3.2,ev_propagation,1,1,1,1,1,root_ev
+F10,deep_multilayer,2,memory,em_000163,st_000436,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F10,deep_multilayer,3,structure,,st_000434,{A + B},0.48700288,5.0,er_induction,1,4,1,1,4,root_er
+F10,deep_multilayer,4,structure,,st_000435,{A + C},0.31168184,3.2,er_induction,1,4,1,1,4,root_er
+F10,deep_multilayer,5,memory,em_000163,st_000436,{A + M},0.17532104,1.8,er_induction,1,4,1,1,4,root_er
+F10,deep_multilayer,6,structure,,st_000437,{A + B + D},0.56344608,6.2,ev_propagation,2,4,2,2,3,frontier_ev
+F10,deep_multilayer,7,memory,em_000164,st_000438,{A + B + E},0.34533792,3.8,ev_propagation,2,4,2,2,3,frontier_ev
+F10,deep_multilayer,8,structure,,st_000439,{A + C + F},0.34897306,6.0,ev_propagation,2,4,2,2,3,frontier_ev
+F10,deep_multilayer,9,memory,em_000165,st_000440,{A + C + G},0.2326487,4.0,ev_propagation,2,4,2,2,3,frontier_ev
+F10,single_round_cap,0,structure,,st_000442,{A + B},0.51,5.0,ev_propagation,1,1,1,1,1,root_ev
+F10,single_round_cap,1,structure,,st_000443,{A + C},0.3264,3.2,ev_propagation,1,1,1,1,1,root_ev
+F10,single_round_cap,2,memory,em_000166,st_000444,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F10,single_round_cap,3,structure,,st_000442,{A + B},0.16,5.0,er_induction,1,1,1,1,1,root_er
+F10,single_round_cap,4,structure,,st_000443,{A + C},0.1024,3.2,er_induction,1,1,1,1,1,root_er
+F10,single_round_cap,5,memory,em_000166,st_000444,{A + M},0.0576,1.8,er_induction,1,1,1,1,1,root_er
+F10,high_frontier_threshold,0,structure,,st_000450,{A + B},0.51,5.0,ev_propagation,1,1,1,1,1,root_ev
+F10,high_frontier_threshold,1,structure,,st_000451,{A + C},0.3264,3.2,ev_propagation,1,1,1,1,1,root_ev
+F10,high_frontier_threshold,2,memory,em_000169,st_000452,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F10,high_frontier_threshold,3,structure,,st_000450,{A + B},0.48700288,5.0,er_induction,1,4,1,1,4,root_er
+F10,high_frontier_threshold,4,structure,,st_000451,{A + C},0.31168184,3.2,er_induction,1,4,1,1,4,root_er
+F10,high_frontier_threshold,5,memory,em_000169,st_000452,{A + M},0.17532104,1.8,er_induction,1,4,1,1,4,root_er
+F10,high_budget_threshold,0,structure,,st_000458,{A + B},0.51,5.0,ev_propagation,1,1,1,1,1,root_ev
+F10,high_budget_threshold,1,structure,,st_000459,{A + C},0.3264,3.2,ev_propagation,1,1,1,1,1,root_ev
+F10,high_budget_threshold,2,memory,em_000172,st_000460,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F10,width_cap_one,0,structure,,st_000466,{A + B},0.51,5.0,ev_propagation,1,1,1,1,1,root_ev
+F10,width_cap_one,1,structure,,st_000467,{A + C},0.3264,3.2,ev_propagation,1,1,1,1,1,root_ev
+F10,width_cap_one,2,memory,em_000175,st_000468,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F10,width_cap_one,3,structure,,st_000466,{A + B},0.48700288,5.0,er_induction,1,4,1,1,4,root_er
+F10,width_cap_one,4,structure,,st_000467,{A + C},0.31168184,3.2,er_induction,1,4,1,1,4,root_er
+F10,width_cap_one,5,memory,em_000175,st_000468,{A + M},0.17532104,1.8,er_induction,1,4,1,1,4,root_er
+F10,width_cap_one,6,structure,,st_000469,{A + B + D},0.48210208,6.2,ev_propagation,2,4,2,2,2,frontier_ev
+F10,width_cap_one,7,memory,em_000176,st_000470,{A + B + E},0.29548192,3.8,ev_propagation,2,4,2,2,2,frontier_ev
+F10,no_er_reinduction,0,structure,,st_000474,{A + B},0.51,5.0,ev_propagation,1,1,1,1,1,root_ev
+F10,no_er_reinduction,1,structure,,st_000475,{A + C},0.3264,3.2,ev_propagation,1,1,1,1,1,root_ev
+F10,no_er_reinduction,2,memory,em_000178,st_000476,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F10,no_er_reinduction,3,structure,,st_000477,{A + B + D},0.3162,6.2,ev_propagation,2,2,2,2,1,frontier_ev
+F10,no_er_reinduction,4,memory,em_000179,st_000478,{A + B + E},0.1938,3.8,ev_propagation,2,2,2,2,1,frontier_ev
+F10,no_er_reinduction,5,structure,,st_000479,{A + C + F},0.19584,6.0,ev_propagation,2,2,2,2,1,frontier_ev
+F10,no_er_reinduction,6,memory,em_000180,st_000480,{A + C + G},0.13056,4.0,ev_propagation,2,2,2,2,1,frontier_ev
+F11,deep_multilayer,0,structure,,st_000482,{A + B},0.5508,5.4,ev_propagation,1,1,1,1,1,root_ev
+F11,deep_multilayer,1,structure,,st_000483,{A + C},0.2856,2.8,ev_propagation,1,1,1,1,1,root_ev
+F11,deep_multilayer,2,memory,em_000181,st_000484,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F11,deep_multilayer,3,structure,,st_000482,{A + B},0.5588358,5.4,er_induction,1,4,1,1,4,root_er
+F11,deep_multilayer,4,structure,,st_000483,{A + C},0.28976671,2.8,er_induction,1,4,1,1,4,root_er
+F11,deep_multilayer,5,memory,em_000181,st_000484,{A + M},0.1862786,1.8,er_induction,1,4,1,1,4,root_er
+F11,deep_multilayer,6,structure,,st_000485,{A + B + D},0.66554706,6.6,ev_propagation,2,4,2,2,3,frontier_ev
+F11,deep_multilayer,7,memory,em_000182,st_000486,{A + B + E},0.34285758,3.4,ev_propagation,2,4,2,2,3,frontier_ev
+F11,deep_multilayer,8,structure,,st_000487,{A + C + F},0.29281083,5.6,ev_propagation,2,4,2,2,3,frontier_ev
+F11,deep_multilayer,9,memory,em_000183,st_000488,{A + C + G},0.23006565,4.4,ev_propagation,2,4,2,2,3,frontier_ev
+F11,single_round_cap,0,structure,,st_000490,{A + B},0.5508,5.4,ev_propagation,1,1,1,1,1,root_ev
+F11,single_round_cap,1,structure,,st_000491,{A + C},0.2856,2.8,ev_propagation,1,1,1,1,1,root_ev
+F11,single_round_cap,2,memory,em_000184,st_000492,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F11,single_round_cap,3,structure,,st_000490,{A + B},0.1836,5.4,er_induction,1,1,1,1,1,root_er
+F11,single_round_cap,4,structure,,st_000491,{A + C},0.0952,2.8,er_induction,1,1,1,1,1,root_er
+F11,single_round_cap,5,memory,em_000184,st_000492,{A + M},0.0612,1.8,er_induction,1,1,1,1,1,root_er
+F11,high_frontier_threshold,0,structure,,st_000498,{A + B},0.5508,5.4,ev_propagation,1,1,1,1,1,root_ev
+F11,high_frontier_threshold,1,structure,,st_000499,{A + C},0.2856,2.8,ev_propagation,1,1,1,1,1,root_ev
+F11,high_frontier_threshold,2,memory,em_000187,st_000500,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F11,high_frontier_threshold,3,structure,,st_000498,{A + B},0.5588358,5.4,er_induction,1,4,1,1,4,root_er
+F11,high_frontier_threshold,4,structure,,st_000499,{A + C},0.28976671,2.8,er_induction,1,4,1,1,4,root_er
+F11,high_frontier_threshold,5,memory,em_000187,st_000500,{A + M},0.1862786,1.8,er_induction,1,4,1,1,4,root_er
+F11,high_budget_threshold,0,structure,,st_000506,{A + B},0.5508,5.4,ev_propagation,1,1,1,1,1,root_ev
+F11,high_budget_threshold,1,structure,,st_000507,{A + C},0.2856,2.8,ev_propagation,1,1,1,1,1,root_ev
+F11,high_budget_threshold,2,memory,em_000190,st_000508,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F11,width_cap_one,0,structure,,st_000514,{A + B},0.5508,5.4,ev_propagation,1,1,1,1,1,root_ev
+F11,width_cap_one,1,structure,,st_000515,{A + C},0.2856,2.8,ev_propagation,1,1,1,1,1,root_ev
+F11,width_cap_one,2,memory,em_000193,st_000516,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F11,width_cap_one,3,structure,,st_000514,{A + B},0.5588358,5.4,er_induction,1,4,1,1,4,root_er
+F11,width_cap_one,4,structure,,st_000515,{A + C},0.28976671,2.8,er_induction,1,4,1,1,4,root_er
+F11,width_cap_one,5,memory,em_000193,st_000516,{A + M},0.1862786,1.8,er_induction,1,4,1,1,4,root_er
+F11,width_cap_one,6,structure,,st_000517,{A + B + D},0.56618274,6.6,ev_propagation,2,4,2,2,2,frontier_ev
+F11,width_cap_one,7,memory,em_000194,st_000518,{A + B + E},0.2916699,3.4,ev_propagation,2,4,2,2,2,frontier_ev
+F11,no_er_reinduction,0,structure,,st_000522,{A + B},0.5508,5.4,ev_propagation,1,1,1,1,1,root_ev
+F11,no_er_reinduction,1,structure,,st_000523,{A + C},0.2856,2.8,ev_propagation,1,1,1,1,1,root_ev
+F11,no_er_reinduction,2,memory,em_000196,st_000524,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F11,no_er_reinduction,3,structure,,st_000525,{A + B + D},0.363528,6.6,ev_propagation,2,2,2,2,1,frontier_ev
+F11,no_er_reinduction,4,memory,em_000197,st_000526,{A + B + E},0.187272,3.4,ev_propagation,2,2,2,2,1,frontier_ev
+F11,no_er_reinduction,5,structure,,st_000527,{A + C + F},0.159936,5.6,ev_propagation,2,2,2,2,1,frontier_ev
+F11,no_er_reinduction,6,memory,em_000198,st_000528,{A + C + G},0.125664,4.4,ev_propagation,2,2,2,2,1,frontier_ev
+F12,deep_multilayer,0,structure,,st_000530,{A + B},0.4896,4.8,ev_propagation,1,1,1,1,1,root_ev
+F12,deep_multilayer,1,structure,,st_000531,{A + C},0.3468,3.4,ev_propagation,1,1,1,1,1,root_ev
+F12,deep_multilayer,2,memory,em_000199,st_000532,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F12,deep_multilayer,3,structure,,st_000530,{A + B},0.52596311,4.8,er_induction,1,4,1,1,4,root_er
+F12,deep_multilayer,4,structure,,st_000531,{A + C},0.3725572,3.4,er_induction,1,4,1,1,4,root_er
+F12,deep_multilayer,5,memory,em_000199,st_000532,{A + M},0.19723617,1.8,er_induction,1,4,1,1,4,root_er
+F12,deep_multilayer,6,structure,,st_000533,{A + B + D},0.55217203,6.0,ev_propagation,2,4,2,2,3,frontier_ev
+F12,deep_multilayer,7,memory,em_000200,st_000534,{A + B + E},0.36811469,4.0,ev_propagation,2,4,2,2,3,frontier_ev
+F12,deep_multilayer,8,structure,,st_000535,{A + C + F},0.40415925,6.2,ev_propagation,2,4,2,2,3,frontier_ev
+F12,deep_multilayer,9,memory,em_000201,st_000536,{A + C + G},0.24771051,3.8,ev_propagation,2,4,2,2,3,frontier_ev
+F12,single_round_cap,0,structure,,st_000538,{A + B},0.4896,4.8,ev_propagation,1,1,1,1,1,root_ev
+F12,single_round_cap,1,structure,,st_000539,{A + C},0.3468,3.4,ev_propagation,1,1,1,1,1,root_ev
+F12,single_round_cap,2,memory,em_000202,st_000540,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F12,single_round_cap,3,structure,,st_000538,{A + B},0.1728,4.8,er_induction,1,1,1,1,1,root_er
+F12,single_round_cap,4,structure,,st_000539,{A + C},0.1224,3.4,er_induction,1,1,1,1,1,root_er
+F12,single_round_cap,5,memory,em_000202,st_000540,{A + M},0.0648,1.8,er_induction,1,1,1,1,1,root_er
+F12,high_frontier_threshold,0,structure,,st_000546,{A + B},0.4896,4.8,ev_propagation,1,1,1,1,1,root_ev
+F12,high_frontier_threshold,1,structure,,st_000547,{A + C},0.3468,3.4,ev_propagation,1,1,1,1,1,root_ev
+F12,high_frontier_threshold,2,memory,em_000205,st_000548,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F12,high_frontier_threshold,3,structure,,st_000546,{A + B},0.52596311,4.8,er_induction,1,4,1,1,4,root_er
+F12,high_frontier_threshold,4,structure,,st_000547,{A + C},0.3725572,3.4,er_induction,1,4,1,1,4,root_er
+F12,high_frontier_threshold,5,memory,em_000205,st_000548,{A + M},0.19723617,1.8,er_induction,1,4,1,1,4,root_er
+F12,high_budget_threshold,0,structure,,st_000554,{A + B},0.4896,4.8,ev_propagation,1,1,1,1,1,root_ev
+F12,high_budget_threshold,1,structure,,st_000555,{A + C},0.3468,3.4,ev_propagation,1,1,1,1,1,root_ev
+F12,high_budget_threshold,2,memory,em_000208,st_000556,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F12,width_cap_one,0,structure,,st_000562,{A + B},0.4896,4.8,ev_propagation,1,1,1,1,1,root_ev
+F12,width_cap_one,1,structure,,st_000563,{A + C},0.3468,3.4,ev_propagation,1,1,1,1,1,root_ev
+F12,width_cap_one,2,memory,em_000211,st_000564,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F12,width_cap_one,3,structure,,st_000562,{A + B},0.52596311,4.8,er_induction,1,4,1,1,4,root_er
+F12,width_cap_one,4,structure,,st_000563,{A + C},0.3725572,3.4,er_induction,1,4,1,1,4,root_er
+F12,width_cap_one,5,memory,em_000211,st_000564,{A + M},0.19723617,1.8,er_induction,1,4,1,1,4,root_er
+F12,width_cap_one,6,structure,,st_000565,{A + B + D},0.46715443,6.0,ev_propagation,2,4,2,2,2,frontier_ev
+F12,width_cap_one,7,memory,em_000212,st_000566,{A + B + E},0.31143629,4.0,ev_propagation,2,4,2,2,2,frontier_ev
+F12,no_er_reinduction,0,structure,,st_000570,{A + B},0.4896,4.8,ev_propagation,1,1,1,1,1,root_ev
+F12,no_er_reinduction,1,structure,,st_000571,{A + C},0.3468,3.4,ev_propagation,1,1,1,1,1,root_ev
+F12,no_er_reinduction,2,memory,em_000214,st_000572,{A + M},0.1836,1.8,ev_propagation,1,1,1,1,1,root_ev
+F12,no_er_reinduction,3,structure,,st_000573,{A + B + D},0.29376,6.0,ev_propagation,2,2,2,2,1,frontier_ev
+F12,no_er_reinduction,4,memory,em_000215,st_000574,{A + B + E},0.19584,4.0,ev_propagation,2,2,2,2,1,frontier_ev
+F12,no_er_reinduction,5,structure,,st_000575,{A + C + F},0.215016,6.2,ev_propagation,2,2,2,2,1,frontier_ev
+F12,no_er_reinduction,6,memory,em_000216,st_000576,{A + C + G},0.131784,3.8,ev_propagation,2,2,2,2,1,frontier_ev

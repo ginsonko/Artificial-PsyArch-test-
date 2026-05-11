@@ -1,0 +1,20 @@
+{
+  "pair_count": 12,
+  "ordered_drive_ratio": 0.0,
+  "ordered_margin_ratio": 0.0,
+  "reward_lookup_ratio": 1.0,
+  "punish_lookup_ratio": 1.0,
+  "neutral_quiet_ratio": 1.0,
+  "clean_causal_chain_ratio": 1.0,
+  "reward_drive_mean_diff": -0.208,
+  "punish_drive_mean_diff": 0.392,
+  "reward_bonus_effect_mean": 0.392,
+  "punish_penalty_effect_mean": 0.392,
+  "reward_drive_win_ratio": 0.0,
+  "punish_drive_win_ratio": 1.0,
+  "reward_drive_sign_p": 0.00048828,
+  "punish_drive_sign_p": 0.00048828,
+  "reward_bonus_sign_p": 0.00048828,
+  "punish_penalty_sign_p": 0.00048828,
+  "support_level": "strong_evidence"
+}

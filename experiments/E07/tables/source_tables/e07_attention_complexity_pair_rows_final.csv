@@ -1,0 +1,13 @@
+﻿family,baseline_conforms_source,baseline_conforms_probe,low_source_ok,mid_source_ok,high_source_ok,low_probe_ok,mid_probe_ok,high_probe_ok,ordered_capacity_ok,ordered_budget_ok,low_high_top_n_gap,low_high_cam_gap,high_low_budget_gap,all_ok
+ALF,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+BRV,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+CRN,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+DLT,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+ECH,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+FOX,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+GLF,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+HZN,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+IVY,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+JDE,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+KAI,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1
+LUX,1,1,1,1,1,1,1,1,1,1,10,10,4.0,1

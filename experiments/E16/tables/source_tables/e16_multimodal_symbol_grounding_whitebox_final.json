@@ -1,0 +1,5497 @@
+{
+  "packet_multimodal_bound": {
+    "target_store": {
+      "id": "spi_20260512055508_000001",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+        "role": "feature",
+        "value_type": "discrete",
+        "attribute_displays": [
+          "tactile_pressure:0.21",
+          "visual_color:red",
+          "visual_position:left_top"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508508
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508508,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "packet_attribute_by_name": {
+          "visual_color": {
+            "attribute_name": "visual_color",
+            "attribute_value": "red",
+            "display": "visual_color:red",
+            "sa_id": "sa_e16_F01_packet_visual_primary",
+            "updated_at": 1778536508520
+          },
+          "visual_position": {
+            "attribute_name": "visual_position",
+            "attribute_value": "left_top",
+            "display": "visual_position:left_top",
+            "sa_id": "sa_e16_F01_packet_visual_spatial",
+            "updated_at": 1778536508520
+          },
+          "tactile_pressure": {
+            "attribute_name": "tactile_pressure",
+            "attribute_value": 0.21,
+            "display": "tactile_pressure:0.21",
+            "sa_id": "sa_e16_F01_packet_tactile_pressure",
+            "updated_at": 1778536508520
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 2,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_packet_multimodal_bound_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_packet_multimodal_bound_base",
+      "tick_id": "e16_F01_packet_multimodal_bound_base",
+      "created_at": 1778536508508,
+      "updated_at": 1778536508520,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "distractor_store": {
+      "id": "spi_20260512055508_000002",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508508
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508508,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_packet_multimodal_bound_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_packet_multimodal_bound_base",
+      "tick_id": "e16_F01_packet_multimodal_bound_base",
+      "created_at": 1778536508508,
+      "updated_at": 1778536508508,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "target_snapshot": {
+      "item_id": "spi_20260512055508_000001",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "display": "目标物A01",
+      "display_text": "目标物A01",
+      "display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "目标物A01",
+        "content_display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_text": "目标物A01",
+        "source_memory_created_at": 0,
+        "attribute_displays": [
+          "tactile_pressure:0.21",
+          "visual_color:red",
+          "visual_position:left_top"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_target",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_target"
+      ],
+      "context_explicit": false,
+      "context_text": "目标物A01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [
+        "tactile_pressure:0.21",
+        "visual_color:red",
+        "visual_position:left_top"
+      ],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [
+        "tactile_pressure",
+        "visual_color",
+        "visual_position"
+      ],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [
+        "tactile_pressure",
+        "visual_color",
+        "visual_position"
+      ],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 2.0,
+      "ev": 0.0,
+      "cp_delta": 2.0,
+      "cp_abs": 2.0,
+      "salience_score": 2.0,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 2.0,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 2.0,
+      "delta_cp_abs": 2.0,
+      "er_change_rate": 2.0,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 2.0,
+      "cp_abs_rate": 2.0,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508520,
+      "created_at": 1778536508508
+    },
+    "distractor_snapshot": {
+      "item_id": "spi_20260512055508_000002",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "display": "干扰物B01",
+      "display_text": "干扰物B01",
+      "display_detail": "干扰物B01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_text": "干扰物B01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_distractor",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "context_explicit": false,
+      "context_text": "干扰物B01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 1.8,
+      "ev": 0.0,
+      "cp_delta": 1.8,
+      "cp_abs": 1.8,
+      "salience_score": 1.8,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 1.8,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 1.8,
+      "delta_cp_abs": 1.8,
+      "er_change_rate": 1.8,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 1.8,
+      "cp_abs_rate": 1.8,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508508,
+      "created_at": 1778536508508
+    },
+    "attr_item_checks": {
+      "attr_item_present_ratio": 1.0,
+      "attr_item_modality_ok_ratio": 1.0,
+      "attr_item_source_ok_ratio": 1.0,
+      "attr_item_parent_ok_ratio": 1.0,
+      "attr_item_value_ok_ratio": 1.0,
+      "attr_item_energy_ok_ratio": 1.0,
+      "attr_item_signature_parent_ok_ratio": 1.0,
+      "attr_item_details": {
+        "sa_e16_F01_packet_visual_primary": {
+          "present": true,
+          "semantic_signature": "sa|attribute|vision|visual_attribute|visual_color|visual_color:red|feature|unknown|runtime_anchor|sa_e16_F01_target",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "apply_stimulus_packet",
+            "origin": "from_stimulus_packet",
+            "origin_id": "pkt_e16_F01_packet_multimodal_bound_attrs",
+            "parent_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ]
+          },
+          "incoming_packet_source_types": [
+            "vision_sensor"
+          ],
+          "meta_ext": {
+            "source_sensor": "vision_sensor",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": false,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": false,
+            "context_text": "sa_e16_F01_target",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "visual_color:red",
+            "content_display_detail": "visual_color:red",
+            "role": "attribute",
+            "value_type": "discrete",
+            "attribute_name": "visual_color",
+            "attribute_value": "red"
+          },
+          "energy": {
+            "er": 0.42,
+            "ev": 0.0,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.42,
+            "cognitive_pressure_delta": 0.42,
+            "cognitive_pressure_abs": 0.42,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508520
+          }
+        },
+        "sa_e16_F01_packet_visual_spatial": {
+          "present": true,
+          "semantic_signature": "sa|attribute|vision|visual_attribute|visual_position|visual_position:left_top|feature|unknown|runtime_anchor|sa_e16_F01_target",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "apply_stimulus_packet",
+            "origin": "from_stimulus_packet",
+            "origin_id": "pkt_e16_F01_packet_multimodal_bound_attrs",
+            "parent_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ]
+          },
+          "incoming_packet_source_types": [
+            "vision_sensor"
+          ],
+          "meta_ext": {
+            "source_sensor": "vision_sensor",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": false,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": false,
+            "context_text": "sa_e16_F01_target",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "visual_position:left_top",
+            "content_display_detail": "visual_position:left_top",
+            "role": "attribute",
+            "value_type": "discrete",
+            "attribute_name": "visual_position",
+            "attribute_value": "left_top"
+          },
+          "energy": {
+            "er": 0.31,
+            "ev": 0.0,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.31,
+            "cognitive_pressure_delta": 0.31,
+            "cognitive_pressure_abs": 0.31,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508520
+          }
+        },
+        "sa_e16_F01_packet_tactile_pressure": {
+          "present": true,
+          "semantic_signature": "sa|attribute|tactile|tactile_attribute|tactile_pressure|numerical|feature|unknown|runtime_anchor|sa_e16_F01_target",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "apply_stimulus_packet",
+            "origin": "from_stimulus_packet",
+            "origin_id": "pkt_e16_F01_packet_multimodal_bound_attrs",
+            "parent_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ]
+          },
+          "incoming_packet_source_types": [
+            "tactile_sensor"
+          ],
+          "meta_ext": {
+            "source_sensor": "tactile_sensor",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": false,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": false,
+            "context_text": "sa_e16_F01_target",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "tactile_pressure:0.21",
+            "content_display_detail": "tactile_pressure:0.21",
+            "role": "attribute",
+            "value_type": "numerical",
+            "attribute_name": "tactile_pressure",
+            "attribute_value": 0.21
+          },
+          "energy": {
+            "er": 0.22,
+            "ev": 0.0,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.22,
+            "cognitive_pressure_delta": 0.22,
+            "cognitive_pressure_abs": 0.22,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508520
+          }
+        }
+      }
+    },
+    "apply_result": {
+      "success": true,
+      "code": "OK",
+      "message": "状态池应用刺激包成功 / Stimulus packet applied successfully",
+      "data": {
+        "applied_state_item_ids": [
+          "spi_20260512055508_000003",
+          "spi_20260512055508_000004",
+          "spi_20260512055508_000005"
+        ],
+        "new_item_count": 3,
+        "updated_item_count": 0,
+        "merged_item_count": 0,
+        "priority_neutralized_item_count": 0,
+        "priority_neutralization_diagnostics": [],
+        "priority_neutralization_cut_metrics": {
+          "priority_neutralization_theoretical_match_fast_reject_count": 0
+        },
+        "event_component_neutralization_count": 0,
+        "event_component_neutralization_er_added_sum": 0.0,
+        "event_component_neutralization_ev_added_sum": 0.0,
+        "event_component_cp_drop_sum": 0.0,
+        "neutralized_item_count": 0,
+        "rejected_object_count": 0,
+        "script_broadcast_sent": true,
+        "residual_stimulus_packet": {
+          "id": "pkt_e16_F01_packet_multimodal_bound_attrs",
+          "object_type": "stimulus_packet",
+          "type": "stimulus_packet",
+          "sa_items": [
+            {
+              "id": "sa_e16_F01_packet_visual_primary",
+              "object_type": "sa",
+              "sub_type": "visual_attribute",
+              "content": {
+                "raw": "visual_color:red",
+                "normalized": "visual_color:red",
+                "display": "visual_color:red",
+                "value_type": "discrete",
+                "attribute_name": "visual_color",
+                "attribute_value": "red"
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "vision"
+              },
+              "energy": {
+                "er": 0.42,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_target"
+                ],
+                "sensor_name": "vision_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "vision_sensor",
+                  "origin_frame_id": "frame_vision_sensor_sa_e16_F01_packet_visual_primary"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "vision_sensor"
+                }
+              },
+              "created_at": 1778536508519,
+              "updated_at": 1778536508519
+            },
+            {
+              "id": "sa_e16_F01_packet_visual_spatial",
+              "object_type": "sa",
+              "sub_type": "visual_attribute",
+              "content": {
+                "raw": "visual_position:left_top",
+                "normalized": "visual_position:left_top",
+                "display": "visual_position:left_top",
+                "value_type": "discrete",
+                "attribute_name": "visual_position",
+                "attribute_value": "left_top"
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "vision"
+              },
+              "energy": {
+                "er": 0.31,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_target"
+                ],
+                "sensor_name": "vision_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "vision_sensor",
+                  "origin_frame_id": "frame_vision_sensor_sa_e16_F01_packet_visual_spatial"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "vision_sensor"
+                }
+              },
+              "created_at": 1778536508519,
+              "updated_at": 1778536508519
+            },
+            {
+              "id": "sa_e16_F01_packet_tactile_pressure",
+              "object_type": "sa",
+              "sub_type": "tactile_attribute",
+              "content": {
+                "raw": "tactile_pressure:0.21",
+                "normalized": "tactile_pressure:0.21",
+                "display": "tactile_pressure:0.21",
+                "value_type": "numerical",
+                "attribute_name": "tactile_pressure",
+                "attribute_value": 0.21
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "tactile"
+              },
+              "energy": {
+                "er": 0.22,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_target"
+                ],
+                "sensor_name": "tactile_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "tactile_sensor",
+                  "origin_frame_id": "frame_tactile_sensor_sa_e16_F01_packet_tactile_pressure"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "tactile_sensor"
+                }
+              },
+              "created_at": 1778536508519,
+              "updated_at": 1778536508519
+            }
+          ],
+          "csa_items": [],
+          "grouped_sa_sequences": [
+            {
+              "group_index": 0,
+              "source_type": "multi_source_attributes",
+              "origin_frame_id": "pkt_e16_F01_packet_multimodal_bound_attrs",
+              "sa_ids": [
+                "sa_e16_F01_packet_visual_primary",
+                "sa_e16_F01_packet_visual_spatial",
+                "sa_e16_F01_packet_tactile_pressure"
+              ],
+              "csa_ids": []
+            }
+          ],
+          "energy_summary": {
+            "total_er": 0.95,
+            "total_ev": 0.0,
+            "current_total_er": 0.95,
+            "current_total_ev": 0.0
+          },
+          "trace_id": "pkt_e16_F01_packet_multimodal_bound_attrs"
+        },
+        "state_delta_summary": {
+          "total_delta_er": 0.95,
+          "total_delta_ev": 0.0,
+          "total_delta_cp": 0.95,
+          "high_cp_item_count": 2
+        }
+      },
+      "error": null,
+      "meta": {
+        "module": "state_pool",
+        "interface": "",
+        "trace_id": "e16_F01_packet_multimodal_bound_attrs",
+        "elapsed_ms": 1,
+        "logged": true
+      }
+    }
+  },
+  "packet_wrong_anchor_control": {
+    "target_store": {
+      "id": "spi_20260512055508_000006",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508557
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508557,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_packet_wrong_anchor_control_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_packet_wrong_anchor_control_base",
+      "tick_id": "e16_F01_packet_wrong_anchor_control_base",
+      "created_at": 1778536508557,
+      "updated_at": 1778536508557,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "distractor_store": {
+      "id": "spi_20260512055508_000007",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+        "role": "feature",
+        "value_type": "discrete",
+        "attribute_displays": [
+          "tactile_pressure:0.21",
+          "visual_color:red",
+          "visual_position:left_top"
+        ]
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508557
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508557,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "packet_attribute_by_name": {
+          "visual_color": {
+            "attribute_name": "visual_color",
+            "attribute_value": "red",
+            "display": "visual_color:red",
+            "sa_id": "sa_e16_F01_packet_visual_primary",
+            "updated_at": 1778536508568
+          },
+          "visual_position": {
+            "attribute_name": "visual_position",
+            "attribute_value": "left_top",
+            "display": "visual_position:left_top",
+            "sa_id": "sa_e16_F01_packet_visual_spatial",
+            "updated_at": 1778536508568
+          },
+          "tactile_pressure": {
+            "attribute_name": "tactile_pressure",
+            "attribute_value": 0.21,
+            "display": "tactile_pressure:0.21",
+            "sa_id": "sa_e16_F01_packet_tactile_pressure",
+            "updated_at": 1778536508568
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 2,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_packet_wrong_anchor_control_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_packet_wrong_anchor_control_base",
+      "tick_id": "e16_F01_packet_wrong_anchor_control_base",
+      "created_at": 1778536508557,
+      "updated_at": 1778536508568,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "target_snapshot": {
+      "item_id": "spi_20260512055508_000006",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "display": "目标物A01",
+      "display_text": "目标物A01",
+      "display_detail": "目标物A01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_text": "目标物A01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_target",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_target"
+      ],
+      "context_explicit": false,
+      "context_text": "目标物A01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 2.0,
+      "ev": 0.0,
+      "cp_delta": 2.0,
+      "cp_abs": 2.0,
+      "salience_score": 2.0,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 2.0,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 2.0,
+      "delta_cp_abs": 2.0,
+      "er_change_rate": 2.0,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 2.0,
+      "cp_abs_rate": 2.0,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508557,
+      "created_at": 1778536508557
+    },
+    "distractor_snapshot": {
+      "item_id": "spi_20260512055508_000007",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "display": "干扰物B01",
+      "display_text": "干扰物B01",
+      "display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "干扰物B01",
+        "content_display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_text": "干扰物B01",
+        "source_memory_created_at": 0,
+        "attribute_displays": [
+          "tactile_pressure:0.21",
+          "visual_color:red",
+          "visual_position:left_top"
+        ]
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_distractor",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "context_explicit": false,
+      "context_text": "干扰物B01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [
+        "tactile_pressure:0.21",
+        "visual_color:red",
+        "visual_position:left_top"
+      ],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [
+        "tactile_pressure",
+        "visual_color",
+        "visual_position"
+      ],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [
+        "tactile_pressure",
+        "visual_color",
+        "visual_position"
+      ],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 1.8,
+      "ev": 0.0,
+      "cp_delta": 1.8,
+      "cp_abs": 1.8,
+      "salience_score": 1.8,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 1.8,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 1.8,
+      "delta_cp_abs": 1.8,
+      "er_change_rate": 1.8,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 1.8,
+      "cp_abs_rate": 1.8,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508568,
+      "created_at": 1778536508557
+    },
+    "attr_item_checks": {
+      "attr_item_present_ratio": 1.0,
+      "attr_item_modality_ok_ratio": 1.0,
+      "attr_item_source_ok_ratio": 1.0,
+      "attr_item_parent_ok_ratio": 1.0,
+      "attr_item_value_ok_ratio": 1.0,
+      "attr_item_energy_ok_ratio": 1.0,
+      "attr_item_signature_parent_ok_ratio": 1.0,
+      "attr_item_details": {
+        "sa_e16_F01_packet_visual_primary": {
+          "present": true,
+          "semantic_signature": "sa|attribute|vision|visual_attribute|visual_color|visual_color:red|feature|unknown|runtime_anchor|sa_e16_F01_distractor",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "apply_stimulus_packet",
+            "origin": "from_stimulus_packet",
+            "origin_id": "pkt_e16_F01_packet_wrong_anchor_control_attrs",
+            "parent_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ]
+          },
+          "incoming_packet_source_types": [
+            "vision_sensor"
+          ],
+          "meta_ext": {
+            "source_sensor": "vision_sensor",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": false,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": false,
+            "context_text": "sa_e16_F01_distractor",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "visual_color:red",
+            "content_display_detail": "visual_color:red",
+            "role": "attribute",
+            "value_type": "discrete",
+            "attribute_name": "visual_color",
+            "attribute_value": "red"
+          },
+          "energy": {
+            "er": 0.42,
+            "ev": 0.0,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.42,
+            "cognitive_pressure_delta": 0.42,
+            "cognitive_pressure_abs": 0.42,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508567
+          }
+        },
+        "sa_e16_F01_packet_visual_spatial": {
+          "present": true,
+          "semantic_signature": "sa|attribute|vision|visual_attribute|visual_position|visual_position:left_top|feature|unknown|runtime_anchor|sa_e16_F01_distractor",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "apply_stimulus_packet",
+            "origin": "from_stimulus_packet",
+            "origin_id": "pkt_e16_F01_packet_wrong_anchor_control_attrs",
+            "parent_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ]
+          },
+          "incoming_packet_source_types": [
+            "vision_sensor"
+          ],
+          "meta_ext": {
+            "source_sensor": "vision_sensor",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": false,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": false,
+            "context_text": "sa_e16_F01_distractor",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "visual_position:left_top",
+            "content_display_detail": "visual_position:left_top",
+            "role": "attribute",
+            "value_type": "discrete",
+            "attribute_name": "visual_position",
+            "attribute_value": "left_top"
+          },
+          "energy": {
+            "er": 0.31,
+            "ev": 0.0,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.31,
+            "cognitive_pressure_delta": 0.31,
+            "cognitive_pressure_abs": 0.31,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508567
+          }
+        },
+        "sa_e16_F01_packet_tactile_pressure": {
+          "present": true,
+          "semantic_signature": "sa|attribute|tactile|tactile_attribute|tactile_pressure|numerical|feature|unknown|runtime_anchor|sa_e16_F01_distractor",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "apply_stimulus_packet",
+            "origin": "from_stimulus_packet",
+            "origin_id": "pkt_e16_F01_packet_wrong_anchor_control_attrs",
+            "parent_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ]
+          },
+          "incoming_packet_source_types": [
+            "tactile_sensor"
+          ],
+          "meta_ext": {
+            "source_sensor": "tactile_sensor",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": false,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": false,
+            "context_text": "sa_e16_F01_distractor",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "tactile_pressure:0.21",
+            "content_display_detail": "tactile_pressure:0.21",
+            "role": "attribute",
+            "value_type": "numerical",
+            "attribute_name": "tactile_pressure",
+            "attribute_value": 0.21
+          },
+          "energy": {
+            "er": 0.22,
+            "ev": 0.0,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.22,
+            "cognitive_pressure_delta": 0.22,
+            "cognitive_pressure_abs": 0.22,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508567
+          }
+        }
+      }
+    },
+    "apply_result": {
+      "success": true,
+      "code": "OK",
+      "message": "状态池应用刺激包成功 / Stimulus packet applied successfully",
+      "data": {
+        "applied_state_item_ids": [
+          "spi_20260512055508_000008",
+          "spi_20260512055508_000009",
+          "spi_20260512055508_000010"
+        ],
+        "new_item_count": 3,
+        "updated_item_count": 0,
+        "merged_item_count": 0,
+        "priority_neutralized_item_count": 0,
+        "priority_neutralization_diagnostics": [],
+        "priority_neutralization_cut_metrics": {
+          "priority_neutralization_theoretical_match_fast_reject_count": 0
+        },
+        "event_component_neutralization_count": 0,
+        "event_component_neutralization_er_added_sum": 0.0,
+        "event_component_neutralization_ev_added_sum": 0.0,
+        "event_component_cp_drop_sum": 0.0,
+        "neutralized_item_count": 0,
+        "rejected_object_count": 0,
+        "script_broadcast_sent": true,
+        "residual_stimulus_packet": {
+          "id": "pkt_e16_F01_packet_wrong_anchor_control_attrs",
+          "object_type": "stimulus_packet",
+          "type": "stimulus_packet",
+          "sa_items": [
+            {
+              "id": "sa_e16_F01_packet_visual_primary",
+              "object_type": "sa",
+              "sub_type": "visual_attribute",
+              "content": {
+                "raw": "visual_color:red",
+                "normalized": "visual_color:red",
+                "display": "visual_color:red",
+                "value_type": "discrete",
+                "attribute_name": "visual_color",
+                "attribute_value": "red"
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "vision"
+              },
+              "energy": {
+                "er": 0.42,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_distractor"
+                ],
+                "sensor_name": "vision_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "vision_sensor",
+                  "origin_frame_id": "frame_vision_sensor_sa_e16_F01_packet_visual_primary"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "vision_sensor"
+                }
+              },
+              "created_at": 1778536508567,
+              "updated_at": 1778536508567
+            },
+            {
+              "id": "sa_e16_F01_packet_visual_spatial",
+              "object_type": "sa",
+              "sub_type": "visual_attribute",
+              "content": {
+                "raw": "visual_position:left_top",
+                "normalized": "visual_position:left_top",
+                "display": "visual_position:left_top",
+                "value_type": "discrete",
+                "attribute_name": "visual_position",
+                "attribute_value": "left_top"
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "vision"
+              },
+              "energy": {
+                "er": 0.31,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_distractor"
+                ],
+                "sensor_name": "vision_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "vision_sensor",
+                  "origin_frame_id": "frame_vision_sensor_sa_e16_F01_packet_visual_spatial"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "vision_sensor"
+                }
+              },
+              "created_at": 1778536508567,
+              "updated_at": 1778536508567
+            },
+            {
+              "id": "sa_e16_F01_packet_tactile_pressure",
+              "object_type": "sa",
+              "sub_type": "tactile_attribute",
+              "content": {
+                "raw": "tactile_pressure:0.21",
+                "normalized": "tactile_pressure:0.21",
+                "display": "tactile_pressure:0.21",
+                "value_type": "numerical",
+                "attribute_name": "tactile_pressure",
+                "attribute_value": 0.21
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "tactile"
+              },
+              "energy": {
+                "er": 0.22,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_distractor"
+                ],
+                "sensor_name": "tactile_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "tactile_sensor",
+                  "origin_frame_id": "frame_tactile_sensor_sa_e16_F01_packet_tactile_pressure"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "tactile_sensor"
+                }
+              },
+              "created_at": 1778536508567,
+              "updated_at": 1778536508567
+            }
+          ],
+          "csa_items": [],
+          "grouped_sa_sequences": [
+            {
+              "group_index": 0,
+              "source_type": "multi_source_attributes",
+              "origin_frame_id": "pkt_e16_F01_packet_wrong_anchor_control_attrs",
+              "sa_ids": [
+                "sa_e16_F01_packet_visual_primary",
+                "sa_e16_F01_packet_visual_spatial",
+                "sa_e16_F01_packet_tactile_pressure"
+              ],
+              "csa_ids": []
+            }
+          ],
+          "energy_summary": {
+            "total_er": 0.95,
+            "total_ev": 0.0,
+            "current_total_er": 0.95,
+            "current_total_ev": 0.0
+          },
+          "trace_id": "pkt_e16_F01_packet_wrong_anchor_control_attrs"
+        },
+        "state_delta_summary": {
+          "total_delta_er": 0.95,
+          "total_delta_ev": 0.0,
+          "total_delta_cp": 0.95,
+          "high_cp_item_count": 2
+        }
+      },
+      "error": null,
+      "meta": {
+        "module": "state_pool",
+        "interface": "",
+        "trace_id": "e16_F01_packet_wrong_anchor_control_attrs",
+        "elapsed_ms": 1,
+        "logged": true
+      }
+    }
+  },
+  "packet_attribute_folded_control": {
+    "target_store": {
+      "id": "spi_20260512055508_000011",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+        "role": "feature",
+        "value_type": "discrete",
+        "attribute_displays": [
+          "tactile_pressure:0.21",
+          "visual_color:red",
+          "visual_position:left_top"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508600
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508600,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "packet_attribute_by_name": {
+          "visual_color": {
+            "attribute_name": "visual_color",
+            "attribute_value": "red",
+            "display": "visual_color:red",
+            "sa_id": "sa_e16_F01_packet_visual_primary",
+            "updated_at": 1778536508609
+          },
+          "visual_position": {
+            "attribute_name": "visual_position",
+            "attribute_value": "left_top",
+            "display": "visual_position:left_top",
+            "sa_id": "sa_e16_F01_packet_visual_spatial",
+            "updated_at": 1778536508609
+          },
+          "tactile_pressure": {
+            "attribute_name": "tactile_pressure",
+            "attribute_value": 0.21,
+            "display": "tactile_pressure:0.21",
+            "sa_id": "sa_e16_F01_packet_tactile_pressure",
+            "updated_at": 1778536508609
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 2,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_packet_attribute_folded_control_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_packet_attribute_folded_control_base",
+      "tick_id": "e16_F01_packet_attribute_folded_control_base",
+      "created_at": 1778536508600,
+      "updated_at": 1778536508609,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "distractor_store": {
+      "id": "spi_20260512055508_000012",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508600
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508600,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_packet_attribute_folded_control_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_packet_attribute_folded_control_base",
+      "tick_id": "e16_F01_packet_attribute_folded_control_base",
+      "created_at": 1778536508600,
+      "updated_at": 1778536508600,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "target_snapshot": {
+      "item_id": "spi_20260512055508_000011",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "display": "目标物A01",
+      "display_text": "目标物A01",
+      "display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "目标物A01",
+        "content_display_detail": "attrs=tactile_pressure:0.21, visual_color:red, visual_position:left_top",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_text": "目标物A01",
+        "source_memory_created_at": 0,
+        "attribute_displays": [
+          "tactile_pressure:0.21",
+          "visual_color:red",
+          "visual_position:left_top"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_target",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_target"
+      ],
+      "context_explicit": false,
+      "context_text": "目标物A01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [
+        "tactile_pressure:0.21",
+        "visual_color:red",
+        "visual_position:left_top"
+      ],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [
+        "tactile_pressure",
+        "visual_color",
+        "visual_position"
+      ],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [
+        "tactile_pressure",
+        "visual_color",
+        "visual_position"
+      ],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 2.0,
+      "ev": 0.0,
+      "cp_delta": 2.0,
+      "cp_abs": 2.0,
+      "salience_score": 2.0,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 2.0,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 2.0,
+      "delta_cp_abs": 2.0,
+      "er_change_rate": 2.0,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 2.0,
+      "cp_abs_rate": 2.0,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508609,
+      "created_at": 1778536508600
+    },
+    "distractor_snapshot": {
+      "item_id": "spi_20260512055508_000012",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "display": "干扰物B01",
+      "display_text": "干扰物B01",
+      "display_detail": "干扰物B01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_text": "干扰物B01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_distractor",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "context_explicit": false,
+      "context_text": "干扰物B01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 1.8,
+      "ev": 0.0,
+      "cp_delta": 1.8,
+      "cp_abs": 1.8,
+      "salience_score": 1.8,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 1.8,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 1.8,
+      "delta_cp_abs": 1.8,
+      "er_change_rate": 1.8,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 1.8,
+      "cp_abs_rate": 1.8,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508600,
+      "created_at": 1778536508600
+    },
+    "attr_item_checks": {
+      "attr_item_present_ratio": 0.0,
+      "attr_item_modality_ok_ratio": 0.0,
+      "attr_item_source_ok_ratio": 0.0,
+      "attr_item_parent_ok_ratio": 0.0,
+      "attr_item_value_ok_ratio": 0.0,
+      "attr_item_energy_ok_ratio": 0.0,
+      "attr_item_signature_parent_ok_ratio": 0.0,
+      "attr_item_details": {}
+    },
+    "apply_result": {
+      "success": true,
+      "code": "OK",
+      "message": "状态池应用刺激包成功 / Stimulus packet applied successfully",
+      "data": {
+        "applied_state_item_ids": [],
+        "new_item_count": 0,
+        "updated_item_count": 0,
+        "merged_item_count": 0,
+        "priority_neutralized_item_count": 0,
+        "priority_neutralization_diagnostics": [],
+        "priority_neutralization_cut_metrics": {
+          "priority_neutralization_theoretical_match_fast_reject_count": 0
+        },
+        "event_component_neutralization_count": 0,
+        "event_component_neutralization_er_added_sum": 0.0,
+        "event_component_neutralization_ev_added_sum": 0.0,
+        "event_component_cp_drop_sum": 0.0,
+        "neutralized_item_count": 0,
+        "rejected_object_count": 0,
+        "script_broadcast_sent": false,
+        "residual_stimulus_packet": {
+          "id": "pkt_e16_F01_packet_attribute_folded_control_attrs",
+          "object_type": "stimulus_packet",
+          "type": "stimulus_packet",
+          "sa_items": [
+            {
+              "id": "sa_e16_F01_packet_visual_primary",
+              "object_type": "sa",
+              "sub_type": "visual_attribute",
+              "content": {
+                "raw": "visual_color:red",
+                "normalized": "visual_color:red",
+                "display": "visual_color:red",
+                "value_type": "discrete",
+                "attribute_name": "visual_color",
+                "attribute_value": "red"
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "vision"
+              },
+              "energy": {
+                "er": 0.42,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_target"
+                ],
+                "sensor_name": "vision_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "vision_sensor",
+                  "origin_frame_id": "frame_vision_sensor_sa_e16_F01_packet_visual_primary"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "vision_sensor"
+                }
+              },
+              "created_at": 1778536508609,
+              "updated_at": 1778536508609
+            },
+            {
+              "id": "sa_e16_F01_packet_visual_spatial",
+              "object_type": "sa",
+              "sub_type": "visual_attribute",
+              "content": {
+                "raw": "visual_position:left_top",
+                "normalized": "visual_position:left_top",
+                "display": "visual_position:left_top",
+                "value_type": "discrete",
+                "attribute_name": "visual_position",
+                "attribute_value": "left_top"
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "vision"
+              },
+              "energy": {
+                "er": 0.31,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_target"
+                ],
+                "sensor_name": "vision_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "vision_sensor",
+                  "origin_frame_id": "frame_vision_sensor_sa_e16_F01_packet_visual_spatial"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "vision_sensor"
+                }
+              },
+              "created_at": 1778536508609,
+              "updated_at": 1778536508609
+            },
+            {
+              "id": "sa_e16_F01_packet_tactile_pressure",
+              "object_type": "sa",
+              "sub_type": "tactile_attribute",
+              "content": {
+                "raw": "tactile_pressure:0.21",
+                "normalized": "tactile_pressure:0.21",
+                "display": "tactile_pressure:0.21",
+                "value_type": "numerical",
+                "attribute_name": "tactile_pressure",
+                "attribute_value": 0.21
+              },
+              "stimulus": {
+                "role": "attribute",
+                "modality": "tactile"
+              },
+              "energy": {
+                "er": 0.22,
+                "ev": 0.0
+              },
+              "source": {
+                "parent_ids": [
+                  "sa_e16_F01_target"
+                ],
+                "sensor_name": "tactile_sensor"
+              },
+              "ext": {
+                "packet_context": {
+                  "source_type": "tactile_sensor",
+                  "origin_frame_id": "frame_tactile_sensor_sa_e16_F01_packet_tactile_pressure"
+                }
+              },
+              "meta": {
+                "ext": {
+                  "source_sensor": "tactile_sensor"
+                }
+              },
+              "created_at": 1778536508609,
+              "updated_at": 1778536508609
+            }
+          ],
+          "csa_items": [],
+          "grouped_sa_sequences": [
+            {
+              "group_index": 0,
+              "source_type": "multi_source_attributes",
+              "origin_frame_id": "pkt_e16_F01_packet_attribute_folded_control_attrs",
+              "sa_ids": [
+                "sa_e16_F01_packet_visual_primary",
+                "sa_e16_F01_packet_visual_spatial",
+                "sa_e16_F01_packet_tactile_pressure"
+              ],
+              "csa_ids": []
+            }
+          ],
+          "energy_summary": {
+            "total_er": 0.95,
+            "total_ev": 0.0,
+            "current_total_er": 0.95,
+            "current_total_ev": 0.0
+          },
+          "trace_id": "pkt_e16_F01_packet_attribute_folded_control_attrs"
+        },
+        "state_delta_summary": {
+          "total_delta_er": 0,
+          "total_delta_ev": 0,
+          "total_delta_cp": 0,
+          "high_cp_item_count": 2
+        }
+      },
+      "error": null,
+      "meta": {
+        "module": "state_pool",
+        "interface": "",
+        "trace_id": "e16_F01_packet_attribute_folded_control_attrs",
+        "elapsed_ms": 0,
+        "logged": true
+      }
+    }
+  },
+  "runtime_tool_binding": {
+    "target_store": {
+      "id": "spi_20260512055508_000013",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "runtime_attrs=tool_result:verified",
+        "role": "feature",
+        "value_type": "discrete",
+        "bound_attribute_displays": [
+          "tool_result:verified"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508647
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508647,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "bound_attribute_by_name": {
+          "tool_result": {
+            "attribute_name": "tool_result",
+            "display": "tool_result:verified",
+            "sa_id": "sa_e16_F01_runtime_tool_binding_tool_attr",
+            "updated_at": 1778536508656
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_tool_binding_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_tool_binding_base",
+      "tick_id": "e16_F01_runtime_tool_binding_base",
+      "created_at": 1778536508647,
+      "updated_at": 1778536508647,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ],
+        "bound_attributes": [
+          {
+            "id": "sa_e16_F01_runtime_tool_binding_tool_attr",
+            "object_type": "sa",
+            "sub_type": "tool_feedback_attribute",
+            "content": {
+              "raw": "tool_result:verified",
+              "normalized": "tool_result:verified",
+              "display": "tool_result:verified",
+              "value_type": "discrete",
+              "attribute_name": "tool_result",
+              "attribute_value": "verified"
+            },
+            "stimulus": {
+              "role": "attribute",
+              "modality": "tool"
+            },
+            "energy": {
+              "er": 0.0,
+              "ev": 0.56
+            },
+            "source": {
+              "parent_ids": [
+                "sa_e16_F01_target"
+              ],
+              "sensor_name": "tool_feedback",
+              "context_ref_object_id": "sa_e16_F01_target",
+              "context_ref_object_type": "sa"
+            },
+            "ext": {
+              "packet_context": {
+                "source_type": "tool_feedback",
+                "origin_frame_id": "frame_tool_feedback_sa_e16_F01_runtime_tool_binding_tool_attr"
+              }
+            },
+            "meta": {
+              "ext": {
+                "source_sensor": "tool_feedback",
+                "bound_anchor_item_id": "spi_20260512055508_000013",
+                "bound_anchor_ref_object_id": "sa_e16_F01_target",
+                "bound_anchor_ref_object_type": "sa",
+                "bound_anchor_display": "目标物A01",
+                "attribute_runtime_mode": "state_item",
+                "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+                "runtime_attribute_item_id": "spi_20260512055508_000015"
+              }
+            },
+            "created_at": 1778536508655,
+            "updated_at": 1778536508655
+          }
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "distractor_store": {
+      "id": "spi_20260512055508_000014",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508647
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508647,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_tool_binding_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_tool_binding_base",
+      "tick_id": "e16_F01_runtime_tool_binding_base",
+      "created_at": 1778536508647,
+      "updated_at": 1778536508647,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "expected_store": {
+      "id": "spi_20260512055508_000013",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "runtime_attrs=tool_result:verified",
+        "role": "feature",
+        "value_type": "discrete",
+        "bound_attribute_displays": [
+          "tool_result:verified"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508647
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508647,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "bound_attribute_by_name": {
+          "tool_result": {
+            "attribute_name": "tool_result",
+            "display": "tool_result:verified",
+            "sa_id": "sa_e16_F01_runtime_tool_binding_tool_attr",
+            "updated_at": 1778536508656
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_tool_binding_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_tool_binding_base",
+      "tick_id": "e16_F01_runtime_tool_binding_base",
+      "created_at": 1778536508647,
+      "updated_at": 1778536508647,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ],
+        "bound_attributes": [
+          {
+            "id": "sa_e16_F01_runtime_tool_binding_tool_attr",
+            "object_type": "sa",
+            "sub_type": "tool_feedback_attribute",
+            "content": {
+              "raw": "tool_result:verified",
+              "normalized": "tool_result:verified",
+              "display": "tool_result:verified",
+              "value_type": "discrete",
+              "attribute_name": "tool_result",
+              "attribute_value": "verified"
+            },
+            "stimulus": {
+              "role": "attribute",
+              "modality": "tool"
+            },
+            "energy": {
+              "er": 0.0,
+              "ev": 0.56
+            },
+            "source": {
+              "parent_ids": [
+                "sa_e16_F01_target"
+              ],
+              "sensor_name": "tool_feedback",
+              "context_ref_object_id": "sa_e16_F01_target",
+              "context_ref_object_type": "sa"
+            },
+            "ext": {
+              "packet_context": {
+                "source_type": "tool_feedback",
+                "origin_frame_id": "frame_tool_feedback_sa_e16_F01_runtime_tool_binding_tool_attr"
+              }
+            },
+            "meta": {
+              "ext": {
+                "source_sensor": "tool_feedback",
+                "bound_anchor_item_id": "spi_20260512055508_000013",
+                "bound_anchor_ref_object_id": "sa_e16_F01_target",
+                "bound_anchor_ref_object_type": "sa",
+                "bound_anchor_display": "目标物A01",
+                "attribute_runtime_mode": "state_item",
+                "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+                "runtime_attribute_item_id": "spi_20260512055508_000015"
+              }
+            },
+            "created_at": 1778536508655,
+            "updated_at": 1778536508655
+          }
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "quiet_store": {
+      "id": "spi_20260512055508_000014",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508647
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508647,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_tool_binding_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_tool_binding_base",
+      "tick_id": "e16_F01_runtime_tool_binding_base",
+      "created_at": 1778536508647,
+      "updated_at": 1778536508647,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "target_snapshot": {
+      "item_id": "spi_20260512055508_000013",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "display": "目标物A01",
+      "display_text": "目标物A01",
+      "display_detail": "runtime_attrs=tool_result:verified",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "目标物A01",
+        "content_display_detail": "runtime_attrs=tool_result:verified",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_text": "目标物A01",
+        "source_memory_created_at": 0,
+        "runtime_bound_attribute_units": [
+          {
+            "attribute_name": "tool_result",
+            "attribute_value": "verified",
+            "value_type": "discrete",
+            "raw": "tool_result:verified",
+            "display": "tool_result:verified",
+            "meta": {
+              "ext": {}
+            }
+          }
+        ],
+        "bound_attribute_displays": [
+          "tool_result:verified"
+        ]
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_target",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_target"
+      ],
+      "context_explicit": false,
+      "context_text": "目标物A01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [
+        "tool_result:verified"
+      ],
+      "runtime_bound_attribute_units": [
+        {
+          "attribute_name": "tool_result",
+          "attribute_value": "verified",
+          "value_type": "discrete",
+          "raw": "tool_result:verified",
+          "display": "tool_result:verified",
+          "meta": {
+            "ext": {}
+          }
+        }
+      ],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [
+        "tool_result"
+      ],
+      "all_attribute_names": [
+        "tool_result"
+      ],
+      "bound_attribute_names": [
+        "tool_result"
+      ],
+      "member_count": 0,
+      "er": 2.0,
+      "ev": 0.0,
+      "cp_delta": 2.0,
+      "cp_abs": 2.0,
+      "salience_score": 2.0,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 2.0,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 2.0,
+      "delta_cp_abs": 2.0,
+      "er_change_rate": 2.0,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 2.0,
+      "cp_abs_rate": 2.0,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508647,
+      "created_at": 1778536508647
+    },
+    "distractor_snapshot": {
+      "item_id": "spi_20260512055508_000014",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "display": "干扰物B01",
+      "display_text": "干扰物B01",
+      "display_detail": "干扰物B01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_text": "干扰物B01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_distractor",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "context_explicit": false,
+      "context_text": "干扰物B01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 1.8,
+      "ev": 0.0,
+      "cp_delta": 1.8,
+      "cp_abs": 1.8,
+      "salience_score": 1.8,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 1.8,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 1.8,
+      "delta_cp_abs": 1.8,
+      "er_change_rate": 1.8,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 1.8,
+      "cp_abs_rate": 1.8,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508647,
+      "created_at": 1778536508647
+    },
+    "attr_item": {
+      "id": "spi_20260512055508_000015",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_runtime_tool_binding_tool_attr",
+      "ref_alias_ids": [
+        "sa_e16_F01_runtime_tool_binding_tool_attr"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": true,
+        "context_text": "sa_e16_F01_target",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "tool_result:verified",
+        "content_display_detail": "tool_result:verified",
+        "role": "attribute",
+        "value_type": "discrete",
+        "attribute_name": "tool_result",
+        "attribute_value": "verified"
+      },
+      "semantic_signature": "sa|attribute|tool|tool_feedback_attribute|tool_result|tool_result:verified|feature|sa|runtime_anchor|目标物A01",
+      "semantic_context_key": "semctx|sa|attribute|tool|tool_feedback_attribute|tool_result|tool_result:verified|feature|sa|runtime_anchor|目标物A01|ref_type=sa|ref=sa_e16_F01_target|owner=<none>|text=sa_e16_F01_target|role=attribute|attr=tool_result",
+      "energy": {
+        "er": 0.0,
+        "ev": 0.56,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 0.56,
+        "cognitive_pressure_delta": -0.56,
+        "cognitive_pressure_abs": 0.56,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508655
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 0.0,
+        "delta_ev": 0.56,
+        "er_change_rate": 0.0,
+        "ev_change_rate": 0.56,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": -0.56,
+        "delta_cp_abs": 0.56,
+        "cp_delta_rate": -0.56,
+        "cp_abs_rate": 0.56,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508655,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "insert_runtime_node",
+        "origin": "e16_runtime_tool_binding",
+        "origin_id": "",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_tool_binding_runtime_bind_attr_runtime",
+      "tick_id": "tick_e16_F01_runtime_tool_binding",
+      "created_at": 1778536508655,
+      "updated_at": 1778536508655,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "attribute",
+          "content": "tool_result:verified"
+        }
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "source_sensor": "tool_feedback",
+          "bound_anchor_item_id": "spi_20260512055508_000013",
+          "bound_anchor_ref_object_id": "sa_e16_F01_target",
+          "bound_anchor_ref_object_type": "sa",
+          "bound_anchor_display": "目标物A01",
+          "attribute_runtime_mode": "state_item",
+          "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": true,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "attr_item_checks": {
+      "attr_item_present_ratio": 1.0,
+      "attr_item_modality_ok_ratio": 1.0,
+      "attr_item_source_ok_ratio": 1.0,
+      "attr_item_parent_ok_ratio": 1.0,
+      "attr_item_value_ok_ratio": 1.0,
+      "attr_item_energy_ok_ratio": 1.0,
+      "attr_item_signature_parent_ok_ratio": 1.0,
+      "attr_item_details": {
+        "sa_e16_F01_runtime_tool_binding_tool_attr": {
+          "present": true,
+          "semantic_signature": "sa|attribute|tool|tool_feedback_attribute|tool_result|tool_result:verified|feature|sa|runtime_anchor|目标物A01",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "insert_runtime_node",
+            "origin": "e16_runtime_tool_binding",
+            "origin_id": "",
+            "parent_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ]
+          },
+          "incoming_packet_source_types": [],
+          "meta_ext": {
+            "source_sensor": "tool_feedback",
+            "bound_anchor_item_id": "spi_20260512055508_000013",
+            "bound_anchor_ref_object_id": "sa_e16_F01_target",
+            "bound_anchor_ref_object_type": "sa",
+            "bound_anchor_display": "目标物A01",
+            "attribute_runtime_mode": "state_item",
+            "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": true,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_target",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_target"
+            ],
+            "context_explicit": true,
+            "context_text": "sa_e16_F01_target",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "tool_result:verified",
+            "content_display_detail": "tool_result:verified",
+            "role": "attribute",
+            "value_type": "discrete",
+            "attribute_name": "tool_result",
+            "attribute_value": "verified"
+          },
+          "energy": {
+            "er": 0.0,
+            "ev": 0.56,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.56,
+            "cognitive_pressure_delta": -0.56,
+            "cognitive_pressure_abs": 0.56,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508655
+          }
+        }
+      }
+    },
+    "bind_result": {
+      "success": true,
+      "code": "OK",
+      "message": "运行态对象插入成功 / Runtime node inserted successfully",
+      "data": {
+        "inserted": true,
+        "item_id": "spi_20260512055508_000015",
+        "pool_size": 3,
+        "target_item_id": "spi_20260512055508_000013",
+        "runtime_mode": "state_item",
+        "target_ref_object_id": "sa_e16_F01_target",
+        "target_ref_object_type": "sa"
+      },
+      "error": null,
+      "meta": {
+        "module": "state_pool",
+        "interface": "",
+        "trace_id": "e16_F01_runtime_tool_binding_runtime_bind_attr_runtime",
+        "elapsed_ms": 1,
+        "logged": true
+      }
+    }
+  },
+  "runtime_wrong_target_control": {
+    "target_store": {
+      "id": "spi_20260512055508_000016",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508695
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508695,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_wrong_target_control_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_wrong_target_control_base",
+      "tick_id": "e16_F01_runtime_wrong_target_control_base",
+      "created_at": 1778536508695,
+      "updated_at": 1778536508696,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "distractor_store": {
+      "id": "spi_20260512055508_000017",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "runtime_attrs=tool_result:verified",
+        "role": "feature",
+        "value_type": "discrete",
+        "bound_attribute_displays": [
+          "tool_result:verified"
+        ]
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508695
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508695,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "bound_attribute_by_name": {
+          "tool_result": {
+            "attribute_name": "tool_result",
+            "display": "tool_result:verified",
+            "sa_id": "sa_e16_F01_runtime_wrong_target_control_tool_attr",
+            "updated_at": 1778536508705
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_wrong_target_control_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_wrong_target_control_base",
+      "tick_id": "e16_F01_runtime_wrong_target_control_base",
+      "created_at": 1778536508695,
+      "updated_at": 1778536508696,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ],
+        "bound_attributes": [
+          {
+            "id": "sa_e16_F01_runtime_wrong_target_control_tool_attr",
+            "object_type": "sa",
+            "sub_type": "tool_feedback_attribute",
+            "content": {
+              "raw": "tool_result:verified",
+              "normalized": "tool_result:verified",
+              "display": "tool_result:verified",
+              "value_type": "discrete",
+              "attribute_name": "tool_result",
+              "attribute_value": "verified"
+            },
+            "stimulus": {
+              "role": "attribute",
+              "modality": "tool"
+            },
+            "energy": {
+              "er": 0.0,
+              "ev": 0.56
+            },
+            "source": {
+              "parent_ids": [
+                "sa_e16_F01_distractor"
+              ],
+              "sensor_name": "tool_feedback",
+              "context_ref_object_id": "sa_e16_F01_distractor",
+              "context_ref_object_type": "sa"
+            },
+            "ext": {
+              "packet_context": {
+                "source_type": "tool_feedback",
+                "origin_frame_id": "frame_tool_feedback_sa_e16_F01_runtime_wrong_target_control_tool_attr"
+              }
+            },
+            "meta": {
+              "ext": {
+                "source_sensor": "tool_feedback",
+                "bound_anchor_item_id": "spi_20260512055508_000017",
+                "bound_anchor_ref_object_id": "sa_e16_F01_distractor",
+                "bound_anchor_ref_object_type": "sa",
+                "bound_anchor_display": "干扰物B01",
+                "attribute_runtime_mode": "state_item",
+                "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+                "runtime_attribute_item_id": "spi_20260512055508_000018"
+              }
+            },
+            "created_at": 1778536508704,
+            "updated_at": 1778536508704
+          }
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "expected_store": {
+      "id": "spi_20260512055508_000017",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "runtime_attrs=tool_result:verified",
+        "role": "feature",
+        "value_type": "discrete",
+        "bound_attribute_displays": [
+          "tool_result:verified"
+        ]
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508695
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508695,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": [],
+        "bound_attribute_by_name": {
+          "tool_result": {
+            "attribute_name": "tool_result",
+            "display": "tool_result:verified",
+            "sa_id": "sa_e16_F01_runtime_wrong_target_control_tool_attr",
+            "updated_at": 1778536508705
+          }
+        }
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_wrong_target_control_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_wrong_target_control_base",
+      "tick_id": "e16_F01_runtime_wrong_target_control_base",
+      "created_at": 1778536508695,
+      "updated_at": 1778536508696,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ],
+        "bound_attributes": [
+          {
+            "id": "sa_e16_F01_runtime_wrong_target_control_tool_attr",
+            "object_type": "sa",
+            "sub_type": "tool_feedback_attribute",
+            "content": {
+              "raw": "tool_result:verified",
+              "normalized": "tool_result:verified",
+              "display": "tool_result:verified",
+              "value_type": "discrete",
+              "attribute_name": "tool_result",
+              "attribute_value": "verified"
+            },
+            "stimulus": {
+              "role": "attribute",
+              "modality": "tool"
+            },
+            "energy": {
+              "er": 0.0,
+              "ev": 0.56
+            },
+            "source": {
+              "parent_ids": [
+                "sa_e16_F01_distractor"
+              ],
+              "sensor_name": "tool_feedback",
+              "context_ref_object_id": "sa_e16_F01_distractor",
+              "context_ref_object_type": "sa"
+            },
+            "ext": {
+              "packet_context": {
+                "source_type": "tool_feedback",
+                "origin_frame_id": "frame_tool_feedback_sa_e16_F01_runtime_wrong_target_control_tool_attr"
+              }
+            },
+            "meta": {
+              "ext": {
+                "source_sensor": "tool_feedback",
+                "bound_anchor_item_id": "spi_20260512055508_000017",
+                "bound_anchor_ref_object_id": "sa_e16_F01_distractor",
+                "bound_anchor_ref_object_type": "sa",
+                "bound_anchor_display": "干扰物B01",
+                "attribute_runtime_mode": "state_item",
+                "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+                "runtime_attribute_item_id": "spi_20260512055508_000018"
+              }
+            },
+            "created_at": 1778536508704,
+            "updated_at": 1778536508704
+          }
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "quiet_store": {
+      "id": "spi_20260512055508_000016",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508695
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508695,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_wrong_target_control_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_wrong_target_control_base",
+      "tick_id": "e16_F01_runtime_wrong_target_control_base",
+      "created_at": 1778536508695,
+      "updated_at": 1778536508696,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "target_snapshot": {
+      "item_id": "spi_20260512055508_000016",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "display": "目标物A01",
+      "display_text": "目标物A01",
+      "display_detail": "目标物A01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_text": "目标物A01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_target",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_target"
+      ],
+      "context_explicit": false,
+      "context_text": "目标物A01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 2.0,
+      "ev": 0.0,
+      "cp_delta": 2.0,
+      "cp_abs": 2.0,
+      "salience_score": 2.0,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 2.0,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 2.0,
+      "delta_cp_abs": 2.0,
+      "er_change_rate": 2.0,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 2.0,
+      "cp_abs_rate": 2.0,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508696,
+      "created_at": 1778536508695
+    },
+    "distractor_snapshot": {
+      "item_id": "spi_20260512055508_000017",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "display": "干扰物B01",
+      "display_text": "干扰物B01",
+      "display_detail": "runtime_attrs=tool_result:verified",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "干扰物B01",
+        "content_display_detail": "runtime_attrs=tool_result:verified",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_text": "干扰物B01",
+        "source_memory_created_at": 0,
+        "runtime_bound_attribute_units": [
+          {
+            "attribute_name": "tool_result",
+            "attribute_value": "verified",
+            "value_type": "discrete",
+            "raw": "tool_result:verified",
+            "display": "tool_result:verified",
+            "meta": {
+              "ext": {}
+            }
+          }
+        ],
+        "bound_attribute_displays": [
+          "tool_result:verified"
+        ]
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_distractor",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "context_explicit": false,
+      "context_text": "干扰物B01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [
+        "tool_result:verified"
+      ],
+      "runtime_bound_attribute_units": [
+        {
+          "attribute_name": "tool_result",
+          "attribute_value": "verified",
+          "value_type": "discrete",
+          "raw": "tool_result:verified",
+          "display": "tool_result:verified",
+          "meta": {
+            "ext": {}
+          }
+        }
+      ],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [
+        "tool_result"
+      ],
+      "all_attribute_names": [
+        "tool_result"
+      ],
+      "bound_attribute_names": [
+        "tool_result"
+      ],
+      "member_count": 0,
+      "er": 1.8,
+      "ev": 0.0,
+      "cp_delta": 1.8,
+      "cp_abs": 1.8,
+      "salience_score": 1.8,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 1.8,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 1.8,
+      "delta_cp_abs": 1.8,
+      "er_change_rate": 1.8,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 1.8,
+      "cp_abs_rate": 1.8,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508696,
+      "created_at": 1778536508695
+    },
+    "attr_item": {
+      "id": "spi_20260512055508_000018",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_runtime_wrong_target_control_tool_attr",
+      "ref_alias_ids": [
+        "sa_e16_F01_runtime_wrong_target_control_tool_attr"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": true,
+        "context_text": "sa_e16_F01_distractor",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "tool_result:verified",
+        "content_display_detail": "tool_result:verified",
+        "role": "attribute",
+        "value_type": "discrete",
+        "attribute_name": "tool_result",
+        "attribute_value": "verified"
+      },
+      "semantic_signature": "sa|attribute|tool|tool_feedback_attribute|tool_result|tool_result:verified|feature|sa|runtime_anchor|干扰物B01",
+      "semantic_context_key": "semctx|sa|attribute|tool|tool_feedback_attribute|tool_result|tool_result:verified|feature|sa|runtime_anchor|干扰物B01|ref_type=sa|ref=sa_e16_F01_distractor|owner=<none>|text=sa_e16_F01_distractor|role=attribute|attr=tool_result",
+      "energy": {
+        "er": 0.0,
+        "ev": 0.56,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 0.56,
+        "cognitive_pressure_delta": -0.56,
+        "cognitive_pressure_abs": 0.56,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508704
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 0.0,
+        "delta_ev": 0.56,
+        "er_change_rate": 0.0,
+        "ev_change_rate": 0.56,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": -0.56,
+        "delta_cp_abs": 0.56,
+        "cp_delta_rate": -0.56,
+        "cp_abs_rate": 0.56,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508704,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "insert_runtime_node",
+        "origin": "e16_runtime_wrong_target_control",
+        "origin_id": "",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_wrong_target_control_runtime_bind_attr_runtime",
+      "tick_id": "tick_e16_F01_runtime_wrong_target_control",
+      "created_at": 1778536508704,
+      "updated_at": 1778536508704,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "attribute",
+          "content": "tool_result:verified"
+        }
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "source_sensor": "tool_feedback",
+          "bound_anchor_item_id": "spi_20260512055508_000017",
+          "bound_anchor_ref_object_id": "sa_e16_F01_distractor",
+          "bound_anchor_ref_object_type": "sa",
+          "bound_anchor_display": "干扰物B01",
+          "attribute_runtime_mode": "state_item",
+          "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": true,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "attr_item_checks": {
+      "attr_item_present_ratio": 1.0,
+      "attr_item_modality_ok_ratio": 1.0,
+      "attr_item_source_ok_ratio": 1.0,
+      "attr_item_parent_ok_ratio": 1.0,
+      "attr_item_value_ok_ratio": 1.0,
+      "attr_item_energy_ok_ratio": 1.0,
+      "attr_item_signature_parent_ok_ratio": 1.0,
+      "attr_item_details": {
+        "sa_e16_F01_runtime_wrong_target_control_tool_attr": {
+          "present": true,
+          "semantic_signature": "sa|attribute|tool|tool_feedback_attribute|tool_result|tool_result:verified|feature|sa|runtime_anchor|干扰物B01",
+          "source": {
+            "module": "e16_experiment",
+            "interface": "insert_runtime_node",
+            "origin": "e16_runtime_wrong_target_control",
+            "origin_id": "",
+            "parent_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ]
+          },
+          "incoming_packet_source_types": [],
+          "meta_ext": {
+            "source_sensor": "tool_feedback",
+            "bound_anchor_item_id": "spi_20260512055508_000017",
+            "bound_anchor_ref_object_id": "sa_e16_F01_distractor",
+            "bound_anchor_ref_object_type": "sa",
+            "bound_anchor_display": "干扰物B01",
+            "attribute_runtime_mode": "state_item",
+            "attribute_runtime_source_interface": "bind_attribute_node_to_object",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_structure_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": true,
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": ""
+          },
+          "ref_snapshot": {
+            "source_module": "e16_experiment",
+            "context_ref_object_id": "sa_e16_F01_distractor",
+            "context_ref_object_type": "sa",
+            "context_owner_id": "",
+            "context_path_ids": [
+              "sa_e16_F01_distractor"
+            ],
+            "context_explicit": true,
+            "context_text": "sa_e16_F01_distractor",
+            "residual_origin_kind": "",
+            "residual_origin_entry_id": "",
+            "residual_kind": "",
+            "source_em_id": "",
+            "memory_id": "",
+            "source_memory_created_at": 0,
+            "source_memory_tick_id": "",
+            "source_memory_tick_index": 0,
+            "content_display": "tool_result:verified",
+            "content_display_detail": "tool_result:verified",
+            "role": "attribute",
+            "value_type": "discrete",
+            "attribute_name": "tool_result",
+            "attribute_value": "verified"
+          },
+          "energy": {
+            "er": 0.0,
+            "ev": 0.56,
+            "ownership_level": "runtime_projection",
+            "computed_from_children": false,
+            "fatigue": 0.0,
+            "recency_gain": 10.0,
+            "salience_score": 0.56,
+            "cognitive_pressure_delta": -0.56,
+            "cognitive_pressure_abs": 0.56,
+            "last_decay_tick": 0,
+            "last_decay_at": 1778536508704
+          }
+        }
+      }
+    },
+    "bind_result": {
+      "success": true,
+      "code": "OK",
+      "message": "运行态对象插入成功 / Runtime node inserted successfully",
+      "data": {
+        "inserted": true,
+        "item_id": "spi_20260512055508_000018",
+        "pool_size": 3,
+        "target_item_id": "spi_20260512055508_000017",
+        "runtime_mode": "state_item",
+        "target_ref_object_id": "sa_e16_F01_distractor",
+        "target_ref_object_type": "sa"
+      },
+      "error": null,
+      "meta": {
+        "module": "state_pool",
+        "interface": "",
+        "trace_id": "e16_F01_runtime_wrong_target_control_runtime_bind_attr_runtime",
+        "elapsed_ms": 0,
+        "logged": true
+      }
+    }
+  },
+  "runtime_invalid_role_control": {
+    "target_store": {
+      "id": "spi_20260512055508_000019",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508740
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508740,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_invalid_role_control_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_invalid_role_control_base",
+      "tick_id": "e16_F01_runtime_invalid_role_control_base",
+      "created_at": 1778536508740,
+      "updated_at": 1778536508740,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "distractor_store": {
+      "id": "spi_20260512055508_000020",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508740
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508740,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_invalid_role_control_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_invalid_role_control_base",
+      "tick_id": "e16_F01_runtime_invalid_role_control_base",
+      "created_at": 1778536508740,
+      "updated_at": 1778536508740,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "expected_store": {
+      "id": "spi_20260512055508_000019",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_explicit": false,
+        "context_text": "目标物A01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 2.0,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 2.0,
+        "cognitive_pressure_delta": 2.0,
+        "cognitive_pressure_abs": 2.0,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508740
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 2.0,
+        "delta_ev": 0.0,
+        "er_change_rate": 2.0,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 2.0,
+        "delta_cp_abs": 2.0,
+        "cp_delta_rate": 2.0,
+        "cp_abs_rate": 2.0,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508740,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_invalid_role_control_base",
+        "parent_ids": [
+          "sa_e16_F01_target"
+        ],
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_target"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_invalid_role_control_base",
+      "tick_id": "e16_F01_runtime_invalid_role_control_base",
+      "created_at": 1778536508740,
+      "updated_at": 1778536508740,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "目标物A01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_target",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_target"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "quiet_store": {
+      "id": "spi_20260512055508_000020",
+      "object_type": "state_item",
+      "sub_type": "sa_runtime_item",
+      "schema_version": "1.1",
+      "ref_object_type": "sa",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "ref_snapshot": {
+        "source_module": "e16_experiment",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_explicit": false,
+        "context_text": "干扰物B01",
+        "residual_origin_kind": "",
+        "residual_origin_entry_id": "",
+        "residual_kind": "",
+        "source_em_id": "",
+        "memory_id": "",
+        "source_memory_created_at": 0,
+        "source_memory_tick_id": "",
+        "source_memory_tick_index": 0,
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "role": "feature",
+        "value_type": "discrete"
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "energy": {
+        "er": 1.8,
+        "ev": 0.0,
+        "ownership_level": "runtime_projection",
+        "computed_from_children": false,
+        "fatigue": 0.0,
+        "recency_gain": 10.0,
+        "salience_score": 1.8,
+        "cognitive_pressure_delta": 1.8,
+        "cognitive_pressure_abs": 1.8,
+        "last_decay_tick": 0,
+        "last_decay_at": 1778536508740
+      },
+      "dynamics": {
+        "prev_er": 0.0,
+        "prev_ev": 0.0,
+        "delta_er": 1.8,
+        "delta_ev": 0.0,
+        "er_change_rate": 1.8,
+        "ev_change_rate": 0.0,
+        "prev_cp_delta": 0.0,
+        "prev_cp_abs": 0.0,
+        "delta_cp_delta": 1.8,
+        "delta_cp_abs": 1.8,
+        "cp_delta_rate": 1.8,
+        "cp_abs_rate": 1.8,
+        "last_update_tick": 1,
+        "last_update_at": 1778536508740,
+        "update_count": 1
+      },
+      "binding_state": {
+        "bound_csa_item_id": null,
+        "bound_attribute_sa_ids": []
+      },
+      "lifecycle": {
+        "created_in_tick": 1,
+        "last_active_tick": 1,
+        "elimination_candidate": false,
+        "recent_activation_ticks": [
+          1
+        ],
+        "last_recency_refresh_tick": 1,
+        "recency_hold_ticks_remaining": 2
+      },
+      "source": {
+        "module": "e16_experiment",
+        "interface": "apply_stimulus_packet",
+        "origin": "from_stimulus_packet",
+        "origin_id": "pkt_e16_F01_runtime_invalid_role_control_base",
+        "parent_ids": [
+          "sa_e16_F01_distractor"
+        ],
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_owner_structure_id": "",
+        "context_path_ids": [
+          "sa_e16_F01_distractor"
+        ]
+      },
+      "trace_id": "e16_F01_runtime_invalid_role_control_base",
+      "tick_id": "e16_F01_runtime_invalid_role_control_base",
+      "created_at": 1778536508740,
+      "updated_at": 1778536508740,
+      "status": "active",
+      "ext": {
+        "semantic_labels": {
+          "object_type": "sa",
+          "role": "feature",
+          "content": "干扰物B01"
+        },
+        "incoming_packet_member_count": 1,
+        "incoming_packet_source_types": [
+          "text_sensor"
+        ]
+      },
+      "meta": {
+        "confidence": 1.0,
+        "field_registry_version": "1.1",
+        "debug": {},
+        "ext": {
+          "context_ref_object_id": "sa_e16_F01_distractor",
+          "context_ref_object_type": "sa",
+          "context_owner_structure_id": "",
+          "context_path_ids": [
+            "sa_e16_F01_distractor"
+          ],
+          "context_explicit": false,
+          "residual_origin_kind": "",
+          "residual_origin_entry_id": ""
+        }
+      }
+    },
+    "target_snapshot": {
+      "item_id": "spi_20260512055508_000019",
+      "ref_object_id": "sa_e16_F01_target",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_target"
+      ],
+      "display": "目标物A01",
+      "display_text": "目标物A01",
+      "display_detail": "目标物A01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "目标物A01",
+        "content_display_detail": "目标物A01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_target",
+        "context_ref_object_type": "sa",
+        "context_text": "目标物A01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|目标物A01",
+      "semantic_context_key": "semctx|obj|目标物A01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_target",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_target"
+      ],
+      "context_explicit": false,
+      "context_text": "目标物A01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 2.0,
+      "ev": 0.0,
+      "cp_delta": 2.0,
+      "cp_abs": 2.0,
+      "salience_score": 2.0,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 2.0,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 2.0,
+      "delta_cp_abs": 2.0,
+      "er_change_rate": 2.0,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 2.0,
+      "cp_abs_rate": 2.0,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508740,
+      "created_at": 1778536508740
+    },
+    "distractor_snapshot": {
+      "item_id": "spi_20260512055508_000020",
+      "ref_object_id": "sa_e16_F01_distractor",
+      "ref_object_type": "sa",
+      "ref_alias_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "display": "干扰物B01",
+      "display_text": "干扰物B01",
+      "display_detail": "干扰物B01",
+      "anchor_display": "",
+      "role": "feature",
+      "attribute_name": "",
+      "attribute_value": null,
+      "value_type": "discrete",
+      "ref_snapshot": {
+        "content_display": "干扰物B01",
+        "content_display_detail": "干扰物B01",
+        "content_signature": "",
+        "token_count": 0,
+        "member_count": 0,
+        "flat_tokens": [],
+        "sequence_groups": [],
+        "member_refs": [],
+        "role": "feature",
+        "value_type": "discrete",
+        "context_ref_object_id": "sa_e16_F01_distractor",
+        "context_ref_object_type": "sa",
+        "context_text": "干扰物B01",
+        "source_memory_created_at": 0
+      },
+      "semantic_signature": "obj|干扰物B01",
+      "semantic_context_key": "semctx|obj|干扰物B01|ref_type=<none>|ref=<none>|owner=<none>|text=<none>|role=feature|attr=<none>",
+      "runtime_root_structure_id": "",
+      "runtime_resolution_ratio": 1.0,
+      "runtime_resolution_degraded": false,
+      "runtime_resolution_active_component_count": 0,
+      "runtime_resolution_dropped_component_count": 0,
+      "component_energy": {},
+      "structure_sequence_mode": "",
+      "goal_b_mixed_structure": false,
+      "context_ref_object_id": "sa_e16_F01_distractor",
+      "context_ref_object_type": "sa",
+      "context_owner_structure_id": "",
+      "context_owner_id": "",
+      "context_path_ids": [
+        "sa_e16_F01_distractor"
+      ],
+      "context_explicit": false,
+      "context_text": "干扰物B01",
+      "action_id": "",
+      "action_kind": "",
+      "target_ref_object_id": "",
+      "target_ref_object_type": "",
+      "target_item_id": "",
+      "target_display": "",
+      "residual_origin_kind": "",
+      "residual_origin_entry_id": "",
+      "residual_kind": "",
+      "source_em_id": "",
+      "memory_id": "",
+      "source_memory_created_at": 0,
+      "attribute_displays": [],
+      "feature_displays": [],
+      "bound_attribute_displays": [],
+      "runtime_bound_attribute_units": [],
+      "time_bucket_ref_object_id": "",
+      "time_bucket_id": "",
+      "time_bucket_label_zh": "",
+      "time_bucket_unit": "",
+      "time_basis": "",
+      "time_bucket_center_sec": null,
+      "packet_attribute_names": [],
+      "runtime_attribute_names": [],
+      "all_attribute_names": [],
+      "bound_attribute_names": [],
+      "member_count": 0,
+      "er": 1.8,
+      "ev": 0.0,
+      "cp_delta": 1.8,
+      "cp_abs": 1.8,
+      "salience_score": 1.8,
+      "fatigue": 0.0,
+      "recency_gain": 10.0,
+      "energy_injection_fatigue": {},
+      "delta_er": 1.8,
+      "delta_ev": 0.0,
+      "delta_cp_delta": 1.8,
+      "delta_cp_abs": 1.8,
+      "er_change_rate": 1.8,
+      "ev_change_rate": 0.0,
+      "cp_delta_rate": 1.8,
+      "cp_abs_rate": 1.8,
+      "update_count": 1,
+      "last_update_tick": 1,
+      "bound_attribute_count": 0,
+      "bound_csa_item_id": null,
+      "status": "active",
+      "updated_at": 1778536508740,
+      "created_at": 1778536508740
+    },
+    "attr_item": {},
+    "attr_item_checks": {
+      "attr_item_present_ratio": 0.0,
+      "attr_item_modality_ok_ratio": 0.0,
+      "attr_item_source_ok_ratio": 0.0,
+      "attr_item_parent_ok_ratio": 0.0,
+      "attr_item_value_ok_ratio": 0.0,
+      "attr_item_energy_ok_ratio": 0.0,
+      "attr_item_signature_parent_ok_ratio": 0.0,
+      "attr_item_details": {}
+    },
+    "bind_result": {
+      "success": false,
+      "code": "INPUT_VALIDATION_ERROR",
+      "message": "attribute_sa.stimulus.role 必须为 'attribute'，实际为 'feature' / must be 'attribute', got 'feature' / attribute_sa.stimulus.role 必须为 'attribute'，实际为 'feature' / must be 'attribute', got 'feature'",
+      "data": null,
+      "error": null,
+      "meta": {
+        "module": "state_pool",
+        "interface": "",
+        "trace_id": "e16_F01_runtime_invalid_role_control_runtime_bind",
+        "elapsed_ms": 0,
+        "logged": true
+      }
+    }
+  }
+}

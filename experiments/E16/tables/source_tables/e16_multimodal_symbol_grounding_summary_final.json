@@ -1,0 +1,22 @@
+{
+  "experiment_id": "E16",
+  "family_count": 12,
+  "case_count": 72,
+  "all_ok_family_count": 12,
+  "all_ok_ratio": 1.0,
+  "all_ok_sign_p": 0.00048828,
+  "case_ok_ratio": 1.0,
+  "packet_multimodal_pass_ratio": 1.0,
+  "packet_wrong_anchor_pass_ratio": 1.0,
+  "packet_folded_control_pass_ratio": 1.0,
+  "runtime_tool_binding_pass_ratio": 1.0,
+  "runtime_wrong_target_pass_ratio": 1.0,
+  "runtime_invalid_role_pass_ratio": 1.0,
+  "packet_attr_item_present_ratio_mean": 1.0,
+  "packet_attr_modality_ok_ratio_mean": 1.0,
+  "packet_attr_source_ok_ratio_mean": 1.0,
+  "runtime_attr_modality_ok_ratio_mean": 1.0,
+  "runtime_attr_source_ok_ratio_mean": 1.0,
+  "support_level": "strong_evidence",
+  "stamp": "e16_final_v1"
+}

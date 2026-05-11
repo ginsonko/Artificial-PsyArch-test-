@@ -1,0 +1,122 @@
+dataset_id: paper_e03_F03_neutral_control_r1_v1
+title: E03 教师局部塑形 - F03 - neutral_control - r1
+description: E03 定向实验：控制教师奖励/惩罚历史，观察后续弱天气 probe 的局部行动偏置变化。
+schema_version: observatory.dataset.v1
+created_at: '2026-05-11T20:51:29'
+time_basis: tick
+tick_dt_ms: 3000
+seed: 2026051104
+app_config_override:
+  input_chunking_enabled: false
+  sensor_enable_echo: false
+  sensor_include_echoes_in_packet: false
+  threshold_scale_by_rwd_pun_enabled: false
+  action_fatigue_enabled: false
+  drive_decay_ratio: 0.0
+  local_drive_modulation_by_rwd_pun_enabled: true
+  local_drive_reward_bonus_coef: 0.9
+  local_drive_punish_penalty_coef: 0.9
+  teacher_feedback_local_alias_cache_enabled: true
+  teacher_feedback_local_alias_cache_ttl_ticks: 6
+  teacher_feedback_local_alias_cache_min_score: 0.55
+  teacher_feedback_local_alias_cache_min_chars: 4
+  local_drive_feedback_text_fallback_min_chars: 4
+meta:
+  paper_experiment: E03_reward_shaping
+  curriculum_version: paper_e03_v1_reward_shaping
+  case_id: F03
+  branch: neutral_control
+  replicate: 1
+  city: 广州
+  event: 参加答辩
+  reward_strength: 0.75
+  punish_strength: 0.7
+  reward_coef: 0.9
+  punish_coef: 0.9
+  alias_ttl: 6
+episodes:
+- id: paper_e03_F03_neutral_control_r1
+  title: E03 F03 neutral_control r1
+  tags:
+  - paper
+  - E03
+  - reward_shaping
+  - neutral_control
+  - F03
+  repeat: 1
+  ticks:
+  - text: 我先确认一下答辩时间。
+    tags:
+    - paper
+    - E03
+    - reward_shaping
+    - neutral_control
+    - F03
+    - baseline
+    labels:
+      paper_e03_reward_shaping:
+        case_id: F03
+        branch: neutral_control
+        phase: baseline
+        source_text_index: 0
+        curriculum_version: paper_e03_v1_reward_shaping
+      stream:
+        role: user
+        kind: message
+        phase: reward_shaping
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: reward_shaping
+      real_input_index: 0
+  - text: 我再整理一下需要携带的文件。
+    tags:
+    - paper
+    - E03
+    - reward_shaping
+    - neutral_control
+    - F03
+    - buffer
+    labels:
+      paper_e03_reward_shaping:
+        case_id: F03
+        branch: neutral_control
+        phase: buffer
+        source_text_index: 1
+        curriculum_version: paper_e03_v1_reward_shaping
+      stream:
+        role: user
+        kind: message
+        phase: reward_shaping
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: reward_shaping
+      real_input_index: 1
+  - text: 广州天气呢
+    tags:
+    - paper
+    - E03
+    - reward_shaping
+    - neutral_control
+    - F03
+    - probe
+    labels:
+      paper_e03_reward_shaping:
+        case_id: F03
+        branch: neutral_control
+        phase: probe
+        source_text_index: 2
+        curriculum_version: paper_e03_v1_reward_shaping
+      stream:
+        role: user
+        kind: message
+        phase: reward_shaping
+        pure_text: true
+    meta:
+      role: user
+      kind: message
+      phase: reward_shaping
+      real_input_index: 2

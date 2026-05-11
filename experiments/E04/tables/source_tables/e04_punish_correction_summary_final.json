@@ -1,0 +1,18 @@
+{
+  "pair_count": 12,
+  "corrected_lookup_ratio": 1.0,
+  "punished_lookup_ratio": 1.0,
+  "neutral_quiet_ratio": 1.0,
+  "clean_causal_chain_ratio": 1.0,
+  "rightward_shift_effect_mean": -0.208,
+  "corrected_internal_selectivity_mean": 0.0,
+  "corrected_total_local_signal_mean": 0.784,
+  "corrected_vs_neutral_right_effect_mean": 0.392,
+  "punished_vs_neutral_wrong_effect_mean": 0.392,
+  "shift_sign_p": 0.00048828,
+  "corrected_selectivity_sign_p": 0.00048828,
+  "corrected_total_signal_sign_p": 0.00048828,
+  "corrected_effect_sign_p": 0.00048828,
+  "punished_effect_sign_p": 0.00048828,
+  "support_level": "strong_evidence"
+}

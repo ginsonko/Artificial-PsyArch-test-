@@ -1,0 +1,51 @@
+{
+  "experiment_id": "E07",
+  "stamp": "e07_final_v1",
+  "support_level": "strong_evidence",
+  "summary": {
+    "source_case_count": 60,
+    "source_low_diverge_ratio": 1.0,
+    "source_mid_quiet_ratio": 1.0,
+    "source_high_focus_ratio": 1.0,
+    "source_baseline_conforms_ratio": 1.0,
+    "source_complexity_low_mean": 0.23510101,
+    "source_complexity_mid_mean": 0.49040404,
+    "source_complexity_high_mean": 0.69444444,
+    "source_complexity_signal_low_mean": 0.2,
+    "source_complexity_signal_mid_mean": 0.52092352,
+    "source_complexity_signal_high_mean": 0.92380952,
+    "probe_case_count": 36,
+    "probe_pair_count": 12,
+    "probe_low_branch_ratio": 1.0,
+    "probe_mid_branch_ratio": 1.0,
+    "probe_high_branch_ratio": 1.0,
+    "probe_ordered_capacity_ratio": 1.0,
+    "probe_ordered_budget_ratio": 1.0,
+    "probe_all_ok_ratio": 1.0,
+    "probe_low_high_top_n_gap_mean": 10.0,
+    "probe_low_high_cam_gap_mean": 10.0,
+    "probe_high_low_budget_gap_mean": 4.0,
+    "probe_low_branch_top_n_mean": 21.0,
+    "probe_mid_branch_top_n_mean": 16.0,
+    "probe_high_branch_top_n_mean": 11.0,
+    "probe_low_branch_budget_mean": 6.0,
+    "probe_mid_branch_budget_mean": 8.0,
+    "probe_high_branch_budget_mean": 10.0,
+    "probe_all_ok_sign_p": 0.00048828,
+    "probe_capacity_sign_p": 0.00048828,
+    "probe_budget_sign_p": 0.00048828,
+    "support_level": "strong_evidence"
+  },
+  "artifacts": {
+    "source_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_source_rows_e07_final_v1.csv",
+    "probe_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_probe_rows_e07_final_v1.csv",
+    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_pair_rows_e07_final_v1.csv",
+    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_summary_e07_final_v1.json",
+    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\reports\\E07_attention_complexity_report_e07_final_v1.md",
+    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\reports\\E07_attention_complexity_design_logic.md",
+    "charts": [
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\charts\\e07_attention_complexity_source_transition_e07_final_v1.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\charts\\e07_attention_complexity_probe_contrast_e07_final_v1.png"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+dataset_id: paper_e08_e08_final_v1_F10_on_no_cue
+seed: 1
+time_basis: tick
+tick_dt_ms: 3000
+app_config_override:
+  stimulus_residual_memory_promotion_enabled: true
+episodes:
+- id: ep
+  ticks:
+  - text: EFG
+  - empty: true
+  - empty: true
+  - empty: true
+  - empty: true

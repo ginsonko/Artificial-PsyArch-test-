@@ -1,0 +1,20 @@
+{
+  "bucket_case_count": 12,
+  "bucket_full_match_ratio": 1.0,
+  "controlled_repeat_count": 6,
+  "controlled_register_parallel_ratio": 1.0,
+  "controlled_execute_parallel_ratio": 1.0,
+  "controlled_stripped_present_ratio": 1.0,
+  "integrated_pair_count": 12,
+  "integrated_baseline_conforms_ratio": 1.0,
+  "integrated_on_registration_ratio": 1.0,
+  "integrated_on_due3_ratio": 1.0,
+  "integrated_on_exec3_ratio": 1.0,
+  "integrated_off_quiet_ratio": 1.0,
+  "integrated_bindings_persist_ratio": 1.0,
+  "integrated_pair_contrast_ratio": 1.0,
+  "integrated_pair_contrast_sign_p": 0.00048828,
+  "controlled_anchor_energy_increase_mean": 1.49249974,
+  "controlled_stripped_ev_after_mean": 1.69249974,
+  "support_level": "strong_evidence"
+}

@@ -1,0 +1,39 @@
+{
+  "experiment_id": "E06",
+  "stamp": "e06_final_v1",
+  "support_level": "strong_evidence",
+  "summary": {
+    "bucket_case_count": 12,
+    "bucket_full_match_ratio": 1.0,
+    "controlled_repeat_count": 6,
+    "controlled_register_parallel_ratio": 1.0,
+    "controlled_execute_parallel_ratio": 1.0,
+    "controlled_stripped_present_ratio": 1.0,
+    "integrated_pair_count": 12,
+    "integrated_baseline_conforms_ratio": 1.0,
+    "integrated_on_registration_ratio": 1.0,
+    "integrated_on_due3_ratio": 1.0,
+    "integrated_on_exec3_ratio": 1.0,
+    "integrated_off_quiet_ratio": 1.0,
+    "integrated_bindings_persist_ratio": 1.0,
+    "integrated_pair_contrast_ratio": 1.0,
+    "integrated_pair_contrast_sign_p": 0.00048828,
+    "controlled_anchor_energy_increase_mean": 1.49249974,
+    "controlled_stripped_ev_after_mean": 1.69249974,
+    "support_level": "strong_evidence"
+  },
+  "artifacts": {
+    "bucket_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\tables\\e06_time_interval_bucket_rows_e06_final_v1.csv",
+    "controlled_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\tables\\e06_time_interval_controlled_rows_e06_final_v1.csv",
+    "integrated_ticks": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\tables\\e06_time_interval_integrated_ticks_e06_final_v1.csv",
+    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\tables\\e06_time_interval_pair_rows_e06_final_v1.csv",
+    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\tables\\e06_time_interval_summary_e06_final_v1.json",
+    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\reports\\E06_time_interval_report_e06_final_v1.md",
+    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\reports\\E06_time_interval_design_logic.md",
+    "charts": [
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\charts\\e06_time_interval_bucket_weights_e06_final_v1.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\charts\\e06_time_interval_integrated_ratios_e06_final_v1.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E06_time_interval_closure\\charts\\e06_time_interval_parallel_branches_e06_final_v1.png"
+    ]
+  }
+}

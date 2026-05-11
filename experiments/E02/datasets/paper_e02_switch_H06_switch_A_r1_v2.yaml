@@ -1,0 +1,91 @@
+dataset_id: paper_e02_switch_H06_switch_A_r1_v2
+title: E02 标签替换敏感性 - H06 - switch - A - r1
+description: E02 定向实验：固定句壳，仅替换标签，比较 exact repeat 与 label switch 的 grasp / familiarity / 结构生长成本。
+schema_version: observatory.dataset.v1
+created_at: '2026-05-11T19:15:12'
+time_basis: tick
+tick_dt_ms: 3000
+seed: 2026051113
+app_config_override:
+  input_chunking_enabled: false
+  action_enabled: false
+  sensor_enable_echo: false
+  sensor_include_echoes_in_packet: false
+meta:
+  paper_experiment: E02_label_switch_sensitivity
+  curriculum_version: paper_e02_v2_label_switch
+  case_id: H06
+  condition: switch
+  start_key: A
+  replicate: 1
+  template: 请再次记录节点{label}。
+  label_a: 原钥
+  label_b: 霁岚
+episodes:
+- id: paper_e02_switch_H06_switch_A_r1
+  title: E02 switch H06 switch A r1
+  tags:
+  - paper_e02_label_switch
+  - E02
+  - label_switch
+  - switch
+  - H06
+  - A
+  repeat: 1
+  ticks:
+  - text: 请再次记录节点原钥。
+    tags:
+    - paper_e02_label_switch
+    - E02
+    - label_switch
+    - switch
+    - H06
+    - A
+    - first
+    labels:
+      paper_e02_label_switch:
+        case_id: H06
+        template: 请再次记录节点{label}。
+        start_key: A
+        condition: switch
+        phase: first
+        phase_index: 0
+        source_text_index: 0
+        label: 原钥
+        other_label: 霁岚
+        text_len: 10
+        curriculum_version: paper_e02_v2_label_switch
+    meta:
+      role: user
+      kind: message
+      phase: e02_label_switch
+      pure_text: true
+      real_input_index: 0
+  - text: 请再次记录节点霁岚。
+    tags:
+    - paper_e02_label_switch
+    - E02
+    - label_switch
+    - switch
+    - H06
+    - A
+    - second
+    labels:
+      paper_e02_label_switch:
+        case_id: H06
+        template: 请再次记录节点{label}。
+        start_key: A
+        condition: switch
+        phase: second
+        phase_index: 1
+        source_text_index: 1
+        label: 霁岚
+        other_label: 原钥
+        text_len: 10
+        curriculum_version: paper_e02_v2_label_switch
+    meta:
+      role: user
+      kind: message
+      phase: e02_label_switch
+      pure_text: true
+      real_input_index: 1

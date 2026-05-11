@@ -1,0 +1,42 @@
+{
+  "experiment_id": "E12",
+  "stamp": "e12_final_v2",
+  "support_level": "strong_evidence",
+  "summary": {
+    "case_count": 48,
+    "family_count": 12,
+    "memory_converge_pass_ratio": 1.0,
+    "structure_process_pass_ratio": 1.0,
+    "split_memory_control_pass_ratio": 1.0,
+    "memory_decay_pass_ratio": 1.0,
+    "all_ok_ratio": 1.0,
+    "converge_apply_count_mean": 1.0,
+    "converge_snapshot_count_mean": 1.0,
+    "converge_hit_count_mean": 3.0,
+    "converge_source_count_mean": 4.0,
+    "converge_ev_mean": 0.65613011,
+    "converge_ev_mode_mean": 0.572292,
+    "converge_er_mode_mean": 0.0838381,
+    "process_target_count_mean": 2.0,
+    "process_memory_snapshot_count_mean": 0.0,
+    "split_memory_count_mean": 2.0,
+    "decay_ratio_mean": 0.5,
+    "all_ok_sign_p": 0.00048828,
+    "support_level": "strong_evidence"
+  },
+  "artifacts": {
+    "case_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_case_rows_e12_final_v2.csv",
+    "target_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_target_rows_e12_final_v2.csv",
+    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_pair_rows_e12_final_v2.csv",
+    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_summary_e12_final_v2.json",
+    "whitebox": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_whitebox_e12_final_v2.json",
+    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\reports\\E12_process_memory_report_e12_final_v2.md",
+    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\reports\\E12_process_memory_design_logic.md",
+    "charts": [
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_process_memory_role_split_e12_final_v2.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_memory_convergence_e12_final_v2.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_memory_decay_e12_final_v2.png",
+      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_process_memory_family_pass_e12_final_v2.png"
+    ]
+  }
+}
