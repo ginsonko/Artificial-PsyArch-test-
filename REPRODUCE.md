@@ -27,7 +27,7 @@ python .\scripts\run_paper_e02_label_switch_experiment.py --help
 python .\scripts\run_paper_e17_internal_narrative_chain_experiment.py --help
 ```
 
-不同实验的参数略有差异。建议先运行 `--help`，再按报告中的终稿批次参数执行。实验结果会写入 `docs/paper_artifacts_2026-05-11/...` 结构，因此复现者可以直接比较新旧 `summary.json`、CSV 与图表。
+不同实验的参数略有差异。建议先运行 `--help`，再按报告中的终稿批次参数执行。默认脚本会把实验结果写入 AP 原型仓库的论文 artifact 输出目录；复现者可以直接比较新旧 `summary.json`、CSV 与图表，也可以在脚本顶部调整输出目录以适配自己的工作区。
 
 ## 4. 重新生成论文级总览图
 

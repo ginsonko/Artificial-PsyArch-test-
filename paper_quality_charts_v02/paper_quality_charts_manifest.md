@@ -1,6 +1,6 @@
 # Paper-quality chart manifest
 
-These charts are derived only from final strong-evidence CSV/JSON files. Pilot, smoke, and parameter-search artifacts are intentionally excluded from this presentation layer.
+These charts are derived only from final strong-evidence CSV/JSON files. Exploratory runs, early validation batches, and parameter-search artifacts are intentionally excluded from this presentation layer.
 
 | file | purpose |
 |---|---|

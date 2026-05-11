@@ -1,7 +1,8 @@
 # E01 v4 最小强证据实验报告
 
 - 生成时间：2026-05-11 17:32:33
-- 批次标识：`smoke3_20260511_e01_v4_crossover_f2`
+- 公开批次标识：`e01_v4_crossover_final`
+- 说明：原始运行目录名保留在 `manifests` 与 `tables/source_tables` 中，用于哈希追溯；正文和读者入口统一使用公开批次标识。
 - 运行参数档：`context_strict_probe`
 - 判定：`strong_evidence`
 - 家族样本数：2
@@ -12,14 +13,14 @@
 
 ## 数据集与运行
 
-| 条件 | 家族 | 重复 | dataset_id | sha256 | run_id | 状态 | 文本 tick |
+| 条件 | 家族 | 重复 | dataset_id | sha256 | run_alias | 状态 | 文本 tick |
 |---|---|---:|---|---|---|---|---:|
-| treatment | F01 | 1 | `paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4` | `bcfed2736abf...` | `paper_e01_crossover_treatment_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2` | completed | 4 |
-| treatment | F02 | 1 | `paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4` | `5eb922d4d228...` | `paper_e01_crossover_treatment_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2` | completed | 4 |
-| control | F01 | 1 | `paper_e01_crossover_control_F01_r1_context_strict_probe_v4` | `3072af36515c...` | `paper_e01_crossover_control_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2` | completed | 4 |
-| control | F02 | 1 | `paper_e01_crossover_control_F02_r1_context_strict_probe_v4` | `0f896e48b066...` | `paper_e01_crossover_control_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2` | completed | 4 |
-| calibration | F01 | 1 | `paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4` | `8203e4247b7e...` | `paper_e01_crossover_calibration_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2` | completed | 4 |
-| calibration | F02 | 1 | `paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4` | `82b933e950ac...` | `paper_e01_crossover_calibration_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2` | completed | 4 |
+| treatment | F01 | 1 | `paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4` | `bcfed2736abf...` | `treatment_F01_r1` | completed | 4 |
+| treatment | F02 | 1 | `paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4` | `5eb922d4d228...` | `treatment_F02_r1` | completed | 4 |
+| control | F01 | 1 | `paper_e01_crossover_control_F01_r1_context_strict_probe_v4` | `3072af36515c...` | `control_F01_r1` | completed | 4 |
+| control | F02 | 1 | `paper_e01_crossover_control_F02_r1_context_strict_probe_v4` | `0f896e48b066...` | `control_F02_r1` | completed | 4 |
+| calibration | F01 | 1 | `paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4` | `8203e4247b7e...` | `calibration_F01_r1` | completed | 4 |
+| calibration | F02 | 1 | `paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4` | `82b933e950ac...` | `calibration_F02_r1` | completed | 4 |
 
 ## 阶段均值
 
@@ -54,9 +55,10 @@
 
 ## 附件
 
-- `docs\paper_artifacts_2026-05-11\E01_lexical_abstraction\strong_reuse_v4_crossover_probe\charts\e01_v4_crossover_phase_curves_smoke3_20260511_e01_v4_crossover_f2.png`
-- `docs\paper_artifacts_2026-05-11\E01_lexical_abstraction\strong_reuse_v4_crossover_probe\charts\e01_v4_crossover_family_effects_smoke3_20260511_e01_v4_crossover_f2.png`
-- `docs\paper_artifacts_2026-05-11\E01_lexical_abstraction\strong_reuse_v4_crossover_probe\tables\e01_v4_crossover_row_metrics_smoke3_20260511_e01_v4_crossover_f2.csv`
-- `docs\paper_artifacts_2026-05-11\E01_lexical_abstraction\strong_reuse_v4_crossover_probe\tables\e01_v4_crossover_phase_summary_smoke3_20260511_e01_v4_crossover_f2.csv`
-- `docs\paper_artifacts_2026-05-11\E01_lexical_abstraction\strong_reuse_v4_crossover_probe\tables\e01_v4_crossover_family_evidence_smoke3_20260511_e01_v4_crossover_f2.csv`
-- `docs\paper_artifacts_2026-05-11\E01_lexical_abstraction\strong_reuse_v4_crossover_probe\reports\E01_v4_crossover_design_logic.md`
+- `charts/e01_v4_crossover_phase_curves_final.png`
+- `charts/e01_v4_crossover_family_effects_final.png`
+- `tables/source_tables/e01_v4_crossover_row_metrics_final.csv`
+- `tables/source_tables/e01_v4_crossover_phase_summary_final.csv`
+- `tables/source_tables/e01_v4_crossover_family_evidence_final.csv`
+- `design.md`
+- `manifests/E01_v4_crossover_evidence_final.json`
