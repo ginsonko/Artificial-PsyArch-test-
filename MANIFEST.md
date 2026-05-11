@@ -2,8 +2,8 @@
 
 | ID | Title | Support | Records | Summary | Note |
 |---|---|---|---:|---|---|
-| E01 | 历史特异性局部结构复用 | strong_evidence | 2 | `experiments\E01\tables\summary.json` | 严格交叉 probe 设计，样本规模小但因果控制强；正文使用时避免把它写成统计规模证据。 |
-| E02 | 稳定句壳下标签替换导致结构生长 | strong_evidence | 48 | `experiments\E02\tables\summary.json` | 仅保留 holdout 长句壳确认批次；开发扫描和烟雾测试不进入主索引。 |
+| E01 | 历史特异性局部结构复用 | strong_evidence | 2 | `experiments\E01\tables\summary.json` | 严格交叉探针输入设计，样本规模小但因果控制强；正文使用时按机制证据理解。 |
+| E02 | 稳定句壳下标签替换导致结构生长 | strong_evidence | 48 | `experiments\E02\tables\summary.json` | 仅保留 holdout 长句壳确认批次；早期探索性批次不进入主索引。 |
 | E03 | 教师奖惩信号的局部塑形 | strong_evidence | 12 | `experiments\E03\tables\summary.json` |  |
 | E04 | 惩罚与奖励的双向纠偏 | strong_evidence | 12 | `experiments\E04\tables\summary.json` |  |
 | E05 | 行动执行后的可复用准备痕迹 | strong_evidence | 12 | `experiments\E05\tables\summary.json` |  |
@@ -23,3 +23,5 @@
 Total judgement records: **914**.
 
 The file-level mapping and SHA-256 hashes are stored in `manifest.json`.
+
+`manifest.json` 中保留原始 artifact 的源路径和源文件名，以便复现者追溯哈希来源。个别源文件名包含早期批次 token；这些 token 只是历史文件名的一部分，不改变本清单以 `strong_evidence` 为准的正文证据级别。

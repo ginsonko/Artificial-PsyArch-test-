@@ -10,7 +10,7 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 2,
       "file_count": 18,
-      "note": "严格交叉 probe 设计，样本规模小但因果控制强；正文使用时避免把它写成统计规模证据。"
+      "note": "严格交叉探针输入设计，样本规模小但因果控制强；正文使用时按机制证据理解。"
     },
     {
       "id": "E02",
@@ -20,7 +20,7 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 48,
       "file_count": 106,
-      "note": "仅保留 holdout 长句壳确认批次；开发扫描和烟雾测试不进入主索引。"
+      "note": "仅保留 holdout 长句壳确认批次；早期探索性批次不进入主索引。"
     },
     {
       "id": "E03",
@@ -3014,5 +3014,6 @@
     }
   ],
   "total_copied_files": 473,
-  "total_judgement_records": 914
+  "total_judgement_records": 914,
+  "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。"
 }
