@@ -211,8 +211,8 @@
     {
       "source": "ap-paper-artifacts://paper_quality_charts_v02/data/pq_00_evidence_map.json",
       "target": "paper_quality_charts_v02\\data\\pq_00_evidence_map.json",
-      "bytes": 5098,
-      "sha256": "943f260dabe750c6d5c5fdc6fcff36cecc682d08b50f7494246c5cc47b3736be"
+      "bytes": 4926,
+      "sha256": "d9b5f8cf1b27995ea7cc01e0314e86cc7fd7a131ffdb4fffab8fdc6954f1c0ab"
     },
     {
       "source": "ap-paper-artifacts://paper_quality_charts_v02/paper_quality_charts_manifest.md",
@@ -271,8 +271,8 @@
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/reports/E01_v4_crossover_design_logic.md",
       "target": "experiments\\E01\\design.md",
-      "bytes": 1066,
-      "sha256": "4123ff92e4aaeabbabde887b4bd4dab66a06a35bec8b2d73c8e09bd24ed96398"
+      "bytes": 1050,
+      "sha256": "57293cbb56a25d41b640362d60e711359c75b9c778b5059e2c1d83351b7c6301"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/reports/E01_v4_crossover_report_e01_v4_crossover_final.md",
@@ -283,20 +283,20 @@
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_evidence_summary_e01_v4_crossover_final.json",
       "target": "experiments\\E01\\tables\\summary.json",
-      "bytes": 942,
-      "sha256": "a2142fe4f5af086726149a538b6525b346b20d82a4efcfc8e2e14ccc36c464ae"
+      "bytes": 916,
+      "sha256": "2574dff54fb13aad8c90ef164e6e83f776818c85cf332f2bddba199f5db00459"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_family_evidence_e01_v4_crossover_final.csv",
       "target": "experiments\\E01\\tables\\source_tables\\e01_v4_crossover_family_evidence_final.csv",
-      "bytes": 779,
-      "sha256": "4dfb5d9f39a6bbec1673aab28664d25de48e975397dcabfefef111f27020a2b2"
+      "bytes": 776,
+      "sha256": "559cca9f826c539a6a94c0a5b0386e5d7e5599657368f21b2c8eb7a46d3ae5fa"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_phase_summary_e01_v4_crossover_final.csv",
       "target": "experiments\\E01\\tables\\source_tables\\e01_v4_crossover_phase_summary_final.csv",
-      "bytes": 3188,
-      "sha256": "00e03c7a273328041fad1ec2c6c779405cc07a45dc4b697f9d6d1fc33778fe72"
+      "bytes": 3176,
+      "sha256": "6b7fd966aefe201a59f55aa945398423def9b04cc7774da4f35af613132729f6"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_row_metrics_e01_v4_crossover_final.csv",
@@ -307,8 +307,8 @@
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_evidence_summary_e01_v4_crossover_final.json",
       "target": "experiments\\E01\\tables\\source_tables\\e01_v4_crossover_evidence_summary_final.json",
-      "bytes": 942,
-      "sha256": "a2142fe4f5af086726149a538b6525b346b20d82a4efcfc8e2e14ccc36c464ae"
+      "bytes": 916,
+      "sha256": "2574dff54fb13aad8c90ef164e6e83f776818c85cf332f2bddba199f5db00459"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/charts/e01_v4_crossover_family_effects_e01_v4_crossover_final.png",
@@ -325,62 +325,62 @@
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml",
       "target": "experiments\\E01\\datasets\\paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml",
-      "bytes": 4539,
-      "sha256": "8203e4247b7ea2407fbf3eb98d07533225ab71ee1ef5602db482209d1d10a4fe"
+      "bytes": 4381,
+      "sha256": "844e3e52e85154eee864ffb38e7b3945f851841fa712534e5fcb4400b96d0fb3"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml",
       "target": "experiments\\E01\\datasets\\paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml",
-      "bytes": 4539,
-      "sha256": "82b933e950ac17413dba14224d4ad6328a18c30cf497d0a1b8abc6fcc835cf30"
+      "bytes": 4381,
+      "sha256": "f0118af3af5ff97467cd857ebac4fa45cd7b8c4cfd2bca32ac8df983777aa722"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml",
       "target": "experiments\\E01\\datasets\\paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml",
-      "bytes": 4486,
-      "sha256": "3072af36515c4ed28b99759b804a4a095c3e80a7693c6236377c95402c5e2aa3"
+      "bytes": 4328,
+      "sha256": "410256b5fbf55429a89d42703ae8e767fffadd18954ed2a2f74e1e15e1352e1d"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml",
       "target": "experiments\\E01\\datasets\\paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml",
-      "bytes": 4486,
-      "sha256": "0f896e48b066438513aa27a3f9eabc333341de7654363c77a58205b1fb9663aa"
+      "bytes": 4328,
+      "sha256": "9e00ede84fa6d6cb7b3c7e152dba725cabd6529577a9486db468929926cb2051"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml",
       "target": "experiments\\E01\\datasets\\paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml",
-      "bytes": 4513,
-      "sha256": "bcfed2736abf1bcd3006848c9ffc86ade63b8def379a8c06dcd874f3f4a37300"
+      "bytes": 4355,
+      "sha256": "f75c2832ef0d5d51c95fa7e022c6ed64a89e255f002d6e4b32568eb8d5a385c0"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml",
       "target": "experiments\\E01\\datasets\\paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml",
-      "bytes": 4513,
-      "sha256": "5eb922d4d228f2eeb16d71152b9d928951e9e6b413931b597c637e20a4e39f6f"
+      "bytes": 4355,
+      "sha256": "6834fca40cebe5f3f0699dd1f7d1891ae7952d304fc5e3cb274a350f29bc22d3"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/manifests/E01_v4_crossover_dataset_manifest_e01_v4_crossover_final.json",
       "target": "experiments\\E01\\manifests\\E01_v4_crossover_dataset_manifest_final.json",
-      "bytes": 4250,
-      "sha256": "078ef5d4d026490101487447066377305368d333e586c3d34fad5c8a6bb53ad7"
+      "bytes": 4163,
+      "sha256": "74551e383a6a115e9b49e8204c8c9735d15434501ed80c8ad350adb0ca900614"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/manifests/E01_v4_crossover_evidence_e01_v4_crossover_final.json",
       "target": "experiments\\E01\\manifests\\E01_v4_crossover_evidence_final.json",
-      "bytes": 8690,
-      "sha256": "fd40ed441d2ed6debdb7ec87ef446417ef9ffea77f51b2abe7b180f62d4b0d9f"
+      "bytes": 8531,
+      "sha256": "232421b9ac2d0cf79d6f5eb0291bfba830997fba9f62ccbd86d1672b35fa4e2e"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/manifests/E01_v4_crossover_latest.json",
       "target": "experiments\\E01\\manifests\\E01_v4_crossover_latest.json",
-      "bytes": 8690,
-      "sha256": "fd40ed441d2ed6debdb7ec87ef446417ef9ffea77f51b2abe7b180f62d4b0d9f"
+      "bytes": 8531,
+      "sha256": "232421b9ac2d0cf79d6f5eb0291bfba830997fba9f62ccbd86d1672b35fa4e2e"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_design_logic.md",
       "target": "experiments\\E02\\design.md",
-      "bytes": 1566,
-      "sha256": "31ed4cad1070405339eb8c83a1fb3aca1ebdf865f67743a0e89c2a0b655f02fd"
+      "bytes": 1540,
+      "sha256": "3c8c4262ec6de71bf45dbabe3094ef31c2aa7b3daa37b296c446bff9b7642fe4"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_report_e02_label_switch_holdout_confirm_v1.md",
@@ -391,26 +391,26 @@
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json",
       "target": "experiments\\E02\\tables\\summary.json",
-      "bytes": 1735,
-      "sha256": "0138cfa057b6b129e8f46b960d340ee0f69b5019e6fa6fdc8cc016497342aead"
+      "bytes": 1671,
+      "sha256": "64933aa0e31c653e41c1f5ef273b340644a45eb1fb0d4340c176a41f9c0606a1"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_pair_rows_e02_label_switch_holdout_confirm_v1.csv",
       "target": "experiments\\E02\\tables\\source_tables\\e02_label_switch_pair_rows_final.csv",
-      "bytes": 21357,
-      "sha256": "07fbf68b7ca4d7a9639172b82a37f5f3b4ad36770230a7b00f547ed5fe671efb"
+      "bytes": 21308,
+      "sha256": "f7023228c9bbc3d26f4a5710311b36e9146f3e0f430ff5473399315262a830bc"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_row_metrics_e02_label_switch_holdout_confirm_v1.csv",
       "target": "experiments\\E02\\tables\\source_tables\\e02_label_switch_row_metrics_final.csv",
-      "bytes": 36285,
-      "sha256": "7edf13178edbd947e6682be175e7c8797f8699274b3128ff63a4cb43a84f3049"
+      "bytes": 36092,
+      "sha256": "e1cab035ba996f0258b8112ee68f14ddb16e3bbe5157e5933ef7d8d4e1616cf6"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json",
       "target": "experiments\\E02\\tables\\source_tables\\e02_label_switch_summary_final.json",
-      "bytes": 1735,
-      "sha256": "0138cfa057b6b129e8f46b960d340ee0f69b5019e6fa6fdc8cc016497342aead"
+      "bytes": 1671,
+      "sha256": "64933aa0e31c653e41c1f5ef273b340644a45eb1fb0d4340c176a41f9c0606a1"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/charts/e02_label_switch_growth_core_e02_label_switch_holdout_confirm_v1.png",
@@ -427,596 +427,596 @@
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_repeat_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "067a71d238f6d71f80dd40bfaf67fad6e819209f2c67345d3ff3247c3dc42774"
+      "bytes": 2236,
+      "sha256": "444fae2690cec9682896fabab0985e486e7eba458c7eeaef6678241a0fcd71a0"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_repeat_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "6e3f5c677895d65b72f2677d80d26169f1a0c8194380ec514b6b1a3397da243d"
+      "bytes": 2236,
+      "sha256": "8400a88fc2e7a6825913f782b02c5d256e77726d56e1117e6a113f2e6ab5b299"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_repeat_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "f3f748f7b34c9512497ae710aed015a158645284fad7861ef70172964fad2b1c"
+      "bytes": 2236,
+      "sha256": "7313a58bdabf51fd4f25b2f07fbfe3e3d3c26488672d368f8f09d939f6e99f3e"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_repeat_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "e57b7a64a6e6d3afc7f142856f882d946572cdc7d73266144b07f9cdb9845e9a"
+      "bytes": 2236,
+      "sha256": "4951e99eedc6337cddd0c58005ced1761cd1d3a511cc29d1b1c10016cbf36d49"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_repeat_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "14ab09aab495d4d34a7f4b4ca2d54a215484a7970a6870b913bd0312046b5b6d"
+      "bytes": 2236,
+      "sha256": "954817b05f42c29932b9274f5fd556f06d76f64d1d0a4770b1a64258e32c7c4d"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_repeat_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "e68d99b2388274ddb2ee0d62e110a5f89342c92ff2fa6c8013afc87c6204b2a2"
+      "bytes": 2236,
+      "sha256": "4fd36d4b8f7c2d5bdc3429896c21dd8198dc9191503258b0ca09f7654014be5b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_switch_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "580f1311802d2d08ad8c8235f62b83004f4f82f6983a1f1953dfb54c559af821"
+      "bytes": 2236,
+      "sha256": "2c2d416ebc0fa5915840dd346852a737fa3f36a58ad16f8e1556dd4d1e7869fc"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_switch_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "8e743c52507168d939bed2ca686312dedaf2412e697b83ce967bb973f1c9e687"
+      "bytes": 2236,
+      "sha256": "a26d74119a6eedb069b6f8df8e93599a49dfe2389fdfea19288405ead325f7e1"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_switch_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "16d2f7d1587901f1f640253a08f5f346809803f2b760c02ee79d3c6fd1686991"
+      "bytes": 2236,
+      "sha256": "3f74b4dc520c1a65750c9ac620db45383e6f01e56dac5f67033950ba059f7133"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_switch_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "323eb4121460c449eae494552789c1fcbe65484ae31260ff2e46382870c69184"
+      "bytes": 2236,
+      "sha256": "db1d755efaa86183566f24f0f16669a656cc715259d8e1f205be7caa5a8d8981"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_switch_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "7a2d4f1fde0bd00459886753d4a2ba80a38bc4bc9ebe0cb6c75bfbccf926eb1d"
+      "bytes": 2236,
+      "sha256": "d630469452a713790f3adc4119ed53e3d9a11169c1ec54ebc59522088c3eecec"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H01_switch_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "3abb2123083b3abf38be3269802240387cb5ee9d4c4f417015a4619168c56ed3"
+      "bytes": 2236,
+      "sha256": "011d87bbd3f8d8efdf8dc031cf5f92b238fbf5c0123afa534925e55824ec7507"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_repeat_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "a46438aa25342aec3db54c25ce7aac42cc9ff72ec782721c3ac9fa3a946b07ca"
+      "bytes": 2236,
+      "sha256": "27c4ced4e4de138f5da4d75504826c80323649b1500744ef2f4702722c31b8fe"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_repeat_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "af97d1d90a65d425db7fcf4244f945f934ee0f798e03cef63950506f459a1c93"
+      "bytes": 2236,
+      "sha256": "d69fc1f02ba6c4622a917a567b6ec6e840b978e814d39694f674538790fe6c91"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_repeat_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "f1f804dd3a78021ffa5d5ba94592af7ecfcdfc7d5781e67ce0ac7998ce6b11f0"
+      "bytes": 2236,
+      "sha256": "e4c50efc6067f50cdfac2678d45b7fdf9de86230cbb73e6e39b8d925e2f775c6"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_repeat_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "59de309d475004caf5a257e41d24c97292dff18b3c438b25b040ea70e1d8a838"
+      "bytes": 2236,
+      "sha256": "ccaff22fbe5389ad95ee674e8fcdabb43fb79b8b32c3135c27429d6563359628"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_repeat_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "1703bc38bc75301ab283973ec2220e32f0ab27922c76acdfb2f005e795e4e40b"
+      "bytes": 2236,
+      "sha256": "322686b4786f604e49cfe123d0e8ba7225d18b8c03d682d18243d681c23e8fa1"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_repeat_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "220ab6874b45c2f99644bb984fe01a6b0ef61be583e9d5e509efe4e6a307be5d"
+      "bytes": 2236,
+      "sha256": "b8a29a3174d3f985b92ae4c14cd25ffc36aee0b7530e1d54227b62a7beb755ab"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_switch_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "f3669f91da47f19d47fd73e18e04a20155326a87c2a0f8d410d57f049399d820"
+      "bytes": 2236,
+      "sha256": "372924d215d5682f6eb20154862ceeb0a29a096341ec0ee694a644536525ddc7"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_switch_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "c2cb03895451e3c6c54fbe853dbb956ae4e18df3a426b229ceb44ec74a0526dd"
+      "bytes": 2236,
+      "sha256": "f9931fe915fd2ce19b35280d49d1047903cfdd81052123a7d2b26c6a6dc4b552"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_switch_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "4f59f9cf3ae07d2889c9ef1c1f7e0ac1f72be5c0d3d457b5c7166945118be5b1"
+      "bytes": 2236,
+      "sha256": "f3dc2c07de4075084e7c517568384e07d39d57fb6577837767c66aa14fc38e05"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_switch_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "d22ed60c1c2fa631c29f9e7f41d1e9f0d1b75d773d50a410c78b4cdb3ef38644"
+      "bytes": 2236,
+      "sha256": "773a76722dca9b4be2385bde449f936534601247030cc7c1a69af959555093ef"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_switch_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "a1e48b0ce0847892bafde5f1f0bce4a4cdf048554d0768f321ecce66fce9126b"
+      "bytes": 2236,
+      "sha256": "00a21a3a561b69b9576cd3a593d858f78a5d5826a701e41e5a55054e688bc82f"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H02_switch_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "98c686d0e61f43cf4b348a383616107414f866eaf5047fdb6108d0930ed17630"
+      "bytes": 2236,
+      "sha256": "ab159ad7a43f3f5be1dd883f15117327651443e1f8e8f056d811da1e9e37aca0"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_repeat_A_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "b4a3d44dd656ebaa6b5f30f0cb8244e48302c9fc71613d359754dcdf1d2792b9"
+      "bytes": 2251,
+      "sha256": "dc7e14753917462f3e9ed2887743f779e87d720dd504879b1528d233e7cbb06f"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_repeat_A_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "20645157e22dd1aa060c9aea73d9121985a5caa9a8b1c5399c76d17e5a8a45a2"
+      "bytes": 2251,
+      "sha256": "0e94f41acfb165fdd485a18abe6a1951ba85e4c65720a6da9062e8f4cf217a10"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_repeat_A_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "c8fc38ffafd64881a690cc84fa240d0a8c38203a34a7987ae23c87bb39e36f87"
+      "bytes": 2251,
+      "sha256": "fecae0ee8ce3f9db6b6c9f7d6f1071724ad6b9d3921ddfc2e00511e32f78219e"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_repeat_B_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "954c0104231fd02a9f7aff9e690ea4a137b7f4f5ae41d18f741ac5e88490162e"
+      "bytes": 2251,
+      "sha256": "05ad22751e74e0bf916d1b2e1d8df998f8b0dfd11e63e7638c695faeff5a7657"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_repeat_B_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "240bbe94d78b1d739d30ca72ebb88867f167c81a034773abb184615de3008d27"
+      "bytes": 2251,
+      "sha256": "038dadba9b44c1409d3227eda19180ad2a5ca4bc37d12667fb281ac75a1d6c88"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_repeat_B_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "88be656321018fd8a51a4bfd6d1471c30cae61671eb80d546c1dfc43f6fe79d4"
+      "bytes": 2251,
+      "sha256": "a6ffe88005474530291caa4ed72ce37b68a645e589e2f3c401efc55471ccf67b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_switch_A_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "1d9ab9b564c5091527ca67e0fd7d24fe6fa2b376f9c651fceb782863b65382cb"
+      "bytes": 2251,
+      "sha256": "bc9d7a3605376e07fc25c03bfd2e6b440ee887d401d35201b3f9527df4a39df3"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_switch_A_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "c6f05f5122b3c10ec3ca1ee2910b30acb12124e5144620ec8c65bb5c61703acc"
+      "bytes": 2251,
+      "sha256": "a28dc825634a873e7d9767b9e98866726e15fb8bbe44a7287622c0c89df088bc"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_switch_A_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "1327713dad364a5550b0f6328bdf1498b7b297cbdde83e422333f7ea03c558fa"
+      "bytes": 2251,
+      "sha256": "c3d945315b0f4209c8990d5eaa78437fd4ddfe8c3d3061a68dcf696ea02075b4"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_switch_B_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "100ad9ea247d7c4fb0ae36b519246b2e256b5bd6905b311de75c2f2fdfffca6e"
+      "bytes": 2251,
+      "sha256": "a18c0c17db754edbf1a6721b5e28e4e46a34192523c005597f809d3ab7bc6270"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_switch_B_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "187d16a3ba04d5d3724d776106041cf0551275673c50ca3c42d7954d7b7eed31"
+      "bytes": 2251,
+      "sha256": "4e9202fa63f97be45e70a5f98cc0d638ce704954b1613f012c3ce45d2bc4c257"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H03_switch_B_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "049d268ec75a40ed571923031241d986227abcd0f177213c29156151e9f62f92"
+      "bytes": 2251,
+      "sha256": "c616e608371feb17d7e559fb99a7057feeca24dfa673b656d9b175e6c316bb33"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_repeat_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "12fd246da262ba287a390282ff10faaae2b51ab093e5125907c288c063b6b3ea"
+      "bytes": 2236,
+      "sha256": "46fb4d941586156388e4910d2e1e72ae025e2b088d13f1e4af2e1f38e1a5500b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_repeat_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "085f361da960835a744d4729eb7ff4b5b2b56a9a143429a30fb5a71328c2cafa"
+      "bytes": 2236,
+      "sha256": "e4d3b17ed5709b530cfcabc88277055f2afe60dae3a2f0ea84e65dc467d73d09"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_repeat_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "074f0e298f545395af5e5bd94526a52608e3d32b3367accbfe1d89bc110a6858"
+      "bytes": 2236,
+      "sha256": "1dbbd0163d8c8a60c8e2f2465da5e3654aa542107f38c20f7e235a054ea0e550"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_repeat_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "92a4ef15f2faeb0c764f7af77f773beee681dbdd0a8145974c67e1305f5e739d"
+      "bytes": 2236,
+      "sha256": "076c26f2ef23f4a4fa4aa69a085d0efc13d4a709622d51325c8b8bb656a31805"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_repeat_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "d97a44dcdd7695059050ea7df32ea012c31e29f2ea1c556900c4a52e90fc508d"
+      "bytes": 2236,
+      "sha256": "de2179553b6597889da4711e4b40f0de9a7c381a8d0c2a64f01aaa115a67eac8"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_repeat_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "0f759a0a749a260ae927f4c6ec1a822e7c2547d7298489b0f5abd31ef9339f57"
+      "bytes": 2236,
+      "sha256": "950f13e898e9ece0c9aa3a9f63efeb5d6a6a72774d2bfc093110a6f24d7fada5"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_switch_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "6b16998a272627b8f0943fca3f377c7692587435dc5f93f913c840546670d8a1"
+      "bytes": 2236,
+      "sha256": "1138d6c1b9aac9653db7de898a5bb19904bfc89ed02db6ef505c898171f82f5c"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_switch_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "8f15de8e46c56cea1a6071641ba5716aadf1cf767ab60c59edb4f2a54df0d756"
+      "bytes": 2236,
+      "sha256": "fc549189d75b38612d22dc4e7c55ffc5c4d5f9be809a5e655879ce0c5383fbb8"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_switch_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "6a4daaf938d8707e15e9ee7ecad512477b27c1d7b8a234ba74712ccb441dd3f8"
+      "bytes": 2236,
+      "sha256": "41d78282648ade600ec5c0179ec105c7dcd9149756c49d5ec51eddcaa074bc26"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_switch_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "0e7eb5c4fccc9082314c4878d7d7641a452a09f8cb1611e18add7197afab4063"
+      "bytes": 2236,
+      "sha256": "350e6bdd937be263b6cfe44c1a16ef926ae6768cf802e25096bb3dc9e129bd6b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_switch_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "160dc43fd9d3b06f8108c68547c5f3f6bbad565b8d3547d5fa9c9220c5416608"
+      "bytes": 2236,
+      "sha256": "ab447e244d358769d6c3898b64efa0dfccf4c4673eaaa958582b2e9e4e21c8e0"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H04_switch_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "5399fb545bf5a53e17e2e7e79b66c0cc090189daa006788d613a854581560294"
+      "bytes": 2236,
+      "sha256": "1a319b263e39efd64986698234f7f967847afe17b379dc422309422ca161b4b6"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_repeat_A_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "6cb452ab557d1d50f4fb5714b6b685fe8515e321ec30fecf0b951c025e4c1c63"
+      "bytes": 2251,
+      "sha256": "0947fb2a2dd68ed8f598ec5d502aadb1706c2528cb959feace370781b9a16c1f"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_repeat_A_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "1866c4a2592b5ef1dc74f9bdd827c01fcce3219b7cce767c984a7937f38f87ca"
+      "bytes": 2251,
+      "sha256": "6e52438ffbc9711561fd086323fcdc905a43207d4facfb14d09e9ea8263a2a0b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_repeat_A_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "b5e32daa9d6f2cb7e4ae980108ff5153ba5463930eed478c7898116a6f4150e9"
+      "bytes": 2251,
+      "sha256": "90919e976a394c73a3e478827e9e4923451fb23947bba64fc587119ddcf6437b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_repeat_B_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "f2e9d6654530285d5dbb240f9c1e58a8a60e43e8c748e1c378cdee2b78c9fd4a"
+      "bytes": 2251,
+      "sha256": "1c15ef2d3112c4a0c1e7ca924640e6f817a4411720ec1ce6606ee3346b6612bf"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_repeat_B_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "87632f3c4d17586648f8a8afd46f09f8f201b69035edbf26cd20167eac2d7667"
+      "bytes": 2251,
+      "sha256": "973cf1653b52e9f7b56d58ee4ecf4d91aac6fb745ccd3c955ee576a1b2b36fb9"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_repeat_B_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "58349a3c829919d208403d3db79f060bf4bb52935eb72f36b5a03f6589b3659f"
+      "bytes": 2251,
+      "sha256": "483a6692056ab0985c57247dca711d421ade3e57fbff3d45384a67d2303773cf"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_switch_A_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "2847c0c15676aebc61b0b9b01179b0cbfc990eb0ac1865a1f87fe8aa4e671848"
+      "bytes": 2251,
+      "sha256": "91a012d053c27e690b9edd116c0cdd8f6f5f91790d8f861648e906d73ec05eba"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_switch_A_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "6eff85877f7918802275f495ee808d17bd134a44fbf57e4e63223b40ec9d7c2c"
+      "bytes": 2251,
+      "sha256": "14ce0f2e454ce6af9f83ff9afafb35cc46ae4bd3c3cf6d8dff0b022c9f181890"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_switch_A_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "3727672012ee6762a3e5ede86f1e1deedb8d53805cc10916eb40650a0448d6dd"
+      "bytes": 2251,
+      "sha256": "2dbbc058e4e9f30d4424037e073f184a3b9724d28d17c0bebcc01631725ef897"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_switch_B_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "4f6e0a954eff76a47a6adb5d424f1cd4d5e45d1d96f259b9a4e79849a5969abb"
+      "bytes": 2251,
+      "sha256": "600d5e9a9cd58c9d155d54e74c946cdef1b25c0d9428d573bfccc7bbf3a38c93"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_switch_B_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "fcf2634efaf1b3fe18ff8a4776658aef5d19fe1b98b5d939e811a42937709110"
+      "bytes": 2251,
+      "sha256": "7f8ca3e568b9bde76947b2840c9855bda05564b87ac5d92ad669ca263dc97b58"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H05_switch_B_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "333e29f6bb0533230197917653567ccd6b8979438b84f05218711ca9ae607885"
+      "bytes": 2251,
+      "sha256": "1725f22e60388013dff92c95e866fdba1d4b8b03e711cf4a595418bed9fd2eac"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_repeat_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "e97b98da849d719c434b6cf5b3b9a14b8fb4b52ab89519130d2670c6ca108d29"
+      "bytes": 2236,
+      "sha256": "00e510fa9309350e148830c741f87069b0079c9d138dca7d7fb05c7ce3cd0a00"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_repeat_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "16a39497ddacb19f3ddce0fcb885f2e97a19198b94892eba48dfd3228fcc6970"
+      "bytes": 2236,
+      "sha256": "7ce81327f46ce09d99a4c0ec1c69177908280c7ae09ac1b59ee9c5ce4af8e0d8"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_repeat_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "5e975f6f3447e4c57122b649bb6faab5815dbeb877e6d12c6e768fac54a10777"
+      "bytes": 2236,
+      "sha256": "033f41dcdec1b78348909917766a202430af7bdc2934c7aff11c2203cc90c537"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_repeat_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "176efe48b297694d617eab0c3c0187a9fb2dd50775c5f69c6772e4cd4c0bec39"
+      "bytes": 2236,
+      "sha256": "415ca82b778e280b3a2ca5c2d91e97eac03beeb0be2efb6a6f205a45bd4f6633"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_repeat_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "458cc70b041c8c9db55e274f2daea921392a1136a3554503dedfe3ef47b2b56a"
+      "bytes": 2236,
+      "sha256": "7c8366c326a8348cf06c57e28dc7bec4d8bd80de58b19b00ddac50249c38ccf3"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_repeat_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "0d37d48fb083e5428819e8fcf2944efeb166fefa69909c6e1672f033db1cc755"
+      "bytes": 2236,
+      "sha256": "760c5082dbf22eb8ed0562240cc2c8adcb59a162fc697053096080d8d2e6da23"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_switch_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "a7700148e9b775c124d313aa3c39e713186015a2b215ce93d36a764bca03c1ee"
+      "bytes": 2236,
+      "sha256": "1ba0f6063906f4325fad3b9827ab86edb208a87c988e660f7179c5cd366200d0"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_switch_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "73d615c4ab11d16c0d426fed513fcd04b471e4845e58353c075fb9514b9e1b6c"
+      "bytes": 2236,
+      "sha256": "04461a69ee53d634717be5d550a8190c37cd38f22aa682c36dda64d9db484651"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_switch_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "65fe4db37d8671fcb53f4d747c4e60e9ca8062b61045d0eeac61668da2148dcf"
+      "bytes": 2236,
+      "sha256": "2aac7b3228b405db117340fbc990bfe88dbff01959600e1ba2c33da8ea8d0ede"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_switch_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "26307049994203b2c72355984f3a84781c91cbd5ac9e56e5b063aa62a9d9e15c"
+      "bytes": 2236,
+      "sha256": "b45c3996fa23a63adac8e6f9e22ef5b1427978c038c5c3e1c0009f116293dee2"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_switch_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "6d2e8ff85c87aabad95cbe8feb9ea608abb5739661672ea08a667595be68a587"
+      "bytes": 2236,
+      "sha256": "b166f008f3d6e09f8344c760380e5e1cdf0bcb2078c1548f6a4e92bf9e282392"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H06_switch_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "78b44fd09f759c8ed71ba64c7e58894fa4d79bb2b10c7080cb47d880b0592692"
+      "bytes": 2236,
+      "sha256": "5e726597d73215912f4f2c6c00b7b2a2044690b36f6e4b2ab2a962a94f97a3bd"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_repeat_A_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "bac63cd8f18805c73b82249b60186b1a51dbeee3c5d4dd2762172484a2d9eb1c"
+      "bytes": 2251,
+      "sha256": "be80a33804c034b176bbbd1feb53ced5d72591c861bc7e59e21d0f9c281e0660"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_repeat_A_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "2c7e18c56bc9e58533904ccd01db9bad9e6652e76c0025938e386a878a88180a"
+      "bytes": 2251,
+      "sha256": "65ae0077a396a9bf71b1e71b7471f830f5c6d301caa8311093a635275e8517cc"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_repeat_A_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "28220a7098dd7ad354064c564fc15713a788b6b3c63835453e876185a9360a3a"
+      "bytes": 2251,
+      "sha256": "c35bf018cb69a4a1ece205523386f9fb5854cb9dabffc9fca2573ff587b8fa63"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_repeat_B_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "0fadee4ea622420dcddb96fba168e497a57219d284b9f668daa645ee9b1f367d"
+      "bytes": 2251,
+      "sha256": "3eb73ce46afb2831b103579962de973ed33543185029152ad6dbf2c172f9238c"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_repeat_B_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "b1b666a16a166ce01a0cde64971833176c9cb6c0415824f23430da1433faa9ea"
+      "bytes": 2251,
+      "sha256": "a02279e791b46cb3bbc3dcb74e31deee25714ac6bd8fdadd01b04859fb654421"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_repeat_B_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "948cbecbceb5f502e40af02844c50f02837893044c9c45388c832df9a9564f8d"
+      "bytes": 2251,
+      "sha256": "ab9058b06afd3d0287898af48b2deaea514ee832b9a3d7242a60b8c48dc3b46c"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_switch_A_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "2ee0ec049581d4685ee98dfdd4692cbca022a3fbe6421b62ca24498e8d5ee6d6"
+      "bytes": 2251,
+      "sha256": "8be6e6f0984cbf716cef63837b362626ba8b6f0a3ea153d7074d1d4ba67c510b"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_switch_A_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "8a71288505f4da71612ceb623c35f50aeec7829dea039fc99a17024309215d91"
+      "bytes": 2251,
+      "sha256": "220cbbfd53fc86f1184c35d6130ce37a628318cc84ae1a415f24e9314bd97d20"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_switch_A_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "c9907b3d9491f858665a3ca4e865f73b1877db4738515f676371260e58a0c67f"
+      "bytes": 2251,
+      "sha256": "d900115524d3b2d1cbf464ad4b93d14ea3cd88656db74697e14fdf7187dfee55"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_switch_B_r1_v2.yaml",
-      "bytes": 2342,
-      "sha256": "7c9cb262e0434e63e43d6835dfbdfcd71dec2422c2402fefb9a73b2d0bc92c4b"
+      "bytes": 2251,
+      "sha256": "92ca3703e57292c3daae21eb509dc0e1ae9a7ee23b25f7d2fc9ceb9b8e8e5a11"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_switch_B_r2_v2.yaml",
-      "bytes": 2342,
-      "sha256": "c6b72ac8fbc7ee45ec67dd16df1afafa4f7f5bd8088fa073ea34ee42f6274611"
+      "bytes": 2251,
+      "sha256": "946d4f722a827c260e8c940fbb22aa4cd83be2e5e1a84be7754b23e15cabecc9"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H07_switch_B_r3_v2.yaml",
-      "bytes": 2342,
-      "sha256": "6491cd2569c6d066a16a8d187d95df16b3c2037e036b881688e4fa951d82d5e7"
+      "bytes": 2251,
+      "sha256": "91f428c17f987610154f3b761f141d19ec2d9e25fe85f4526dfdc10bc99be36c"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_repeat_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "5a2ef750c3fbcccd27bdfa52a48bad2f5257b7dd613d7a9e19cb0de18503f3af"
+      "bytes": 2236,
+      "sha256": "2cd79fb73fef42b7c375e06e8e17afb9ca5543bb9f49aff697015568ee956744"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_repeat_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "92ddc9de52ac28e61f2a246b23b073085d95e7e183bbd5ff2d2415655341a6c8"
+      "bytes": 2236,
+      "sha256": "0e36dbb3791a3884bbc6734311e2fe193a3515c1130908e0981b58db8842cda6"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_repeat_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "3d4662a86bb5974b1c1a7d5d08350ff2a62102a0f22aec7d187d9c00ae051f9b"
+      "bytes": 2236,
+      "sha256": "3f67f5ecba359aaf9a021fac92bb7fbb9ab016d78d59e1042b1f1c595c3bc548"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_repeat_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "3edf93e729b82da03eb88dd14bc4554c8e8e4906f1ddb48cf8b6b1385fbf9db0"
+      "bytes": 2236,
+      "sha256": "8ec077cbaa0ab97e605b655797a489501e3ad845eec1e234a3206199fce69e6d"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_repeat_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "924e562e80d9d490b9e6e9eae1840cfad71afa5550f53a254a612f6195556b02"
+      "bytes": 2236,
+      "sha256": "89b3af115a098815115099cec6376aac5cebf9da26107efd09b5d713c909fb50"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_repeat_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "9c671bcdcc1a4e0f5f77713f4d8381d7d91c148d00a24c2dbe20e60616d384d9"
+      "bytes": 2236,
+      "sha256": "6e5c0abaac3c96b4697664c1c9f0f40333e629e21540ee034afeec1b4af88dc7"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_A_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_switch_A_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "231b2fad8d8b8107e8cb8a3238d6f4197f4b088ddb96889c09c4ef8dc8a61328"
+      "bytes": 2236,
+      "sha256": "036037fbd5bd227474c9aba83ce733e2ef1a3bc30b37ccd76f849e0f8ba6842c"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_A_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_switch_A_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "dc2f680184bdcbc279816e9a636b1ccf64b7a19ddb55fc65c7763445fca43b0f"
+      "bytes": 2236,
+      "sha256": "66d6fe130a53ae472ea5e31bdeb4ba61a05ba2427561c679440f3a8573fa9728"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_A_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_switch_A_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "1d44f2c3a8eab112c5867794d1b6aca16a0362af0df77055296a4052366091ef"
+      "bytes": 2236,
+      "sha256": "33eac68a5b67dc6a1e897d91981600c2b4681fc96a8fd33414fe29f4067d7509"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_B_r1_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_switch_B_r1_v2.yaml",
-      "bytes": 2327,
-      "sha256": "41d41060ce9c3a9412e8564d7c35c855765005def0c9b4388c7593222ae769dd"
+      "bytes": 2236,
+      "sha256": "c029ca30f5c12c4b44f5fad8a53e647ded40dfa09dde09a87aefada83110f2f7"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_B_r2_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_switch_B_r2_v2.yaml",
-      "bytes": 2327,
-      "sha256": "91fea7a576c84845e34c2cd34e01e5127c7dedb0adc07fe7b8d69710b0220837"
+      "bytes": 2236,
+      "sha256": "a3802e77117129ebb15cee84195ee21ccffc97d6b15103f9948b5dcc6ca061f0"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_B_r3_v2.yaml",
       "target": "experiments\\E02\\datasets\\paper_e02_switch_H08_switch_B_r3_v2.yaml",
-      "bytes": 2327,
-      "sha256": "1cacb8837d195b2821c72657356a82fc4d965ad6834c30b51fea01d2d5369f3b"
+      "bytes": 2236,
+      "sha256": "fab858212877d9eab8500ae2fd1a4374767fc3f8adadbe4b9f48cb73f6898bdc"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/manifests/E02_label_switch_dataset_manifest_e02_label_switch_holdout_confirm_v1.json",
       "target": "experiments\\E02\\manifests\\E02_label_switch_dataset_manifest_final.json",
-      "bytes": 44009,
-      "sha256": "54395008d56e1e9862227137e2ce768e012310c6200ad13d74398f1b104a747d"
+      "bytes": 43039,
+      "sha256": "17cdd719d5d4ac1d2cd67c60494563615aec86408976c53405805ed3e8f71f52"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/manifests/E02_label_switch_evidence_e02_label_switch_holdout_confirm_v1.json",
       "target": "experiments\\E02\\manifests\\E02_label_switch_evidence_final.json",
-      "bytes": 135365,
-      "sha256": "2d12af57d87327fb7e42194624b720aa5f7477efe5381b15386e3a129f13376d"
+      "bytes": 132013,
+      "sha256": "ce4a8f737f9c3e16b1d2e6e16f86b29eda1a37aa66f54bacb78d77661b50e9ad"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/reports/E03_reward_shaping_design_logic.md",
       "target": "experiments\\E03\\design.md",
-      "bytes": 1446,
-      "sha256": "cdd7b28a3c52f6f73f7fc7a36e51fd2848d96d2c251d9465055bc0b2d164fc8f"
+      "bytes": 1424,
+      "sha256": "3833845b307a93b66dcdba4f451bcbc8d91963f8a3f77ca70c50f1f9c42cfbea"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/reports/E03_reward_shaping_report_e03_final_v1.md",
@@ -1027,32 +1027,32 @@
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/tables/e03_reward_shaping_summary_e03_final_v1.json",
       "target": "experiments\\E03\\tables\\summary.json",
-      "bytes": 630,
-      "sha256": "6d11219a81e4242d097cf6578bd40b70c0496e5af7ee73e6713f5125bc6b0e46"
+      "bytes": 610,
+      "sha256": "f3b341b775b9e6a4f24b7684ba749b6d6b226df89a45ae999732c52e0eaba07c"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/tables/e03_reward_shaping_pair_rows_e03_final_v1.csv",
       "target": "experiments\\E03\\tables\\source_tables\\e03_reward_shaping_pair_rows_final.csv",
-      "bytes": 3249,
-      "sha256": "07398c6e78860cfd55cb659de97df69fd41bbb3906cf165fe79102138b3141e2"
+      "bytes": 3236,
+      "sha256": "db305e67150b69e5905c8520b8259578c28ba4813b248af41f870653dce329eb"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/tables/e03_reward_shaping_probe_rows_e03_final_v1.csv",
       "target": "experiments\\E03\\tables\\source_tables\\e03_reward_shaping_probe_rows_final.csv",
-      "bytes": 11817,
-      "sha256": "d9f50af572aec771f66b7e0628c06058b31c2a571dad4f77316f1b3906bd311b"
+      "bytes": 11780,
+      "sha256": "758e8540f1a4d28b330053bb1495d3d905a9f223a63538ef45cc2f77320c864c"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/tables/e03_reward_shaping_row_metrics_e03_final_v1.csv",
       "target": "experiments\\E03\\tables\\source_tables\\e03_reward_shaping_row_metrics_final.csv",
-      "bytes": 15890,
-      "sha256": "33ee3de0cf28fae08cfbf1e92e541366f69211ec6fd03cd4c1014450d6bde6b6"
+      "bytes": 15817,
+      "sha256": "b3c1aaeced1323f597d1411c6c62e733ba204fb66ce435bf9a3a50318b78c5ab"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/tables/e03_reward_shaping_summary_e03_final_v1.json",
       "target": "experiments\\E03\\tables\\source_tables\\e03_reward_shaping_summary_final.json",
-      "bytes": 630,
-      "sha256": "6d11219a81e4242d097cf6578bd40b70c0496e5af7ee73e6713f5125bc6b0e46"
+      "bytes": 610,
+      "sha256": "f3b341b775b9e6a4f24b7684ba749b6d6b226df89a45ae999732c52e0eaba07c"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/charts/e03_reward_shaping_differences_e03_final_v1.png",
@@ -1069,236 +1069,236 @@
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F01_neutral_control_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F01_neutral_control_r1_v1.yaml",
-      "bytes": 3206,
-      "sha256": "c976c84504b0ddb4210351fd90cc07492f8e1956c9d030047e893889dc1c14af"
+      "bytes": 3084,
+      "sha256": "fa272be4b50cddf3b6860200d6f064c7a14ff10b4f3d642b36e7b0d9bee34e05"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F01_neutral_control_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F01_neutral_control_r2_v1.yaml",
-      "bytes": 3206,
-      "sha256": "548677f75b9b662af033c7f45380e2689146078e607ed2740c482e4747e20b2d"
+      "bytes": 3084,
+      "sha256": "cfeaef4ffb48ea36e4231e4ede31c52466b7c782e81429bb4269d21f3877af1d"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F01_punish_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F01_punish_history_r1_v1.yaml",
-      "bytes": 4403,
-      "sha256": "300ed7d35beadb030bd34c4b0472d4712a39e83f9dec0c9513c28f0657f0466b"
+      "bytes": 4243,
+      "sha256": "621de38d8e346adbeaff95929876df5ad2bf46058e9257b734ac0af109728098"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F01_punish_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F01_punish_history_r2_v1.yaml",
-      "bytes": 4403,
-      "sha256": "646b984c4d88b0f2159672f6137d7c36930da9961c47978dd5c14337242c3540"
+      "bytes": 4243,
+      "sha256": "ad57c5b75078563edeb3f075a170704a34cb68f069bf790aeae011cab220bde4"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F01_reward_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F01_reward_history_r1_v1.yaml",
-      "bytes": 4466,
-      "sha256": "86ea1df8da4d29aab964148533295ea3315e1ac3583ca7490304ce77f6670391"
+      "bytes": 4306,
+      "sha256": "6734625374f8fadebcf41f95cb673468b1f29f8b5f960e4f2b511785975819cb"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F01_reward_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F01_reward_history_r2_v1.yaml",
-      "bytes": 4466,
-      "sha256": "ef7e92858ee591609f8dddae91e0a1139e2da5fcc07098cd9010aec25a46de49"
+      "bytes": 4306,
+      "sha256": "7737f57d4a11190232e9d3a131d3a0bf3614bfd0fb9279773b2a5171ad4b93fe"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F02_neutral_control_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F02_neutral_control_r1_v1.yaml",
-      "bytes": 3209,
-      "sha256": "8f3ad5f3954e3e104089b67bc2b17116db119a7b443321745f00c9835b7cb628"
+      "bytes": 3087,
+      "sha256": "47ed4d7ccd7bcf8c652036d0dc6c90fbe6b4325a3c1bb8c1c6c43910b2c91619"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F02_neutral_control_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F02_neutral_control_r2_v1.yaml",
-      "bytes": 3209,
-      "sha256": "ade2a86d87bd35c4d57c67097816428010b226e877846bee2711a541ac77fc77"
+      "bytes": 3087,
+      "sha256": "fc5465d326e44b5fed15d8e546135569b8471330a12a42f25a3c795af682b355"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F02_punish_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F02_punish_history_r1_v1.yaml",
-      "bytes": 4403,
-      "sha256": "d59201a5d8227094e71b945e8cccf867a3dc80f8fb51d82412b95a1ba69828c7"
+      "bytes": 4243,
+      "sha256": "355f3d62e4d0f0db4ade269090a9fc6a5299fcb7ff3364d828c5df9194565edd"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F02_punish_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F02_punish_history_r2_v1.yaml",
-      "bytes": 4403,
-      "sha256": "ae06a4123bf3c91094f05aac531485ee8dc81f68a6eb01bfd4e4a8b898b676f0"
+      "bytes": 4243,
+      "sha256": "3d75480573ec08f0d6eaff5a02eb6b4c03c962ef9b1e282994ac8dc6d6ca86c3"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F02_reward_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F02_reward_history_r1_v1.yaml",
-      "bytes": 4463,
-      "sha256": "05917444b2c8ff1289c0cf2ca7f5b4c51a50c99aea4f75a0974ad0dc72a3f87c"
+      "bytes": 4303,
+      "sha256": "c4680a1c68d6e1ab278641f8175423eb60e695ecd0fba4c3c10420ec14bdb639"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F02_reward_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F02_reward_history_r2_v1.yaml",
-      "bytes": 4463,
-      "sha256": "683732b6e294fa4f51dc66b5ee17b91d2f2d218c3ebfdf410994e14e43301d29"
+      "bytes": 4303,
+      "sha256": "c4938c2cb105bd1c7daa9aea2033449c0f22b48b02129d3bde05adbe06c743a4"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F03_neutral_control_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F03_neutral_control_r1_v1.yaml",
-      "bytes": 3209,
-      "sha256": "fc6968800d1a4e662b8044e1f06389f22e4c1ef7075772cf4233426fb03ecce4"
+      "bytes": 3087,
+      "sha256": "9176b61697855cc83153e34007751f7ac0f0e1e76c76e6c670ab7544315719f9"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F03_neutral_control_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F03_neutral_control_r2_v1.yaml",
-      "bytes": 3209,
-      "sha256": "1d339b85c97a2eae0fb50613afdefa2b1c4d9023a598ea54266cacdd7916a0b7"
+      "bytes": 3087,
+      "sha256": "731254ac0a32456184ae103bb1ac7f1df8d801e7bd15be674c1d704dfeb42b63"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F03_punish_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F03_punish_history_r1_v1.yaml",
-      "bytes": 4403,
-      "sha256": "03fc1efbd43582785bb0ecc47a998e01207f58696f18450c3b5bc4dc38b8c548"
+      "bytes": 4243,
+      "sha256": "0b14e2dfe35ba29c1e9ed9e462ac81168b79f8a99f53668350dcf0eb9f9a2662"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F03_punish_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F03_punish_history_r2_v1.yaml",
-      "bytes": 4403,
-      "sha256": "a965a8c9ad57cc6f0bc7f9e87417c2e58f62a9ed55a73a17a450f703eb870772"
+      "bytes": 4243,
+      "sha256": "339cd8a2daccc8878e2ad73491cecb2d19a110bc5846e0ae3d189f7aee13e0b8"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F03_reward_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F03_reward_history_r1_v1.yaml",
-      "bytes": 4463,
-      "sha256": "80d8e7f7831e7a95c4df521708c156b03995906ee92a396f457177758d01d913"
+      "bytes": 4303,
+      "sha256": "d67d2076ca624a774ba64a744bf92785350608632ec2499ba2e667a791e36c14"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F03_reward_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F03_reward_history_r2_v1.yaml",
-      "bytes": 4463,
-      "sha256": "0e462dade5c063c86305cefcb048145af7c93466f036d7e2be44f3547c2f88cf"
+      "bytes": 4303,
+      "sha256": "e7c6704710edea45bb2a9835adf22d294445eb21d23d1d9c8080b07c3a38f6ef"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F04_neutral_control_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F04_neutral_control_r1_v1.yaml",
-      "bytes": 3200,
-      "sha256": "f12bc18cd19f5897a22767c1a9d859fbc0a01a8260411ad1931d4c5795066579"
+      "bytes": 3078,
+      "sha256": "6a79422aa995da0280d25e2ea4d98a54dfbe43bfa668188653d7bedb55fb434c"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F04_neutral_control_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F04_neutral_control_r2_v1.yaml",
-      "bytes": 3200,
-      "sha256": "7eb14cda67fae3e9fa6b8ff8ecb81b1f55049869097744c37533e2a6a6db68aa"
+      "bytes": 3078,
+      "sha256": "5e6dbe27dc12f3f9560c30d646786234452d3addb6ddffa0898a5a26c451e440"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F04_punish_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F04_punish_history_r1_v1.yaml",
-      "bytes": 4400,
-      "sha256": "7a851a47c0777fda441d79e496b7b2fdae91414f22430efabce85135f738f55e"
+      "bytes": 4240,
+      "sha256": "76d45c6da8dc0986d89eae56a44cae1a354cee99ba977bbe80adbb4c2d644189"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F04_punish_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F04_punish_history_r2_v1.yaml",
-      "bytes": 4400,
-      "sha256": "cbe45d86670d9ea3e067da9130faae0f025dba212aea0ca00c38521397a65130"
+      "bytes": 4240,
+      "sha256": "e958e04fe2ec84d49e7d276da22e9d8fb5eaf0d8c5fb5837bbaa90a834b81da3"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F04_reward_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F04_reward_history_r1_v1.yaml",
-      "bytes": 4460,
-      "sha256": "fa642f48dfc697443024df2f3237c971fd96db09eceff889f88a6eaf4b5da97b"
+      "bytes": 4300,
+      "sha256": "888643c28908dc213aca50eaf6c40f4d490d43e05c61f2b042301136736c212c"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F04_reward_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F04_reward_history_r2_v1.yaml",
-      "bytes": 4460,
-      "sha256": "6f4e45c2520802ca66402ae78847e39434b3b0a8aced1bd9f9a140e6a3aeb5c5"
+      "bytes": 4300,
+      "sha256": "1305bbdfa4586eff2e3f16780ff048014f70aaa245971d3757c857349396676a"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F05_neutral_control_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F05_neutral_control_r1_v1.yaml",
-      "bytes": 3206,
-      "sha256": "d615b9822fb9c1a90a3913d6b2fa3219fea20561a856759cf4d2f45cc607423d"
+      "bytes": 3084,
+      "sha256": "a6174acb3469610f02766230eb9a3c56346726962b252940089213df48359eed"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F05_neutral_control_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F05_neutral_control_r2_v1.yaml",
-      "bytes": 3206,
-      "sha256": "f2f673fea5f7914e3353ec18b0ecdd74248217ccb59ad14aae817b575a4f2df0"
+      "bytes": 3084,
+      "sha256": "083b5173de372ba7234b096b1fb0dc8f1c0f40fbdd466b02fec497873e187967"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F05_punish_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F05_punish_history_r1_v1.yaml",
-      "bytes": 4397,
-      "sha256": "2348b4a11f6e842995f33c2c3ef0673f2c75142cd22f13a35d5df79dca14d83b"
+      "bytes": 4237,
+      "sha256": "8742b94832b6724d43a3c1280b5dfba19ed166dd12985b7dcb1aa2b119c34b6d"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F05_punish_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F05_punish_history_r2_v1.yaml",
-      "bytes": 4397,
-      "sha256": "3efba27121a11ba9f78e5a9a647248a8cdfd62d46f58d1a0345d9dab92e7133d"
+      "bytes": 4237,
+      "sha256": "a01d79cfec070dbf4f97435e0262439e62e8f020abf1174c7eac94982497f896"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F05_reward_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F05_reward_history_r1_v1.yaml",
-      "bytes": 4460,
-      "sha256": "a90932e3c971eaeb76f2597131cb5095b8286142de0fccfc383ff474a1ae73bb"
+      "bytes": 4300,
+      "sha256": "82df522181e1524fb86bdf78d9b33245dc0896dbb7243458d0738a46b0cfc385"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F05_reward_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F05_reward_history_r2_v1.yaml",
-      "bytes": 4460,
-      "sha256": "cba6fe34887dd5d2c5687e89ee322d061664995d9d67c2c31600095fc6206a8c"
+      "bytes": 4300,
+      "sha256": "22e1c46a3e34da18daca2ac213271099f83e65cace16383cc99faecb10e62bd1"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F06_neutral_control_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F06_neutral_control_r1_v1.yaml",
-      "bytes": 3209,
-      "sha256": "43b23aecb7fc5ddcc1d88a6bc2d6d668b1fcece82ac31d0055523a5d33c65328"
+      "bytes": 3087,
+      "sha256": "e49f7d3d8272480182a5612bc57c7cd832291699c459b8b8b4a22da67e4abe6f"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F06_neutral_control_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F06_neutral_control_r2_v1.yaml",
-      "bytes": 3209,
-      "sha256": "74bde0affefd983f8033be2d43559bb6d15c505881378a3ae6774b105da0caaf"
+      "bytes": 3087,
+      "sha256": "1b01ad8d4175e217fd3305ac941c6ed53a0891a3942028ed39b2239910ba6516"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F06_punish_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F06_punish_history_r1_v1.yaml",
-      "bytes": 4406,
-      "sha256": "549023c6c827a7ac1cf2b4dff2b23986aa3e6d40f8f40e76c66a29d031f82c0c"
+      "bytes": 4246,
+      "sha256": "7ba8f619f68d8754a5bdb70a2f8ee71fed05fc1d4deefec6bbfd785f3617f247"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F06_punish_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F06_punish_history_r2_v1.yaml",
-      "bytes": 4406,
-      "sha256": "b3cd2e86d4fc4c65552cded5c0de4b231c58156cb73f55bfbc418524b9aad2f0"
+      "bytes": 4246,
+      "sha256": "ed57fde9c86c9b4d3cdc466e0b06863ca0e2d9239b9789ecfec2439976750b27"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F06_reward_history_r1_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F06_reward_history_r1_v1.yaml",
-      "bytes": 4469,
-      "sha256": "cdaab6419513a1da49ad174e89d97e9bb352284160b37cd27282b50896ebebbe"
+      "bytes": 4309,
+      "sha256": "1ea12e448a8bab5e64c92e53c96b4dbda79787f358ea9b2844b7ff85ff4b5b8f"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/datasets/paper_e03_F06_reward_history_r2_v1.yaml",
       "target": "experiments\\E03\\datasets\\paper_e03_F06_reward_history_r2_v1.yaml",
-      "bytes": 4469,
-      "sha256": "a2bf02194d31d3b4229785779dc3a77c90a69ce46cd68ee658f9eeace6ae4d77"
+      "bytes": 4309,
+      "sha256": "d82404eaa85a31cdad66d202b4725102af1d7a33bbc7ecbf10a06076663c6ab3"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/manifests/E03_reward_shaping_dataset_manifest_e03_final_v1.json",
       "target": "experiments\\E03\\manifests\\E03_reward_shaping_dataset_manifest_final.json",
-      "bytes": 15549,
-      "sha256": "62b9ca1f6513451e53bcb81b4e1da06c244b4bdb53488aba5f92a3265ef12eb5"
+      "bytes": 15212,
+      "sha256": "fc156f45e00c221fd590b664766fad79fefb572b5123318208b15e0fe65d50da"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/manifests/E03_reward_shaping_evidence_e03_final_v1.json",
       "target": "experiments\\E03\\manifests\\E03_reward_shaping_evidence_final.json",
-      "bytes": 50709,
-      "sha256": "0244ef21f718ea136466439dbb92bd3c1f1cb3d6ab1ffdf105a9a7669c603f18"
+      "bytes": 49470,
+      "sha256": "f454c533513f0c3ac75038e1e44de37e7769db99e696ee849de305cb16dbba6d"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/reports/E04_punish_correction_design_logic.md",
       "target": "experiments\\E04\\design.md",
-      "bytes": 1473,
-      "sha256": "5b9549cb139d6ee0d786b0c56b8020e3e773b0f7e92f1874fe3ab093dfaa025d"
+      "bytes": 1454,
+      "sha256": "41cbb8787581fad92ac0b74c9760020f620310b0cdbfa2e45bd5b77a07cf19f4"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/reports/E04_punish_correction_report_e04_final_v1.md",
@@ -1309,26 +1309,26 @@
     {
       "source": "ap-paper-artifacts://E04_punish_correction/tables/e04_punish_correction_summary_e04_final_v1.json",
       "target": "experiments\\E04\\tables\\summary.json",
-      "bytes": 647,
-      "sha256": "708d8ede8015973e1e9e02f848d785af2a08725bce05dae2e3c7db950f8e860c"
+      "bytes": 629,
+      "sha256": "2b44d504d212f6eb8237a59e60916e251d0b4968b71c5e168e2ab628b7d8ab1e"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/tables/e04_punish_correction_pair_rows_e04_final_v1.csv",
       "target": "experiments\\E04\\tables\\source_tables\\e04_punish_correction_pair_rows_final.csv",
-      "bytes": 2640,
-      "sha256": "d901533f0d262f1d51724a05b28d0a64658b0cb1d61915d8df3178e3fbb2a50d"
+      "bytes": 2627,
+      "sha256": "fc6f8bdcb50675e1dd68836c9f0e31f15cea842ded0ce0282e432a72a4dd2baa"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/tables/e04_punish_correction_probe_rows_e04_final_v1.csv",
       "target": "experiments\\E04\\tables\\source_tables\\e04_punish_correction_probe_rows_final.csv",
-      "bytes": 16410,
-      "sha256": "fd9fdf7ac06469c9bb644f47883a47952ecdc259765a3904adb1226e3a8bcfbf"
+      "bytes": 16337,
+      "sha256": "32a3522bf1e346572353af4455c5264f57cca28ab230b83de88d04514a57716e"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/tables/e04_punish_correction_summary_e04_final_v1.json",
       "target": "experiments\\E04\\tables\\source_tables\\e04_punish_correction_summary_final.json",
-      "bytes": 647,
-      "sha256": "708d8ede8015973e1e9e02f848d785af2a08725bce05dae2e3c7db950f8e860c"
+      "bytes": 629,
+      "sha256": "2b44d504d212f6eb8237a59e60916e251d0b4968b71c5e168e2ab628b7d8ab1e"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/charts/e04_punish_correction_effects_e04_final_v1.png",
@@ -1345,236 +1345,236 @@
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F01_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F01_corrected_history_r1_v1.yaml",
-      "bytes": 8116,
-      "sha256": "cb9c74d45346a416302ffad0465a0f4bc9b024fe6df918c2fe2a9cd657a7eb99"
+      "bytes": 7838,
+      "sha256": "ee12f208a92d74dc33f2a71efff1fe481d747ea81f1c76c7bc035df293b2beaf"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F01_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F01_neutral_control_r1_v1.yaml",
-      "bytes": 4128,
-      "sha256": "762779f9ba5497d3dfa96caeda5a02f706603dc3dd44a87fbe1cd73f54e7a464"
+      "bytes": 3976,
+      "sha256": "9e8f07d43e54b9358643745efa016a8db6df4fdc7bd4a829e395aad2f7e700e9"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F01_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F01_punished_history_r1_v1.yaml",
-      "bytes": 5466,
-      "sha256": "eea9c193c3bc001afddb893233c5dead53e26b43deacac6b925a2ad22c9bf95e"
+      "bytes": 5276,
+      "sha256": "c832b0503cbe4d3cca8f3943418f4ecc33c37d4a3e043ba2ff92da16141c740f"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F02_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F02_corrected_history_r1_v1.yaml",
-      "bytes": 8122,
-      "sha256": "a627d64970dea45adf6f504fc42aa9da37083bdd8930fe04d87e92683e160758"
+      "bytes": 7844,
+      "sha256": "de06794425f5fe92f14dfa77e6c9a0e252f7fcb0b23ecceb8904131b43edeec2"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F02_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F02_neutral_control_r1_v1.yaml",
-      "bytes": 4119,
-      "sha256": "2cf03d1d36b5214d413da04511ad9317bd7eac305e0ea0ef673f21c65241961b"
+      "bytes": 3967,
+      "sha256": "555054cd0d1785b6213547abd5e02a7fdf634783afcc19a6426a3927ca20bfc9"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F02_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F02_punished_history_r1_v1.yaml",
-      "bytes": 5460,
-      "sha256": "fdf03ccf8fa95ac78f33a28e751b7bdf92f0edef0b407c054342aa620449a966"
+      "bytes": 5270,
+      "sha256": "2ef9cdd1414b220f80d3a584cc3ca23fa7710d7828c7571f67843da0e2fe8623"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F03_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F03_corrected_history_r1_v1.yaml",
-      "bytes": 8131,
-      "sha256": "3fae0220317b1c186025bea2cf19aed708d5c2836293efddd228d9f48d0bf2f2"
+      "bytes": 7853,
+      "sha256": "518c682ff4754196e650847c3b74cff6631dc6e722b0edaa89722908591476eb"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F03_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F03_neutral_control_r1_v1.yaml",
-      "bytes": 4119,
-      "sha256": "139fa37cbf514863f5f83179b18e9a759c40bdb850c8bbf1a05b1ac50db614b1"
+      "bytes": 3967,
+      "sha256": "cd4ac42d8fd7e7969e5e818dfd738ffc204ff77c810be925dcedec683bbbf24c"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F03_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F03_punished_history_r1_v1.yaml",
-      "bytes": 5463,
-      "sha256": "c690c10cbe078cab9c4e13a07f07ef35b65b82675aedc30c30fd76739d63f9cb"
+      "bytes": 5273,
+      "sha256": "25e67bf1724784451b00a93b409becf58b659640bd49a3191f8c65d1899c85ed"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F04_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F04_corrected_history_r1_v1.yaml",
-      "bytes": 8086,
-      "sha256": "353c1ccc60c81237e8ab8b404ac995f063806976d58f2dbdc23afb55e680d8da"
+      "bytes": 7808,
+      "sha256": "a8c6dd7260285d8cf63d3c73f7924032e9e94ee1957a1027949e024fcba2d0fa"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F04_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F04_neutral_control_r1_v1.yaml",
-      "bytes": 4119,
-      "sha256": "d05759a206b7ac315a5ca3226fe5efad1b1c4d79e0330a65d9b717d5a34fd677"
+      "bytes": 3967,
+      "sha256": "e832097b542c474e68d112d4677f8479d5fd2d1050776ae3e477cd75f3fd5dc5"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F04_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F04_punished_history_r1_v1.yaml",
-      "bytes": 5460,
-      "sha256": "8cdcac46496cbce63eafbe68a5016b3ebf55c77ff84a55d3a84c6e4b304ef56d"
+      "bytes": 5270,
+      "sha256": "f167a30d2319dc0ef9d233dc178ae2b62a0fdb31c9acf39425304e340777e578"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F05_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F05_corrected_history_r1_v1.yaml",
-      "bytes": 8080,
-      "sha256": "dda58b40cf8320ec36364b8315d6e18fe351575fdf6a2ef4da9f64fbfb2946a0"
+      "bytes": 7802,
+      "sha256": "b66528b448ac7a2129bf46b18c4f464eb83bf6f80430e37b0fd66c970b7e464a"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F05_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F05_neutral_control_r1_v1.yaml",
-      "bytes": 4113,
-      "sha256": "6a3f8cd0fdde157371c782d851a930438886d3a17d024bf5d501c12a6f9f7766"
+      "bytes": 3961,
+      "sha256": "1a0063ab6ca00e19b6b2d62e4a7ca497567e201ddf0435c17c48840db08e6534"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F05_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F05_punished_history_r1_v1.yaml",
-      "bytes": 5457,
-      "sha256": "019f7602611c9d5445e4eaf8e7bced2658847ac0045c35166b808902f6092526"
+      "bytes": 5267,
+      "sha256": "b6f1de3544279165778ebc263d0eccccdcbd6cd00a3583d6bc4fb6de756a87a2"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F06_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F06_corrected_history_r1_v1.yaml",
-      "bytes": 8125,
-      "sha256": "6ad0f82500f6d0fc6890fbbc9347a7b9c4bd71855eb72de8f2ec3dfdfb8bacab"
+      "bytes": 7847,
+      "sha256": "d5341870fe6a66a1de77198cf7fdd2ab1555d2b6e1a4afc05f9b4eac5a207b00"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F06_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F06_neutral_control_r1_v1.yaml",
-      "bytes": 4131,
-      "sha256": "d976386696975067b27fa963f6d0fbb918af8dea9dabe3b6b1e7950536140efc"
+      "bytes": 3979,
+      "sha256": "9313788a15c4a5698015a0b3a41ef35471f1e7f86a496352ba313ae36876c6a5"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F06_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F06_punished_history_r1_v1.yaml",
-      "bytes": 5472,
-      "sha256": "4d95cd998b1440fdc32945ce1fb81da6118db61b227f4c91e18845b6d0dcea88"
+      "bytes": 5282,
+      "sha256": "5b6417bda965fe5fc1221c680cd5cbb02e6a9a83c7f38fe3c837517ef3a25cd6"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F07_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F07_corrected_history_r1_v1.yaml",
-      "bytes": 8119,
-      "sha256": "0a649079856594ea1907902c828f9c18b1b1e263508b825018aabd53e9fb2afa"
+      "bytes": 7841,
+      "sha256": "4516de01b4a4f809cef4da3c8ae8374d50a64454f5aa3e9e6fef4f7eab7297ef"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F07_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F07_neutral_control_r1_v1.yaml",
-      "bytes": 4116,
-      "sha256": "9407474c39d832dfdc682a6f7f8f31614afedc9bf54c6109f95845866fefdcae"
+      "bytes": 3964,
+      "sha256": "5ce37893cbfa3ccafa1598a3f5ce74684b7a4c78d30215671bb1f7669e7d3c95"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F07_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F07_punished_history_r1_v1.yaml",
-      "bytes": 5457,
-      "sha256": "bafd5c9b4948ffc967559b1085bb064fa117625c64cfc757f39734f0d3384ebb"
+      "bytes": 5267,
+      "sha256": "68c8c5e67dfa6d6f1b24dc3e0b84f6db2679ccdaccad027193bb1ec8bf79f140"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F08_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F08_corrected_history_r1_v1.yaml",
-      "bytes": 8122,
-      "sha256": "7806c2bc35507d5cd7803db3225d37014f660f9654c265bcd04dccc7932b6ec5"
+      "bytes": 7844,
+      "sha256": "ba8a49d59dcbf0c2d935f1c0f8e6598ade92f9448606648af0baa816e8af732c"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F08_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F08_neutral_control_r1_v1.yaml",
-      "bytes": 4119,
-      "sha256": "cda713e9f4c63ea16780f008c0c4b581ae225e6308af1a3d168c48d2bd91512d"
+      "bytes": 3967,
+      "sha256": "2cb53facb56d56014005593e4a02faa396307ee25a990f2e47326e16981b58e0"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F08_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F08_punished_history_r1_v1.yaml",
-      "bytes": 5460,
-      "sha256": "5943fbef786379e7582987968e79ae7ca4cd0b7e691459424d02d6444678afc0"
+      "bytes": 5270,
+      "sha256": "5707969a3311e1059e0fa91f46baf2065d3c8aecec283725472a05a0126e086f"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F09_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F09_corrected_history_r1_v1.yaml",
-      "bytes": 8119,
-      "sha256": "428c4f2c593e81ca67c597769c181b643790fbb28f587d63d46440e4e43e33bc"
+      "bytes": 7841,
+      "sha256": "5f2aafe8e80ae46beb517c13fe09a81d77984db16c92eeff39f8eb9a5a35a874"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F09_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F09_neutral_control_r1_v1.yaml",
-      "bytes": 4113,
-      "sha256": "d67635fe9c6049c56ebdff3af0403ce627a2bfa9aa6c584ebea07ac331488aa5"
+      "bytes": 3961,
+      "sha256": "d205feb091a4fe170a3cb53986a9752058f9e3f8c8501a3f9445f2ccd8754b40"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F09_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F09_punished_history_r1_v1.yaml",
-      "bytes": 5454,
-      "sha256": "96f45c793c7b43c85c497f8860f1fdf52273792603b5e59ee7c679b3181d7b8e"
+      "bytes": 5264,
+      "sha256": "5b121edac4a35ccf0188eedb2a5320e5b2c9e3dbef28a65fb2bae015ffd051bb"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F10_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F10_corrected_history_r1_v1.yaml",
-      "bytes": 8092,
-      "sha256": "b416d266650b34fbbe270158a05a2fe257f6589ec68997cefba0bebe09b887a2"
+      "bytes": 7814,
+      "sha256": "666f79ad50d97fde3a7627c04c544136d27777a21dc377cee273dae630da8623"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F10_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F10_neutral_control_r1_v1.yaml",
-      "bytes": 4116,
-      "sha256": "d1f44e767171a941668a372de7879c7a6a229996b30976f2f7efe8c1056f03b7"
+      "bytes": 3964,
+      "sha256": "cbd0eface7c4791c12839f4da47566fae4f267090c2e5099644081c5c75af845"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F10_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F10_punished_history_r1_v1.yaml",
-      "bytes": 5460,
-      "sha256": "91f8d3e465e4f83e987f300fc12aeccf0a802471ea0e50ac29d9286412772f9a"
+      "bytes": 5270,
+      "sha256": "6dc84f9c3e34744993500c592d70a0072c062688eda1e1a7c8a0688cbca447e0"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F11_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F11_corrected_history_r1_v1.yaml",
-      "bytes": 8113,
-      "sha256": "f49ee59ad932818abd6d0962579345bab7e15e5a34e55a2031d47985b8f4ae90"
+      "bytes": 7835,
+      "sha256": "2e3aa2085f4a9849069efa38ad94d7cc731b67d7629f6d35d5aea7fcc86dc762"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F11_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F11_neutral_control_r1_v1.yaml",
-      "bytes": 4119,
-      "sha256": "8c74dd0fef1ecbf664ec7da3c7989f9466439ddc262817391a7e93b2c8c5a431"
+      "bytes": 3967,
+      "sha256": "a12fadecf0b04d32db8382a738027a2dbba83a86c6f324f538672407d7f9c3e9"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F11_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F11_punished_history_r1_v1.yaml",
-      "bytes": 5463,
-      "sha256": "8c1c4dfa6f6bb544bd7d6cd0f9ad11c6ed9885381098f161689d29c53ef48e1f"
+      "bytes": 5273,
+      "sha256": "fb9dd56a71b8be6d5fcf4e390c24563d3d3928e144cb56036226a72b43bcf3c2"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F12_corrected_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F12_corrected_history_r1_v1.yaml",
-      "bytes": 8092,
-      "sha256": "cbb7d7c993395ceb88cbfb7baf890436026e8b4b1e521002ab84e6c9d1268286"
+      "bytes": 7814,
+      "sha256": "b410419c20864e91b2a2138540dc4091f02ef56defd91207518b8c689048a6b1"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F12_neutral_control_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F12_neutral_control_r1_v1.yaml",
-      "bytes": 4119,
-      "sha256": "b9791897b82a97ee21bcf25957a4330ea3b266850d138926f51f019bb3e6a4c2"
+      "bytes": 3967,
+      "sha256": "8c05e1d9fbc8c2d1440bed1795e76429be19e25efa4fe4212ee7e618094ad3eb"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F12_punished_history_r1_v1.yaml",
       "target": "experiments\\E04\\datasets\\paper_e04_F12_punished_history_r1_v1.yaml",
-      "bytes": 5460,
-      "sha256": "c7db404015e52b15a7b8f2c94eadfa30c9a77726492865775cb5280cecb0dc1e"
+      "bytes": 5270,
+      "sha256": "ba78a5ede14d3753afdef305008ffc020160be88e72c71071cc2bcdf60b2f0ed"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/manifests/E04_punish_correction_dataset_manifest_e04_final_v1.json",
       "target": "experiments\\E04\\manifests\\E04_punish_correction_dataset_manifest_final.json",
-      "bytes": 15901,
-      "sha256": "887595bdecc3e3de904c282598b9dc9461251116521f4f39fcbacb0250be7ebe"
+      "bytes": 15564,
+      "sha256": "70639b9d41189c1cd0178d76388b7949bc3a837d719214686c68ee65a408af73"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/manifests/E04_punish_correction_evidence_e04_final_v1.json",
       "target": "experiments\\E04\\manifests\\E04_punish_correction_evidence_final.json",
-      "bytes": 50606,
-      "sha256": "75434b08efa4ef888eec7d295cf3de1ac9a82f298cfbdf3365cb788dc6de273a"
+      "bytes": 49334,
+      "sha256": "5553a6539881535376d500cd9993f1b0f5a36141ff4e93bad3178ec266430940"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/reports/E05_action_closure_design_logic.md",
       "target": "experiments\\E05\\design.md",
-      "bytes": 1289,
-      "sha256": "22ff1c0afa0a5b4550f79978e9aecbede18e4ea2d170a84ea5bfcea2d2f2bc52"
+      "bytes": 1272,
+      "sha256": "ec417b67ee0981776bc0c02cea877dff27b12874605528dd436edff1f3cca1c1"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/reports/E05_action_closure_report_e05_final_v1.md",
@@ -1585,26 +1585,26 @@
     {
       "source": "ap-paper-artifacts://E05_action_closure/tables/e05_action_closure_summary_e05_final_v1.json",
       "target": "experiments\\E05\\tables\\summary.json",
-      "bytes": 645,
-      "sha256": "24c30a3de993b77116ece439163bfa49688ecfdd3550504a96c59ea2672adaba"
+      "bytes": 627,
+      "sha256": "1e7907c06e99186cccd6c0130ed1442c7e92dc8dac184b561022aef9b15e7d3a"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/tables/e05_action_closure_pair_rows_e05_final_v1.csv",
       "target": "experiments\\E05\\tables\\source_tables\\e05_action_closure_pair_rows_final.csv",
-      "bytes": 2679,
-      "sha256": "4945c1c93bb9a90a950e2b2a4803593e663f4f9a8cbbf5763292e81bf893c3ec"
+      "bytes": 2666,
+      "sha256": "5916c842284ba5ea513b504bf0a9efa6078d4d9cc5bc9647217febc7f37c5a75"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/tables/e05_action_closure_row_metrics_e05_final_v1.csv",
       "target": "experiments\\E05\\tables\\source_tables\\e05_action_closure_row_metrics_final.csv",
-      "bytes": 13745,
-      "sha256": "a544a96482786ef0d73d84947e091855a5f84f70106b0d8921a61a16e2dd145b"
+      "bytes": 13672,
+      "sha256": "fe1a594847fc1fc417b3aa76c4da9ad7abbbf55aff7770104a936e70a8018ef3"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/tables/e05_action_closure_summary_e05_final_v1.json",
       "target": "experiments\\E05\\tables\\source_tables\\e05_action_closure_summary_final.json",
-      "bytes": 645,
-      "sha256": "24c30a3de993b77116ece439163bfa49688ecfdd3550504a96c59ea2672adaba"
+      "bytes": 627,
+      "sha256": "1e7907c06e99186cccd6c0130ed1442c7e92dc8dac184b561022aef9b15e7d3a"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/charts/e05_action_closure_chain_ratios_e05_final_v1.png",
@@ -1621,158 +1621,158 @@
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F01_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F01_executed_history_r1_v1.yaml",
-      "bytes": 3417,
-      "sha256": "8bcf189764c6d2f0a01a667ef45e906c91668307c97749c85b5d69d839d847b6"
+      "bytes": 3295,
+      "sha256": "94d3481d089d6aa8531f36c8899061f69cb49eb45c8d6e0ec3d9d29b7ee1974e"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F01_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F01_weak_only_control_r1_v1.yaml",
-      "bytes": 3342,
-      "sha256": "5dd00c5169dc483dcd2444a1a3f6ffe79fbb46d734be28cde6ade14f588d6822"
+      "bytes": 3220,
+      "sha256": "f3b9b577c236415fc80be90e6eee53fb663f98a280a5a7cc2064fa33c664ca16"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F02_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F02_executed_history_r1_v1.yaml",
-      "bytes": 3444,
-      "sha256": "ab3eeffbc8c1cebc6cdee1b3018c2407651bb4641c58d95e74d060e1bfa222e7"
+      "bytes": 3322,
+      "sha256": "4ad430bcad3a21a3f2efb7606b4354d5d08fed4e88fc8b4da8e043004491c9a3"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F02_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F02_weak_only_control_r1_v1.yaml",
-      "bytes": 3354,
-      "sha256": "1a84063d16701577ef7d25a5f7958d32e77156a538b2ffb160bfe24fa35d45e3"
+      "bytes": 3232,
+      "sha256": "95ce8ab81af46ca9126aea66780d4185fdd0907caadc57357f8f86c1579a5fd6"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F03_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F03_executed_history_r1_v1.yaml",
-      "bytes": 3459,
-      "sha256": "a6418902f6b73a73be49a58167f69608e39e8272b1b702d10440e68c64b331e7"
+      "bytes": 3337,
+      "sha256": "1413879870a367b07d40b344acd0eff9c19d88bd47efa676b4afcd892fceea07"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F03_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F03_weak_only_control_r1_v1.yaml",
-      "bytes": 3363,
-      "sha256": "cd03d18b6d3a8509e4f29dfa256ca151986089f180336849d58f38d9a95c8e03"
+      "bytes": 3241,
+      "sha256": "f7796dbe8805cc59fdeeae970912c3760732a82a0cc978a632053be3b25e3c6b"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F04_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F04_executed_history_r1_v1.yaml",
-      "bytes": 3372,
-      "sha256": "005182b38c8587f0b51e05c6a0a6fa287c8881e3969da0d17fd59a7a27689f62"
+      "bytes": 3250,
+      "sha256": "f532e9e16b6e2a96c875c3913482642efb8f4322cf5895ce62fa94440540ef86"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F04_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F04_weak_only_control_r1_v1.yaml",
-      "bytes": 3318,
-      "sha256": "946f54c0e3278fb4af75bd34c89b86f35fbfe52877f0d2dbc7808ec9b9d598e9"
+      "bytes": 3196,
+      "sha256": "e0c5148bc2f972d49613ca60074b2f4b47562512902131ed8e26e1086d4d6457"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F05_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F05_executed_history_r1_v1.yaml",
-      "bytes": 3363,
-      "sha256": "980796a13dbf50d495e1ed2873f35d7f37e3fc021a7eae8aa1891a1eae34c371"
+      "bytes": 3241,
+      "sha256": "df8600b076ba2a961ec77bc1233664a1006552ea16e20b4758298e51eef223ec"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F05_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F05_weak_only_control_r1_v1.yaml",
-      "bytes": 3312,
-      "sha256": "ad1e427c8071de4674a7961731a4131e23a87bc8ffb82e1199b4b8604aab8546"
+      "bytes": 3190,
+      "sha256": "722520540297bac60cdf4d75db8641c8b9d8fa56ea72946cef39c0644ae260b1"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F06_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F06_executed_history_r1_v1.yaml",
-      "bytes": 3426,
-      "sha256": "83bba0877ad907e2fb0de17b35b8a4db1993439aaad8fdafdb14adcfd655073c"
+      "bytes": 3304,
+      "sha256": "fb6214c5d4859844b3d2ebaa6b7836ba355b895fa861c9d4a0f64bf8a9f2fdff"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F06_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F06_weak_only_control_r1_v1.yaml",
-      "bytes": 3348,
-      "sha256": "05c35243342d3daedd907ebb8eed5c47b7fe955100e7e2215ef805f1a5344261"
+      "bytes": 3226,
+      "sha256": "b6bc528d43a447ada1971f4736fd4c3f15335f1295ad7ed03cd8afc0aaeeb0ff"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F07_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F07_executed_history_r1_v1.yaml",
-      "bytes": 3444,
-      "sha256": "a0ad9832f5137c1fd52332fac235b717f5b31474e169a06c1d6d2d5e932ad91e"
+      "bytes": 3322,
+      "sha256": "62e405640b3ed14b8e71fcecc98d27571c993a2de408f4a2ecfe67ba92df3f62"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F07_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F07_weak_only_control_r1_v1.yaml",
-      "bytes": 3354,
-      "sha256": "7621f9e51329d78e4dff3c8ad86c8e3aca90d2549cd16ce09872a9661eb4fe90"
+      "bytes": 3232,
+      "sha256": "554db3dbf3c15eeffba70908c798a9338814fb646fa71e4f7a8b9154b341f1c0"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F08_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F08_executed_history_r1_v1.yaml",
-      "bytes": 3444,
-      "sha256": "dbd295f952168fd8d45a20a26a415ad0552ce0c0eeb29a1984e877086c00f21f"
+      "bytes": 3322,
+      "sha256": "086148d5d612e5050383f35ab28fbe730f39f149425ad28fba4ec21764bbdbe0"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F08_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F08_weak_only_control_r1_v1.yaml",
-      "bytes": 3354,
-      "sha256": "fa7a87e1b9812ac57d686594d8bf240a01cfc0e352d744b65477953a332a5687"
+      "bytes": 3232,
+      "sha256": "f415c50fbc714ab026788638b408f28a245cfe5384d1658b8ff778e05ef35762"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F09_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F09_executed_history_r1_v1.yaml",
-      "bytes": 3447,
-      "sha256": "c247cc9d6a049d560da877cf52f50ff6f96777c10b6697b825bf52327e430963"
+      "bytes": 3325,
+      "sha256": "2b188af02ecd1b6aba415ff3da778c9095ed3d56f25e5e5631266a631524aabb"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F09_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F09_weak_only_control_r1_v1.yaml",
-      "bytes": 3354,
-      "sha256": "180097e4760d23c6f709aee64ed2734ac476cca8d73ecaf5fc9735630bb5abc8"
+      "bytes": 3232,
+      "sha256": "5f25342c5df4dd7256042d363e40413841f4248291f882f86248b6b8be3d525d"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F10_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F10_executed_history_r1_v1.yaml",
-      "bytes": 3381,
-      "sha256": "e76a420ebe71d5073b0cb230cd1f2afed0029a77dfe86d9b57f5ec51fa48da88"
+      "bytes": 3259,
+      "sha256": "a63bd933c7ac2cb72455cb738dc9a11b52e1015192660434fa103f87fe23b91f"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F10_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F10_weak_only_control_r1_v1.yaml",
-      "bytes": 3321,
-      "sha256": "e675dec25f32ec90fccdbcdd0b819943a5acf89e5b259d6d84b73ba6dc49b54c"
+      "bytes": 3199,
+      "sha256": "7a1f414c837750d43b1b9294d3bb739502b2f350bd9579caae18ab13254010af"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F11_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F11_executed_history_r1_v1.yaml",
-      "bytes": 3423,
-      "sha256": "a928473b9dc56dda65129b02c082dc8179f1bd03d97b10d0ff13a8945398a38d"
+      "bytes": 3301,
+      "sha256": "3bea686ef3cbf000095715af2d56ebb3fa1f129ebfcf41850278852aadbe843a"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F11_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F11_weak_only_control_r1_v1.yaml",
-      "bytes": 3345,
-      "sha256": "89ac4eeb340720c19872192b579384f6f23a5982c6527f27b3482d2e70baa096"
+      "bytes": 3223,
+      "sha256": "3a09e48d65b6a0e94e250040b4ad8f99d0c6d910dd9310697f7e71924f1a896d"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F12_executed_history_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F12_executed_history_r1_v1.yaml",
-      "bytes": 3384,
-      "sha256": "bd470858c2a57675d499226b24ffa417d97ddd7d7ad0331e3d425582cee11ecf"
+      "bytes": 3262,
+      "sha256": "b3e5dc0aedbab0caaa68a523783d7ce512e051807fccc2762f93cba7dba81049"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/datasets/paper_e05_F12_weak_only_control_r1_v1.yaml",
       "target": "experiments\\E05\\datasets\\paper_e05_F12_weak_only_control_r1_v1.yaml",
-      "bytes": 3324,
-      "sha256": "6f152dd928752cfc77e3eca95b8da2618c63500ecd2a51047794bd73355966c5"
+      "bytes": 3202,
+      "sha256": "ea7fd4a1cd34e524b646474aa77b172a333170ba9eee0cf1c203b8c926d9e6d0"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/manifests/E05_action_closure_evidence_e05_final_v1.json",
       "target": "experiments\\E05\\manifests\\E05_action_closure_evidence_final.json",
-      "bytes": 34529,
-      "sha256": "4535f15872c5ba70ee6641f4c50adc6adc8b3b212b8634f3e97b1d359f52f068"
+      "bytes": 33712,
+      "sha256": "bbf734055e93685ffdb7181fba0eaed3709bcb0d814b22182ad291ffd0d1557c"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/reports/E06_time_interval_design_logic.md",
       "target": "experiments\\E06\\design.md",
-      "bytes": 1323,
-      "sha256": "e4d905eac1e72831ddde5f8ce8145974c61e8b0c6cb048e9ab9b416ce6b0d017"
+      "bytes": 1311,
+      "sha256": "f96a584f7aa48aa31a6cd23b5292f976ffabeca8b58ef9b6cfcd9b574357a809"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/reports/E06_time_interval_report_e06_final_v1.md",
@@ -1783,38 +1783,38 @@
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_summary_e06_final_v1.json",
       "target": "experiments\\E06\\tables\\summary.json",
-      "bytes": 755,
-      "sha256": "0a7c8e0c92b43fd1b87ae1603b9ea78d6eb2809ff554d2d5b6750767909a589c"
+      "bytes": 735,
+      "sha256": "a42ac6a33e863302f16eb074138e2939d2e50b86fc49e3be1dc45eaee8a6845b"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_bucket_rows_e06_final_v1.csv",
       "target": "experiments\\E06\\tables\\source_tables\\e06_time_interval_bucket_rows_final.csv",
-      "bytes": 1758,
-      "sha256": "93a32f3f4ba1cbe00579124a666c1133e827e82f9137cdf89e60ea051265e482"
+      "bytes": 1745,
+      "sha256": "dde260c2357e7b2ea82210b06c0a2555b003a1b57db86a897ea38687f4188018"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_controlled_rows_e06_final_v1.csv",
       "target": "experiments\\E06\\tables\\source_tables\\e06_time_interval_controlled_rows_final.csv",
-      "bytes": 1005,
-      "sha256": "d2fd359a1e64b64c6225583aaadb384a58295bd18bdbc03d885b75cbc27a3938"
+      "bytes": 998,
+      "sha256": "282451431ce1cea898bf0badaf293704c711900079a5822357bfbb8483f57c2f"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_integrated_ticks_e06_final_v1.csv",
       "target": "experiments\\E06\\tables\\source_tables\\e06_time_interval_integrated_ticks_final.csv",
-      "bytes": 4868,
-      "sha256": "e64654123489f5526ff512de3bbb910adde02083c62f832365bdd8a9a661235b"
+      "bytes": 4747,
+      "sha256": "12d60982f48fefa13b7ec306729e3964e41582f2819c4cb26d3571d3e2a4d709"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_pair_rows_e06_final_v1.csv",
       "target": "experiments\\E06\\tables\\source_tables\\e06_time_interval_pair_rows_final.csv",
-      "bytes": 941,
-      "sha256": "0a09ad96aa98132b025c8742df4510267685da785a6bab92b9e247e7aa949480"
+      "bytes": 928,
+      "sha256": "a75c5c8f2e37219813e4f370c0047c0e2f7dcc719f739bc4948c43bc7200457c"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_summary_e06_final_v1.json",
       "target": "experiments\\E06\\tables\\source_tables\\e06_time_interval_summary_final.json",
-      "bytes": 755,
-      "sha256": "0a7c8e0c92b43fd1b87ae1603b9ea78d6eb2809ff554d2d5b6750767909a589c"
+      "bytes": 735,
+      "sha256": "a42ac6a33e863302f16eb074138e2939d2e50b86fc49e3be1dc45eaee8a6845b"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/charts/e06_time_interval_bucket_weights_e06_final_v1.png",
@@ -1837,14 +1837,14 @@
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/manifests/E06_time_interval_evidence_e06_final_v1.json",
       "target": "experiments\\E06\\manifests\\E06_time_interval_evidence_final.json",
-      "bytes": 2154,
-      "sha256": "da7d15ef383939e9c296b2c92092d596a37d2ef80a87df64ea0131aa9ea6f310"
+      "bytes": 2115,
+      "sha256": "1dae12b0b9b57b79e18f062fecb84cd3404e29fe2afba1e5d48f960f1f49a67f"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/reports/E07_attention_complexity_design_logic.md",
       "target": "experiments\\E07\\design.md",
-      "bytes": 1079,
-      "sha256": "999ac826877d258e875f39ceea650f58a948e2a2c9a5494ea5e5ddcf016af554"
+      "bytes": 1064,
+      "sha256": "69122e87f540335c10209574b56cec06c1e9f4099798a7624984753696ff9c1a"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/reports/E07_attention_complexity_report_e07_final_v1.md",
@@ -1855,32 +1855,32 @@
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_summary_e07_final_v1.json",
       "target": "experiments\\E07\\tables\\summary.json",
-      "bytes": 1253,
-      "sha256": "cd63071ea10b58c83dd5a77880775b38f2f3702edaff75d7b2c1a6f398976585"
+      "bytes": 1219,
+      "sha256": "293af457e495a7af2c535dc9180253b7cee58069494daf76741a385f16d677d4"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_pair_rows_e07_final_v1.csv",
       "target": "experiments\\E07\\tables\\source_tables\\e07_attention_complexity_pair_rows_final.csv",
-      "bytes": 688,
-      "sha256": "7d3f62f3335d41926e6867cf1a3d566af910b2b4ec1604f081e81232961fb8ad"
+      "bytes": 675,
+      "sha256": "1293fcd0353a9a2a26c98aa4a1719fb7356a164c074eb5a81b3f707c85479a90"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_probe_rows_e07_final_v1.csv",
       "target": "experiments\\E07\\tables\\source_tables\\e07_attention_complexity_probe_rows_final.csv",
-      "bytes": 2349,
-      "sha256": "503a1530f3de22e08e17bd174432dd89187ab8c08cce6a382fc943935ad0a8a2"
+      "bytes": 2312,
+      "sha256": "778456810acd63dca06129100a11c9bb78fa4cea48e10443fef0dec586a00236"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_source_rows_e07_final_v1.csv",
       "target": "experiments\\E07\\tables\\source_tables\\e07_attention_complexity_source_rows_final.csv",
-      "bytes": 8529,
-      "sha256": "a0772aa11eac0a0ef4d540ee69ee73b5a97057802678bb99c42d80b1fe09363b"
+      "bytes": 8468,
+      "sha256": "7306b384194ca2db30cde6f911a2f7cef28720b1710c9000f235972c3ac43f2d"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_summary_e07_final_v1.json",
       "target": "experiments\\E07\\tables\\source_tables\\e07_attention_complexity_summary_final.json",
-      "bytes": 1253,
-      "sha256": "cd63071ea10b58c83dd5a77880775b38f2f3702edaff75d7b2c1a6f398976585"
+      "bytes": 1219,
+      "sha256": "293af457e495a7af2c535dc9180253b7cee58069494daf76741a385f16d677d4"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/charts/e07_attention_complexity_probe_contrast_e07_final_v1.png",
@@ -1897,14 +1897,14 @@
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/manifests/E07_attention_complexity_evidence_e07_final_v1.json",
       "target": "experiments\\E07\\manifests\\E07_attention_complexity_evidence_final.json",
-      "bytes": 2467,
-      "sha256": "74c5b9af928d89ff9742853db6cf4fd766ff910834ba6110f4d08161f7b12bec"
+      "bytes": 2416,
+      "sha256": "233d3543da8ebf3f218f5386b7826fc7e765aff32e3930720fe46347361bb0b1"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_design_logic.md",
       "target": "experiments\\E08\\design.md",
-      "bytes": 1297,
-      "sha256": "34b0ad7fe41cf0ec51a3e992ed8aedefd3030735e5ac5e10e954dc69f961ae7d"
+      "bytes": 1282,
+      "sha256": "7fc29e44d3720e2b8d559a23d46a78b472971efea6dbf85028f3f5bc21f25422"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_report_e08_final_v1.md",
@@ -1915,32 +1915,32 @@
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_summary_e08_final_v1.json",
       "target": "experiments\\E08\\tables\\summary.json",
-      "bytes": 856,
-      "sha256": "2358574715002ef03de2b8783472f5f6ed4879994adca21a90fcc18fe46ed33e"
+      "bytes": 832,
+      "sha256": "4c986b312832aa8012b9d498baff16d710514151751736a4797b8c5c6f74df88"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_case_rows_e08_final_v1.csv",
       "target": "experiments\\E08\\tables\\source_tables\\e08_time_like_residual_promotion_case_rows_final.csv",
-      "bytes": 16750,
-      "sha256": "5026ded7ca4c238622c25f5e69d8d08039c21c270d76378e2604b717f7a3a36e"
+      "bytes": 16701,
+      "sha256": "2ef306903c5f7142ff5cc392a5c3cf5f876a95d39bfdec761ad2fbfe21924881"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_pair_rows_e08_final_v1.csv",
       "target": "experiments\\E08\\tables\\source_tables\\e08_time_like_residual_promotion_pair_rows_final.csv",
-      "bytes": 570,
-      "sha256": "8151b7a0d7ff58123977fae9af298fce31cabd16ecc60fa6db21558cb15c59e2"
+      "bytes": 557,
+      "sha256": "d83209ca34d9e8441640d50ece07f9c25124dfc500284a837c8f7b8541141038"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_summary_e08_final_v1.json",
       "target": "experiments\\E08\\tables\\source_tables\\e08_time_like_residual_promotion_summary_final.json",
-      "bytes": 856,
-      "sha256": "2358574715002ef03de2b8783472f5f6ed4879994adca21a90fcc18fe46ed33e"
+      "bytes": 832,
+      "sha256": "4c986b312832aa8012b9d498baff16d710514151751736a4797b8c5c6f74df88"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_whitebox_e08_final_v1.json",
       "target": "experiments\\E08\\tables\\source_tables\\e08_time_like_residual_promotion_whitebox_final.json",
-      "bytes": 18772,
-      "sha256": "e63817e57f19b807fa782574eae58b8e6a36e82696a77fc2b6e5d912d668dad9"
+      "bytes": 18287,
+      "sha256": "5e02fe6ab66c37fad2b617b93655d640d460182a9ebbf7799a523baa2e4746ee"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/charts/e08_time_like_residual_promotion_contrast_e08_final_v1.png",
@@ -1957,302 +1957,302 @@
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F01_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F01_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "daf31fec09495b691935eb0081e77472826624653acdb9a85d67f9d3c1529b07"
+      "bytes": 268,
+      "sha256": "9c52253c95f1626961f330acfb4469b60ff631bca675be0a16b8faf5d2e9315d"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F01_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F01_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "acbb0b41c67d6f0c0800c5cd6204acd38f93fa109da176e3196ae7e562f6cbc3"
+      "bytes": 266,
+      "sha256": "6b5732b8d8752d198afe4b8d5f9762ab6ce9e36ef502fe405741980321f29ffc"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F01_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F01_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "42723b7c6c86fa370e2e77d8c68bca9d63fb7ae476fabdbbd6c8fc3940ee38e9"
+      "bytes": 269,
+      "sha256": "6b525f7aa6da9fff9e64daa3bfb4a7489433a65b3dfeb0ba1831fbc352cb47fc"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F01_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F01_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "5517fb48554f4398c72fe5ac7955b52d346dd99cc5a270a415576638c84f99a7"
+      "bytes": 268,
+      "sha256": "331f8abc8f0ff8d07014eef122fa4cb04a73a76fa60ef6e4fe2b77fabeb9afaa"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F02_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F02_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "cf1baf4696f8ae3bb3941d94b604223a99fd537268b874f268bfc440f8929a37"
+      "bytes": 268,
+      "sha256": "92dc231542d720eb24fb0fa1dbbac9830247059d2b8249bc39ad5bfcee9a3ea8"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F02_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F02_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "4bd43123da08bb4a8bcb3f063aafaec8a810d0c5693ac42220c04a3540c0ca9b"
+      "bytes": 266,
+      "sha256": "52b56880f2a24e570c476cda3465842340ac46bc3658b611604944d1d92d5686"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F02_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F02_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "8d42de78d709e71445920ba11595e8a8204197ecdaab12ceae7fdb1b8c26d36e"
+      "bytes": 269,
+      "sha256": "82f5b5d4afac689a624b398c1d39d4537803f0abdbdb4ab9a8c0dd41e224f8a8"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F02_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F02_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "f59f479dc050df4799800242a293a589156394b0b261c98d49f53710564594f6"
+      "bytes": 268,
+      "sha256": "fe75612fea610c8dc29306ed4c96dc082d1a186764f71188a2874f44fe20ab99"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F03_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F03_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "afec2102f803ad07d0ad5442c8620f80f72373b2d110aad36d694e86b875465d"
+      "bytes": 268,
+      "sha256": "d7908cdbd797258245a9d60eabdd8cac654fc0c622870352db50e26022016fb1"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F03_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F03_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "c30cd1fcc7c7bc7a3e70b99e3bd26c663c149f5654ea49e42a2c69e5f0a40685"
+      "bytes": 266,
+      "sha256": "d0596876aaf9f963d5abd62b45aa0a84ce0df987afa1b8404251514bf05bd082"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F03_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F03_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "bc39aeccded51ba069c27f343cf8102f09e58948fca1d8d361b3911a5d4aee80"
+      "bytes": 269,
+      "sha256": "7c2036b14f277eb4c108dc7498764b38d0f87e61a40a363fd8cb2dc6fc7694cd"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F03_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F03_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "2d114b466163542bf07299e04b2addc9fcaddf3da4b6c196f1b220a523ca60f3"
+      "bytes": 268,
+      "sha256": "709d494028dde886f2a843d3f800f123b91ed7ce84a3f0385c2b8db6162e4a43"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F04_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F04_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "a0184345916cc6f74016b8a2df4626460e8125aa02f3c8bc0735494145505851"
+      "bytes": 268,
+      "sha256": "51fc685e849b496b6e5387d7ff5d7d4ec3bbc62229077e79a1345306226e7ed6"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F04_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F04_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "a573886c7f5abb29fff132ec763222316e9457c5350612ed169d1dbbafdd9f6a"
+      "bytes": 266,
+      "sha256": "aab293e37cb1412e864c98ba783b443851b2f125444fb73438f27ff21b6348e1"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F04_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F04_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "abf26aeb9ce0f094736bbf2702ffcaa1690d9f8025a8bbcbcdaf9212901511bf"
+      "bytes": 269,
+      "sha256": "12af5793e554929fb813e0c5a6158ee15f7efc319a8cb1a32784ba68e4ff3512"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F04_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F04_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "58aaadfa2a2f999950c10621302bfd509a0f526e1baf4a865f47252930ba93d8"
+      "bytes": 268,
+      "sha256": "deabd3286b4a3da642a496c28885de4a2dcb67624f147d9ecfa3531c78456f05"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F05_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F05_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "833615c3a1ece07d5a115a2af42893bc51ae51b06c5a270d817ae2301ee1dbe6"
+      "bytes": 268,
+      "sha256": "cc9b18412aa7a21d29d1a29ac8f4a11e6345679570bb0da43e9584bf2302d853"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F05_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F05_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "0ac2c0bfcfb318157f089cc512057010c7947979d13c6c3bde8f74c4ea49f557"
+      "bytes": 266,
+      "sha256": "e2e32b8a1942a2a51bb6ebb391565a95ee522de7ebcca71924fbc1cfff8a8c3c"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F05_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F05_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "f29d5952596c105a4fe07435d391c5b3b8e1b05ddd18e65f99b2b713262a11e7"
+      "bytes": 269,
+      "sha256": "7c60263e464cdd0f8a2407b48b61b742443692e0bd6636f03f489153ab69ba7f"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F05_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F05_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "888dbd84dab1fc7b2273c800232d762f1f1cb1b02cb8e85851cc43de5337d1b8"
+      "bytes": 268,
+      "sha256": "0d9791c88ca0f2f5ebce6613658763c5344c7127f5bbd748f22560946bb5d562"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F06_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F06_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "559c6438127690f8ca4a02cef30f2b608344bc0dd2b6e48339de7d69591a8086"
+      "bytes": 268,
+      "sha256": "d7cd215d84d1a1aa25370d7de2359dc86a25bd1656bbf7ed5ce2122ac193cc7a"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F06_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F06_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "9c2f65a94973b5cfa0bb90e91a6094a3a613051942578fa85c1d0143cfb1f40d"
+      "bytes": 266,
+      "sha256": "95ef93babef977d39600dac4f4a352691ae226fd54254f535e24e847026535ef"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F06_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F06_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "67ec9661dfb9d414b4bfb4e0aaabdba3a6b800f17600b8e4d52bd2e3c6a0a513"
+      "bytes": 269,
+      "sha256": "4ada49ba2d2d88f4f2967a5eda1b2caefc4ad48c7ea97f3ff9701ecc6449a6e7"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F06_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F06_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "21c15c2ea308c4182bcf45b2d9b1a2f0531788427c91526cf3fcc898fb1e8d8a"
+      "bytes": 268,
+      "sha256": "089a53f9de3dda9b05a8f44f6203aa961e0b555e6b480dbc305606e2ba2d7a11"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F07_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F07_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "0da8c670cf4a2d8ac3e2efbe1d9dfa304c5e92ab2b3af7f828d81263ac61e9bf"
+      "bytes": 268,
+      "sha256": "207c700e83ba3eaf9b27a46420c843cf991b28950703610ea4e09ebf5af23f8e"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F07_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F07_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "15522d285fc6526198ab9ae6915420e9f64a9758fa9c1bb550a70b60f6694ba8"
+      "bytes": 266,
+      "sha256": "0688f029efd552014fe8b1b3e1e4e4cac95476b7dda7607d9b9df4b1558c74c3"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F07_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F07_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "1fc70b736aa3f7ea78ad153288cd23af65f32599db02fcbb6e3b6c4395df0344"
+      "bytes": 269,
+      "sha256": "3502598eef79082dcc4593ac7fb8fe7fa90188e027fad853541d824416961459"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F07_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F07_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "6b8374e08192ed3652f55ea4f143281275cc4ffc099cdb2658cab26fb7649efb"
+      "bytes": 268,
+      "sha256": "ab42c11d9e6e394af2a81b18af15e12208d227b679ce7863e810c3e47a6c931f"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F08_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F08_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "4066d4c9da73955674e4e7ee7e5cc719615c1303ee14143c9369dc411cc2dba6"
+      "bytes": 268,
+      "sha256": "89a9946d6b1725983014f5f543f571bbad9b3f7869e9d807e910cb7ab76a91de"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F08_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F08_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "d90c7304de0700e327ca5db5e98eee86e5067e609a7ee395cd0a53c844695182"
+      "bytes": 266,
+      "sha256": "44d7e8a02642dd501f8460253b3cdc1e3febd11e92bcd82e4552befe1e301701"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F08_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F08_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "c19c2c9bc8abfb2637b25ee81bc9c44bb33d36f704626f4661a329827fcc5bea"
+      "bytes": 269,
+      "sha256": "e0eba307cad96d504f244e0bc4b1b73485b466b8e56a27d6d84ba182e6ffb548"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F08_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F08_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "74683fa5d4071c1c5b8016d903f5f4ee504ce7bec2b4c3e98b10e3a9cedb6369"
+      "bytes": 268,
+      "sha256": "43a0a3f614402641ccd49bdb3a57fe99f6bdc6f520558145cecb9ed38495c0b9"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F09_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F09_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "6b1852848fa071ae351f0d2a1d9192c741e8cc136c9f9fbbe12fdca63286c5f1"
+      "bytes": 268,
+      "sha256": "4baf688dc196d7f0e4e0c43b8f0536e3ca0b56e624d94ab7ec49e17e15978218"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F09_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F09_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "2ce917e0ffb749d718e7080b8a99e8d01d890098852aba45ce588c1a845b03b6"
+      "bytes": 266,
+      "sha256": "b5914befed5741cf92df3fb2240ad702e4d237e0e0f6a7bfc51d176f422214cd"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F09_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F09_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "fbb30bd9ddd6fb3aff5ff83dff5d2523a46d497efbb9e7efb12aa1323c2bdf71"
+      "bytes": 269,
+      "sha256": "362f8bbe02bc35bf04e7a8c06b5eebb76e5748929ad13750aac18ae025270e0d"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F09_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F09_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "d0f91c42579cb2c9334e54ee0b47322805afa9432f774e166de88750805faa2b"
+      "bytes": 268,
+      "sha256": "3ea111eb4939414130790500c44587e240e2b2b67c39240a54968e9c62ec9de0"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F10_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F10_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "c31dfeeb5d991bfce53ba3765dc9bd70007eb2657e0c29003673d3670a3c4331"
+      "bytes": 268,
+      "sha256": "9b0b9d2ce13276459450598425b8cf8e906025add5b6bb27e7a87ce61b85d963"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F10_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F10_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "4b322797b4bc7ac5e191bf70cdfdd1282b25c82543d4671bd64fd347f77ea4e2"
+      "bytes": 266,
+      "sha256": "16d23356041e65893652696e9fffd79f2f1e069b0dcd3b3afd682b5507943dfe"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F10_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F10_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "e9f045168d7170a4b33708a18d62b836dd0a3f8bb0eab9ca6714b44b081e5e69"
+      "bytes": 269,
+      "sha256": "b416236cd5d6eb55a79fb8ee4cd035eea0c26b7016c82eca4eab55038778ad45"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F10_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F10_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "c0ac1a15559edbd97e05b39c22568b4843ab30dc4b53697556e9951c05d9cdd5"
+      "bytes": 268,
+      "sha256": "fd0bccce9fe87720600b9ec2f55b4134d1e0bdc6809e9d98fea28cd68fa4be0a"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F11_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F11_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "253fc9d3fe30f7d4c5376c0bed41a30befdaf2423c84c7a659fe96dfe2cca4d5"
+      "bytes": 268,
+      "sha256": "7ff372be95a131b8d9516a7fc7b8389b3077ad30a083a4c68d57864c8b0a360d"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F11_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F11_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "8b4e893b5393e5bac3deb4ebeb10b80ba250f2271a0318db15f4a70c037dbe64"
+      "bytes": 266,
+      "sha256": "4423eb943fc58c2932e86c2a3a210a0db74713cef8df9f116a830dba2d3f5eb3"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F11_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F11_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "69aa26e7e290af22d7495e311d094750d29549bef27f6e8db9cd7af3292d8c14"
+      "bytes": 269,
+      "sha256": "12201461ef3d6eb867d087d0de8b7a9d40a7bb37f770a8898871673a911afbe8"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F11_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F11_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "d35eff66a3690e1b56b20669161bccce280b0de3abdb3cb18b47bd719b587f7a"
+      "bytes": 268,
+      "sha256": "414e12e7b3d54989ee67cf32881567e0699f91db1b0583507ad5dc1a8b54b31f"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F12_off_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F12_off_matched.yaml",
-      "bytes": 282,
-      "sha256": "41a6a96b68e8582669474bc92b8ae1a324733557fb350505865bfcb4383fa6ec"
+      "bytes": 268,
+      "sha256": "db6cf29c8bfd98f7730becdc2dce659138dc7043a178d3890da4623bcedc0042"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F12_on_matched.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F12_on_matched.yaml",
-      "bytes": 280,
-      "sha256": "a77de84fe46397aa31ea0a38486645cfe74a1ec70f63b37ba3148bf05bbfd074"
+      "bytes": 266,
+      "sha256": "9ce8c6e5e22b3921f42b4315e22bcaa871d8a76ae4826913f099e90b945e9b20"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F12_on_no_cue.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F12_on_no_cue.yaml",
-      "bytes": 283,
-      "sha256": "afe9549dceaebf44c0c755cbfcb89ada2f7fb682935ab27f5f52971ff99b55f5"
+      "bytes": 269,
+      "sha256": "e6bc8ee4fbc1c4e58b94729e9f7d699c9ee4d89af78175f4e7604a6033a066f2"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/datasets/paper_e08_e08_final_v1_F12_on_no_seed.yaml",
       "target": "experiments\\E08\\datasets\\paper_e08_e08_final_v1_F12_on_no_seed.yaml",
-      "bytes": 282,
-      "sha256": "53b372d7852145c9eb15b4438dc7029ac4d8109a114641b88c2f0459e6f5363b"
+      "bytes": 268,
+      "sha256": "3892627e173a405cf5cc3b1ea14ddd069fa7efa876d0e008438413479f7e7fe6"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/manifests/E08_time_like_residual_promotion_evidence_e08_final_v1.json",
       "target": "experiments\\E08\\manifests\\E08_time_like_residual_promotion_evidence_final.json",
-      "bytes": 17836,
-      "sha256": "dcdc8cb9446dce4e79c6a66fa0b752d0a7672c4cc3266ecbceb7d3678d890fca"
+      "bytes": 17553,
+      "sha256": "ecdacfd8a02f13e25df18ca420036c04a877c7f899e780f79e9d052cd63a2eeb"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/reports/E09_conflict_relief_design_logic.md",
       "target": "experiments\\E09\\design.md",
-      "bytes": 1321,
-      "sha256": "8f9882675f9668279ad26e7fb4c1498728ce387b2c78210bb27b3b5cdf476996"
+      "bytes": 1306,
+      "sha256": "c3dd7af495cdd6411761eea4a1f6bcf67dd2fbef60529b7cc78a93e9e6371b08"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/reports/E09_conflict_relief_report_e09_final_v1.md",
@@ -2263,32 +2263,32 @@
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_summary_e09_final_v1.json",
       "target": "experiments\\E09\\tables\\summary.json",
-      "bytes": 1122,
-      "sha256": "4f7a06fca3f529479bf617a8da8c6929001dc16a8d7e459f1fdf923530a6fa2c"
+      "bytes": 1091,
+      "sha256": "6286b0f229bbe751ac45e2d04d72534830cab4061719837f7579e00e45e19f83"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_case_rows_e09_final_v1.csv",
       "target": "experiments\\E09\\tables\\source_tables\\e09_conflict_relief_case_rows_final.csv",
-      "bytes": 32109,
-      "sha256": "9058868840277478f868109962e02f0a22078e569f05625b5d27a893b54ce84b"
+      "bytes": 32024,
+      "sha256": "5da91918b80c6ca9312abab6e3df770b368e3482a2dd600828e991504a935d55"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_pair_rows_e09_final_v1.csv",
       "target": "experiments\\E09\\tables\\source_tables\\e09_conflict_relief_pair_rows_final.csv",
-      "bytes": 1341,
-      "sha256": "651df6b8600fca63812624cfdfb5ac0dce0b89dfb46cc6a454d6bd5684734938"
+      "bytes": 1328,
+      "sha256": "3dbb00a79371fc967968726735258af57f1045f2b3a45fabe18cb1b6430cb9cd"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_summary_e09_final_v1.json",
       "target": "experiments\\E09\\tables\\source_tables\\e09_conflict_relief_summary_final.json",
-      "bytes": 1122,
-      "sha256": "4f7a06fca3f529479bf617a8da8c6929001dc16a8d7e459f1fdf923530a6fa2c"
+      "bytes": 1091,
+      "sha256": "6286b0f229bbe751ac45e2d04d72534830cab4061719837f7579e00e45e19f83"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_whitebox_e09_final_v1.json",
       "target": "experiments\\E09\\tables\\source_tables\\e09_conflict_relief_whitebox_final.json",
-      "bytes": 2258,
-      "sha256": "f4179524b84974b4acde091945fffff8153bf375dba845e12bc1d97b406ac098"
+      "bytes": 2194,
+      "sha256": "4891cb722bff1a6affd10ca226253e45948dcd945059d0c0d6d5972fdb01776e"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/charts/e09_conflict_relief_branch_contrast_e09_final_v1.png",
@@ -2311,14 +2311,14 @@
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/manifests/E09_conflict_relief_evidence_e09_final_v1.json",
       "target": "experiments\\E09\\manifests\\E09_conflict_relief_evidence_final.json",
-      "bytes": 2349,
-      "sha256": "aef00ecd28aa5e7454eeeb6cceae765601b0f9fa7214c446d352a73113ec12e5"
+      "bytes": 2300,
+      "sha256": "233971a2eac255157e6088d2bf9114c0142d687363f2f8006bc52f192c4db1a4"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/reports/E10_repeat_fatigue_design_logic.md",
       "target": "experiments\\E10\\design.md",
-      "bytes": 880,
-      "sha256": "28e98f1fdb5b6166e0fd5757d9a14b1a301b7c69403e954c0ae563ee827809e4"
+      "bytes": 872,
+      "sha256": "c2053576d2cb3186df3cb9efa1b6657ecf113df595c2c058433f74df71139bd6"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/reports/E10_repeat_fatigue_report_e10_final_v1.md",
@@ -2329,38 +2329,38 @@
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_summary_e10_final_v1.json",
       "target": "experiments\\E10\\tables\\summary.json",
-      "bytes": 1225,
-      "sha256": "bb9be5b7b9d427b8b2828ab9d2c2a2577a867dfccf5bd2589824fdd7b17c832c"
+      "bytes": 1191,
+      "sha256": "4a7732560a865620646f326357c28d2f6e7856f0cdd2587304e6c821682e9672"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_attention_rows_e10_final_v1.csv",
       "target": "experiments\\E10\\tables\\source_tables\\e10_repeat_fatigue_attention_rows_final.csv",
-      "bytes": 4319,
-      "sha256": "bfb24db93a4165676c37a8041e5aee6f642283437f8cb1f472b279d4f5532593"
+      "bytes": 4258,
+      "sha256": "ce2c4745b7c59b0d757c2fcbf54561774d70c4b37023c97317c2dcf4c06b96fc"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_boredom_rows_e10_final_v1.csv",
       "target": "experiments\\E10\\tables\\source_tables\\e10_repeat_fatigue_boredom_rows_final.csv",
-      "bytes": 10993,
-      "sha256": "e78d7c2237090513a1e513363fd4d5997ce42b2c51e2cf4bc62d3653a3630a5a"
+      "bytes": 10932,
+      "sha256": "a273a6d0561da15c6b213f671ea70533823f2d63d1738a97d1f9d43ba2f92cce"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_pair_rows_e10_final_v1.csv",
       "target": "experiments\\E10\\tables\\source_tables\\e10_repeat_fatigue_pair_rows_final.csv",
-      "bytes": 1657,
-      "sha256": "3eaae6a6f5038df8db71f82ce6688cd9233780ce6a87a3a149826a28cfa82742"
+      "bytes": 1644,
+      "sha256": "6a633e67fcf70a954a2c73578f23469bfc578c05b7fc34916a32d44a9c91e455"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_summary_e10_final_v1.json",
       "target": "experiments\\E10\\tables\\source_tables\\e10_repeat_fatigue_summary_final.json",
-      "bytes": 1225,
-      "sha256": "bb9be5b7b9d427b8b2828ab9d2c2a2577a867dfccf5bd2589824fdd7b17c832c"
+      "bytes": 1191,
+      "sha256": "4a7732560a865620646f326357c28d2f6e7856f0cdd2587304e6c821682e9672"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_whitebox_e10_final_v1.json",
       "target": "experiments\\E10\\tables\\source_tables\\e10_repeat_fatigue_whitebox_final.json",
-      "bytes": 1555,
-      "sha256": "4a251152b42778e83b6106861ac3bea79313da14e9f1c7807c62cb6431a2a8ae"
+      "bytes": 1506,
+      "sha256": "a0d7a9ef82e09f9909c04a194ccc3a186b8a07f3925fab2ffc23868d8603b093"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/charts/e10_repeat_fatigue_attention_contrast_e10_final_v1.png",
@@ -2383,14 +2383,14 @@
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/manifests/E10_repeat_fatigue_evidence_e10_final_v1.json",
       "target": "experiments\\E10\\manifests\\E10_repeat_fatigue_evidence_final.json",
-      "bytes": 2572,
-      "sha256": "b11504464673a36f61ae64f6880d81b635fa95b04695ea43645c471c25f92c03"
+      "bytes": 2519,
+      "sha256": "74afa2586d9051b8bf02d92e3b24977a97edb35f8d7a7e0276c5d73802fb9298"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/reports/E11_energy_graph_design_logic.md",
       "target": "experiments\\E11\\design.md",
-      "bytes": 1062,
-      "sha256": "01256dba2e085f3b391e84e545ba2876892e9d7f2789932e4ce350a25f4a2cad"
+      "bytes": 1055,
+      "sha256": "af952a70810460f5eec2c3818a6256f00d5576d866b1e6bc847af73efb863cdc"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/reports/E11_energy_graph_report_e11_final_v1.md",
@@ -2401,44 +2401,44 @@
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_summary_e11_final_v1.json",
       "target": "experiments\\E11\\tables\\summary.json",
-      "bytes": 822,
-      "sha256": "98a2df15d7d4430397bfd6286b4e3cba8dc1723389e2c066410318547f4885d0"
+      "bytes": 797,
+      "sha256": "b57b95c8f8e6d15fced96040a0ff1e6c8f45d00f9208b8a8ac081f108320d21f"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_case_rows_e11_final_v1.csv",
       "target": "experiments\\E11\\tables\\source_tables\\e11_energy_graph_case_rows_final.csv",
-      "bytes": 92033,
-      "sha256": "fb7a580c4f6142afd848b6f7747f38867ac981f8836c3e86ce2fa533ae46a7c3"
+      "bytes": 91960,
+      "sha256": "fcc08648fbc59fe45b538d72e634ca162e14fcfcf20d9a12dbf114c96c299cc0"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_pair_rows_e11_final_v1.csv",
       "target": "experiments\\E11\\tables\\source_tables\\e11_energy_graph_pair_rows_final.csv",
-      "bytes": 1006,
-      "sha256": "6b8a42b3bc9e774c54df8f57c026c190d0e00acdab98f69db6597b622490f8e9"
+      "bytes": 993,
+      "sha256": "fabe6760f1fb351e99e8fa8c5210819cef783b68c14457e05416f66245a6efcf"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_round_rows_e11_final_v1.csv",
       "target": "experiments\\E11\\tables\\source_tables\\e11_energy_graph_round_rows_final.csv",
-      "bytes": 11857,
-      "sha256": "4b36d1c0154968980f078d0538a6b9cf3c4f04f318b63d00a0372e17e1ff2156"
+      "bytes": 11640,
+      "sha256": "75ba67c4f730e1ddc702f8a00d2af65c54a1292d0a0ae8d4dc2bbd84d95da1bc"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_target_rows_e11_final_v1.csv",
       "target": "experiments\\E11\\tables\\source_tables\\e11_energy_graph_target_rows_final.csv",
-      "bytes": 49266,
-      "sha256": "14c19ac4d6a626d1c402b7965628c8aec332cb90e8759d7f3a3fb4ca40bf1cab"
+      "bytes": 48785,
+      "sha256": "4d01e1a9632c79257d1eca3419a3833e9771385b1357ab16bf47809b4138ceb3"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_summary_e11_final_v1.json",
       "target": "experiments\\E11\\tables\\source_tables\\e11_energy_graph_summary_final.json",
-      "bytes": 822,
-      "sha256": "98a2df15d7d4430397bfd6286b4e3cba8dc1723389e2c066410318547f4885d0"
+      "bytes": 797,
+      "sha256": "b57b95c8f8e6d15fced96040a0ff1e6c8f45d00f9208b8a8ac081f108320d21f"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_whitebox_e11_final_v1.json",
       "target": "experiments\\E11\\tables\\source_tables\\e11_energy_graph_whitebox_final.json",
-      "bytes": 8380,
-      "sha256": "77c4d3b47b7fef2cad9b27308262202fa55ed8a6332dbfa42ccbf583ac8bb4e0"
+      "bytes": 8237,
+      "sha256": "a2d97d5ca15255ee5fe0855ba360c6b3b7280b03893fd232d5a20bf2f4cc1ede"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/charts/e11_energy_graph_branch_controls_e11_final_v1.png",
@@ -2467,14 +2467,14 @@
     {
       "source": "ap-paper-artifacts://E11_energy_graph/manifests/E11_energy_graph_evidence_e11_final_v1.json",
       "target": "experiments\\E11\\manifests\\E11_energy_graph_evidence_final.json",
-      "bytes": 2313,
-      "sha256": "b9559ab8ccbe6d456b1850bbc25a509d3efde4f32e65bf2588e11a3b4a512667"
+      "bytes": 2267,
+      "sha256": "f6691760cd91ef273eaa9be0a845b7e9da6ab0817182af51eaef7a5c3b3279bc"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/reports/E12_process_memory_design_logic.md",
       "target": "experiments\\E12\\design.md",
-      "bytes": 619,
-      "sha256": "a42b0eb9ac46e058f780a72a6569620cf19209b03712fdd1a8734d420adc73d0"
+      "bytes": 614,
+      "sha256": "776f5f37a50facf98fd42f49e18bb6f96f887546281b25bef701c50f3023790d"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/reports/E12_process_memory_report_e12_final_v2.md",
@@ -2485,38 +2485,38 @@
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_summary_e12_final_v2.json",
       "target": "experiments\\E12\\tables\\summary.json",
-      "bytes": 708,
-      "sha256": "12879123f2843f503b3fc029ee3cce2b798e04058dc5ae417a5f778f3ed843ef"
+      "bytes": 686,
+      "sha256": "c6e1084eb21ecef55ae96d67a07efbd3de1e98037e3e246a127e5ccddb41daf0"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_case_rows_e12_final_v2.csv",
       "target": "experiments\\E12\\tables\\source_tables\\e12_process_memory_case_rows_final.csv",
-      "bytes": 6669,
-      "sha256": "6a2c45b1d62778b9539bad8915844649aced349cfc44032ea18dc2ed36c832ac"
+      "bytes": 6620,
+      "sha256": "6cb9c4fd3e938a7d23d4ddb2bc6091f5521411251c6574b5b73b4ff9afd72afe"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_pair_rows_e12_final_v2.csv",
       "target": "experiments\\E12\\tables\\source_tables\\e12_process_memory_pair_rows_final.csv",
-      "bytes": 679,
-      "sha256": "da645d967194551d2392f8b26e017d90ec812f58772d469bbe1657ee852af3ac"
+      "bytes": 666,
+      "sha256": "f12a4f4c45940f8a1303bb9996ccad37555c1be28efa3fe12a74679f8b070a23"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_target_rows_e12_final_v2.csv",
       "target": "experiments\\E12\\tables\\source_tables\\e12_process_memory_target_rows_final.csv",
-      "bytes": 12661,
-      "sha256": "fccfd2465354cfd832d25dbf90e315a5d8845051cfcdfda6584b033bd507725f"
+      "bytes": 12528,
+      "sha256": "c73df79036e067425cf33061b84a05821dd5f56b7629786f6524c07f45575347"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_summary_e12_final_v2.json",
       "target": "experiments\\E12\\tables\\source_tables\\e12_process_memory_summary_final.json",
-      "bytes": 708,
-      "sha256": "12879123f2843f503b3fc029ee3cce2b798e04058dc5ae417a5f778f3ed843ef"
+      "bytes": 686,
+      "sha256": "c6e1084eb21ecef55ae96d67a07efbd3de1e98037e3e246a127e5ccddb41daf0"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_whitebox_e12_final_v2.json",
       "target": "experiments\\E12\\tables\\source_tables\\e12_process_memory_whitebox_final.json",
-      "bytes": 4080,
-      "sha256": "d0863388e033e5b0077f0c6f3bf9915d51da64495cf3107fbe11a0bea9713913"
+      "bytes": 3954,
+      "sha256": "a0ed6721f67d5fe56ebb807580b664591762f505679114efad0e64ad22133a0c"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/charts/e12_memory_convergence_e12_final_v2.png",
@@ -2545,14 +2545,14 @@
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/manifests/E12_process_memory_evidence_e12_final_v2.json",
       "target": "experiments\\E12\\manifests\\E12_process_memory_evidence_final.json",
-      "bytes": 2157,
-      "sha256": "f2975c227f7970b29af31771f1ed96f6787f2f0cd89984849ac52bc68b02a972"
+      "bytes": 2115,
+      "sha256": "f91b36850b6889b4a3d9edac3ce864409c3189a3406ce91e53f8a929f059cbb0"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/reports/E13_agent_memory_projection_design_logic.md",
       "target": "experiments\\E13\\design.md",
-      "bytes": 1738,
-      "sha256": "17534b1fc7d186cf17575e9b2ac9151cc0ff79912a8e5222ff8c64f89ebcf1c3"
+      "bytes": 1715,
+      "sha256": "a4aefcb087544becc2f3bb8600fb383bbc95793714577c8b7a97ac513511e884"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/reports/E13_agent_memory_projection_report_e13_final_v1.md",
@@ -2563,32 +2563,32 @@
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_summary_e13_final_v1.json",
       "target": "experiments\\E13\\tables\\summary.json",
-      "bytes": 795,
-      "sha256": "9444e1581af665b85eba76552a1ccef5d8513c86c87281e308d4c458f0854934"
+      "bytes": 771,
+      "sha256": "c302f3e9b415ad65a2dcd111260514bbe37877c16268ac0975186e81f230e620"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_case_rows_e13_final_v1.csv",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_case_rows_final.csv",
-      "bytes": 13356,
-      "sha256": "cd5868a06a7420d59628b0c8e5a39a242b494b2602b8c4eee34042d76d540d10"
+      "bytes": 13307,
+      "sha256": "08d05ec9084cbd4b030c01a6f78b3dae1fca556108c9e225a857e36aee90507a"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_family_rows_e13_final_v1.csv",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_family_rows_final.csv",
-      "bytes": 867,
-      "sha256": "8b0d7de141a8db7bbba214a4feb3d41c4127ca673528557c888f1b2720555f69"
+      "bytes": 854,
+      "sha256": "847067daa35133614fa83c5a107e34cc6f0e7cb1b9005dc73c6b8e163de21c22"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_summary_e13_final_v1.json",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_summary_final.json",
-      "bytes": 795,
-      "sha256": "9444e1581af665b85eba76552a1ccef5d8513c86c87281e308d4c458f0854934"
+      "bytes": 771,
+      "sha256": "c302f3e9b415ad65a2dcd111260514bbe37877c16268ac0975186e81f230e620"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_whitebox_e13_final_v1.json",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_whitebox_final.json",
-      "bytes": 4524,
-      "sha256": "bdb084e20883b084eeba6b451525ba704ab2d9e86f2c03ad536daf1b90e236b7"
+      "bytes": 4375,
+      "sha256": "266e54c8956c8eb6a7a4339c5cd79f0e5401faee0aff78e8a473f685f3ddcdfb"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/charts/e13_branch_pass_rates_e13_final_v1.png",
@@ -2617,14 +2617,14 @@
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/manifests/E13_agent_memory_projection_evidence_e13_final_v1.json",
       "target": "experiments\\E13\\manifests\\E13_agent_memory_projection_evidence_final.json",
-      "bytes": 1571,
-      "sha256": "ef1d1c1ca0ac0e67f59d2bd79bb4d8b3139d1e5ac1928a1afe7b5d5a3a16b2e5"
+      "bytes": 1527,
+      "sha256": "5c9cec5615a732eb4aab1bcea097c06ac4856571fd7f389e8f05a8e6d601203c"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/reports/E14_action_threshold_modulation_design_logic.md",
       "target": "experiments\\E14\\design.md",
-      "bytes": 1269,
-      "sha256": "f507fe1c42fb5834c7aae95b00a8f1b300f20455f42ef3bdad9ab2fdf6198f0d"
+      "bytes": 1250,
+      "sha256": "1fae4a230ee421520a0615c29e286fd808419c9100ecbc65d7013623b62153b1"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/reports/E14_action_threshold_modulation_report_e14_final_v1.md",
@@ -2635,38 +2635,38 @@
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_summary_e14_final_v1.json",
       "target": "experiments\\E14\\tables\\summary.json",
-      "bytes": 1377,
-      "sha256": "8b54d7bf0b4d5cf1eac53a8e95b8ac9bb9fa86f288771fe568734915db057481"
+      "bytes": 1341,
+      "sha256": "686afb37c8e893b52a2e7831e8b62d70c201906e644ab46fc8c833fa9f6ed6f6"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_case_rows_e14_final_v1.csv",
       "target": "experiments\\E14\\tables\\source_tables\\e14_action_threshold_modulation_case_rows_final.csv",
-      "bytes": 647755,
-      "sha256": "4840f0e553a5eb1ccd3881b34c75039356fc8225644edc9b74c1d32b64c280ed"
+      "bytes": 647610,
+      "sha256": "d4d2a357f232802bd3571cad82f1770c059abf12a245d0708901121362d1f87c"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_family_rows_e14_final_v1.csv",
       "target": "experiments\\E14\\tables\\source_tables\\e14_action_threshold_modulation_family_rows_final.csv",
-      "bytes": 1827,
-      "sha256": "503b5c52b0c08bfcff09b9bcdf8b3ee09125af7299bb515c292b3ec1c0b6620a"
+      "bytes": 1814,
+      "sha256": "8a31e507e78d9f3750378d056a4e79a0b3b90550d2557db6c3ea0fbf3bb34dd9"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_tick_rows_e14_final_v1.csv",
       "target": "experiments\\E14\\tables\\source_tables\\e14_action_threshold_modulation_tick_rows_final.csv",
-      "bytes": 69798,
-      "sha256": "47f0ae169b62818cb88b00011fd9c56ff9fb98df4c182289e286e2f08368c0d8"
+      "bytes": 68645,
+      "sha256": "ae53482b1f959cb314a4a2b3c8488e61ca12aaf667d93691d97f9b762b96f0ef"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_summary_e14_final_v1.json",
       "target": "experiments\\E14\\tables\\source_tables\\e14_action_threshold_modulation_summary_final.json",
-      "bytes": 1377,
-      "sha256": "8b54d7bf0b4d5cf1eac53a8e95b8ac9bb9fa86f288771fe568734915db057481"
+      "bytes": 1341,
+      "sha256": "686afb37c8e893b52a2e7831e8b62d70c201906e644ab46fc8c833fa9f6ed6f6"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_whitebox_e14_final_v1.json",
       "target": "experiments\\E14\\tables\\source_tables\\e14_action_threshold_modulation_whitebox_final.json",
-      "bytes": 68517,
-      "sha256": "1b10c19a5ae8318d43d7c43c427cf91aa3a4eb38ac122ed8dffc95c412e86faa"
+      "bytes": 67987,
+      "sha256": "9e53e43cfe7a9db3e20b86714954c8f070927fdb97cdeecbaf88559b158c9050"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_drive_threshold_curves_e14_final_v1.png",
@@ -2701,14 +2701,14 @@
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/manifests/E14_action_threshold_modulation_evidence_e14_final_v1.json",
       "target": "experiments\\E14\\manifests\\E14_action_threshold_modulation_evidence_final.json",
-      "bytes": 3120,
-      "sha256": "c3ba01107b122767b45bb18b5abdc2f95be775b48a6bc909404ceceae7c05e27"
+      "bytes": 3063,
+      "sha256": "f1bb6ee91571684ea414cb361d20f4c52b1e8e10ec707a42eb871c643eebc725"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/reports/E15_auto_tuner_stability_design_logic.md",
       "target": "experiments\\E15\\design.md",
-      "bytes": 1383,
-      "sha256": "b615d62f1da8440d3f74248cc95a5679b02f5f275b63626efa9bc2c7fb815feb"
+      "bytes": 1364,
+      "sha256": "dfcf65b2c6fe189c9a481697384172a51608beee80efe488c3a0edb98bf55bf2"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/reports/E15_auto_tuner_stability_report_e15_final_v1.md",
@@ -2719,38 +2719,38 @@
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_summary_e15_final_v1.json",
       "target": "experiments\\E15\\tables\\summary.json",
-      "bytes": 824,
-      "sha256": "7e1555f2915558d136c6cf0f83973e2ab004635b66e3a19da60ea79c2abe951c"
+      "bytes": 798,
+      "sha256": "1968568c8dd91b1720139445c6bdb3dddecc30817da726ce828aa248d853611b"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_case_rows_e15_final_v1.csv",
       "target": "experiments\\E15\\tables\\source_tables\\e15_auto_tuner_stability_case_rows_final.csv",
-      "bytes": 903726,
-      "sha256": "426de2b32a414880120afced87c153cfbe14a993e08753c9c9441ebd06883099"
+      "bytes": 903629,
+      "sha256": "625bcebc3461f192da2aba34b8ce42d2f26c9a67035147094c9934c0d3e8d4e4"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_family_rows_e15_final_v1.csv",
       "target": "experiments\\E15\\tables\\source_tables\\e15_auto_tuner_stability_family_rows_final.csv",
-      "bytes": 1063,
-      "sha256": "ec45712c2f100f946b2d4c7e1333716cfe2fbadbf6e5c2456594c32c55c0a746"
+      "bytes": 1050,
+      "sha256": "2321a0c655abf307e93705d49a6a976e7d2eb9912c87e9a76dd9a21636cef852"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_tick_rows_e15_final_v1.csv",
       "target": "experiments\\E15\\tables\\source_tables\\e15_auto_tuner_stability_tick_rows_final.csv",
-      "bytes": 34064,
-      "sha256": "4135a033967df658853a43bbd05bfa34a0a3f9bdc39f74c231f655c8c84d8612"
+      "bytes": 33583,
+      "sha256": "e032d64ba5f613a9d8e46d71b95d0656a2b17c602d1a79fb36352db11fcd7f15"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_summary_e15_final_v1.json",
       "target": "experiments\\E15\\tables\\source_tables\\e15_auto_tuner_stability_summary_final.json",
-      "bytes": 824,
-      "sha256": "7e1555f2915558d136c6cf0f83973e2ab004635b66e3a19da60ea79c2abe951c"
+      "bytes": 798,
+      "sha256": "1968568c8dd91b1720139445c6bdb3dddecc30817da726ce828aa248d853611b"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_whitebox_e15_final_v1.json",
       "target": "experiments\\E15\\tables\\source_tables\\e15_auto_tuner_stability_whitebox_final.json",
-      "bytes": 82225,
-      "sha256": "289982797d8182fb7a57c90c0629e1244e23db4d4168f3fe25b41ad5169866d7"
+      "bytes": 81967,
+      "sha256": "7b646be7122dcc05c7bb55743c794972e006d6bdf5deeb7fb861faba159f82e7"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/charts/e15_branch_param_heatmap_e15_final_v1.png",
@@ -2779,14 +2779,14 @@
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/manifests/E15_auto_tuner_stability_evidence_e15_final_v1.json",
       "target": "experiments\\E15\\manifests\\E15_auto_tuner_stability_evidence_final.json",
-      "bytes": 2319,
-      "sha256": "3e909e9b041578fd2092fc0dd96c25ad033a5d10e07984dd0cdfa8fa5f0eb422"
+      "bytes": 2273,
+      "sha256": "c6b3cf3d2a671684ca40472c89f2c9f20a609ef0c072eec9887415c3a3979151"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/reports/E16_multimodal_symbol_grounding_design_logic.md",
       "target": "experiments\\E16\\design.md",
-      "bytes": 1132,
-      "sha256": "f82fbb073f849391206a5af839ab96356650b9a19a98f6961769fa4562a4686c"
+      "bytes": 1117,
+      "sha256": "1c7da82a96074fee0313853d0c5e6f3ec6d530c329d89f283f5af40f8ca8da05"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/reports/E16_multimodal_symbol_grounding_report_e16_final_v1.md",
@@ -2797,32 +2797,32 @@
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_summary_e16_final_v1.json",
       "target": "experiments\\E16\\tables\\summary.json",
-      "bytes": 738,
-      "sha256": "ff6d88f049abaa93e4551dcbca7cc639104b4973469e0d0b065700644476ceb5"
+      "bytes": 716,
+      "sha256": "5e1c65bde415b378901fa1e5f3d9c2eba3751b5aba77d0b791c45703ce3765ca"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_case_rows_e16_final_v1.csv",
       "target": "experiments\\E16\\tables\\source_tables\\e16_multimodal_symbol_grounding_case_rows_final.csv",
-      "bytes": 26996,
-      "sha256": "248a90f5755701a305e53d503ae4d59f3d094b8cb111eb4b733c077715748843"
+      "bytes": 26923,
+      "sha256": "815cd90da3c815dd948e4ed7ab64991f81b1de049741ae04ff0160865081ba83"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_family_rows_e16_final_v1.csv",
       "target": "experiments\\E16\\tables\\source_tables\\e16_multimodal_symbol_grounding_family_rows_final.csv",
-      "bytes": 1143,
-      "sha256": "afd00ff8af5b521d8bddfe2a71464e8dbb176dd831d21583187c8077f5802ab9"
+      "bytes": 1130,
+      "sha256": "e4ba4790dcbcd215be40b303c6f8a021a1f86c9da655a26a44ac6959a27f95c6"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_summary_e16_final_v1.json",
       "target": "experiments\\E16\\tables\\source_tables\\e16_multimodal_symbol_grounding_summary_final.json",
-      "bytes": 738,
-      "sha256": "ff6d88f049abaa93e4551dcbca7cc639104b4973469e0d0b065700644476ceb5"
+      "bytes": 716,
+      "sha256": "5e1c65bde415b378901fa1e5f3d9c2eba3751b5aba77d0b791c45703ce3765ca"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_whitebox_e16_final_v1.json",
       "target": "experiments\\E16\\tables\\source_tables\\e16_multimodal_symbol_grounding_whitebox_final.json",
-      "bytes": 188230,
-      "sha256": "b7e1b6cc48625f71b7114ebdb321bb6a9a81d95e26b12e4f76f71b4406aa554a"
+      "bytes": 182733,
+      "sha256": "a9af06d39ca8536464fedf7466e51660f12d7551abe9f0a5b4c68110291fc900"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/charts/e16_anchor_isolation_e16_final_v1.png",
@@ -2851,14 +2851,14 @@
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/manifests/E16_multimodal_symbol_grounding_evidence_e16_final_v1.json",
       "target": "experiments\\E16\\manifests\\E16_multimodal_symbol_grounding_evidence_final.json",
-      "bytes": 2204,
-      "sha256": "cf72d4f8f0af15553306e5de9b82aaf2bdca9e2d340bd7e153a6f914859f26eb"
+      "bytes": 2163,
+      "sha256": "ea3912ee41103e24d9ec3db0b0f5f16ed8825b732621209e5792caecdf93ca56"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/reports/E17_internal_narrative_chain_design_logic.md",
       "target": "experiments\\E17\\design.md",
-      "bytes": 1016,
-      "sha256": "812be5e7deef9b026a185ef496b9ca319693c4ca864cf90f2ddf90af7928571e"
+      "bytes": 1009,
+      "sha256": "e464f5c26a2091d10180d2ce7eb29f319ec4b86f1e6e6a0c3e3087e3bc75ecc7"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/reports/E17_internal_narrative_chain_report_e17_final_v1.md",
@@ -2869,38 +2869,38 @@
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_summary_e17_final_v1.json",
       "target": "experiments\\E17\\tables\\summary.json",
-      "bytes": 587,
-      "sha256": "9cb3db6f0312a14c2f5966fdf5f108b863f132b5a1610bfa78ba1c2f83ccc7ea"
+      "bytes": 568,
+      "sha256": "9f55ad33092d1c6380297aefebce4731077b9b3f9c1db29e832e3d110c756475"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_case_rows_e17_final_v1.csv",
       "target": "experiments\\E17\\tables\\source_tables\\e17_internal_narrative_chain_case_rows_final.csv",
-      "bytes": 8893,
-      "sha256": "6e64360f6fdc7921d32fdba676f8ed985e8e703d12f9fb9b1ea11fe6585ebc5e"
+      "bytes": 8820,
+      "sha256": "b4f415f18e3f439eace44da88da5993eb172ba6ce267ab353fb6b1974b98a351"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_family_rows_e17_final_v1.csv",
       "target": "experiments\\E17\\tables\\source_tables\\e17_internal_narrative_chain_family_rows_final.csv",
-      "bytes": 1544,
-      "sha256": "fbab0452e4f0df79600dd70bf14815d87d0535304e717f6b66938e97ee702d15"
+      "bytes": 1531,
+      "sha256": "3d175a0e305d7996a2e7ea0042111f5a12039ef87c8a74e8418c1747885fa156"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_step_rows_e17_final_v1.csv",
       "target": "experiments\\E17\\tables\\source_tables\\e17_internal_narrative_chain_step_rows_final.csv",
-      "bytes": 22362,
-      "sha256": "a520261fb42db9b8f9d568815ee8dc217358c3d1a5aa4d7a4ddef32a7c801038"
+      "bytes": 22169,
+      "sha256": "71524992bbae719050f6f3febc5c3fe9713c58065be6d9ea9d0aa4cb9b221843"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_summary_e17_final_v1.json",
       "target": "experiments\\E17\\tables\\source_tables\\e17_internal_narrative_chain_summary_final.json",
-      "bytes": 587,
-      "sha256": "9cb3db6f0312a14c2f5966fdf5f108b863f132b5a1610bfa78ba1c2f83ccc7ea"
+      "bytes": 568,
+      "sha256": "9f55ad33092d1c6380297aefebce4731077b9b3f9c1db29e832e3d110c756475"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_whitebox_e17_final_v1.json",
       "target": "experiments\\E17\\tables\\source_tables\\e17_internal_narrative_chain_whitebox_final.json",
-      "bytes": 2894,
-      "sha256": "1267216b7b775f4337ac0886e1a70053666f72022b00799406fdf7897cd35f90"
+      "bytes": 2800,
+      "sha256": "03a0fd59ce67da3d538780fb2c5778db362fa1cff976621f04f999bec9d4fa98"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_branch_pass_rates_e17_final_v1.png",
@@ -2929,8 +2929,8 @@
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/manifests/E17_internal_narrative_chain_evidence_e17_final_v1.json",
       "target": "experiments\\E17\\manifests\\E17_internal_narrative_chain_evidence_final.json",
-      "bytes": 2307,
-      "sha256": "50804c75dfdf253d5a5831ea8cf367cf01983f52d56b2a2e59482563d8fe766b"
+      "bytes": 2267,
+      "sha256": "8fd60d84f789925133fca6fa61e1144246c05f3a28d6b2a0b9919dd2b9ce9c08"
     },
     {
       "source": "run_paper_e01_experiment.py",
@@ -3094,8 +3094,8 @@
     },
     {
       "target": "strong_evidence_overview.csv",
-      "bytes": 2118,
-      "sha256": "0a02a76dd9dab97559795bfd7b26a76488167c2fe9d80e4531f954b2ea7bc7bf"
+      "bytes": 2100,
+      "sha256": "6f7b6b74b4cf35836e67a5e82388069709ea723d0be38ccdcfd02eee9a5e6e9b"
     },
     {
       "target": "LICENSE",
