@@ -9,8 +9,8 @@ Public reproduction policy
 
 This attachment package is designed to be used with the public AP prototype
 repository released alongside the paper. Keep the prototype repository as a
-sibling directory named `Artificial-PsyArch`, or adjust `AP_ROOT` at the top of
-the scripts under `scripts/`.
+sibling directory named `Artificial-PsyArch`, or set the `AP_ROOT` environment
+variable before running the scripts under `scripts/`.
 
 The experiment attachments in this repository contain the data files, summary
 tables, charts, script copies, and SHA-256 hashes used by the paper. The root

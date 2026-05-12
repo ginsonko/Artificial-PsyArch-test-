@@ -24,7 +24,7 @@
 
 记录到的 AP 原型提交：`f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf`
 
-原型复现口径见 `ap_prototype_status.txt`。复现者应优先使用随论文发布的 AP 原型仓库版本，并让附件仓库与原型仓库保持同级目录布局；若实际目录不同，可按 `REPRODUCE.md` 调整脚本中的 `AP_ROOT`。
+原型复现口径见 `ap_prototype_status.txt`。复现者应优先使用随论文发布的 AP 原型仓库版本，并让附件仓库与原型仓库保持同级目录布局；若实际目录不同，可按 `REPRODUCE.md` 设置 `AP_ROOT` 环境变量。
 
 ## 文件名与来源映射说明
 
