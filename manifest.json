@@ -3061,8 +3061,8 @@
     {
       "source": "scripts\\verify_release_integrity.py",
       "target": "scripts\\verify_release_integrity.py",
-      "bytes": 3659,
-      "sha256": "070a99047e4742957c83451958d2c6281ce13248b809c26984659bc3bc04f0c2"
+      "bytes": 4175,
+      "sha256": "37bd5af2dd6287e5f8306f9b64785187673c0878843ea80cfd9ca4788de228cc"
     },
     {
       "source": "scripts\\publish_to_github.ps1",
