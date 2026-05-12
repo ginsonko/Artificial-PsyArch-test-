@@ -1,6 +1,6 @@
 # 强证据实验清单（Strong Evidence Manifest）
 
-| 编号 | 实验标题 | 证据级别 | 判定记录数 | 汇总文件 | 说明 |
+| 编号 | 实验标题 | 证据级别 | 正文统计入口数 | 汇总文件 | 说明 |
 |---|---|---|---:|---|---|
 | E01 | 历史特异性局部结构复用 | strong_evidence | 2 | `experiments\E01\tables\summary.json` | 严格交叉探针输入设计；正文使用时按机制级因果控制证据理解。 |
 | E02 | 稳定句壳下标签替换导致结构生长 | strong_evidence | 48 | `experiments\E02\tables\summary.json` | 采用 holdout 长句壳终稿确认批次；正文主索引只呈现强证据结果。 |
@@ -20,7 +20,7 @@
 | E16 | 多来源属性化接地入口与锚点隔离 | strong_evidence | 72 | `experiments\E16\tables\summary.json` |  |
 | E17 | 内部候选链的跨拍承接与续写 | strong_evidence | 192 | `experiments\E17\tables\summary.json` |  |
 
-判定记录总数：**914**。
+正文统计入口总数：**914**。不同实验的入口单位按主判据选择，可能是 pair、case、family 或 step；具体口径见各实验 `report.md`。
 
 文件级来源映射与 SHA-256 哈希保存在 `manifest.json`。
 

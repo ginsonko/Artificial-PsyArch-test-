@@ -1,64 +1,55 @@
-# E01 v4 最小强证据实验报告
+# E01 历史特异性局部结构复用实验报告（e01_v4_crossover_final）
 
-- 生成时间：2026-05-11 17:32:33
-- 公开批次标识：`e01_v4_crossover_final`
-- 说明：原始运行目录名保留在 `manifests` 与 `tables/source_tables` 中，用于哈希追溯；正文和读者入口统一使用公开批次标识。
-- 运行参数档：`context_strict_probe`
-- 判定：`strong_evidence`
+## 实验目的
+
+验证 AP 是否会把相同探针输入放回对应历史路径中处理，而不是只因为字符重复就无差别降低成本。
+
+## 逻辑预期与强证据判据
+
+在共享冷启动后，同一条有序探针输入应当在曾见过有序历史的 treatment 分支中更省新增存储；同字符乱序探针则应当在曾见过乱序历史的 control 分支中更省新增存储。若两组冷启动相等、两种探针优势方向互换、历史内偏好成立，并且机制链路也显示路径差异，才判为通过。
+
+## 数据集与变量控制
+
+数据集只改变第二条历史输入的顺序，其余冷启动、探针文本和运行基线保持一致。这样可以排除“文本本身更容易”这一解释，把差异收束到历史路径是否一致。
+
+本目录保留最小数据集文件：
+- `datasets/paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml`
+- `datasets/paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml`
+- `datasets/paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml`
+- `datasets/paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml`
+- `datasets/paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml`
+- `datasets/paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml`
+
+## 结果与解释
+
+- 支持等级：`strong_evidence`
 - 家族样本数：2
+- 冷启动可比通过率：1
+- 有序探针优势均值：2.3
+- 乱序探针优势均值：1.6
+- 历史特异性通过率：1
+- 机制链路通过率：1
 
-## 设计逻辑
+读者可在 family 明细表中看到 F01 与 F02 的冷启动差均为 0；有序探针优势为 2.3000，乱序探针优势为 1.6000，说明优势随历史方向反转。
 
-本实验使用交叉 probe，而不是直接拿两条不同文本做比较。共享冷启动后，两组只在历史第二条输入不同：一组见过有序 B，另一组见过乱序 B。后续把同一条有序 B probe 同时喂给两组，因此任何差异都更容易解释为历史路径差异，而不是文本本身难度差异。
+这些数值的解释重点不是单个指标越大越好，而是关键分支是否按预先设定的因果方向同时成立。若主分支通过、对照分支静默或反向成立、白箱字段能追溯到相应机制路径，则该实验进入正文强证据层。
 
-## 数据集与运行
+## 图表
 
-| 条件 | 家族 | 重复 | dataset_id | sha256 | run_alias | 状态 | 文本 tick |
-|---|---|---:|---|---|---|---|---:|
-| treatment | F01 | 1 | `paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4` | `bcfed2736abf...` | `treatment_F01_r1` | completed | 4 |
-| treatment | F02 | 1 | `paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4` | `5eb922d4d228...` | `treatment_F02_r1` | completed | 4 |
-| control | F01 | 1 | `paper_e01_crossover_control_F01_r1_context_strict_probe_v4` | `3072af36515c...` | `control_F01_r1` | completed | 4 |
-| control | F02 | 1 | `paper_e01_crossover_control_F02_r1_context_strict_probe_v4` | `0f896e48b066...` | `control_F02_r1` | completed | 4 |
-| calibration | F01 | 1 | `paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4` | `8203e4247b7e...` | `calibration_F01_r1` | completed | 4 |
-| calibration | F02 | 1 | `paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4` | `82b933e950ac...` | `calibration_F02_r1` | completed | 4 |
-
-## 阶段均值
-
-| 条件 | 阶段 | n | 新增存储/字 | 匹配分 | 复用信号 | 新路径 | 语境支持 | 机制阳性率 |
-|---|---|---:|---:|---:|---:|---:|---:|---:|
-| calibration | cold_A | 2 | 5.1000 | 0.9311 | 3.0000 | 10.0000 | 0.0000 | 1.0000 |
-| calibration | history_B | 2 | 6.2000 | 0.8833 | 1.0000 | 15.0000 | 0.0000 | 1.0000 |
-| calibration | probe_ordered_B | 4 | 3.6500 | 0.9237 | 3.0000 | 10.5000 | 0.7578 | 0.5000 |
-| control | cold_A | 2 | 5.1000 | 0.9311 | 3.0000 | 10.0000 | 0.0000 | 1.0000 |
-| control | history_B | 2 | 6.2000 | 0.8833 | 1.0000 | 15.0000 | 0.0000 | 1.0000 |
-| control | probe_ordered_B | 2 | 5.7000 | 0.9189 | 3.0000 | 16.0000 | 0.7562 | 1.0000 |
-| control | probe_permuted_B | 2 | 3.9000 | 0.9159 | 15.0000 | 9.0000 | 0.7657 | 1.0000 |
-| treatment | cold_A | 2 | 5.1000 | 0.9311 | 3.0000 | 10.0000 | 0.0000 | 1.0000 |
-| treatment | history_B | 2 | 6.2000 | 0.8833 | 1.0000 | 15.0000 | 0.0000 | 1.0000 |
-| treatment | probe_ordered_B | 2 | 3.4000 | 0.9313 | 0.0000 | 9.0000 | 0.7556 | 0.0000 |
-| treatment | probe_permuted_B | 2 | 5.5000 | 0.9115 | 3.0000 | 13.0000 | 0.7544 | 1.0000 |
-
-## 逐家族判定
-
-| 重复 | 家族 | 冷启动差 | 有序 probe 优势 | 乱序 probe 优势 | treatment 历史偏好 | control 历史偏好 | 机制优势 | 通过项 |
-|---:|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | F01 | 0.0000 | 2.3000 | 1.6000 | 2.1000 | 1.8000 | 7.0000 | cold_equal,ordered_probe,history_specificity,mechanism |
-| 1 | F02 | 0.0000 | 2.3000 | 1.6000 | 2.1000 | 1.8000 | 7.0000 | cold_equal,ordered_probe,history_specificity,mechanism |
-
-## 汇总结论
-
-- 冷启动可比通过率：1.0000。
-- 有序 probe 优势通过率：1.0000；平均优势：2.3000。
-- 乱序 probe 优势通过率：1.0000；平均优势：1.6000。
-- 历史特异性通过率：1.0000；treatment 内历史偏好：2.1000；control 内历史偏好：1.8000。
-- 机制通过率：1.0000；平均有序 probe 路径优势：7.0000；平均乱序 probe 路径优势：4.0000。
-
-## 附件
-
-- `charts/e01_v4_crossover_phase_curves_final.png`
 - `charts/e01_v4_crossover_family_effects_final.png`
-- `tables/source_tables/e01_v4_crossover_row_metrics_final.csv`
-- `tables/source_tables/e01_v4_crossover_phase_summary_final.csv`
-- `tables/source_tables/e01_v4_crossover_family_evidence_final.csv`
-- `design.md`
-- `manifests/E01_v4_crossover_evidence_final.json`
+- `charts/e01_v4_crossover_phase_curves_final.png`
+
+## 数据与复现
+
+- `design.md`：实验变量、对照分支与判据说明。
+- `tables/summary.json`：正文采用的终稿强证据汇总。
+- 逐项表格：
+  - `tables/source_tables/e01_v4_crossover_evidence_summary_final.json`
+  - `tables/source_tables/e01_v4_crossover_family_evidence_final.csv`
+  - `tables/source_tables/e01_v4_crossover_phase_summary_final.csv`
+  - `tables/source_tables/e01_v4_crossover_row_metrics_final.csv`
+- 清单与哈希：
+  - `manifests/E01_v4_crossover_dataset_manifest_final.json`
+  - `manifests/E01_v4_crossover_evidence_final.json`
+  - `manifests/E01_v4_crossover_latest.json`
+- 复现入口：见仓库根目录 `REPRODUCE.md`；对应脚本位于 `scripts/`，脚本会读取同级 AP 原型仓库或环境变量指定的 AP 原型路径。

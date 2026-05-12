@@ -1,62 +1,62 @@
-# E08 时间显影下的残差记忆受控晋升报告（e08_final_v1）
+# E08 时间显影下残差记忆受控晋升实验报告（e08_final_v1）
 
-## 核心结论
+## 实验目的
 
-- 支持等级：**strong_evidence**
+验证残差记忆是否只在历史种子和时间线索同时满足时晋升为当前可选对象。
+
+## 逻辑预期与强证据判据
+
+匹配开启分支应完整通过；关闭匹配、无种子、无线索三个对照分支应保持静默。若晋升只出现在 matched 分支，并且旧运行态记忆以 runtime EM 路径可见，说明显影机制受控。
+
+## 数据集与变量控制
+
+每个同构家族都包含 on_matched、off_matched、on_no_seed、on_no_cue 四个分支。实验用并列对照排除“只要有时间词就晋升”或“只要有旧记忆就晋升”的解释。
+
+本目录保留最小数据集文件：
+- `datasets/paper_e08_e08_final_v1_F01_off_matched.yaml`
+- `datasets/paper_e08_e08_final_v1_F01_on_matched.yaml`
+- `datasets/paper_e08_e08_final_v1_F01_on_no_cue.yaml`
+- `datasets/paper_e08_e08_final_v1_F01_on_no_seed.yaml`
+- `datasets/paper_e08_e08_final_v1_F02_off_matched.yaml`
+- `datasets/paper_e08_e08_final_v1_F02_on_matched.yaml`
+- `datasets/paper_e08_e08_final_v1_F02_on_no_cue.yaml`
+- `datasets/paper_e08_e08_final_v1_F02_on_no_seed.yaml`
+- `datasets/paper_e08_e08_final_v1_F03_off_matched.yaml`
+- `datasets/paper_e08_e08_final_v1_F03_on_matched.yaml`
+- `datasets/paper_e08_e08_final_v1_F03_on_no_cue.yaml`
+- `datasets/paper_e08_e08_final_v1_F03_on_no_seed.yaml`
+- 其余 36 个数据集文件见 `datasets/` 目录。
+
+## 结果与解释
+
+- 支持等级：`strong_evidence`
+- case 数：48
 - family 数：12
-- 四分支整体通过比例：1.000
-- 四分支整体符号检验 p 值：0.00048828
-- on_matched 通过比例：1.000
-- off_matched 静默比例：1.000
-- on_no_seed 静默比例：1.000
-- on_no_cue 静默比例：1.000
+- 匹配开启通过率：1
+- 匹配关闭静默率：1
+- 无种子静默率：1
+- 无线索静默率：1
+- 匹配分支晋升率：1
+- 旧运行态记忆可见率：1
 
-## 正文可使用的最小命题
+on_matched_selected_promoted_ratio 为 1.0，三个对照分支的 selected_promoted_ratio 均为 0.0，说明晋升条件具有清晰边界。
 
-在 `runtime_em_only` 主链中，只要旧 seed 记忆与延迟 cue 同时存在，时间样属性就可以进入当前刺激级匹配，使影子残差记忆候选从“仅可见”提升为“可晋升、可重新竞争”的对象。关闭晋升开关、拿掉 seed 或拿掉 cue 后，这条链会同步熄灭。
-
-## 四分支对照
-
-| family | on_matched | off_matched quiet | on_no_seed quiet | on_no_cue quiet | all_ok |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| F01 | 1 | 1 | 1 | 1 | 1 |
-| F02 | 1 | 1 | 1 | 1 | 1 |
-| F03 | 1 | 1 | 1 | 1 | 1 |
-| F04 | 1 | 1 | 1 | 1 | 1 |
-| F05 | 1 | 1 | 1 | 1 | 1 |
-| F06 | 1 | 1 | 1 | 1 | 1 |
-| F07 | 1 | 1 | 1 | 1 | 1 |
-| F08 | 1 | 1 | 1 | 1 | 1 |
-| F09 | 1 | 1 | 1 | 1 | 1 |
-| F10 | 1 | 1 | 1 | 1 | 1 |
-| F11 | 1 | 1 | 1 | 1 | 1 |
-| F12 | 1 | 1 | 1 | 1 | 1 |
-
-## 分支均值
-
-| 分支 | 时间绑定 | 时间 wildcard | 影子候选 | 影子晋升 | 晋升后重入主竞争 |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| on_matched | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
-| off_matched | 1.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| on_no_seed | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| on_no_cue | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-
-## 白箱样例
-
-标准 matched 样例使用 5 个 source tick：`seed -> empty -> empty -> cue -> empty`。在 observation tick 中，旧运行态记忆仍然可见，且主链路径为 `runtime_em_only`。
-
-- 样例 family：`F01`；branch：`on_matched`
-- 旧运行态记忆可见条数：`2`
-- 主竞争最终入选模式：`promoted_shadow_raw_residual`
-- 影子候选种类：`raw_residual_memory`；memory_id：`em_000006`
-- 影子候选是否带时间 wildcard：`1`；晋升结构 id：`st_000030`
+这些数值的解释重点不是单个指标越大越好，而是关键分支是否按预先设定的因果方向同时成立。若主分支通过、对照分支静默或反向成立、白箱字段能追溯到相应机制路径，则该实验进入正文强证据层。
 
 ## 图表
 
 - `charts/e08_time_like_residual_promotion_contrast_final.png`
 - `charts/e08_time_like_residual_promotion_family_pass_final.png`
 
-## 备注
+## 数据与复现
 
-- 本实验不主张广义情景回忆，只主张“时间显影下的残差记忆受控晋升”。
-- 本实验不主张线索词身份选择性，因为当前实现中，错误 cue 并不会稳定熄灭这条链。
+- `design.md`：实验变量、对照分支与判据说明。
+- `tables/summary.json`：正文采用的终稿强证据汇总。
+- 逐项表格：
+  - `tables/source_tables/e08_time_like_residual_promotion_case_rows_final.csv`
+  - `tables/source_tables/e08_time_like_residual_promotion_pair_rows_final.csv`
+  - `tables/source_tables/e08_time_like_residual_promotion_summary_final.json`
+  - `tables/source_tables/e08_time_like_residual_promotion_whitebox_final.json`
+- 清单与哈希：
+  - `manifests/E08_time_like_residual_promotion_evidence_final.json`
+- 复现入口：见仓库根目录 `REPRODUCE.md`；对应脚本位于 `scripts/`，脚本会读取同级 AP 原型仓库或环境变量指定的 AP 原型路径。

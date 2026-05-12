@@ -1,42 +1,34 @@
-# E17 内部候选链实验报告 e17_final_v1
+# E17 内部候选链的跨拍承接与续写实验报告（e17_final_v1）
 
-## 结论摘要
+## 实验目的
 
-- 支持等级：strong_evidence
-- family 数：12
+验证 AP 的内部候选对象能否跨认知滴答承接，形成可观察的短链续写雏形。
+
+## 逻辑预期与强证据判据
+
+连续承接分支应按 AB -> ABC -> terminal memory 顺序推进；错误种子、低预算和无承接对照应阻断；分支切换应按权重转向；终端记忆之后不应继续展开。
+
+## 数据集与变量控制
+
+实验使用结构图而不是自由文本生成。每个 family 记录 case 级分支结果和 step 级 top candidate，使读者可以逐拍复核候选从哪里来、为什么换向、在哪里停住。
+
+## 结果与解释
+
+- 支持等级：`strong_evidence`
 - case 数：72
 - step 数：192
-- 整体通过比例：1.000
-- 符号检验 p 值：0.00048828
-- 六分支通过比例：1.000 / 1.000 / 1.000 / 1.000 / 1.000 / 1.000
+- family 数：12
+- 连续承接通过率：1
+- 错误种子对照通过率：1
+- 低预算对照通过率：1
+- 无承接对照通过率：1
+- 分支切换通过率：1
+- 终端停止通过率：1
+- 承接比例均值：1
 
-## 正文可使用的最小命题
+连续承接的 chain_carry_ratio_mean 为 1.0，无承接对照为 0；terminal_followup_target_count_mean 为 0，说明终端记忆之后没有继续扩散。
 
-在当前 AP 原型中，结构目标可以作为跨 tick 的内部候选链节点被承接：当上一拍 top 结构进入下一拍 source 后，感应赋能会沿已学习结构链逐拍推进；错误种子、低预算、无承接和终端记忆均能形成可复查的边界。这支持“内部续写链/叙事候选链”的工程基础，但不等同于完整自然语言生成能力已经完成。
-
-## family 判据
-
-| family | 连续承接 | 错误种子静默 | 低预算静默 | 无承接停滞 | 权重转向 | 终端停止 | all_ok |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| F01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F02 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F03 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F04 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F05 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F06 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F07 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F08 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F09 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F10 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F11 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F12 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-
-## 白箱样例
-
-- chain_follow: `{"family": "F01", "branch": "chain_follow", "branch_label": "连续承接", "case_counted_steps": 3, "source_ev": 1.0, "low_budget_ev": 0.012, "expected_sequence": "AB>ABC>memory:terminal", "top_sequence": "AB>ABC>memory:terminal", "expected_hit_ratio": 1.0, "chain_order_ok": 1, "target_chain_ok": 1, "next_seed_from_previous_top_count": 2, "next_seed_from_previous_top_ratio": 1.0, "wrong_target_quiet": 0, "low_budget_quiet": 0, "no_carry_stalled": 0, "branch_switched": 0, "terminal_stopped": 1, "terminal_followup_target_count": 0, "terminal_step_index": 3, "carried_source_ids": "A>AB>ABC"}`
-- no_carry_control: `{"family": "F01", "branch": "no_carry_control", "branch_label": "无承接对照", "case_counted_steps": 3, "source_ev": 1.0, "low_budget_ev": 0.012, "expected_sequence": "AB>AB>AB", "top_sequence": "AB>AB>AB", "expected_hit_ratio": 1.0, "chain_order_ok": 1, "target_chain_ok": 0, "next_seed_from_previous_top_count": 0, "next_seed_from_previous_top_ratio": 0.0, "wrong_target_quiet": 0, "low_budget_quiet": 0, "no_carry_stalled": 1, "branch_switched": 0, "terminal_stopped": 0, "terminal_followup_target_count": 0, "terminal_step_index": -1, "carried_source_ids": "A>A>A"}`
-- branch_switch: `{"family": "F01", "branch": "branch_switch", "branch_label": "权重转向", "case_counted_steps": 3, "source_ev": 1.0, "low_budget_ev": 0.012, "expected_sequence": "AB>ABY>memory:switch", "top_sequence": "AB>ABY>memory:switch", "expected_hit_ratio": 1.0, "chain_order_ok": 1, "target_chain_ok": 1, "next_seed_from_previous_top_count": 2, "next_seed_from_previous_top_ratio": 1.0, "wrong_target_quiet": 0, "low_budget_quiet": 0, "no_carry_stalled": 0, "branch_switched": 1, "terminal_stopped": 1, "terminal_followup_target_count": 0, "terminal_step_index": 3, "carried_source_ids": "A>AB>ABY"}`
-- terminal_stop: `{"family": "F01", "branch": "terminal_stop", "branch_label": "终端停止", "case_counted_steps": 3, "source_ev": 1.0, "low_budget_ev": 0.012, "expected_sequence": "AB>ABC>memory:terminal", "top_sequence": "AB>ABC>memory:terminal", "expected_hit_ratio": 1.0, "chain_order_ok": 1, "target_chain_ok": 1, "next_seed_from_previous_top_count": 2, "next_seed_from_previous_top_ratio": 1.0, "wrong_target_quiet": 0, "low_budget_quiet": 0, "no_carry_stalled": 0, "branch_switched": 0, "terminal_stopped": 1, "terminal_followup_target_count": 0, "terminal_step_index": 3, "carried_source_ids": "A>AB>ABC"}`
+这些数值的解释重点不是单个指标越大越好，而是关键分支是否按预先设定的因果方向同时成立。若主分支通过、对照分支静默或反向成立、白箱字段能追溯到相应机制路径，则该实验进入正文强证据层。
 
 ## 图表
 
@@ -44,3 +36,17 @@
 - `charts/e17_chain_step_delta_ev_final.png`
 - `charts/e17_family_pass_matrix_final.png`
 - `charts/e17_sample_path_contrast_final.png`
+
+## 数据与复现
+
+- `design.md`：实验变量、对照分支与判据说明。
+- `tables/summary.json`：正文采用的终稿强证据汇总。
+- 逐项表格：
+  - `tables/source_tables/e17_internal_narrative_chain_case_rows_final.csv`
+  - `tables/source_tables/e17_internal_narrative_chain_family_rows_final.csv`
+  - `tables/source_tables/e17_internal_narrative_chain_step_rows_final.csv`
+  - `tables/source_tables/e17_internal_narrative_chain_summary_final.json`
+  - `tables/source_tables/e17_internal_narrative_chain_whitebox_final.json`
+- 清单与哈希：
+  - `manifests/E17_internal_narrative_chain_evidence_final.json`
+- 复现入口：见仓库根目录 `REPRODUCE.md`；对应脚本位于 `scripts/`，脚本会读取同级 AP 原型仓库或环境变量指定的 AP 原型路径。

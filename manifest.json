@@ -243,8 +243,8 @@
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/reports/E01_v4_crossover_report_e01_v4_crossover_final.md",
       "target": "experiments\\E01\\report.md",
-      "bytes": 4204,
-      "sha256": "55678360b0ccd0bb866b13cd132d15ead938bc11bcbec1f9933d8dc2d7350075"
+      "bytes": 2984,
+      "sha256": "9bcab62e2afcb4ee5c80675c63a02eaf94c21c2449a4f15eda3dff12dd6b8be3"
     },
     {
       "source": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_evidence_summary_e01_v4_crossover_final.json",
@@ -351,8 +351,8 @@
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_report_e02_label_switch_holdout_confirm_v1.md",
       "target": "experiments\\E02\\report.md",
-      "bytes": 4737,
-      "sha256": "0cf45d49878911997f4a88c73399ff0cbd45db33435abbcfd8d2491c084fdeda"
+      "bytes": 3155,
+      "sha256": "c0636c2cf2ac2de78af4712a520bfee81a441cc4b2f2f2457c945d884deb81f2"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json",
@@ -987,8 +987,8 @@
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/reports/E03_reward_shaping_report_e03_final_v1.md",
       "target": "experiments\\E03\\report.md",
-      "bytes": 2161,
-      "sha256": "6df10ec374e570c6571c46a9baeb80e9061a9bd64d0ce30c644e8f149f235ca4"
+      "bytes": 3026,
+      "sha256": "9d69780c772f301ebf253a87c1a457b8b0cd04743e1190a8b8adf209e6b10d6d"
     },
     {
       "source": "ap-paper-artifacts://E03_reward_shaping/tables/e03_reward_shaping_summary_e03_final_v1.json",
@@ -1269,8 +1269,8 @@
     {
       "source": "ap-paper-artifacts://E04_punish_correction/reports/E04_punish_correction_report_e04_final_v1.md",
       "target": "experiments\\E04\\report.md",
-      "bytes": 1854,
-      "sha256": "3d83d973713dd626338a14912e278b23be5cd3f1b15c6fdb4e84429881fa4659"
+      "bytes": 3056,
+      "sha256": "2a11860e24fa8bb0747b2f4f3f32827df43dca13ab07495516a734e60b16044b"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/tables/e04_punish_correction_summary_e04_final_v1.json",
@@ -1545,8 +1545,8 @@
     {
       "source": "ap-paper-artifacts://E05_action_closure/reports/E05_action_closure_report_e05_final_v1.md",
       "target": "experiments\\E05\\report.md",
-      "bytes": 2710,
-      "sha256": "6f3a9e4e6edd49a463a902e714bab794bd1710fb0f3d42c37650ac847227912e"
+      "bytes": 2819,
+      "sha256": "b877cb335415b0115ee474ef61901359e1d9e7bed2a33ed6e5386ad039db1077"
     },
     {
       "source": "ap-paper-artifacts://E05_action_closure/tables/e05_action_closure_summary_e05_final_v1.json",
@@ -1743,8 +1743,8 @@
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/reports/E06_time_interval_report_e06_final_v1.md",
       "target": "experiments\\E06\\report.md",
-      "bytes": 3684,
-      "sha256": "dd338ea34e716e3d13fb4bee78d7b1d043e107485ea906abfa27f1a392824a0a"
+      "bytes": 2358,
+      "sha256": "d504d0ad68ab039f653d368eb7e947891370e9b26b8151c0b87e4b1680f314a0"
     },
     {
       "source": "ap-paper-artifacts://E06_time_interval_closure/tables/e06_time_interval_summary_e06_final_v1.json",
@@ -1815,8 +1815,8 @@
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/reports/E07_attention_complexity_report_e07_final_v1.md",
       "target": "experiments\\E07\\report.md",
-      "bytes": 1668,
-      "sha256": "6b4457760128998184de4ead49f8329747ba86cd3aea4a8ebeb1ed7ad237e003"
+      "bytes": 2219,
+      "sha256": "c32dae98fa62a524618332408016c4338dd6553f3bd05e44c45ba6154a456009"
     },
     {
       "source": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_summary_e07_final_v1.json",
@@ -1875,8 +1875,8 @@
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_report_e08_final_v1.md",
       "target": "experiments\\E08\\report.md",
-      "bytes": 2536,
-      "sha256": "f02f4c836fd059f90883c11aa2b96e0634670ea2dc8c400d49f10b81f91a481b"
+      "bytes": 3021,
+      "sha256": "7cee6ef179a8c6988bab1fa799e1547a20dddd5e62156273f1e659d34b7d37d1"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_summary_e08_final_v1.json",
@@ -2223,8 +2223,8 @@
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/reports/E09_conflict_relief_report_e09_final_v1.md",
       "target": "experiments\\E09\\report.md",
-      "bytes": 2918,
-      "sha256": "df00f17928418338ee21861ba7d947b9da7c4717620e6ade865258c98eb7fbd5"
+      "bytes": 2281,
+      "sha256": "4ca692c5451fbc21d10d9a163b17829c3e83f6a4282364aa553c1e5d95d0ccac"
     },
     {
       "source": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_summary_e09_final_v1.json",
@@ -2289,8 +2289,8 @@
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/reports/E10_repeat_fatigue_report_e10_final_v1.md",
       "target": "experiments\\E10\\report.md",
-      "bytes": 2649,
-      "sha256": "22100ab46b73c4a863ce4c0f166f5df0fd8be1d01e1f403d382aebf717e896b9"
+      "bytes": 2329,
+      "sha256": "c44aace0f70f27987eed52b0172662827bc6903e2e88c400e40c2d20ede4019c"
     },
     {
       "source": "ap-paper-artifacts://E10_repeat_fatigue/tables/e10_repeat_fatigue_summary_e10_final_v1.json",
@@ -2361,8 +2361,8 @@
     {
       "source": "ap-paper-artifacts://E11_energy_graph/reports/E11_energy_graph_report_e11_final_v1.md",
       "target": "experiments\\E11\\report.md",
-      "bytes": 2634,
-      "sha256": "49d3ff9a033e8606f7bd0e8e32959649d13203ad66bbd84c5d1249c2f4c472c5"
+      "bytes": 2390,
+      "sha256": "a6c3561e9a2222eaf7664cc0adcbfd76542f40a03f32cac8831734ce444d6dfa"
     },
     {
       "source": "ap-paper-artifacts://E11_energy_graph/tables/e11_energy_graph_summary_e11_final_v1.json",
@@ -2445,8 +2445,8 @@
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/reports/E12_process_memory_report_e12_final_v2.md",
       "target": "experiments\\E12\\report.md",
-      "bytes": 1707,
-      "sha256": "1d7a6281fa6081c7626aca20e21006eb21d5a4e06407f3b34dec88fca80b77b5"
+      "bytes": 2339,
+      "sha256": "606d0dce781c59f28fb031c0c68d279e2d0ed63bdb9b41b738c5c4fff2583235"
     },
     {
       "source": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_summary_e12_final_v2.json",
@@ -2523,20 +2523,20 @@
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/reports/E13_agent_memory_projection_report_e13_final_v1.md",
       "target": "experiments\\E13\\report.md",
-      "bytes": 2912,
-      "sha256": "aaea1db4e857a4ce6e8168f204fb9aac63ea0ede1adace70b0c8666e991a3ffb"
+      "bytes": 2329,
+      "sha256": "1160bd1c9e88dfe231a7edaac3ed4a11e5f7e25f3ac0dc57f4cdeeaece3835d5"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_summary_e13_final_v1.json",
       "target": "experiments\\E13\\tables\\summary.json",
-      "bytes": 797,
-      "sha256": "fb30a4309ae507a5f43acd599cbf65f4ddfba162179be2e5feb3a12d481692b2"
+      "bytes": 795,
+      "sha256": "9444e1581af665b85eba76552a1ccef5d8513c86c87281e308d4c458f0854934"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_case_rows_e13_final_v1.csv",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_case_rows_final.csv",
-      "bytes": 13284,
-      "sha256": "30dfc1114c6e2589052272737692a2a76e3f2d24c40eaa0003f17f77b5959bda"
+      "bytes": 13356,
+      "sha256": "cd5868a06a7420d59628b0c8e5a39a242b494b2602b8c4eee34042d76d540d10"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_family_rows_e13_final_v1.csv",
@@ -2547,14 +2547,14 @@
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_summary_e13_final_v1.json",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_summary_final.json",
-      "bytes": 797,
-      "sha256": "fb30a4309ae507a5f43acd599cbf65f4ddfba162179be2e5feb3a12d481692b2"
+      "bytes": 795,
+      "sha256": "9444e1581af665b85eba76552a1ccef5d8513c86c87281e308d4c458f0854934"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/tables/e13_agent_memory_projection_whitebox_e13_final_v1.json",
       "target": "experiments\\E13\\tables\\source_tables\\e13_agent_memory_projection_whitebox_final.json",
-      "bytes": 4526,
-      "sha256": "ed9419facc1426c67358e1f920dc3a0ecfd2d8e44bf5d5949a4f5aa574d88a85"
+      "bytes": 4524,
+      "sha256": "bdb084e20883b084eeba6b451525ba704ab2d9e86f2c03ad536daf1b90e236b7"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/charts/e13_branch_pass_rates_e13_final_v1.png",
@@ -2583,8 +2583,8 @@
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/manifests/E13_agent_memory_projection_evidence_e13_final_v1.json",
       "target": "experiments\\E13\\manifests\\E13_agent_memory_projection_evidence_final.json",
-      "bytes": 2200,
-      "sha256": "985de7f54983fa1fa123f021845bf5a847f884aac64b36818a322eb2e55d41c7"
+      "bytes": 1571,
+      "sha256": "ef1d1c1ca0ac0e67f59d2bd79bb4d8b3139d1e5ac1928a1afe7b5d5a3a16b2e5"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/reports/E14_action_threshold_modulation_design_logic.md",
@@ -2595,8 +2595,8 @@
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/reports/E14_action_threshold_modulation_report_e14_final_v1.md",
       "target": "experiments\\E14\\report.md",
-      "bytes": 2773,
-      "sha256": "5a5bde8ce9001396c2a0d190a3712903d45f70fdb9f1041492b8392e7167477c"
+      "bytes": 2519,
+      "sha256": "845040727598ed9e6f0caf4aff1e974c5ac7c5b4dbf78ae1393b51a5e4e82d58"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_summary_e14_final_v1.json",
@@ -2679,8 +2679,8 @@
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/reports/E15_auto_tuner_stability_report_e15_final_v1.md",
       "target": "experiments\\E15\\report.md",
-      "bytes": 2896,
-      "sha256": "98439d03c22b0572dce70f75516ae30f0a8fe4ffbf6670aefdfa1d2394743877"
+      "bytes": 2363,
+      "sha256": "1a6ec5ad51aae95ff51c3655a07fed5ba0201b6c93d9c5bcbc44bde636c2d7e5"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/tables/e15_auto_tuner_stability_summary_e15_final_v1.json",
@@ -2757,8 +2757,8 @@
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/reports/E16_multimodal_symbol_grounding_report_e16_final_v1.md",
       "target": "experiments\\E16\\report.md",
-      "bytes": 1478,
-      "sha256": "50cc96f7aa42c7bb4362f750f570dda1c5ba557ce250220045a5350a531718d9"
+      "bytes": 2346,
+      "sha256": "206c85ef5e2cf717c340e6207b9ce4479d70d4c3fa13db87b2fe0606eb4f2901"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_summary_e16_final_v1.json",
@@ -2829,8 +2829,8 @@
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/reports/E17_internal_narrative_chain_report_e17_final_v1.md",
       "target": "experiments\\E17\\report.md",
-      "bytes": 4035,
-      "sha256": "b71890129cfd98268d0d85ee9c908a1b7c6d34dfeba211d797e6bc4863266ed5"
+      "bytes": 2400,
+      "sha256": "7da3edbf6d4d2da853a6ff42ef3b415020be98efb773cd86bad76dea5ea46cf5"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_summary_e17_final_v1.json",
@@ -2979,8 +2979,8 @@
     {
       "source": "run_paper_e13_agent_memory_projection_experiment.py",
       "target": "scripts\\run_paper_e13_agent_memory_projection_experiment.py",
-      "bytes": 38893,
-      "sha256": "7f9db0dbf0b4d019c8f6cdd3e973766e27b217110844c08090c9cbbc85003471"
+      "bytes": 38894,
+      "sha256": "e0a476f2c6a691fc510b1421e3f32f425fd33ca84e17cab3aab6e8e9d79e2676"
     },
     {
       "source": "run_paper_e14_action_threshold_modulation_experiment.py",
@@ -3023,5 +3023,42 @@
   "total_judgement_records": 914,
   "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。",
   "source_reference_note": "Public manifests use ap-paper-artifacts:// and ap-prototype:// logical source URIs. They identify original experiment branches or prototype-relative files without exposing a local drive path. SHA-256 values are computed over the copied public files listed by target.",
-  "manifest_integrity_note": "The root manifest was refreshed after public path and prototype-status sanitization; listed bytes and SHA-256 values refer to the files as published in this attachment repository."
+  "manifest_integrity_note": "The root manifest was refreshed after public path and prototype-status sanitization; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
+  "top_level_files": [
+    {
+      "target": "README.md",
+      "bytes": 3358,
+      "sha256": "f40b5de57e1764385db8804bf491d77fde6b13e1938306eff0e93d74af012440"
+    },
+    {
+      "target": "REPRODUCE.md",
+      "bytes": 3691,
+      "sha256": "9899fe47419e4c7f981d2674e66990f8d95bf7d13357e4ffd48db35ea683f2ca"
+    },
+    {
+      "target": "MANIFEST.md",
+      "bytes": 2992,
+      "sha256": "af628cc401f7a40d4f287c7be1e518acf88b5e8aaa1935b25b64287565fce24a"
+    },
+    {
+      "target": "strong_evidence_overview.csv",
+      "bytes": 1941,
+      "sha256": "a21f99a0a1d5a819775849d9e5ca750d78fa16f63e9aac6c22b10af0fdae8d9d"
+    },
+    {
+      "target": "LICENSE",
+      "bytes": 2292,
+      "sha256": "93f1b55fa551ac934f8fac85ed1b8e9fef5cf90d50739ed597779817078a14ed"
+    },
+    {
+      "target": ".gitignore",
+      "bytes": 223,
+      "sha256": "20b2239153f8de578884e75f8392f6f71ad4a8951dc49fe501770c17fb507503"
+    },
+    {
+      "target": "ap_prototype_status.txt",
+      "bytes": 1219,
+      "sha256": "08d6b4816e409312a6055d4ddcca74881dd0b794c7a39d1d6e3225e3e050158f"
+    }
+  ]
 }

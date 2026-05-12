@@ -1,54 +1,33 @@
-# E11 有限分形能量扩散报告（e11_final_v1）
+# E11 有限分层能量图景与阈值剪枝实验报告（e11_final_v1）
 
-## 核心结论
+## 实验目的
 
-- 支持等级：**strong_evidence**
-- family 数：12
+验证感应能量是否能从种子结构向外形成有限层级扩散，并受轮数、阈值、预算和宽度约束自然停住。
+
+## 逻辑预期与强证据判据
+
+多轮分支应形成 depth>=2 的展开并触达终止记忆；单轮分支应只到第一层；高阈值、高预算门槛和宽度上限应剪枝；关闭根源 ER 重诱发后，总 EV 应下降。
+
+## 数据集与变量控制
+
+实验使用同构结构图，而不是自然语言大样本。每个家族都有相同拓扑，六个分支只改变一个边界参数，从而直接观察能量扩散和剪枝边界。
+
+## 结果与解释
+
+- 支持等级：`strong_evidence`
 - case 数：72
-- 整体通过比例：1.000
-- 符号检验 p 值：0.00048828
-- 多轮扩散 / 单轮截断 / 前沿阈值 / 预算阈值 / 宽度上限 / 无 ER 重诱发通过比例：1.000 / 1.000 / 1.000 / 1.000 / 1.000 / 1.000
+- family 数：12
+- 多轮扩散通过率：1
+- 单轮截断通过率：1
+- 高前沿阈值通过率：1
+- 高预算阈值通过率：1
+- 宽度上限通过率：1
+- 无 ER 重诱发通过率：1
+- 深扩散深度均值：2
 
-## 正文可使用的最小命题
+多轮分支深度均值为 2，终止记忆均值为 11；关闭 ER 重诱发后，总 EV 比多轮分支低 1.6847。
 
-在当前 AP 原型中，分层能量图可以从一个被激活的源结构出发，沿结构局部数据库向结构目标与记忆目标分配虚能量；结构目标可以作为下一轮前沿继续展开，记忆目标作为终止叶节点停止扩散。扩散深度和宽度不是无限增长，而会被最大轮数、前沿能量阈值、最小预算和前沿节点上限约束。
-
-## 强证据边界
-
-- 本实验不宣称 AP 已经产生完整的人类联想、想象或叙事意识。
-- 本实验只证明当前原型中的分层能量图具备可控的多层展开、终止和剪枝边界。
-
-## family 级通过情况
-
-| family | 多轮 | 单轮 | 前沿阈值 | 预算阈值 | 宽度上限 | 无ER重诱发 | all_ok |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| F01 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F02 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F03 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F04 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F05 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F06 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F07 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F08 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F09 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F10 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F11 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| F12 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-
-## 白箱样例
-
-- 多轮样例：family `F01`，depth_max=2，round_count=4，terminal_memory_count=11，root_reinduction_count=3。
-- 前沿阈值样例：depth_max=1，frontier_pruned_count=6。
-- 宽度上限样例：frontier_out_count_max=1，frontier_pruned_count=6。
-
-## 多轮样例 round 摘要
-
-| round | frontier_in | frontier_out | pruned | memory_terminal | root_reinduction | frontier_budget | root_budget | delta_ev |
-| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | 1 | 2 | 0 | 2 | 0 | 1.000000 | 0.300000 | 1.300000 |
-| 2 | 2 | 4 | 0 | 3 | 1 | 1.040000 | 0.246000 | 1.286000 |
-| 3 | 4 | 4 | 0 | 3 | 1 | 0.196800 | 0.201720 | 0.398520 |
-| 4 | 4 | 4 | 1 | 3 | 1 | 0.161376 | 0.165410 | 0.326786 |
+这些数值的解释重点不是单个指标越大越好，而是关键分支是否按预先设定的因果方向同时成立。若主分支通过、对照分支静默或反向成立、白箱字段能追溯到相应机制路径，则该实验进入正文强证据层。
 
 ## 图表
 
@@ -56,3 +35,18 @@
 - `charts/e11_energy_graph_family_pass_final.png`
 - `charts/e11_energy_graph_round_budget_final.png`
 - `charts/e11_energy_graph_target_depth_kind_final.png`
+
+## 数据与复现
+
+- `design.md`：实验变量、对照分支与判据说明。
+- `tables/summary.json`：正文采用的终稿强证据汇总。
+- 逐项表格：
+  - `tables/source_tables/e11_energy_graph_case_rows_final.csv`
+  - `tables/source_tables/e11_energy_graph_pair_rows_final.csv`
+  - `tables/source_tables/e11_energy_graph_round_rows_final.csv`
+  - `tables/source_tables/e11_energy_graph_summary_final.json`
+  - `tables/source_tables/e11_energy_graph_target_rows_final.csv`
+  - `tables/source_tables/e11_energy_graph_whitebox_final.json`
+- 清单与哈希：
+  - `manifests/E11_energy_graph_evidence_final.json`
+- 复现入口：见仓库根目录 `REPRODUCE.md`；对应脚本位于 `scripts/`，脚本会读取同级 AP 原型仓库或环境变量指定的 AP 原型路径。

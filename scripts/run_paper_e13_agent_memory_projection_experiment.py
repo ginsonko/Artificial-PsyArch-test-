@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT
 
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
@@ -82,7 +82,7 @@ FAMILY_SPECS: list[FamilySpec] = [
     FamilySpec("F07", "松针档案", "松针档案的负责人是林岚", "松针档案的临时负责人是赵野", "这份档案现在由谁负责", "read_diary", "familiarity", "DA", 3.6, 1.8, 1.7),
     FamilySpec("F08", "白塔清单", "白塔清单的第三项是重跑E13附件校验", "白塔清单的旧第三项是整理截图", "清单第三件事现在是什么", "ap_attention_focus", "expectation", "FOC", 3.7, 1.7, 1.8),
     FamilySpec("F09", "澄海约定", "澄海约定要求报告里保留失败原因", "澄海约定早期只要求给出成功率", "我们对报告内容有什么额外要求", "memory_note", "correctness", "SER", 3.8, 1.6, 1.9),
-    FamilySpec("F10", "赤松流程", "赤松流程先跑白箱探针再写正文", "赤松流程旧版先写结论再补证据", "这条流程的先后顺序怎么定", "ap_recall", "conflict_relief", "DA", 3.9, 1.5, 2.0),
+    FamilySpec("F10", "赤松流程", "赤松流程先完成白箱探针再生成报告", "赤松流程更新前记录是先给结论再补来源", "这条流程的先后顺序怎么定", "ap_recall", "conflict_relief", "DA", 3.9, 1.5, 2.0),
     FamilySpec("F11", "月井偏好", "月井偏好是中文优先并保留必要英文键", "月井偏好不是全英文输出", "输出语言风格该怎么拿捏", "write_diary", "familiarity", "OXT", 4.0, 1.4, 2.1),
     FamilySpec("F12", "竹影路线", "竹影路线的下一步是把强证据写入论文", "竹影路线的旧下一步是扩大弱图表", "这条路线接下来该做什么", "ap_attention_focus", "expectation", "FOC", 4.1, 1.3, 2.2),
 ]

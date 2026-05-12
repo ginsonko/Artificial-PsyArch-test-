@@ -29,7 +29,7 @@ python .\scripts\run_paper_e02_label_switch_experiment.py --help
 python .\scripts\run_paper_e17_internal_narrative_chain_experiment.py --help
 ```
 
-不同实验的参数略有差异。建议先运行 `--help`，再按报告中的终稿批次参数执行。默认脚本会把新结果写入 `reproduction_outputs/`，复现者可以直接比较新旧 `summary.json`、CSV 与图表，也可以通过 `AP_PAPER_ARTIFACT_ROOT` 指定独立输出目录。
+不同实验的参数略有差异。建议先运行 `--help`，再按各实验 `report.md` 中的终稿批次参数执行。默认脚本会把新结果写入 `reproduction_outputs/`，复现者可以直接比较新旧 `summary.json`、CSV 与图表，也可以通过 `AP_PAPER_ARTIFACT_ROOT` 指定独立输出目录。各实验报告已经按“实验目的、逻辑预期与强证据判据、数据集与变量控制、结果与解释、图表、数据与复现”的顺序组织，适合作为复核路线图。
 
 PowerShell 示例：
 
