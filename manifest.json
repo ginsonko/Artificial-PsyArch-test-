@@ -345,14 +345,14 @@
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_design_logic.md",
       "target": "experiments\\E02\\design.md",
-      "bytes": 1568,
-      "sha256": "28aeaa3edcb54bc848fea12c76fde7756677ee6ad1dd6a13e984818f294c48f3"
+      "bytes": 1566,
+      "sha256": "31ed4cad1070405339eb8c83a1fb3aca1ebdf865f67743a0e89c2a0b655f02fd"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_report_e02_label_switch_holdout_confirm_v1.md",
       "target": "experiments\\E02\\report.md",
-      "bytes": 4738,
-      "sha256": "a36aa84f5c5fbf228ff2064c3d146a216c5db77f3d2b3a0bf4c16378edb23fab"
+      "bytes": 4737,
+      "sha256": "0cf45d49878911997f4a88c73399ff0cbd45db33435abbcfd8d2491c084fdeda"
     },
     {
       "source": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json",
@@ -2914,7 +2914,7 @@
       "source": "run_paper_e02_label_switch_experiment.py",
       "target": "scripts\\run_paper_e02_label_switch_experiment.py",
       "bytes": 42749,
-      "sha256": "f788ff91ffd0810cb278aed67c6797b0ff27462176326c6696723970f054ce77"
+      "sha256": "db30756165a537b5e88dbc69fcb69ae6e120b2d9f07d6b5c1aff701779a6613a"
     },
     {
       "source": "run_paper_e03_reward_shaping_experiment.py",

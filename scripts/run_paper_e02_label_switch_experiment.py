@@ -638,9 +638,9 @@ def write_design_note(path: Path, *, profile: str) -> None:
         "",
         "## 实验档位",
         f"- 当前档位：`{profile}`。",
-        "- `broad_v2`：使用 12 个句壳家族做开发扫描，用于观察边界与失效区。",
+        "- `broad_v2`：使用 12 个句壳家族做参数勘界，用于观察边界与失效区。",
         "- `long_shell_ge9`：只保留总文本长度大于等于 9 的句壳家族，作为最小确认性批次。",
-        "- `holdout_long_shell_ge9`：使用未参与开发扫描的新句壳家族做外推确认，检验长度门槛外推后是否仍成立。",
+        "- `holdout_long_shell_ge9`：使用未参与参数勘界的新句壳家族做外推确认，检验长度门槛外推后是否仍成立。",
         "",
         "## 命题",
         "- 在稳定句壳中，仅替换第二句中的局部标签时，AP 应表现出更高的结构生长代价。",
@@ -686,7 +686,7 @@ def write_report(*, pair_rows: list[dict[str, Any]], summary: dict[str, Any], ch
     if profile == "long_shell_ge9":
         lines.append("- 当前确认批次额外要求总文本长度大于等于 9，用于固定句壳支撑强度，避免把浅句壳的边界效应混入确认性证据。")
     elif profile == "holdout_long_shell_ge9":
-        lines.append("- 当前确认批次使用未参与开发扫描的新句壳家族，并要求总文本长度大于等于 9，用于检验前述边界条件是否能外推到新样本。")
+        lines.append("- 当前确认批次使用未参与参数勘界的新句壳家族，并要求总文本长度大于等于 9，用于检验前述边界条件是否能外推到新样本。")
     lines.append("")
     lines.append("## 关键指标")
     metrics = summary.get("metrics", {}) if isinstance(summary.get("metrics"), dict) else {}
