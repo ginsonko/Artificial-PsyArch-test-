@@ -39,19 +39,19 @@
     "support_level": "strong_evidence"
   },
   "artifacts": {
-    "case_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\tables\\e14_action_threshold_modulation_case_rows_e14_final_v1.csv",
-    "tick_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\tables\\e14_action_threshold_modulation_tick_rows_e14_final_v1.csv",
-    "family_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\tables\\e14_action_threshold_modulation_family_rows_e14_final_v1.csv",
-    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\tables\\e14_action_threshold_modulation_summary_e14_final_v1.json",
-    "whitebox": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\tables\\e14_action_threshold_modulation_whitebox_e14_final_v1.json",
-    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\reports\\E14_action_threshold_modulation_report_e14_final_v1.md",
-    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\reports\\E14_action_threshold_modulation_design_logic.md",
+    "case_rows": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_case_rows_e14_final_v1.csv",
+    "tick_rows": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_tick_rows_e14_final_v1.csv",
+    "family_rows": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_family_rows_e14_final_v1.csv",
+    "summary": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_summary_e14_final_v1.json",
+    "whitebox": "ap-paper-artifacts://E14_action_threshold_modulation/tables/e14_action_threshold_modulation_whitebox_e14_final_v1.json",
+    "report": "ap-paper-artifacts://E14_action_threshold_modulation/reports/E14_action_threshold_modulation_report_e14_final_v1.md",
+    "design_note": "ap-paper-artifacts://E14_action_threshold_modulation/reports/E14_action_threshold_modulation_design_logic.md",
     "charts": [
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\charts\\e14_threshold_modulation_e14_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\charts\\e14_execution_timing_e14_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\charts\\e14_local_drive_e14_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\charts\\e14_family_pass_matrix_e14_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E14_action_threshold_modulation\\charts\\e14_drive_threshold_curves_e14_final_v1.png"
+      "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_threshold_modulation_e14_final_v1.png",
+      "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_execution_timing_e14_final_v1.png",
+      "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_local_drive_e14_final_v1.png",
+      "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_family_pass_matrix_e14_final_v1.png",
+      "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_drive_threshold_curves_e14_final_v1.png"
     ]
   }
 }

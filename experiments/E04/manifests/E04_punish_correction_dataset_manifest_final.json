@@ -16,7 +16,7 @@
       "dataset_id": "paper_e04_F01_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F01_corrected_history_r1_v1.yaml",
       "sha256": "cb9c74d45346a416302ffad0465a0f4bc9b024fe6df918c2fe2a9cd657a7eb99",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F01_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F01_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F01",
@@ -25,7 +25,7 @@
       "dataset_id": "paper_e04_F01_punished_history_r1_v1",
       "dataset_name": "paper_e04_F01_punished_history_r1_v1.yaml",
       "sha256": "eea9c193c3bc001afddb893233c5dead53e26b43deacac6b925a2ad22c9bf95e",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F01_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F01_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F01",
@@ -34,7 +34,7 @@
       "dataset_id": "paper_e04_F01_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F01_neutral_control_r1_v1.yaml",
       "sha256": "762779f9ba5497d3dfa96caeda5a02f706603dc3dd44a87fbe1cd73f54e7a464",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F01_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F01_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F02",
@@ -43,7 +43,7 @@
       "dataset_id": "paper_e04_F02_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F02_corrected_history_r1_v1.yaml",
       "sha256": "a627d64970dea45adf6f504fc42aa9da37083bdd8930fe04d87e92683e160758",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F02_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F02_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F02",
@@ -52,7 +52,7 @@
       "dataset_id": "paper_e04_F02_punished_history_r1_v1",
       "dataset_name": "paper_e04_F02_punished_history_r1_v1.yaml",
       "sha256": "fdf03ccf8fa95ac78f33a28e751b7bdf92f0edef0b407c054342aa620449a966",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F02_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F02_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F02",
@@ -61,7 +61,7 @@
       "dataset_id": "paper_e04_F02_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F02_neutral_control_r1_v1.yaml",
       "sha256": "2cf03d1d36b5214d413da04511ad9317bd7eac305e0ea0ef673f21c65241961b",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F02_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F02_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F03",
@@ -70,7 +70,7 @@
       "dataset_id": "paper_e04_F03_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F03_corrected_history_r1_v1.yaml",
       "sha256": "3fae0220317b1c186025bea2cf19aed708d5c2836293efddd228d9f48d0bf2f2",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F03_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F03_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F03",
@@ -79,7 +79,7 @@
       "dataset_id": "paper_e04_F03_punished_history_r1_v1",
       "dataset_name": "paper_e04_F03_punished_history_r1_v1.yaml",
       "sha256": "c690c10cbe078cab9c4e13a07f07ef35b65b82675aedc30c30fd76739d63f9cb",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F03_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F03_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F03",
@@ -88,7 +88,7 @@
       "dataset_id": "paper_e04_F03_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F03_neutral_control_r1_v1.yaml",
       "sha256": "139fa37cbf514863f5f83179b18e9a759c40bdb850c8bbf1a05b1ac50db614b1",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F03_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F03_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F04",
@@ -97,7 +97,7 @@
       "dataset_id": "paper_e04_F04_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F04_corrected_history_r1_v1.yaml",
       "sha256": "353c1ccc60c81237e8ab8b404ac995f063806976d58f2dbdc23afb55e680d8da",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F04_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F04_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F04",
@@ -106,7 +106,7 @@
       "dataset_id": "paper_e04_F04_punished_history_r1_v1",
       "dataset_name": "paper_e04_F04_punished_history_r1_v1.yaml",
       "sha256": "8cdcac46496cbce63eafbe68a5016b3ebf55c77ff84a55d3a84c6e4b304ef56d",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F04_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F04_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F04",
@@ -115,7 +115,7 @@
       "dataset_id": "paper_e04_F04_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F04_neutral_control_r1_v1.yaml",
       "sha256": "d05759a206b7ac315a5ca3226fe5efad1b1c4d79e0330a65d9b717d5a34fd677",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F04_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F04_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F05",
@@ -124,7 +124,7 @@
       "dataset_id": "paper_e04_F05_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F05_corrected_history_r1_v1.yaml",
       "sha256": "dda58b40cf8320ec36364b8315d6e18fe351575fdf6a2ef4da9f64fbfb2946a0",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F05_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F05_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F05",
@@ -133,7 +133,7 @@
       "dataset_id": "paper_e04_F05_punished_history_r1_v1",
       "dataset_name": "paper_e04_F05_punished_history_r1_v1.yaml",
       "sha256": "019f7602611c9d5445e4eaf8e7bced2658847ac0045c35166b808902f6092526",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F05_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F05_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F05",
@@ -142,7 +142,7 @@
       "dataset_id": "paper_e04_F05_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F05_neutral_control_r1_v1.yaml",
       "sha256": "6a3f8cd0fdde157371c782d851a930438886d3a17d024bf5d501c12a6f9f7766",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F05_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F05_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F06",
@@ -151,7 +151,7 @@
       "dataset_id": "paper_e04_F06_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F06_corrected_history_r1_v1.yaml",
       "sha256": "6ad0f82500f6d0fc6890fbbc9347a7b9c4bd71855eb72de8f2ec3dfdfb8bacab",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F06_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F06_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F06",
@@ -160,7 +160,7 @@
       "dataset_id": "paper_e04_F06_punished_history_r1_v1",
       "dataset_name": "paper_e04_F06_punished_history_r1_v1.yaml",
       "sha256": "4d95cd998b1440fdc32945ce1fb81da6118db61b227f4c91e18845b6d0dcea88",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F06_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F06_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F06",
@@ -169,7 +169,7 @@
       "dataset_id": "paper_e04_F06_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F06_neutral_control_r1_v1.yaml",
       "sha256": "d976386696975067b27fa963f6d0fbb918af8dea9dabe3b6b1e7950536140efc",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F06_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F06_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F07",
@@ -178,7 +178,7 @@
       "dataset_id": "paper_e04_F07_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F07_corrected_history_r1_v1.yaml",
       "sha256": "0a649079856594ea1907902c828f9c18b1b1e263508b825018aabd53e9fb2afa",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F07_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F07_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F07",
@@ -187,7 +187,7 @@
       "dataset_id": "paper_e04_F07_punished_history_r1_v1",
       "dataset_name": "paper_e04_F07_punished_history_r1_v1.yaml",
       "sha256": "bafd5c9b4948ffc967559b1085bb064fa117625c64cfc757f39734f0d3384ebb",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F07_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F07_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F07",
@@ -196,7 +196,7 @@
       "dataset_id": "paper_e04_F07_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F07_neutral_control_r1_v1.yaml",
       "sha256": "9407474c39d832dfdc682a6f7f8f31614afedc9bf54c6109f95845866fefdcae",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F07_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F07_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F08",
@@ -205,7 +205,7 @@
       "dataset_id": "paper_e04_F08_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F08_corrected_history_r1_v1.yaml",
       "sha256": "7806c2bc35507d5cd7803db3225d37014f660f9654c265bcd04dccc7932b6ec5",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F08_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F08_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F08",
@@ -214,7 +214,7 @@
       "dataset_id": "paper_e04_F08_punished_history_r1_v1",
       "dataset_name": "paper_e04_F08_punished_history_r1_v1.yaml",
       "sha256": "5943fbef786379e7582987968e79ae7ca4cd0b7e691459424d02d6444678afc0",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F08_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F08_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F08",
@@ -223,7 +223,7 @@
       "dataset_id": "paper_e04_F08_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F08_neutral_control_r1_v1.yaml",
       "sha256": "cda713e9f4c63ea16780f008c0c4b581ae225e6308af1a3d168c48d2bd91512d",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F08_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F08_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F09",
@@ -232,7 +232,7 @@
       "dataset_id": "paper_e04_F09_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F09_corrected_history_r1_v1.yaml",
       "sha256": "428c4f2c593e81ca67c597769c181b643790fbb28f587d63d46440e4e43e33bc",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F09_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F09_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F09",
@@ -241,7 +241,7 @@
       "dataset_id": "paper_e04_F09_punished_history_r1_v1",
       "dataset_name": "paper_e04_F09_punished_history_r1_v1.yaml",
       "sha256": "96f45c793c7b43c85c497f8860f1fdf52273792603b5e59ee7c679b3181d7b8e",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F09_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F09_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F09",
@@ -250,7 +250,7 @@
       "dataset_id": "paper_e04_F09_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F09_neutral_control_r1_v1.yaml",
       "sha256": "d67635fe9c6049c56ebdff3af0403ce627a2bfa9aa6c584ebea07ac331488aa5",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F09_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F09_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F10",
@@ -259,7 +259,7 @@
       "dataset_id": "paper_e04_F10_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F10_corrected_history_r1_v1.yaml",
       "sha256": "b416d266650b34fbbe270158a05a2fe257f6589ec68997cefba0bebe09b887a2",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F10_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F10_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F10",
@@ -268,7 +268,7 @@
       "dataset_id": "paper_e04_F10_punished_history_r1_v1",
       "dataset_name": "paper_e04_F10_punished_history_r1_v1.yaml",
       "sha256": "91f8d3e465e4f83e987f300fc12aeccf0a802471ea0e50ac29d9286412772f9a",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F10_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F10_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F10",
@@ -277,7 +277,7 @@
       "dataset_id": "paper_e04_F10_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F10_neutral_control_r1_v1.yaml",
       "sha256": "d1f44e767171a941668a372de7879c7a6a229996b30976f2f7efe8c1056f03b7",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F10_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F10_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F11",
@@ -286,7 +286,7 @@
       "dataset_id": "paper_e04_F11_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F11_corrected_history_r1_v1.yaml",
       "sha256": "f49ee59ad932818abd6d0962579345bab7e15e5a34e55a2031d47985b8f4ae90",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F11_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F11_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F11",
@@ -295,7 +295,7 @@
       "dataset_id": "paper_e04_F11_punished_history_r1_v1",
       "dataset_name": "paper_e04_F11_punished_history_r1_v1.yaml",
       "sha256": "8c1c4dfa6f6bb544bd7d6cd0f9ad11c6ed9885381098f161689d29c53ef48e1f",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F11_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F11_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F11",
@@ -304,7 +304,7 @@
       "dataset_id": "paper_e04_F11_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F11_neutral_control_r1_v1.yaml",
       "sha256": "8c74dd0fef1ecbf664ec7da3c7989f9466439ddc262817391a7e93b2c8c5a431",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F11_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F11_neutral_control_r1_v1.yaml"
     },
     {
       "case_id": "F12",
@@ -313,7 +313,7 @@
       "dataset_id": "paper_e04_F12_corrected_history_r1_v1",
       "dataset_name": "paper_e04_F12_corrected_history_r1_v1.yaml",
       "sha256": "cbb7d7c993395ceb88cbfb7baf890436026e8b4b1e521002ab84e6c9d1268286",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F12_corrected_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F12_corrected_history_r1_v1.yaml"
     },
     {
       "case_id": "F12",
@@ -322,7 +322,7 @@
       "dataset_id": "paper_e04_F12_punished_history_r1_v1",
       "dataset_name": "paper_e04_F12_punished_history_r1_v1.yaml",
       "sha256": "c7db404015e52b15a7b8f2c94eadfa30c9a77726492865775cb5280cecb0dc1e",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F12_punished_history_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F12_punished_history_r1_v1.yaml"
     },
     {
       "case_id": "F12",
@@ -331,7 +331,7 @@
       "dataset_id": "paper_e04_F12_neutral_control_r1_v1",
       "dataset_name": "paper_e04_F12_neutral_control_r1_v1.yaml",
       "sha256": "b9791897b82a97ee21bcf25957a4330ea3b266850d138926f51f019bb3e6a4c2",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E04_punish_correction\\datasets\\paper_e04_F12_neutral_control_r1_v1.yaml"
+      "artifact_path": "ap-paper-artifacts://E04_punish_correction/datasets/paper_e04_F12_neutral_control_r1_v1.yaml"
     }
   ]
 }

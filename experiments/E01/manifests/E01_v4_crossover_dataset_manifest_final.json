@@ -1,5 +1,5 @@
 {
-  "stamp": "smoke3_20260511_e01_v4_crossover_f2",
+  "stamp": "e01_v4_crossover_final",
   "curriculum_version": "e01_crossover_probe_v4",
   "replicates": 1,
   "family_count": 2,
@@ -19,7 +19,7 @@
       "dataset_name": "paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml",
       "run_slug": "treatment_F01_r1_context_strict_probe",
       "sha256": "bcfed2736abf1bcd3006848c9ffc86ade63b8def379a8c06dcd874f3f4a37300",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml",
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml",
       "source_text_ticks": 4,
       "total_source_ticks": 4
     },
@@ -31,7 +31,7 @@
       "dataset_name": "paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml",
       "run_slug": "treatment_F02_r1_context_strict_probe",
       "sha256": "5eb922d4d228f2eeb16d71152b9d928951e9e6b413931b597c637e20a4e39f6f",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml",
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml",
       "source_text_ticks": 4,
       "total_source_ticks": 4
     },
@@ -43,7 +43,7 @@
       "dataset_name": "paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml",
       "run_slug": "control_F01_r1_context_strict_probe",
       "sha256": "3072af36515c4ed28b99759b804a4a095c3e80a7693c6236377c95402c5e2aa3",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml",
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml",
       "source_text_ticks": 4,
       "total_source_ticks": 4
     },
@@ -55,7 +55,7 @@
       "dataset_name": "paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml",
       "run_slug": "control_F02_r1_context_strict_probe",
       "sha256": "0f896e48b066438513aa27a3f9eabc333341de7654363c77a58205b1fb9663aa",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml",
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml",
       "source_text_ticks": 4,
       "total_source_ticks": 4
     },
@@ -67,7 +67,7 @@
       "dataset_name": "paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml",
       "run_slug": "calibration_F01_r1_context_strict_probe",
       "sha256": "8203e4247b7ea2407fbf3eb98d07533225ab71ee1ef5602db482209d1d10a4fe",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml",
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml",
       "source_text_ticks": 4,
       "total_source_ticks": 4
     },
@@ -79,7 +79,7 @@
       "dataset_name": "paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml",
       "run_slug": "calibration_F02_r1_context_strict_probe",
       "sha256": "82b933e950ac17413dba14224d4ad6328a18c30cf497d0a1b8abc6fcc835cf30",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml",
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml",
       "source_text_ticks": 4,
       "total_source_ticks": 4
     }

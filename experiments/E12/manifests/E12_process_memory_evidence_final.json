@@ -25,18 +25,18 @@
     "support_level": "strong_evidence"
   },
   "artifacts": {
-    "case_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_case_rows_e12_final_v2.csv",
-    "target_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_target_rows_e12_final_v2.csv",
-    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_pair_rows_e12_final_v2.csv",
-    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_summary_e12_final_v2.json",
-    "whitebox": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\tables\\e12_process_memory_whitebox_e12_final_v2.json",
-    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\reports\\E12_process_memory_report_e12_final_v2.md",
-    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\reports\\E12_process_memory_design_logic.md",
+    "case_rows": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_case_rows_e12_final_v2.csv",
+    "target_rows": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_target_rows_e12_final_v2.csv",
+    "pair_rows": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_pair_rows_e12_final_v2.csv",
+    "summary": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_summary_e12_final_v2.json",
+    "whitebox": "ap-paper-artifacts://E12_process_memory_state/tables/e12_process_memory_whitebox_e12_final_v2.json",
+    "report": "ap-paper-artifacts://E12_process_memory_state/reports/E12_process_memory_report_e12_final_v2.md",
+    "design_note": "ap-paper-artifacts://E12_process_memory_state/reports/E12_process_memory_design_logic.md",
     "charts": [
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_process_memory_role_split_e12_final_v2.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_memory_convergence_e12_final_v2.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_memory_decay_e12_final_v2.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E12_process_memory_state\\charts\\e12_process_memory_family_pass_e12_final_v2.png"
+      "ap-paper-artifacts://E12_process_memory_state/charts/e12_process_memory_role_split_e12_final_v2.png",
+      "ap-paper-artifacts://E12_process_memory_state/charts/e12_memory_convergence_e12_final_v2.png",
+      "ap-paper-artifacts://E12_process_memory_state/charts/e12_memory_decay_e12_final_v2.png",
+      "ap-paper-artifacts://E12_process_memory_state/charts/e12_process_memory_family_pass_e12_final_v2.png"
     ]
   }
 }

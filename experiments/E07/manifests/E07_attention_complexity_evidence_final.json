@@ -37,15 +37,15 @@
     "support_level": "strong_evidence"
   },
   "artifacts": {
-    "source_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_source_rows_e07_final_v1.csv",
-    "probe_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_probe_rows_e07_final_v1.csv",
-    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_pair_rows_e07_final_v1.csv",
-    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\tables\\e07_attention_complexity_summary_e07_final_v1.json",
-    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\reports\\E07_attention_complexity_report_e07_final_v1.md",
-    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\reports\\E07_attention_complexity_design_logic.md",
+    "source_rows": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_source_rows_e07_final_v1.csv",
+    "probe_rows": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_probe_rows_e07_final_v1.csv",
+    "pair_rows": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_pair_rows_e07_final_v1.csv",
+    "summary": "ap-paper-artifacts://E07_attention_complexity/tables/e07_attention_complexity_summary_e07_final_v1.json",
+    "report": "ap-paper-artifacts://E07_attention_complexity/reports/E07_attention_complexity_report_e07_final_v1.md",
+    "design_note": "ap-paper-artifacts://E07_attention_complexity/reports/E07_attention_complexity_design_logic.md",
     "charts": [
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\charts\\e07_attention_complexity_source_transition_e07_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E07_attention_complexity\\charts\\e07_attention_complexity_probe_contrast_e07_final_v1.png"
+      "ap-paper-artifacts://E07_attention_complexity/charts/e07_attention_complexity_source_transition_e07_final_v1.png",
+      "ap-paper-artifacts://E07_attention_complexity/charts/e07_attention_complexity_probe_contrast_e07_final_v1.png"
     ]
   }
 }

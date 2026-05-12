@@ -1,6 +1,6 @@
 {
   "experiment": "E01_v4_crossover_probe",
-  "stamp": "smoke3_20260511_e01_v4_crossover_f2",
+  "stamp": "e01_v4_crossover_final",
   "profile": "context_strict_probe",
   "created_at": "2026-05-11T17:32:33",
   "support_level": "strong_evidence",
@@ -36,124 +36,124 @@
       "replicate": 1,
       "dataset_id": "paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4",
       "sha256": "bcfed2736abf1bcd3006848c9ffc86ade63b8def379a8c06dcd874f3f4a37300",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml"
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_treatment_F01_r1_context_strict_probe_v4.yaml"
     },
     {
       "condition": "treatment",
       "replicate": 1,
       "dataset_id": "paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4",
       "sha256": "5eb922d4d228f2eeb16d71152b9d928951e9e6b413931b597c637e20a4e39f6f",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml"
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_treatment_F02_r1_context_strict_probe_v4.yaml"
     },
     {
       "condition": "control",
       "replicate": 1,
       "dataset_id": "paper_e01_crossover_control_F01_r1_context_strict_probe_v4",
       "sha256": "3072af36515c4ed28b99759b804a4a095c3e80a7693c6236377c95402c5e2aa3",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml"
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_control_F01_r1_context_strict_probe_v4.yaml"
     },
     {
       "condition": "control",
       "replicate": 1,
       "dataset_id": "paper_e01_crossover_control_F02_r1_context_strict_probe_v4",
       "sha256": "0f896e48b066438513aa27a3f9eabc333341de7654363c77a58205b1fb9663aa",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml"
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_control_F02_r1_context_strict_probe_v4.yaml"
     },
     {
       "condition": "calibration",
       "replicate": 1,
       "dataset_id": "paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4",
       "sha256": "8203e4247b7ea2407fbf3eb98d07533225ab71ee1ef5602db482209d1d10a4fe",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml"
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_calibration_F01_r1_context_strict_probe_v4.yaml"
     },
     {
       "condition": "calibration",
       "replicate": 1,
       "dataset_id": "paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4",
       "sha256": "82b933e950ac17413dba14224d4ad6328a18c30cf497d0a1b8abc6fcc835cf30",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\datasets\\paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml"
+      "artifact_path": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/datasets/paper_e01_crossover_calibration_F02_r1_context_strict_probe_v4.yaml"
     }
   ],
   "runs": [
     {
       "condition": "treatment",
       "replicate": 1,
-      "run_id": "paper_e01_crossover_treatment_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
+      "run_id": "paper_e01_crossover_treatment_F01_r1_context_strict_probe_e01_v4_crossover_final",
       "status": "completed",
       "dataset_sha256": "bcfed2736abf1bcd3006848c9ffc86ade63b8def379a8c06dcd874f3f4a37300"
     },
     {
       "condition": "treatment",
       "replicate": 1,
-      "run_id": "paper_e01_crossover_treatment_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
+      "run_id": "paper_e01_crossover_treatment_F02_r1_context_strict_probe_e01_v4_crossover_final",
       "status": "completed",
       "dataset_sha256": "5eb922d4d228f2eeb16d71152b9d928951e9e6b413931b597c637e20a4e39f6f"
     },
     {
       "condition": "control",
       "replicate": 1,
-      "run_id": "paper_e01_crossover_control_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
+      "run_id": "paper_e01_crossover_control_F01_r1_context_strict_probe_e01_v4_crossover_final",
       "status": "completed",
       "dataset_sha256": "3072af36515c4ed28b99759b804a4a095c3e80a7693c6236377c95402c5e2aa3"
     },
     {
       "condition": "control",
       "replicate": 1,
-      "run_id": "paper_e01_crossover_control_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
+      "run_id": "paper_e01_crossover_control_F02_r1_context_strict_probe_e01_v4_crossover_final",
       "status": "completed",
       "dataset_sha256": "0f896e48b066438513aa27a3f9eabc333341de7654363c77a58205b1fb9663aa"
     },
     {
       "condition": "calibration",
       "replicate": 1,
-      "run_id": "paper_e01_crossover_calibration_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
+      "run_id": "paper_e01_crossover_calibration_F01_r1_context_strict_probe_e01_v4_crossover_final",
       "status": "completed",
       "dataset_sha256": "8203e4247b7ea2407fbf3eb98d07533225ab71ee1ef5602db482209d1d10a4fe"
     },
     {
       "condition": "calibration",
       "replicate": 1,
-      "run_id": "paper_e01_crossover_calibration_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
+      "run_id": "paper_e01_crossover_calibration_F02_r1_context_strict_probe_e01_v4_crossover_final",
       "status": "completed",
       "dataset_sha256": "82b933e950ac17413dba14224d4ad6328a18c30cf497d0a1b8abc6fcc835cf30"
     }
   ],
   "copied_runs": [
     {
-      "run_id": "paper_e01_crossover_treatment_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
-      "artifact_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\runs\\paper_e01_crossover_treatment_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2"
+      "run_id": "paper_e01_crossover_treatment_F01_r1_context_strict_probe_e01_v4_crossover_final",
+      "artifact_dir": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/runs/paper_e01_crossover_treatment_F01_r1_context_strict_probe_e01_v4_crossover_final"
     },
     {
-      "run_id": "paper_e01_crossover_treatment_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
-      "artifact_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\runs\\paper_e01_crossover_treatment_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2"
+      "run_id": "paper_e01_crossover_treatment_F02_r1_context_strict_probe_e01_v4_crossover_final",
+      "artifact_dir": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/runs/paper_e01_crossover_treatment_F02_r1_context_strict_probe_e01_v4_crossover_final"
     },
     {
-      "run_id": "paper_e01_crossover_control_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
-      "artifact_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\runs\\paper_e01_crossover_control_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2"
+      "run_id": "paper_e01_crossover_control_F01_r1_context_strict_probe_e01_v4_crossover_final",
+      "artifact_dir": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/runs/paper_e01_crossover_control_F01_r1_context_strict_probe_e01_v4_crossover_final"
     },
     {
-      "run_id": "paper_e01_crossover_control_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
-      "artifact_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\runs\\paper_e01_crossover_control_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2"
+      "run_id": "paper_e01_crossover_control_F02_r1_context_strict_probe_e01_v4_crossover_final",
+      "artifact_dir": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/runs/paper_e01_crossover_control_F02_r1_context_strict_probe_e01_v4_crossover_final"
     },
     {
-      "run_id": "paper_e01_crossover_calibration_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
-      "artifact_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\runs\\paper_e01_crossover_calibration_F01_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2"
+      "run_id": "paper_e01_crossover_calibration_F01_r1_context_strict_probe_e01_v4_crossover_final",
+      "artifact_dir": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/runs/paper_e01_crossover_calibration_F01_r1_context_strict_probe_e01_v4_crossover_final"
     },
     {
-      "run_id": "paper_e01_crossover_calibration_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2",
-      "artifact_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\runs\\paper_e01_crossover_calibration_F02_r1_context_strict_probe_smoke3_20260511_e01_v4_crossover_f2"
+      "run_id": "paper_e01_crossover_calibration_F02_r1_context_strict_probe_e01_v4_crossover_final",
+      "artifact_dir": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/runs/paper_e01_crossover_calibration_F02_r1_context_strict_probe_e01_v4_crossover_final"
     }
   ],
   "tables": {
-    "row_metrics": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\tables\\e01_v4_crossover_row_metrics_smoke3_20260511_e01_v4_crossover_f2.csv",
-    "phase_summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\tables\\e01_v4_crossover_phase_summary_smoke3_20260511_e01_v4_crossover_f2.csv",
-    "family_evidence": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\tables\\e01_v4_crossover_family_evidence_smoke3_20260511_e01_v4_crossover_f2.csv",
-    "evidence_summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\tables\\e01_v4_crossover_evidence_summary_smoke3_20260511_e01_v4_crossover_f2.json"
+    "row_metrics": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_row_metrics_e01_v4_crossover_final.csv",
+    "phase_summary": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_phase_summary_e01_v4_crossover_final.csv",
+    "family_evidence": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_family_evidence_e01_v4_crossover_final.csv",
+    "evidence_summary": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_evidence_summary_e01_v4_crossover_final.json"
   },
   "charts": [
-    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\charts\\e01_v4_crossover_phase_curves_smoke3_20260511_e01_v4_crossover_f2.png",
-    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\charts\\e01_v4_crossover_family_effects_smoke3_20260511_e01_v4_crossover_f2.png"
+    "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/charts/e01_v4_crossover_phase_curves_e01_v4_crossover_final.png",
+    "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/charts/e01_v4_crossover_family_effects_e01_v4_crossover_final.png"
   ],
-  "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\reports\\E01_v4_crossover_report_smoke3_20260511_e01_v4_crossover_f2.md",
-  "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E01_lexical_abstraction\\strong_reuse_v4_crossover_probe\\reports\\E01_v4_crossover_design_logic.md"
+  "report": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/reports/E01_v4_crossover_report_e01_v4_crossover_final.md",
+  "design_note": "ap-paper-artifacts://E01_lexical_abstraction/strong_reuse_v4_crossover_probe/reports/E01_v4_crossover_design_logic.md"
 }

@@ -28,7 +28,7 @@
 
 ## 文件名与来源映射说明
 
-`manifest.json` 保留了原始实验输出目录（artifact）的源路径和源文件名，用于哈希追溯和复现实验来源。其中个别源文件名包含早期批次 token；这些 token 只是历史文件名的一部分。正文和本仓库主索引以 `support_level = strong_evidence` 的终稿汇总结果为准。
+`manifest.json` 保留了原始实验输出分支和源文件名，用于哈希追溯和复现实验来源。公开清单使用 `ap-paper-artifacts://` 与 `ap-prototype://` 作为逻辑来源 URI：前者表示论文实验输出分支，后者表示 AP 原型仓库内的相对文件。正文和本仓库主索引以 `support_level = strong_evidence` 的终稿汇总结果为准。
 
 ## 许可
 

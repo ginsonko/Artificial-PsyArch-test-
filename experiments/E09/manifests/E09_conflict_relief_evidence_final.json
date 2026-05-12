@@ -34,16 +34,16 @@
     "support_level": "strong_evidence"
   },
   "artifacts": {
-    "case_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\tables\\e09_conflict_relief_case_rows_e09_final_v1.csv",
-    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\tables\\e09_conflict_relief_pair_rows_e09_final_v1.csv",
-    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\tables\\e09_conflict_relief_summary_e09_final_v1.json",
-    "whitebox": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\tables\\e09_conflict_relief_whitebox_e09_final_v1.json",
-    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\reports\\E09_conflict_relief_report_e09_final_v1.md",
-    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\reports\\E09_conflict_relief_design_logic.md",
+    "case_rows": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_case_rows_e09_final_v1.csv",
+    "pair_rows": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_pair_rows_e09_final_v1.csv",
+    "summary": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_summary_e09_final_v1.json",
+    "whitebox": "ap-paper-artifacts://E09_conflict_relief/tables/e09_conflict_relief_whitebox_e09_final_v1.json",
+    "report": "ap-paper-artifacts://E09_conflict_relief/reports/E09_conflict_relief_report_e09_final_v1.md",
+    "design_note": "ap-paper-artifacts://E09_conflict_relief/reports/E09_conflict_relief_design_logic.md",
     "charts": [
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\charts\\e09_conflict_relief_branch_contrast_e09_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\charts\\e09_conflict_relief_family_pass_e09_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E09_conflict_relief\\charts\\e09_conflict_relief_gating_contrast_e09_final_v1.png"
+      "ap-paper-artifacts://E09_conflict_relief/charts/e09_conflict_relief_branch_contrast_e09_final_v1.png",
+      "ap-paper-artifacts://E09_conflict_relief/charts/e09_conflict_relief_family_pass_e09_final_v1.png",
+      "ap-paper-artifacts://E09_conflict_relief/charts/e09_conflict_relief_gating_contrast_e09_final_v1.png"
     ]
   }
 }

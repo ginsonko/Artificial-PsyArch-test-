@@ -27,256 +27,256 @@
     "support_level": "strong_evidence"
   },
   "artifacts": {
-    "case_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\tables\\e08_time_like_residual_promotion_case_rows_e08_final_v1.csv",
-    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\tables\\e08_time_like_residual_promotion_pair_rows_e08_final_v1.csv",
-    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\tables\\e08_time_like_residual_promotion_summary_e08_final_v1.json",
-    "whitebox": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\tables\\e08_time_like_residual_promotion_whitebox_e08_final_v1.json",
-    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\reports\\E08_time_like_residual_promotion_report_e08_final_v1.md",
-    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\reports\\E08_time_like_residual_promotion_design_logic.md",
+    "case_rows": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_case_rows_e08_final_v1.csv",
+    "pair_rows": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_pair_rows_e08_final_v1.csv",
+    "summary": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_summary_e08_final_v1.json",
+    "whitebox": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_whitebox_e08_final_v1.json",
+    "report": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_report_e08_final_v1.md",
+    "design_note": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_design_logic.md",
     "charts": [
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\charts\\e08_time_like_residual_promotion_contrast_e08_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\charts\\e08_time_like_residual_promotion_family_pass_e08_final_v1.png"
+      "ap-paper-artifacts://E08_time_like_residual_promotion/charts/e08_time_like_residual_promotion_contrast_e08_final_v1.png",
+      "ap-paper-artifacts://E08_time_like_residual_promotion/charts/e08_time_like_residual_promotion_family_pass_e08_final_v1.png"
     ],
     "copied_runs": [
       {
         "run_id": "paper_e08_e08_final_v1_F01_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F01_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F01_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F01_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F01_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F01_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F01_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F01_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F01_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F01_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F01_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F01_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F02_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F02_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F02_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F02_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F02_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F02_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F02_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F02_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F02_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F02_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F02_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F02_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F02_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F02_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F02_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F02_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F02_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F02_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F02_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F02_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F03_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F03_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F03_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F03_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F03_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F03_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F03_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F03_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F03_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F03_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F03_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F03_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F03_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F03_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F03_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F03_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F03_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F03_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F03_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F03_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F04_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F04_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F04_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F04_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F04_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F04_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F04_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F04_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F04_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F04_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F04_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F04_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F04_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F04_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F04_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F04_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F04_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F04_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F04_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F04_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F05_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F05_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F05_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F05_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F05_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F05_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F05_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F05_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F05_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F05_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F05_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F05_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F05_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F05_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F05_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F05_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F05_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F05_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F05_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F05_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F06_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F06_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F06_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F06_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F06_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F06_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F06_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F06_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F06_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F06_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F06_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F06_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F06_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F06_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F06_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F06_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F06_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F06_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F06_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F06_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F07_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F07_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F07_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F07_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F07_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F07_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F07_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F07_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F07_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F07_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F07_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F07_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F07_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F07_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F07_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F07_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F07_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F07_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F07_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F07_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F08_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F08_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F08_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F08_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F08_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F08_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F08_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F08_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F08_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F08_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F08_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F08_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F08_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F08_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F08_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F08_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F08_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F08_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F08_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F08_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F09_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F09_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F09_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F09_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F09_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F09_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F09_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F09_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F09_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F09_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F09_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F09_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F09_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F09_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F09_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F09_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F09_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F09_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F09_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F09_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F10_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F10_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F10_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F10_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F10_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F10_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F10_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F10_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F10_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F10_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F10_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F10_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F10_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F10_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F10_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F10_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F10_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F10_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F10_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F10_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F11_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F11_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F11_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F11_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F11_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F11_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F11_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F11_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F11_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F11_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F11_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F11_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F11_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F11_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F11_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F11_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F11_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F11_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F11_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F11_on_no_cue"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F12_on_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F12_on_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F12_on_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F12_on_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F12_on_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F12_off_matched",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F12_off_matched",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F12_off_matched"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F12_off_matched",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F12_off_matched"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F12_on_no_seed",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F12_on_no_seed",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F12_on_no_seed"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F12_on_no_seed",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F12_on_no_seed"
       },
       {
         "run_id": "paper_e08_e08_final_v1_F12_on_no_cue",
-        "source_run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F12_on_no_cue",
-        "artifact_run_dir": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E08_time_like_residual_promotion\\runs\\paper_e08_e08_final_v1_F12_on_no_cue"
+        "source_run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F12_on_no_cue",
+        "artifact_run_dir": "ap-paper-artifacts://E08_time_like_residual_promotion/runs/paper_e08_e08_final_v1_F12_on_no_cue"
       }
     ]
   }

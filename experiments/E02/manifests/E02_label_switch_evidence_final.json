@@ -80,8 +80,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H01_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H01_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_repeat_A_r1_v2.yaml",
       "sha256": "067a71d238f6d71f80dd40bfaf67fad6e819209f2c67345d3ff3247c3dc42774"
     },
     {
@@ -95,8 +95,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H01_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H01_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_switch_A_r1_v2.yaml",
       "sha256": "580f1311802d2d08ad8c8235f62b83004f4f82f6983a1f1953dfb54c559af821"
     },
     {
@@ -110,8 +110,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H01_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H01_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_repeat_B_r1_v2.yaml",
       "sha256": "e57b7a64a6e6d3afc7f142856f882d946572cdc7d73266144b07f9cdb9845e9a"
     },
     {
@@ -125,8 +125,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H01_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H01_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_switch_B_r1_v2.yaml",
       "sha256": "323eb4121460c449eae494552789c1fcbe65484ae31260ff2e46382870c69184"
     },
     {
@@ -140,8 +140,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H01_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H01_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_repeat_A_r2_v2.yaml",
       "sha256": "6e3f5c677895d65b72f2677d80d26169f1a0c8194380ec514b6b1a3397da243d"
     },
     {
@@ -155,8 +155,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H01_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H01_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_switch_A_r2_v2.yaml",
       "sha256": "8e743c52507168d939bed2ca686312dedaf2412e697b83ce967bb973f1c9e687"
     },
     {
@@ -170,8 +170,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H01_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H01_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_repeat_B_r2_v2.yaml",
       "sha256": "14ab09aab495d4d34a7f4b4ca2d54a215484a7970a6870b913bd0312046b5b6d"
     },
     {
@@ -185,8 +185,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H01_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H01_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_switch_B_r2_v2.yaml",
       "sha256": "7a2d4f1fde0bd00459886753d4a2ba80a38bc4bc9ebe0cb6c75bfbccf926eb1d"
     },
     {
@@ -200,8 +200,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H01_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H01_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_repeat_A_r3_v2.yaml",
       "sha256": "f3f748f7b34c9512497ae710aed015a158645284fad7861ef70172964fad2b1c"
     },
     {
@@ -215,8 +215,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H01_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H01_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_switch_A_r3_v2.yaml",
       "sha256": "16d2f7d1587901f1f640253a08f5f346809803f2b760c02ee79d3c6fd1686991"
     },
     {
@@ -230,8 +230,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H01_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H01_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_repeat_B_r3_v2.yaml",
       "sha256": "e68d99b2388274ddb2ee0d62e110a5f89342c92ff2fa6c8013afc87c6204b2a2"
     },
     {
@@ -245,8 +245,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H01_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H01_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H01_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H01_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H01_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H01_switch_B_r3_v2.yaml",
       "sha256": "3abb2123083b3abf38be3269802240387cb5ee9d4c4f417015a4619168c56ed3"
     },
     {
@@ -260,8 +260,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H02_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H02_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_repeat_A_r1_v2.yaml",
       "sha256": "a46438aa25342aec3db54c25ce7aac42cc9ff72ec782721c3ac9fa3a946b07ca"
     },
     {
@@ -275,8 +275,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H02_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H02_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_switch_A_r1_v2.yaml",
       "sha256": "f3669f91da47f19d47fd73e18e04a20155326a87c2a0f8d410d57f049399d820"
     },
     {
@@ -290,8 +290,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H02_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H02_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_repeat_B_r1_v2.yaml",
       "sha256": "59de309d475004caf5a257e41d24c97292dff18b3c438b25b040ea70e1d8a838"
     },
     {
@@ -305,8 +305,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H02_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H02_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_switch_B_r1_v2.yaml",
       "sha256": "d22ed60c1c2fa631c29f9e7f41d1e9f0d1b75d773d50a410c78b4cdb3ef38644"
     },
     {
@@ -320,8 +320,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H02_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H02_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_repeat_A_r2_v2.yaml",
       "sha256": "af97d1d90a65d425db7fcf4244f945f934ee0f798e03cef63950506f459a1c93"
     },
     {
@@ -335,8 +335,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H02_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H02_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_switch_A_r2_v2.yaml",
       "sha256": "c2cb03895451e3c6c54fbe853dbb956ae4e18df3a426b229ceb44ec74a0526dd"
     },
     {
@@ -350,8 +350,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H02_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H02_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_repeat_B_r2_v2.yaml",
       "sha256": "1703bc38bc75301ab283973ec2220e32f0ab27922c76acdfb2f005e795e4e40b"
     },
     {
@@ -365,8 +365,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H02_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H02_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_switch_B_r2_v2.yaml",
       "sha256": "a1e48b0ce0847892bafde5f1f0bce4a4cdf048554d0768f321ecce66fce9126b"
     },
     {
@@ -380,8 +380,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H02_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H02_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_repeat_A_r3_v2.yaml",
       "sha256": "f1f804dd3a78021ffa5d5ba94592af7ecfcdfc7d5781e67ce0ac7998ce6b11f0"
     },
     {
@@ -395,8 +395,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H02_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H02_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_switch_A_r3_v2.yaml",
       "sha256": "4f59f9cf3ae07d2889c9ef1c1f7e0ac1f72be5c0d3d457b5c7166945118be5b1"
     },
     {
@@ -410,8 +410,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H02_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H02_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_repeat_B_r3_v2.yaml",
       "sha256": "220ab6874b45c2f99644bb984fe01a6b0ef61be583e9d5e509efe4e6a307be5d"
     },
     {
@@ -425,8 +425,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H02_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H02_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H02_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H02_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H02_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H02_switch_B_r3_v2.yaml",
       "sha256": "98c686d0e61f43cf4b348a383616107414f866eaf5047fdb6108d0930ed17630"
     },
     {
@@ -440,8 +440,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H03_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H03_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_repeat_A_r1_v2.yaml",
       "sha256": "b4a3d44dd656ebaa6b5f30f0cb8244e48302c9fc71613d359754dcdf1d2792b9"
     },
     {
@@ -455,8 +455,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H03_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H03_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_switch_A_r1_v2.yaml",
       "sha256": "1d9ab9b564c5091527ca67e0fd7d24fe6fa2b376f9c651fceb782863b65382cb"
     },
     {
@@ -470,8 +470,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H03_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H03_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_repeat_B_r1_v2.yaml",
       "sha256": "954c0104231fd02a9f7aff9e690ea4a137b7f4f5ae41d18f741ac5e88490162e"
     },
     {
@@ -485,8 +485,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H03_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H03_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_switch_B_r1_v2.yaml",
       "sha256": "100ad9ea247d7c4fb0ae36b519246b2e256b5bd6905b311de75c2f2fdfffca6e"
     },
     {
@@ -500,8 +500,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H03_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H03_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_repeat_A_r2_v2.yaml",
       "sha256": "20645157e22dd1aa060c9aea73d9121985a5caa9a8b1c5399c76d17e5a8a45a2"
     },
     {
@@ -515,8 +515,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H03_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H03_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_switch_A_r2_v2.yaml",
       "sha256": "c6f05f5122b3c10ec3ca1ee2910b30acb12124e5144620ec8c65bb5c61703acc"
     },
     {
@@ -530,8 +530,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H03_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H03_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_repeat_B_r2_v2.yaml",
       "sha256": "240bbe94d78b1d739d30ca72ebb88867f167c81a034773abb184615de3008d27"
     },
     {
@@ -545,8 +545,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H03_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H03_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_switch_B_r2_v2.yaml",
       "sha256": "187d16a3ba04d5d3724d776106041cf0551275673c50ca3c42d7954d7b7eed31"
     },
     {
@@ -560,8 +560,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H03_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H03_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_repeat_A_r3_v2.yaml",
       "sha256": "c8fc38ffafd64881a690cc84fa240d0a8c38203a34a7987ae23c87bb39e36f87"
     },
     {
@@ -575,8 +575,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H03_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H03_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_switch_A_r3_v2.yaml",
       "sha256": "1327713dad364a5550b0f6328bdf1498b7b297cbdde83e422333f7ea03c558fa"
     },
     {
@@ -590,8 +590,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H03_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H03_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_repeat_B_r3_v2.yaml",
       "sha256": "88be656321018fd8a51a4bfd6d1471c30cae61671eb80d546c1dfc43f6fe79d4"
     },
     {
@@ -605,8 +605,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H03_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H03_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H03_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H03_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H03_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H03_switch_B_r3_v2.yaml",
       "sha256": "049d268ec75a40ed571923031241d986227abcd0f177213c29156151e9f62f92"
     },
     {
@@ -620,8 +620,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H04_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H04_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_repeat_A_r1_v2.yaml",
       "sha256": "12fd246da262ba287a390282ff10faaae2b51ab093e5125907c288c063b6b3ea"
     },
     {
@@ -635,8 +635,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H04_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H04_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_switch_A_r1_v2.yaml",
       "sha256": "6b16998a272627b8f0943fca3f377c7692587435dc5f93f913c840546670d8a1"
     },
     {
@@ -650,8 +650,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H04_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H04_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_repeat_B_r1_v2.yaml",
       "sha256": "92a4ef15f2faeb0c764f7af77f773beee681dbdd0a8145974c67e1305f5e739d"
     },
     {
@@ -665,8 +665,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H04_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H04_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_switch_B_r1_v2.yaml",
       "sha256": "0e7eb5c4fccc9082314c4878d7d7641a452a09f8cb1611e18add7197afab4063"
     },
     {
@@ -680,8 +680,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H04_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H04_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_repeat_A_r2_v2.yaml",
       "sha256": "085f361da960835a744d4729eb7ff4b5b2b56a9a143429a30fb5a71328c2cafa"
     },
     {
@@ -695,8 +695,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H04_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H04_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_switch_A_r2_v2.yaml",
       "sha256": "8f15de8e46c56cea1a6071641ba5716aadf1cf767ab60c59edb4f2a54df0d756"
     },
     {
@@ -710,8 +710,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H04_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H04_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_repeat_B_r2_v2.yaml",
       "sha256": "d97a44dcdd7695059050ea7df32ea012c31e29f2ea1c556900c4a52e90fc508d"
     },
     {
@@ -725,8 +725,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H04_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H04_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_switch_B_r2_v2.yaml",
       "sha256": "160dc43fd9d3b06f8108c68547c5f3f6bbad565b8d3547d5fa9c9220c5416608"
     },
     {
@@ -740,8 +740,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H04_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H04_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_repeat_A_r3_v2.yaml",
       "sha256": "074f0e298f545395af5e5bd94526a52608e3d32b3367accbfe1d89bc110a6858"
     },
     {
@@ -755,8 +755,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H04_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H04_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_switch_A_r3_v2.yaml",
       "sha256": "6a4daaf938d8707e15e9ee7ecad512477b27c1d7b8a234ba74712ccb441dd3f8"
     },
     {
@@ -770,8 +770,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H04_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H04_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_repeat_B_r3_v2.yaml",
       "sha256": "0f759a0a749a260ae927f4c6ec1a822e7c2547d7298489b0f5abd31ef9339f57"
     },
     {
@@ -785,8 +785,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H04_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H04_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H04_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H04_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H04_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H04_switch_B_r3_v2.yaml",
       "sha256": "5399fb545bf5a53e17e2e7e79b66c0cc090189daa006788d613a854581560294"
     },
     {
@@ -800,8 +800,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H05_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H05_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_repeat_A_r1_v2.yaml",
       "sha256": "6cb452ab557d1d50f4fb5714b6b685fe8515e321ec30fecf0b951c025e4c1c63"
     },
     {
@@ -815,8 +815,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H05_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H05_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_switch_A_r1_v2.yaml",
       "sha256": "2847c0c15676aebc61b0b9b01179b0cbfc990eb0ac1865a1f87fe8aa4e671848"
     },
     {
@@ -830,8 +830,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H05_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H05_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_repeat_B_r1_v2.yaml",
       "sha256": "f2e9d6654530285d5dbb240f9c1e58a8a60e43e8c748e1c378cdee2b78c9fd4a"
     },
     {
@@ -845,8 +845,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H05_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H05_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_switch_B_r1_v2.yaml",
       "sha256": "4f6e0a954eff76a47a6adb5d424f1cd4d5e45d1d96f259b9a4e79849a5969abb"
     },
     {
@@ -860,8 +860,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H05_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H05_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_repeat_A_r2_v2.yaml",
       "sha256": "1866c4a2592b5ef1dc74f9bdd827c01fcce3219b7cce767c984a7937f38f87ca"
     },
     {
@@ -875,8 +875,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H05_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H05_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_switch_A_r2_v2.yaml",
       "sha256": "6eff85877f7918802275f495ee808d17bd134a44fbf57e4e63223b40ec9d7c2c"
     },
     {
@@ -890,8 +890,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H05_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H05_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_repeat_B_r2_v2.yaml",
       "sha256": "87632f3c4d17586648f8a8afd46f09f8f201b69035edbf26cd20167eac2d7667"
     },
     {
@@ -905,8 +905,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H05_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H05_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_switch_B_r2_v2.yaml",
       "sha256": "fcf2634efaf1b3fe18ff8a4776658aef5d19fe1b98b5d939e811a42937709110"
     },
     {
@@ -920,8 +920,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H05_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H05_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_repeat_A_r3_v2.yaml",
       "sha256": "b5e32daa9d6f2cb7e4ae980108ff5153ba5463930eed478c7898116a6f4150e9"
     },
     {
@@ -935,8 +935,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H05_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H05_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_switch_A_r3_v2.yaml",
       "sha256": "3727672012ee6762a3e5ede86f1e1deedb8d53805cc10916eb40650a0448d6dd"
     },
     {
@@ -950,8 +950,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H05_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H05_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_repeat_B_r3_v2.yaml",
       "sha256": "58349a3c829919d208403d3db79f060bf4bb52935eb72f36b5a03f6589b3659f"
     },
     {
@@ -965,8 +965,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H05_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H05_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H05_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H05_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H05_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H05_switch_B_r3_v2.yaml",
       "sha256": "333e29f6bb0533230197917653567ccd6b8979438b84f05218711ca9ae607885"
     },
     {
@@ -980,8 +980,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H06_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H06_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_repeat_A_r1_v2.yaml",
       "sha256": "e97b98da849d719c434b6cf5b3b9a14b8fb4b52ab89519130d2670c6ca108d29"
     },
     {
@@ -995,8 +995,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H06_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H06_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_switch_A_r1_v2.yaml",
       "sha256": "a7700148e9b775c124d313aa3c39e713186015a2b215ce93d36a764bca03c1ee"
     },
     {
@@ -1010,8 +1010,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H06_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H06_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_repeat_B_r1_v2.yaml",
       "sha256": "176efe48b297694d617eab0c3c0187a9fb2dd50775c5f69c6772e4cd4c0bec39"
     },
     {
@@ -1025,8 +1025,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H06_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H06_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_switch_B_r1_v2.yaml",
       "sha256": "26307049994203b2c72355984f3a84781c91cbd5ac9e56e5b063aa62a9d9e15c"
     },
     {
@@ -1040,8 +1040,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H06_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H06_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_repeat_A_r2_v2.yaml",
       "sha256": "16a39497ddacb19f3ddce0fcb885f2e97a19198b94892eba48dfd3228fcc6970"
     },
     {
@@ -1055,8 +1055,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H06_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H06_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_switch_A_r2_v2.yaml",
       "sha256": "73d615c4ab11d16c0d426fed513fcd04b471e4845e58353c075fb9514b9e1b6c"
     },
     {
@@ -1070,8 +1070,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H06_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H06_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_repeat_B_r2_v2.yaml",
       "sha256": "458cc70b041c8c9db55e274f2daea921392a1136a3554503dedfe3ef47b2b56a"
     },
     {
@@ -1085,8 +1085,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H06_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H06_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_switch_B_r2_v2.yaml",
       "sha256": "6d2e8ff85c87aabad95cbe8feb9ea608abb5739661672ea08a667595be68a587"
     },
     {
@@ -1100,8 +1100,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H06_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H06_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_repeat_A_r3_v2.yaml",
       "sha256": "5e975f6f3447e4c57122b649bb6faab5815dbeb877e6d12c6e768fac54a10777"
     },
     {
@@ -1115,8 +1115,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H06_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H06_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_switch_A_r3_v2.yaml",
       "sha256": "65fe4db37d8671fcb53f4d747c4e60e9ca8062b61045d0eeac61668da2148dcf"
     },
     {
@@ -1130,8 +1130,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H06_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H06_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_repeat_B_r3_v2.yaml",
       "sha256": "0d37d48fb083e5428819e8fcf2944efeb166fefa69909c6e1672f033db1cc755"
     },
     {
@@ -1145,8 +1145,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H06_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H06_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H06_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H06_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H06_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H06_switch_B_r3_v2.yaml",
       "sha256": "78b44fd09f759c8ed71ba64c7e58894fa4d79bb2b10c7080cb47d880b0592692"
     },
     {
@@ -1160,8 +1160,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H07_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H07_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_repeat_A_r1_v2.yaml",
       "sha256": "bac63cd8f18805c73b82249b60186b1a51dbeee3c5d4dd2762172484a2d9eb1c"
     },
     {
@@ -1175,8 +1175,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H07_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H07_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_switch_A_r1_v2.yaml",
       "sha256": "2ee0ec049581d4685ee98dfdd4692cbca022a3fbe6421b62ca24498e8d5ee6d6"
     },
     {
@@ -1190,8 +1190,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H07_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H07_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_repeat_B_r1_v2.yaml",
       "sha256": "0fadee4ea622420dcddb96fba168e497a57219d284b9f668daa645ee9b1f367d"
     },
     {
@@ -1205,8 +1205,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H07_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H07_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_switch_B_r1_v2.yaml",
       "sha256": "7c9cb262e0434e63e43d6835dfbdfcd71dec2422c2402fefb9a73b2d0bc92c4b"
     },
     {
@@ -1220,8 +1220,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H07_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H07_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_repeat_A_r2_v2.yaml",
       "sha256": "2c7e18c56bc9e58533904ccd01db9bad9e6652e76c0025938e386a878a88180a"
     },
     {
@@ -1235,8 +1235,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H07_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H07_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_switch_A_r2_v2.yaml",
       "sha256": "8a71288505f4da71612ceb623c35f50aeec7829dea039fc99a17024309215d91"
     },
     {
@@ -1250,8 +1250,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H07_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H07_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_repeat_B_r2_v2.yaml",
       "sha256": "b1b666a16a166ce01a0cde64971833176c9cb6c0415824f23430da1433faa9ea"
     },
     {
@@ -1265,8 +1265,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H07_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H07_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_switch_B_r2_v2.yaml",
       "sha256": "c6b72ac8fbc7ee45ec67dd16df1afafa4f7f5bd8088fa073ea34ee42f6274611"
     },
     {
@@ -1280,8 +1280,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H07_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H07_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_repeat_A_r3_v2.yaml",
       "sha256": "28220a7098dd7ad354064c564fc15713a788b6b3c63835453e876185a9360a3a"
     },
     {
@@ -1295,8 +1295,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H07_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H07_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_switch_A_r3_v2.yaml",
       "sha256": "c9907b3d9491f858665a3ca4e865f73b1877db4738515f676371260e58a0c67f"
     },
     {
@@ -1310,8 +1310,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H07_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H07_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_repeat_B_r3_v2.yaml",
       "sha256": "948cbecbceb5f502e40af02844c50f02837893044c9c45388c832df9a9564f8d"
     },
     {
@@ -1325,8 +1325,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H07_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H07_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H07_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H07_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H07_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H07_switch_B_r3_v2.yaml",
       "sha256": "6491cd2569c6d066a16a8d187d95df16b3c2037e036b881688e4fa951d82d5e7"
     },
     {
@@ -1340,8 +1340,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H08_repeat_A_r1_v2",
       "dataset_name": "paper_e02_switch_H08_repeat_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_repeat_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_repeat_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_repeat_A_r1_v2.yaml",
       "sha256": "5a2ef750c3fbcccd27bdfa52a48bad2f5257b7dd613d7a9e19cb0de18503f3af"
     },
     {
@@ -1355,8 +1355,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H08_switch_A_r1_v2",
       "dataset_name": "paper_e02_switch_H08_switch_A_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_switch_A_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_switch_A_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_A_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_switch_A_r1_v2.yaml",
       "sha256": "231b2fad8d8b8107e8cb8a3238d6f4197f4b088ddb96889c09c4ef8dc8a61328"
     },
     {
@@ -1370,8 +1370,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H08_repeat_B_r1_v2",
       "dataset_name": "paper_e02_switch_H08_repeat_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_repeat_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_repeat_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_repeat_B_r1_v2.yaml",
       "sha256": "3edf93e729b82da03eb88dd14bc4554c8e8e4906f1ddb48cf8b6b1385fbf9db0"
     },
     {
@@ -1385,8 +1385,8 @@
       "replicate": 1,
       "dataset_id": "paper_e02_switch_H08_switch_B_r1_v2",
       "dataset_name": "paper_e02_switch_H08_switch_B_r1_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_switch_B_r1_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_switch_B_r1_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_B_r1_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_switch_B_r1_v2.yaml",
       "sha256": "41d41060ce9c3a9412e8564d7c35c855765005def0c9b4388c7593222ae769dd"
     },
     {
@@ -1400,8 +1400,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H08_repeat_A_r2_v2",
       "dataset_name": "paper_e02_switch_H08_repeat_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_repeat_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_repeat_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_repeat_A_r2_v2.yaml",
       "sha256": "92ddc9de52ac28e61f2a246b23b073085d95e7e183bbd5ff2d2415655341a6c8"
     },
     {
@@ -1415,8 +1415,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H08_switch_A_r2_v2",
       "dataset_name": "paper_e02_switch_H08_switch_A_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_switch_A_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_switch_A_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_A_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_switch_A_r2_v2.yaml",
       "sha256": "dc2f680184bdcbc279816e9a636b1ccf64b7a19ddb55fc65c7763445fca43b0f"
     },
     {
@@ -1430,8 +1430,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H08_repeat_B_r2_v2",
       "dataset_name": "paper_e02_switch_H08_repeat_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_repeat_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_repeat_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_repeat_B_r2_v2.yaml",
       "sha256": "924e562e80d9d490b9e6e9eae1840cfad71afa5550f53a254a612f6195556b02"
     },
     {
@@ -1445,8 +1445,8 @@
       "replicate": 2,
       "dataset_id": "paper_e02_switch_H08_switch_B_r2_v2",
       "dataset_name": "paper_e02_switch_H08_switch_B_r2_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_switch_B_r2_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_switch_B_r2_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_B_r2_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_switch_B_r2_v2.yaml",
       "sha256": "91fea7a576c84845e34c2cd34e01e5127c7dedb0adc07fe7b8d69710b0220837"
     },
     {
@@ -1460,8 +1460,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H08_repeat_A_r3_v2",
       "dataset_name": "paper_e02_switch_H08_repeat_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_repeat_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_repeat_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_repeat_A_r3_v2.yaml",
       "sha256": "3d4662a86bb5974b1c1a7d5d08350ff2a62102a0f22aec7d187d9c00ae051f9b"
     },
     {
@@ -1475,8 +1475,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H08_switch_A_r3_v2",
       "dataset_name": "paper_e02_switch_H08_switch_A_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_switch_A_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_switch_A_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_A_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_switch_A_r3_v2.yaml",
       "sha256": "1d44f2c3a8eab112c5867794d1b6aca16a0362af0df77055296a4052366091ef"
     },
     {
@@ -1490,8 +1490,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H08_repeat_B_r3_v2",
       "dataset_name": "paper_e02_switch_H08_repeat_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_repeat_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_repeat_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_repeat_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_repeat_B_r3_v2.yaml",
       "sha256": "9c671bcdcc1a4e0f5f77713f4d8381d7d91c148d00a24c2dbe20e60616d384d9"
     },
     {
@@ -1505,8 +1505,8 @@
       "replicate": 3,
       "dataset_id": "paper_e02_switch_H08_switch_B_r3_v2",
       "dataset_name": "paper_e02_switch_H08_switch_B_r3_v2.yaml",
-      "artifact_path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\datasets\\paper_e02_switch_H08_switch_B_r3_v2.yaml",
-      "imported_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e02_switch_H08_switch_B_r3_v2.yaml",
+      "artifact_path": "ap-paper-artifacts://E02_label_switch_sensitivity/datasets/paper_e02_switch_H08_switch_B_r3_v2.yaml",
+      "imported_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e02_switch_H08_switch_B_r3_v2.yaml",
       "sha256": "1cacb8837d195b2821c72657356a82fc4d965ad6834c30b51fea01d2d5369f3b"
     }
   ],
@@ -2283,7 +2283,7 @@
   "copied_runs": [
     {
       "run_id": "paper_e02_switch_H01_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2294,7 +2294,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2305,7 +2305,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2316,7 +2316,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2327,7 +2327,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2338,7 +2338,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2349,7 +2349,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2360,7 +2360,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2371,7 +2371,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2382,7 +2382,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2393,7 +2393,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2404,7 +2404,7 @@
     },
     {
       "run_id": "paper_e02_switch_H01_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H01_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H01_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2415,7 +2415,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2426,7 +2426,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2437,7 +2437,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2448,7 +2448,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2459,7 +2459,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2470,7 +2470,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2481,7 +2481,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2492,7 +2492,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2503,7 +2503,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2514,7 +2514,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2525,7 +2525,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2536,7 +2536,7 @@
     },
     {
       "run_id": "paper_e02_switch_H02_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H02_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H02_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2547,7 +2547,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2558,7 +2558,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2569,7 +2569,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2580,7 +2580,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2591,7 +2591,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2602,7 +2602,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2613,7 +2613,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2624,7 +2624,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2635,7 +2635,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2646,7 +2646,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2657,7 +2657,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2668,7 +2668,7 @@
     },
     {
       "run_id": "paper_e02_switch_H03_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H03_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H03_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2679,7 +2679,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2690,7 +2690,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2701,7 +2701,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2712,7 +2712,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2723,7 +2723,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2734,7 +2734,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2745,7 +2745,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2756,7 +2756,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2767,7 +2767,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2778,7 +2778,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2789,7 +2789,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2800,7 +2800,7 @@
     },
     {
       "run_id": "paper_e02_switch_H04_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H04_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H04_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2811,7 +2811,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2822,7 +2822,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2833,7 +2833,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2844,7 +2844,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2855,7 +2855,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2866,7 +2866,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2877,7 +2877,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2888,7 +2888,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2899,7 +2899,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2910,7 +2910,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2921,7 +2921,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2932,7 +2932,7 @@
     },
     {
       "run_id": "paper_e02_switch_H05_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H05_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H05_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2943,7 +2943,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2954,7 +2954,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2965,7 +2965,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2976,7 +2976,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2987,7 +2987,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -2998,7 +2998,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3009,7 +3009,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3020,7 +3020,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3031,7 +3031,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3042,7 +3042,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3053,7 +3053,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3064,7 +3064,7 @@
     },
     {
       "run_id": "paper_e02_switch_H06_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H06_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H06_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3075,7 +3075,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3086,7 +3086,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3097,7 +3097,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3108,7 +3108,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3119,7 +3119,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3130,7 +3130,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3141,7 +3141,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3152,7 +3152,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3163,7 +3163,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3174,7 +3174,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3185,7 +3185,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3196,7 +3196,7 @@
     },
     {
       "run_id": "paper_e02_switch_H07_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H07_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H07_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3207,7 +3207,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_repeat_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3218,7 +3218,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_switch_A_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_switch_A_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_switch_A_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3229,7 +3229,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_repeat_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3240,7 +3240,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_switch_B_r1_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_switch_B_r1_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_switch_B_r1_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3251,7 +3251,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_repeat_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3262,7 +3262,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_switch_A_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_switch_A_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_switch_A_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3273,7 +3273,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_repeat_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3284,7 +3284,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_switch_B_r2_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_switch_B_r2_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_switch_B_r2_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3295,7 +3295,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_repeat_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3306,7 +3306,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_switch_A_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_switch_A_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_switch_A_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3317,7 +3317,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_repeat_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3328,7 +3328,7 @@
     },
     {
       "run_id": "paper_e02_switch_H08_switch_B_r3_e02_label_switch_holdout_confirm_v1",
-      "path": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\runs\\paper_e02_switch_H08_switch_B_r3_e02_label_switch_holdout_confirm_v1",
+      "path": "ap-paper-artifacts://E02_label_switch_sensitivity/runs/paper_e02_switch_H08_switch_B_r3_e02_label_switch_holdout_confirm_v1",
       "files": [
         "manifest.json",
         "dataset.normalized.yaml",
@@ -3339,14 +3339,14 @@
     }
   ],
   "tables": {
-    "row_metrics": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\tables\\e02_label_switch_row_metrics_e02_label_switch_holdout_confirm_v1.csv",
-    "pair_rows": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\tables\\e02_label_switch_pair_rows_e02_label_switch_holdout_confirm_v1.csv",
-    "summary": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\tables\\e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json"
+    "row_metrics": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_row_metrics_e02_label_switch_holdout_confirm_v1.csv",
+    "pair_rows": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_pair_rows_e02_label_switch_holdout_confirm_v1.csv",
+    "summary": "ap-paper-artifacts://E02_label_switch_sensitivity/tables/e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json"
   },
   "charts": [
-    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\charts\\e02_label_switch_growth_core_e02_label_switch_holdout_confirm_v1.png",
-    "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\charts\\e02_label_switch_growth_extended_e02_label_switch_holdout_confirm_v1.png"
+    "ap-paper-artifacts://E02_label_switch_sensitivity/charts/e02_label_switch_growth_core_e02_label_switch_holdout_confirm_v1.png",
+    "ap-paper-artifacts://E02_label_switch_sensitivity/charts/e02_label_switch_growth_extended_e02_label_switch_holdout_confirm_v1.png"
   ],
-  "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\reports\\E02_label_switch_report_e02_label_switch_holdout_confirm_v1.md",
-  "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E02_label_switch_sensitivity\\reports\\E02_label_switch_design_logic.md"
+  "report": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_report_e02_label_switch_holdout_confirm_v1.md",
+  "design_note": "ap-paper-artifacts://E02_label_switch_sensitivity/reports/E02_label_switch_design_logic.md"
 }

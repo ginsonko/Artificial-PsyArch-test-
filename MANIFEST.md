@@ -24,4 +24,4 @@
 
 文件级来源映射与 SHA-256 哈希保存在 `manifest.json`。
 
-`manifest.json` 中保留原始实验输出目录（artifact）的源路径和源文件名，以便复现者追溯哈希来源。个别源文件名包含早期批次 token；这些 token 只是历史文件名的一部分。本清单以 `strong_evidence` 为正文证据准入级别。
+`manifest.json` 中使用 `ap-paper-artifacts://` 和 `ap-prototype://` 记录可移植来源标识。`ap-paper-artifacts://` 指向论文实验输出分支，`ap-prototype://` 指向 AP 原型仓库内的相对路径；二者用于说明来源关系，不暴露作者本机目录。根清单中的 bytes 与 SHA-256 均按本附件仓库内公开文件重新计算。本清单以 `strong_evidence` 为正文证据准入级别。

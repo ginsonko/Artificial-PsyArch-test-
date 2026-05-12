@@ -22,18 +22,18 @@
     "support_level": "strong_evidence"
   },
   "artifacts": {
-    "case_csv": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\tables\\e17_internal_narrative_chain_case_rows_e17_final_v1.csv",
-    "step_csv": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\tables\\e17_internal_narrative_chain_step_rows_e17_final_v1.csv",
-    "family_csv": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\tables\\e17_internal_narrative_chain_family_rows_e17_final_v1.csv",
-    "summary_json": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\tables\\e17_internal_narrative_chain_summary_e17_final_v1.json",
-    "whitebox_json": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\tables\\e17_internal_narrative_chain_whitebox_e17_final_v1.json",
-    "report": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\reports\\E17_internal_narrative_chain_report_e17_final_v1.md",
-    "design_note": "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\reports\\E17_internal_narrative_chain_design_logic.md",
+    "case_csv": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_case_rows_e17_final_v1.csv",
+    "step_csv": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_step_rows_e17_final_v1.csv",
+    "family_csv": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_family_rows_e17_final_v1.csv",
+    "summary_json": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_summary_e17_final_v1.json",
+    "whitebox_json": "ap-paper-artifacts://E17_internal_narrative_chain/tables/e17_internal_narrative_chain_whitebox_e17_final_v1.json",
+    "report": "ap-paper-artifacts://E17_internal_narrative_chain/reports/E17_internal_narrative_chain_report_e17_final_v1.md",
+    "design_note": "ap-paper-artifacts://E17_internal_narrative_chain/reports/E17_internal_narrative_chain_design_logic.md",
     "charts": [
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\charts\\e17_branch_pass_rates_e17_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\charts\\e17_chain_step_delta_ev_e17_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\charts\\e17_family_pass_matrix_e17_final_v1.png",
-      "H:\\PA原型测试\\docs\\paper_artifacts_2026-05-11\\E17_internal_narrative_chain\\charts\\e17_sample_path_contrast_e17_final_v1.png"
+      "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_branch_pass_rates_e17_final_v1.png",
+      "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_chain_step_delta_ev_e17_final_v1.png",
+      "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_family_pass_matrix_e17_final_v1.png",
+      "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_sample_path_contrast_e17_final_v1.png"
     ]
   },
   "claim_boundary": "证明内部候选链的逐拍承接、可控转向、阈值剪枝和终端停止，不证明完整自然语言生成能力已经完成。"

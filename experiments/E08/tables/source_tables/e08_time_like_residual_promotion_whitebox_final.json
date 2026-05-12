@@ -9,7 +9,7 @@
         "source": "imported",
         "rel_path": "paper_e08_e08_final_v1_F01_on_matched.yaml"
       },
-      "dataset_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e08_e08_final_v1_F01_on_matched.yaml",
+      "dataset_path": "ap-prototype://observatory/outputs/datasets_imported/paper_e08_e08_final_v1_F01_on_matched.yaml",
       "total_ticks": 5,
       "effective_text_ticks": 2,
       "empty_ticks": 3,
@@ -46,9 +46,9 @@
       "failure_count": 0,
       "synthetic_tick_count": 0,
       "pending_count": 0,
-      "events_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_on_matched\\expectation_contract_events.jsonl"
+      "events_path": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_on_matched/expectation_contract_events.jsonl"
     },
-    "runner_timing_path": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_on_matched\\runner_timing.jsonl",
+    "runner_timing_path": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_on_matched/runner_timing.jsonl",
     "registered_count": 0,
     "success_count": 0,
     "failure_count": 0,
@@ -480,6 +480,6 @@
     }
   },
   "metrics_row_count": 5,
-  "run_dir": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\experiment_runs\\paper_e08_e08_final_v1_F01_on_matched",
-  "dataset_source": "H:\\PA原型测试\\Artificial-PsyArch\\observatory\\outputs\\datasets_imported\\paper_e08_e08_final_v1_F01_on_matched.yaml"
+  "run_dir": "ap-prototype://observatory/outputs/experiment_runs/paper_e08_e08_final_v1_F01_on_matched",
+  "dataset_source": "ap-prototype://observatory/outputs/datasets_imported/paper_e08_e08_final_v1_F01_on_matched.yaml"
 }
