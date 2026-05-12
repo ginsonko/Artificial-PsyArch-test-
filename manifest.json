@@ -10,7 +10,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 2,
       "file_count": 18,
-      "note": "严格交叉探针输入设计，样本规模小但因果控制强；正文使用时按机制证据理解。"
+      "note": "严格交叉探针输入设计，样本规模小但因果控制强；正文使用时按机制证据理解。",
+      "evidence_entry_count": 2,
+      "entry_unit": "family"
     },
     {
       "id": "E02",
@@ -20,7 +22,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 48,
       "file_count": 106,
-      "note": "仅保留 holdout 长句壳确认批次；早期探索性批次不进入主索引。"
+      "note": "仅保留 holdout 长句壳确认批次；早期探索性批次不进入主索引。",
+      "evidence_entry_count": 48,
+      "entry_unit": "pair"
     },
     {
       "id": "E03",
@@ -30,7 +34,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 12,
       "file_count": 47,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 12,
+      "entry_unit": "pair"
     },
     {
       "id": "E04",
@@ -40,7 +46,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 12,
       "file_count": 46,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 12,
+      "entry_unit": "pair"
     },
     {
       "id": "E05",
@@ -50,7 +58,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 12,
       "file_count": 33,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 12,
+      "entry_unit": "pair"
     },
     {
       "id": "E06",
@@ -60,7 +70,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 12,
       "file_count": 12,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 12,
+      "entry_unit": "pair"
     },
     {
       "id": "E07",
@@ -70,7 +82,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 36,
       "file_count": 10,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 36,
+      "entry_unit": "case"
     },
     {
       "id": "E08",
@@ -80,7 +94,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 48,
       "file_count": 58,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 48,
+      "entry_unit": "case"
     },
     {
       "id": "E09",
@@ -90,7 +106,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 84,
       "file_count": 11,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 84,
+      "entry_unit": "case"
     },
     {
       "id": "E10",
@@ -100,7 +118,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 12,
       "file_count": 12,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 12,
+      "entry_unit": "family"
     },
     {
       "id": "E11",
@@ -110,7 +130,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 72,
       "file_count": 14,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 72,
+      "entry_unit": "case"
     },
     {
       "id": "E12",
@@ -120,7 +142,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 48,
       "file_count": 13,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 48,
+      "entry_unit": "case"
     },
     {
       "id": "E13",
@@ -130,7 +154,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 12,
       "file_count": 12,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 12,
+      "entry_unit": "family"
     },
     {
       "id": "E14",
@@ -140,7 +166,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 144,
       "file_count": 14,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 144,
+      "entry_unit": "case"
     },
     {
       "id": "E15",
@@ -150,7 +178,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 96,
       "file_count": 13,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 96,
+      "entry_unit": "case"
     },
     {
       "id": "E16",
@@ -160,7 +190,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 72,
       "file_count": 12,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 72,
+      "entry_unit": "case"
     },
     {
       "id": "E17",
@@ -170,7 +202,9 @@
       "support_level": "strong_evidence",
       "n_or_pair_count": 192,
       "file_count": 13,
-      "note": ""
+      "note": "",
+      "evidence_entry_count": 192,
+      "entry_unit": "step"
     }
   ],
   "files": [
@@ -3027,8 +3061,8 @@
   "top_level_files": [
     {
       "target": "README.md",
-      "bytes": 3358,
-      "sha256": "f40b5de57e1764385db8804bf491d77fde6b13e1938306eff0e93d74af012440"
+      "bytes": 3417,
+      "sha256": "3292bc9d4ee93a43003d556c742edcd650889748a720a0082fa3b07fb95d3b60"
     },
     {
       "target": "REPRODUCE.md",
@@ -3037,13 +3071,13 @@
     },
     {
       "target": "MANIFEST.md",
-      "bytes": 2992,
-      "sha256": "af628cc401f7a40d4f287c7be1e518acf88b5e8aaa1935b25b64287565fce24a"
+      "bytes": 3097,
+      "sha256": "b6a12367d4e501568a4f343e1abb642388297cbb5c14d31912c949764127abb6"
     },
     {
       "target": "strong_evidence_overview.csv",
-      "bytes": 1941,
-      "sha256": "a21f99a0a1d5a819775849d9e5ca750d78fa16f63e9aac6c22b10af0fdae8d9d"
+      "bytes": 2118,
+      "sha256": "0a02a76dd9dab97559795bfd7b26a76488167c2fe9d80e4531f954b2ea7bc7bf"
     },
     {
       "target": "LICENSE",

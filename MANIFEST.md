@@ -20,7 +20,7 @@
 | E16 | 多来源属性化接地入口与锚点隔离 | strong_evidence | 72 | `experiments\E16\tables\summary.json` |  |
 | E17 | 内部候选链的跨拍承接与续写 | strong_evidence | 192 | `experiments\E17\tables\summary.json` |  |
 
-正文统计入口总数：**914**。不同实验的入口单位按主判据选择，可能是 pair、case、family 或 step；具体口径见各实验 `report.md`。
+正文统计入口总数：**914**。不同实验的入口单位按主判据选择，可能是 pair、case、family 或 step；`strong_evidence_overview.csv` 中的 `evidence_entry_count` 与 `entry_unit` 给出机器可读口径，具体解释见各实验 `report.md`。
 
 文件级来源映射与 SHA-256 哈希保存在 `manifest.json`。
 
