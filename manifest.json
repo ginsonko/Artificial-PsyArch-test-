@@ -3057,13 +3057,25 @@
       "target": "prototype_delta\\Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
       "bytes": 1415869,
       "sha256": "5ca9e14fdca94c3fa7cf8582a66e040b7b4ca10a9f6d9559bb22f194c0fb8907"
+    },
+    {
+      "source": "scripts\\verify_release_integrity.py",
+      "target": "scripts\\verify_release_integrity.py",
+      "bytes": 3633,
+      "sha256": "7cb4981974c9da78e4be061e6097fd42bddb54a0afafcb2c9364aea7b11b8a57"
+    },
+    {
+      "source": "scripts\\publish_to_github.ps1",
+      "target": "scripts\\publish_to_github.ps1",
+      "bytes": 1211,
+      "sha256": "4f70b26de1c8d81e43d5ebeb89924c77997ce5924e74da2557926a16c91ecb76"
     }
   ],
-  "total_copied_files": 475,
+  "total_copied_files": 477,
   "total_judgement_records": 914,
   "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。",
   "source_reference_note": "Public manifests use ap-paper-artifacts:// and ap-prototype:// logical source URIs. They identify original experiment branches or prototype-relative files without exposing a local drive path. SHA-256 values are computed over the copied public files listed by target.",
-  "manifest_integrity_note": "The root manifest was refreshed after adding the AP prototype reproduction delta and E08 criterion clarification; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
+  "manifest_integrity_note": "The root manifest was refreshed after adding the AP prototype reproduction delta, E08 criterion clarification, citation metadata, GitHub release checklist, and release helper scripts; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
   "top_level_files": [
     {
       "target": "README.md",
@@ -3099,6 +3111,16 @@
       "target": "ap_prototype_status.txt",
       "bytes": 1894,
       "sha256": "12bf7d1c31c6432f374c35d747bbe9519d4daf1d31209128cb7fedac90e95767"
+    },
+    {
+      "target": "CITATION.cff",
+      "bytes": 786,
+      "sha256": "1805a405433125b206e58e0f8df5f06fef4a2f5a31c55220a62dfd7896bebecf"
+    },
+    {
+      "target": "GITHUB_RELEASE_CHECKLIST.md",
+      "bytes": 2012,
+      "sha256": "435ab3495145066a1d8c5396e89d890256c118982fcea20ca1da69b33398f220"
     }
   ],
   "prototype_delta": {
@@ -3112,5 +3134,6 @@
       "E13"
     ],
     "scope_note": "Minimal AP prototype delta for full E01-E17 reproduction; excludes local outputs, frontend build artifacts, PA/NapCat helper scripts, and unrelated dirty worktree files."
-  }
+  },
+  "github_release_note": "The local repository is release-ready. If no remote is configured, use GITHUB_RELEASE_CHECKLIST.md or scripts/publish_to_github.ps1 after creating the GitHub repository."
 }

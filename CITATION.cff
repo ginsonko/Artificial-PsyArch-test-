@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this appendix or reproduce the Artificial PsyArch experiments, please cite the paper and this dataset appendix."
+title: "Artificial PsyArch Test Appendix: Reproducible Experiment Dataset and Prototype Delta"
+authors:
+  - family-names: "Yinzi"
+    given-names: "ginsonko"
+date-released: "2026-05-12"
+version: "2026-05-12-github-ready"
+abstract: "Reproducible appendix for the Artificial PsyArch paper, including E01-E17 experiment designs, reports, datasets, tables, charts, scripts, manifests, and a minimal AP prototype reproduction delta."
+keywords:
+  - Artificial PsyArch
+  - cognitive architecture
+  - reproducible experiments
+  - agent memory
+  - state pool
+  - holographic deep database
+license: "LicenseRef-PsyArch-Research-NonCommercial"
