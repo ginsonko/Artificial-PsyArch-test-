@@ -1333,8 +1333,8 @@
     {
       "source": "ap-paper-artifacts://E04_punish_correction/charts/e04_punish_correction_effects_e04_final_v1.png",
       "target": "experiments\\E04\\charts\\e04_punish_correction_effects_final.png",
-      "bytes": 62982,
-      "sha256": "31b101ef340ad55c53a63b28acd70b3dee200a6906d3dcc1f0a6b9729e9fac75"
+      "bytes": 136052,
+      "sha256": "364b1cfeacacd7cd9ec1cee7baef5fe09e086440772e36477270bdb0fbb6bc59"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/charts/e04_punish_correction_key_drives_e04_final_v1.png",
@@ -2611,8 +2611,8 @@
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/charts/e13_field_matrix_e13_final_v1.png",
       "target": "experiments\\E13\\charts\\e13_field_matrix_final.png",
-      "bytes": 45240,
-      "sha256": "47a55fec8d98fe853d65b2dbc7e389d113a2e9b905c6bfcd75004fdcc67d303d"
+      "bytes": 100774,
+      "sha256": "fc2d395cfebdbd3481abd1c78d5a2f0b9675dff17cab86f40373b836ff590cd2"
     },
     {
       "source": "ap-paper-artifacts://E13_agent_memory_projection/manifests/E13_agent_memory_projection_evidence_e13_final_v1.json",
@@ -2683,8 +2683,8 @@
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_family_pass_matrix_e14_final_v1.png",
       "target": "experiments\\E14\\charts\\e14_family_pass_matrix_final.png",
-      "bytes": 44755,
-      "sha256": "69265a61da9e5a9e12b0a311d9bbfdd26780da23d8e3ced0d8f6bd29525eebe3"
+      "bytes": 88444,
+      "sha256": "b8a64cc5a6a3f606cae704aebdc54902caad60170e9aa45ca2fbe1005398cb2b"
     },
     {
       "source": "ap-paper-artifacts://E14_action_threshold_modulation/charts/e14_local_drive_e14_final_v1.png",
@@ -2755,8 +2755,8 @@
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/charts/e15_branch_param_heatmap_e15_final_v1.png",
       "target": "experiments\\E15\\charts\\e15_branch_param_heatmap_final.png",
-      "bytes": 68792,
-      "sha256": "1de86d3f4e4b4a7f2ac6531d0d9b1493305cbb1529997b4df1d81de42927b2ac"
+      "bytes": 102457,
+      "sha256": "1ac5100570fd88e6034c569ed8763c3eb69ad5c398f43d8977656788bb9e3d1d"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/charts/e15_branch_pass_rates_e15_final_v1.png",
@@ -2767,8 +2767,8 @@
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/charts/e15_family_pass_matrix_e15_final_v1.png",
       "target": "experiments\\E15\\charts\\e15_family_pass_matrix_final.png",
-      "bytes": 42358,
-      "sha256": "5b164bc207d36c68494b60093b609fd78132bcb024158b937b6cfe43f5081cdc"
+      "bytes": 95596,
+      "sha256": "3084531cd0af14cf4a45eb3d7b5b2211960674fa6911bd5ce89169f3ea7dbd34"
     },
     {
       "source": "ap-paper-artifacts://E15_auto_tuner_stability/charts/e15_param_delta_directions_e15_final_v1.png",
@@ -2845,8 +2845,8 @@
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/charts/e16_family_pass_matrix_e16_final_v1.png",
       "target": "experiments\\E16\\charts\\e16_family_pass_matrix_final.png",
-      "bytes": 43436,
-      "sha256": "dd7b18a07e0478e23ca376cff7fc495811fba961e94c3d886f8c0f52f6206b6a"
+      "bytes": 89438,
+      "sha256": "91506ac3f6ab7a4dda82e31a68f8139edda33d0a4aa8585f961a724d1f2e2c6f"
     },
     {
       "source": "ap-paper-artifacts://E16_multimodal_symbol_grounding/manifests/E16_multimodal_symbol_grounding_evidence_e16_final_v1.json",
@@ -2917,8 +2917,8 @@
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_family_pass_matrix_e17_final_v1.png",
       "target": "experiments\\E17\\charts\\e17_family_pass_matrix_final.png",
-      "bytes": 58153,
-      "sha256": "214e4c4293d4d2afbf50b494bb6bfc24038a7e43c9315451b1aaca6a7732629f"
+      "bytes": 90940,
+      "sha256": "7fa0e98321a483679dbf80c08676da2c143e2752b10283f508ef0cdc4a36e681"
     },
     {
       "source": "ap-paper-artifacts://E17_internal_narrative_chain/charts/e17_sample_path_contrast_e17_final_v1.png",
@@ -3075,7 +3075,7 @@
   "total_judgement_records": 914,
   "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。",
   "source_reference_note": "Public manifests use ap-paper-artifacts:// and ap-prototype:// logical source URIs. They identify original experiment branches or prototype-relative files without exposing a local drive path. SHA-256 values are computed over the copied public files listed by target.",
-  "manifest_integrity_note": "The root manifest was refreshed after adding the AP prototype reproduction delta, E08 criterion clarification, citation metadata, GitHub release checklist, and release helper scripts; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
+  "manifest_integrity_note": "The root manifest was refreshed for the final paper closeout after improving several publication charts for readability and contrast; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
   "top_level_files": [
     {
       "target": "README.md",
