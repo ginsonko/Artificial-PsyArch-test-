@@ -3061,8 +3061,8 @@
     {
       "source": "scripts\\verify_release_integrity.py",
       "target": "scripts\\verify_release_integrity.py",
-      "bytes": 3633,
-      "sha256": "7cb4981974c9da78e4be061e6097fd42bddb54a0afafcb2c9364aea7b11b8a57"
+      "bytes": 3659,
+      "sha256": "070a99047e4742957c83451958d2c6281ce13248b809c26984659bc3bc04f0c2"
     },
     {
       "source": "scripts\\publish_to_github.ps1",
@@ -3106,6 +3106,11 @@
       "target": ".gitignore",
       "bytes": 223,
       "sha256": "20b2239153f8de578884e75f8392f6f71ad4a8951dc49fe501770c17fb507503"
+    },
+    {
+      "target": ".gitattributes",
+      "bytes": 249,
+      "sha256": "ab6955dca8c20c79c5785927edb917cf01127bd7f66c018dc795f002c13d53d6"
     },
     {
       "target": "ap_prototype_status.txt",

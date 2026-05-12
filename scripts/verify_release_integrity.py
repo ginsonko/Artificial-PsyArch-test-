@@ -42,6 +42,7 @@ def main() -> None:
         "README.md",
         "REPRODUCE.md",
         "MANIFEST.md",
+        ".gitattributes",
         "strong_evidence_overview.csv",
         "ap_prototype_status.txt",
         "CITATION.cff",
