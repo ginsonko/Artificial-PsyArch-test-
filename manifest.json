@@ -1903,14 +1903,14 @@
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_design_logic.md",
       "target": "experiments\\E08\\design.md",
-      "bytes": 1030,
-      "sha256": "3e6bb2fc54d7ac86a4c92b0a3b06b305b1f9bbb9ff1cf8133be940b8b70ce1f2"
+      "bytes": 1297,
+      "sha256": "34b0ad7fe41cf0ec51a3e992ed8aedefd3030735e5ac5e10e954dc69f961ae7d"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/reports/E08_time_like_residual_promotion_report_e08_final_v1.md",
       "target": "experiments\\E08\\report.md",
-      "bytes": 3021,
-      "sha256": "7cee6ef179a8c6988bab1fa799e1547a20dddd5e62156273f1e659d34b7d37d1"
+      "bytes": 3433,
+      "sha256": "22b89e2f8bdf72d9a1b4a414426bfabbe09eaa7540dad130cfe7d1ce0f86a65c"
     },
     {
       "source": "ap-paper-artifacts://E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_summary_e08_final_v1.json",
@@ -2983,8 +2983,8 @@
     {
       "source": "run_paper_e08_time_like_residual_promotion_experiment.py",
       "target": "scripts\\run_paper_e08_time_like_residual_promotion_experiment.py",
-      "bytes": 38444,
-      "sha256": "29a9936e7c80013a31590b4ed6bab614e29183c17b240a4aa2be933c931f217f"
+      "bytes": 38462,
+      "sha256": "08b0745efcb44d30b3829329992fcf4a52507ef0b0d44ccd7cc60349b86e888f"
     },
     {
       "source": "run_paper_e09_conflict_relief_experiment.py",
@@ -3051,28 +3051,34 @@
       "target": "scripts\\_reproduction_paths.py",
       "bytes": 754,
       "sha256": "dcff2bbaed254baa2d7b4c38c81156b4925a426f0b5452a54c7aa41567fa00f8"
+    },
+    {
+      "source": "ap-prototype-delta://Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
+      "target": "prototype_delta\\Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
+      "bytes": 2736792,
+      "sha256": "55814dc38849d50c6550203109083c26d890d8942adf02d26386ccc80ca083f0"
     }
   ],
-  "total_copied_files": 474,
+  "total_copied_files": 475,
   "total_judgement_records": 914,
   "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。",
   "source_reference_note": "Public manifests use ap-paper-artifacts:// and ap-prototype:// logical source URIs. They identify original experiment branches or prototype-relative files without exposing a local drive path. SHA-256 values are computed over the copied public files listed by target.",
-  "manifest_integrity_note": "The root manifest was refreshed after public path and prototype-status sanitization; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
+  "manifest_integrity_note": "The root manifest was refreshed after adding the AP prototype reproduction delta and E08 criterion clarification; listed bytes and SHA-256 values refer to the files as published in this attachment repository.",
   "top_level_files": [
     {
       "target": "README.md",
-      "bytes": 3417,
-      "sha256": "3292bc9d4ee93a43003d556c742edcd650889748a720a0082fa3b07fb95d3b60"
+      "bytes": 4097,
+      "sha256": "9f0b6bca88a54f909ac7c7e84a3a7ebff1e63fdbea30413a9726e3c3c7687878"
     },
     {
       "target": "REPRODUCE.md",
-      "bytes": 3691,
-      "sha256": "9899fe47419e4c7f981d2674e66990f8d95bf7d13357e4ffd48db35ea683f2ca"
+      "bytes": 4495,
+      "sha256": "18b1e146c313f99c64a3b306dccd7f76cae09ad5084e0f71c5ca8e5955654e67"
     },
     {
       "target": "MANIFEST.md",
-      "bytes": 3097,
-      "sha256": "b6a12367d4e501568a4f343e1abb642388297cbb5c14d31912c949764127abb6"
+      "bytes": 3480,
+      "sha256": "8090db5e378df0cddaf8b3398d2a0d5da6d06df2d8a12bba59850f458d7d3d0a"
     },
     {
       "target": "strong_evidence_overview.csv",
@@ -3091,8 +3097,20 @@
     },
     {
       "target": "ap_prototype_status.txt",
-      "bytes": 1219,
-      "sha256": "08d6b4816e409312a6055d4ddcca74881dd0b794c7a39d1d6e3225e3e050158f"
+      "bytes": 1891,
+      "sha256": "c5e877839c9e6a55d267a75e9acb25f9737d0050aa91769e1489cd73f2ef3c98"
     }
-  ]
+  ],
+  "prototype_delta": {
+    "base_commit": "f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf",
+    "patch": "prototype_delta\\Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
+    "sha256": "55814dc38849d50c6550203109083c26d890d8942adf02d26386ccc80ca083f0",
+    "bytes": 2736792,
+    "validated_experiments": [
+      "E06",
+      "E08",
+      "E13"
+    ],
+    "scope_note": "Minimal AP prototype delta for full E01-E17 reproduction; excludes local outputs, frontend build artifacts, PA/NapCat helper scripts, and unrelated dirty worktree files."
+  }
 }

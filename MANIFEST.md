@@ -24,4 +24,6 @@
 
 文件级来源映射与 SHA-256 哈希保存在 `manifest.json`。
 
+AP 原型复现口径：本附件记录的原型基准提交为 `f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf`。完整复现 E01-E17 时，应在该提交上应用 `prototype_delta/Artificial-PsyArch-reproduction-delta-v2026-05-12.patch`。该补丁经审计只覆盖复现实验所需的原型增量，SHA-256 为 `55814DC38849D50C6550203109083C26D890D8942ADF02D26386CCC80CA083F0`。
+
 `manifest.json` 中使用 `ap-paper-artifacts://` 和 `ap-prototype://` 记录可移植来源标识。`ap-paper-artifacts://` 指向论文实验输出分支，`ap-prototype://` 指向 AP 原型仓库内的相对路径；二者用于说明来源关系，不暴露作者本机目录。根清单中的 bytes 与 SHA-256 均按本附件仓库内公开文件重新计算。本清单以 `strong_evidence` 为正文证据准入级别。

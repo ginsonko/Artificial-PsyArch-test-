@@ -436,14 +436,14 @@ def build_pair_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                     and int(off_matched.get("observe_selected_promoted", 0) or 0) == 0
                 ),
                 "on_no_seed_quiet": int(
-                    int(on_no_seed.get("observe_time_like", 0) or 0) == 0
+                    int(on_no_seed.get("observe_internal_time_like", 0) or 0) == 0
                     and int(on_no_seed.get("observe_wildcard", 0) or 0) == 0
                     and int(on_no_seed.get("observe_shadow_candidate", 0) or 0) == 0
                     and int(on_no_seed.get("observe_shadow_promoted", 0) or 0) == 0
                     and int(on_no_seed.get("observe_selected_promoted", 0) or 0) == 0
                 ),
                 "on_no_cue_quiet": int(
-                    int(on_no_cue.get("observe_time_like", 0) or 0) == 0
+                    int(on_no_cue.get("observe_internal_time_like", 0) or 0) == 0
                     and int(on_no_cue.get("observe_wildcard", 0) or 0) == 0
                     and int(on_no_cue.get("observe_shadow_candidate", 0) or 0) == 0
                     and int(on_no_cue.get("observe_shadow_promoted", 0) or 0) == 0

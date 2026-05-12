@@ -9,6 +9,7 @@
 - `experiments/E01` 至 `experiments/E17`：每个实验的设计说明、终稿报告、终稿汇总表、逐项数据表、白箱日志摘要、论文图表和最小数据集。
 - `paper_quality_charts_v02`：论文正文使用的总览图和分域图，只由终稿强证据数据生成。
 - `scripts`：复现实验与重新生成论文图表所需的脚本副本。
+- `prototype_delta`：相对于记录到的 AP 原型提交的最小复现增量补丁，用于覆盖 E06、E08、E13 所需的未发布原型路径。
 - `MANIFEST.md` 与 `manifest.json`：附件文件索引、源文件映射、哈希和样本规模。
 - `REPRODUCE.md`：从 AP 原型仓库运行实验、重新生成表格和图表的步骤。
 
@@ -22,7 +23,9 @@
 
 本附件与 AP 原型仓库配合使用。为保证附件仓库保持轻量、清晰和便于审核，公开数据包保存论文实验所需的脚本副本、结果文件、图表和清单；完整 AP 原型代码建议以同级仓库方式放置，目录名为 `Artificial-PsyArch`。
 
-记录到的 AP 原型提交：`f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf`
+记录到的 AP 原型基准提交：`f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf`
+
+复现 E01-E17 时，建议在该基准提交上应用 `prototype_delta/Artificial-PsyArch-reproduction-delta-v2026-05-12.patch`。该补丁只包含本轮审计确认与论文实验复现相关的原型增量：AgentRuntime 提示包投影入口、时间间隔闭环、残差记忆时间显影/晋升、状态池快照解释字段和实验指标字段；不包含前端构建产物、本地运行日志或 PA/NapCat 辅助脚本。补丁 SHA-256 为 `55814DC38849D50C6550203109083C26D890D8942ADF02D26386CCC80CA083F0`。
 
 原型复现口径见 `ap_prototype_status.txt`。复现者应优先使用随论文发布的 AP 原型仓库版本，并让附件仓库与原型仓库保持同级目录布局；若实际目录不同，可按 `REPRODUCE.md` 设置 `AP_ROOT` 环境变量。
 

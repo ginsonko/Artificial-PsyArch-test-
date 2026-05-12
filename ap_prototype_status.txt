@@ -1,16 +1,30 @@
 AP prototype reference
 ======================
 
-Recorded prototype commit:
+Recorded prototype base commit:
 f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf
+
+Minimal reproduction delta:
+prototype_delta/Artificial-PsyArch-reproduction-delta-v2026-05-12.patch
+
+Delta SHA-256:
+55814DC38849D50C6550203109083C26D890D8942ADF02D26386CCC80CA083F0
 
 Public reproduction policy
 --------------------------
 
 This attachment package is designed to be used with the public AP prototype
-repository released alongside the paper. Keep the prototype repository as a
-sibling directory named `Artificial-PsyArch`, or set the `AP_ROOT` environment
-variable before running the scripts under `scripts/`.
+repository released alongside the paper. For the full E01-E17 reproduction
+path, apply the minimal reproduction delta above to the recorded base commit.
+Keep the prototype repository as a sibling directory named `Artificial-PsyArch`,
+or set the `AP_ROOT` environment variable before running the scripts under
+`scripts/`.
+
+The delta contains only the prototype paths confirmed by the reproduction audit:
+AgentRuntime prompt-packet projection, time-interval closure, residual-memory
+time-like promotion, StatePool snapshot explainability, and experiment metrics.
+It intentionally excludes local run outputs, frontend build artifacts, PA/NapCat
+helper scripts, and unrelated dirty worktree files.
 
 The experiment attachments in this repository contain the data files, summary
 tables, charts, script copies, and SHA-256 hashes used by the paper. The root
