@@ -5,7 +5,9 @@ authors:
   - family-names: "Yinzi"
     given-names: "ginsonko"
 date-released: "2026-05-12"
-version: "2026-05-12-github-ready"
+version: "2026-05-12-github-published"
+repository-code: "https://github.com/ginsonko/Artificial-PsyArch-test-"
+url: "https://github.com/ginsonko/Artificial-PsyArch-test-"
 abstract: "Reproducible appendix for the Artificial PsyArch paper, including E01-E17 experiment designs, reports, datasets, tables, charts, scripts, manifests, and a minimal AP prototype reproduction delta."
 keywords:
   - Artificial PsyArch

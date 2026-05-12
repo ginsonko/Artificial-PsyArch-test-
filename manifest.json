@@ -3079,8 +3079,8 @@
   "top_level_files": [
     {
       "target": "README.md",
-      "bytes": 4100,
-      "sha256": "e3368470de6cd4d5c489a4165d92ba3a8de34727e3eddc268b99f56ba5cc36b1"
+      "bytes": 4282,
+      "sha256": "4a4b20a12bfe09f60f74cbdd9200628981154bb28c19256fb9a44bc6834037eb"
     },
     {
       "target": "REPRODUCE.md",
@@ -3119,13 +3119,13 @@
     },
     {
       "target": "CITATION.cff",
-      "bytes": 786,
-      "sha256": "1805a405433125b206e58e0f8df5f06fef4a2f5a31c55220a62dfd7896bebecf"
+      "bytes": 922,
+      "sha256": "e8a3372ef4e6b4086e405a67185e13e49f33b453e3938289c1c52acb206e948d"
     },
     {
       "target": "GITHUB_RELEASE_CHECKLIST.md",
-      "bytes": 2012,
-      "sha256": "435ab3495145066a1d8c5396e89d890256c118982fcea20ca1da69b33398f220"
+      "bytes": 1819,
+      "sha256": "7be46bf5e4eb41e86dbb4f7a92d6151fb45109cb02f8189535416570a268101f"
     }
   ],
   "prototype_delta": {
@@ -3140,5 +3140,5 @@
     ],
     "scope_note": "Minimal AP prototype delta for full E01-E17 reproduction; excludes local outputs, frontend build artifacts, PA/NapCat helper scripts, and unrelated dirty worktree files."
   },
-  "github_release_note": "The local repository is release-ready. If no remote is configured, use GITHUB_RELEASE_CHECKLIST.md or scripts/publish_to_github.ps1 after creating the GitHub repository."
+  "github_release_note": "The appendix repository has been published to https://github.com/ginsonko/Artificial-PsyArch-test- on branch main. Release anchor commit: 3b60865733d620ddfe75eacb603f985f49e5fa84."
 }
