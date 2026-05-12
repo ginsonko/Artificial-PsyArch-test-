@@ -1333,8 +1333,8 @@
     {
       "source": "ap-paper-artifacts://E04_punish_correction/charts/e04_punish_correction_effects_e04_final_v1.png",
       "target": "experiments\\E04\\charts\\e04_punish_correction_effects_final.png",
-      "bytes": 136052,
-      "sha256": "364b1cfeacacd7cd9ec1cee7baef5fe09e086440772e36477270bdb0fbb6bc59"
+      "bytes": 194218,
+      "sha256": "23d042e4236d25c3f0c1216724af05442d961c9f9a2ba9e373a2baf665806f9b"
     },
     {
       "source": "ap-paper-artifacts://E04_punish_correction/charts/e04_punish_correction_key_drives_e04_final_v1.png",
