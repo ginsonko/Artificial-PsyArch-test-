@@ -1,4 +1,4 @@
-AP prototype reference
+﻿AP prototype reference
 ======================
 
 Recorded prototype base commit:
@@ -8,7 +8,7 @@ Minimal reproduction delta:
 prototype_delta/Artificial-PsyArch-reproduction-delta-v2026-05-12.patch
 
 Delta SHA-256:
-55814DC38849D50C6550203109083C26D890D8942ADF02D26386CCC80CA083F0
+5CA9E14FDCA94C3FA7CF8582A66E040B7B4CA10A9F6D9559BB22F194C0FB8907
 
 Public reproduction policy
 --------------------------

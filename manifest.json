@@ -3055,8 +3055,8 @@
     {
       "source": "ap-prototype-delta://Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
       "target": "prototype_delta\\Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
-      "bytes": 2736792,
-      "sha256": "55814dc38849d50c6550203109083c26d890d8942adf02d26386ccc80ca083f0"
+      "bytes": 1415869,
+      "sha256": "5ca9e14fdca94c3fa7cf8582a66e040b7b4ca10a9f6d9559bb22f194c0fb8907"
     }
   ],
   "total_copied_files": 475,
@@ -3067,18 +3067,18 @@
   "top_level_files": [
     {
       "target": "README.md",
-      "bytes": 4097,
-      "sha256": "9f0b6bca88a54f909ac7c7e84a3a7ebff1e63fdbea30413a9726e3c3c7687878"
+      "bytes": 4100,
+      "sha256": "e3368470de6cd4d5c489a4165d92ba3a8de34727e3eddc268b99f56ba5cc36b1"
     },
     {
       "target": "REPRODUCE.md",
-      "bytes": 4495,
-      "sha256": "18b1e146c313f99c64a3b306dccd7f76cae09ad5084e0f71c5ca8e5955654e67"
+      "bytes": 4498,
+      "sha256": "bfa05190a7f42481655174b519647bfea3d5430e320bf26952e3b2b9d7d600f9"
     },
     {
       "target": "MANIFEST.md",
-      "bytes": 3480,
-      "sha256": "8090db5e378df0cddaf8b3398d2a0d5da6d06df2d8a12bba59850f458d7d3d0a"
+      "bytes": 3483,
+      "sha256": "28a4085942697a1aa365fa87934df942992b31256f8ad0848c8de1fd1ddcd8f3"
     },
     {
       "target": "strong_evidence_overview.csv",
@@ -3097,15 +3097,15 @@
     },
     {
       "target": "ap_prototype_status.txt",
-      "bytes": 1891,
-      "sha256": "c5e877839c9e6a55d267a75e9acb25f9737d0050aa91769e1489cd73f2ef3c98"
+      "bytes": 1894,
+      "sha256": "12bf7d1c31c6432f374c35d747bbe9519d4daf1d31209128cb7fedac90e95767"
     }
   ],
   "prototype_delta": {
     "base_commit": "f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf",
     "patch": "prototype_delta\\Artificial-PsyArch-reproduction-delta-v2026-05-12.patch",
-    "sha256": "55814dc38849d50c6550203109083c26d890d8942adf02d26386ccc80ca083f0",
-    "bytes": 2736792,
+    "sha256": "5ca9e14fdca94c3fa7cf8582a66e040b7b4ca10a9f6d9559bb22f194c0fb8907",
+    "bytes": 1415869,
     "validated_experiments": [
       "E06",
       "E08",

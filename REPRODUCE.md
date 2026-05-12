@@ -1,4 +1,4 @@
-# 复现实验指南（Reproduction Guide）
+﻿# 复现实验指南（Reproduction Guide）
 
 ## 1. 目录布局
 
@@ -27,7 +27,7 @@ git apply ..\Artificial-PsyArch-test实验论文数据集附件\prototype_delta\
 4. 进入 AP 原型仓库，安装其运行依赖。
 5. 确保可以从 Python 导入 `observatory`、`hdb`、`state_pool`、`time_sensor` 与 `action` 等 AP 原型模块。它们分别对应原型中的观测运行入口、全息深度数据库、状态池、时间感受器和行动管理器等核心模块。
 
-补丁说明：E01-E12、E14-E17 的命令入口在基准提交下可以导入；E06、E08、E13 的强证据复现需要补丁中的时间闭环、残差晋升和 AgentRuntime 投影入口。补丁只包含复现实验必要的原型代码增量，不包含本地输出、前端构建产物或 PA/NapCat 辅助脚本。补丁 SHA-256 为 `55814DC38849D50C6550203109083C26D890D8942ADF02D26386CCC80CA083F0`。
+补丁说明：E01-E12、E14-E17 的命令入口在基准提交下可以导入；E06、E08、E13 的强证据复现需要补丁中的时间闭环、残差晋升和 AgentRuntime 投影入口。补丁只包含复现实验必要的原型代码增量，不包含本地输出、前端构建产物或 PA/NapCat 辅助脚本。补丁 SHA-256 为 `5CA9E14FDCA94C3FA7CF8582A66E040B7B4CA10A9F6D9559BB22F194C0FB8907`。
 
 ## 3. 重新运行单个实验
 

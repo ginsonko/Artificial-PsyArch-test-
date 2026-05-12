@@ -1,4 +1,4 @@
-# 人工心智架构实验论文数据集附件（Artificial PsyArch Test Appendix）
+﻿# 人工心智架构实验论文数据集附件（Artificial PsyArch Test Appendix）
 
 本仓库是《人工心智架构（Artificial PsyArch）》论文的实验数据、图表和复现附件。主索引聚焦正文采用的强证据实验材料，保留每个实验的设计逻辑、结果表格、白箱日志摘要、图表和脚本入口，便于读者从“论文结论”一路追溯到“可复核数据”。
 
@@ -25,7 +25,7 @@
 
 记录到的 AP 原型基准提交：`f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf`
 
-复现 E01-E17 时，建议在该基准提交上应用 `prototype_delta/Artificial-PsyArch-reproduction-delta-v2026-05-12.patch`。该补丁只包含本轮审计确认与论文实验复现相关的原型增量：AgentRuntime 提示包投影入口、时间间隔闭环、残差记忆时间显影/晋升、状态池快照解释字段和实验指标字段；不包含前端构建产物、本地运行日志或 PA/NapCat 辅助脚本。补丁 SHA-256 为 `55814DC38849D50C6550203109083C26D890D8942ADF02D26386CCC80CA083F0`。
+复现 E01-E17 时，建议在该基准提交上应用 `prototype_delta/Artificial-PsyArch-reproduction-delta-v2026-05-12.patch`。该补丁只包含本轮审计确认与论文实验复现相关的原型增量：AgentRuntime 提示包投影入口、时间间隔闭环、残差记忆时间显影/晋升、状态池快照解释字段和实验指标字段；不包含前端构建产物、本地运行日志或 PA/NapCat 辅助脚本。补丁 SHA-256 为 `5CA9E14FDCA94C3FA7CF8582A66E040B7B4CA10A9F6D9559BB22F194C0FB8907`。
 
 原型复现口径见 `ap_prototype_status.txt`。复现者应优先使用随论文发布的 AP 原型仓库版本，并让附件仓库与原型仓库保持同级目录布局；若实际目录不同，可按 `REPRODUCE.md` 设置 `AP_ROOT` 环境变量。
 
