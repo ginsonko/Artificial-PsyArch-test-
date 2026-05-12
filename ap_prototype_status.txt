@@ -1,71 +1,31 @@
-## main...origin/main
- M .gitignore
- M LICENSE
- M README.md
- M action/main.py
- M action/tests/test_action_threshold_modulation.py
- M hdb/_stimulus_retrieval.py
- M hdb/main.py
- M observatory/_app.py
- M observatory/_web.py
- M observatory/config/observatory_config.yaml
- M observatory/experiment/expectation_contracts.py
- M observatory/experiment/metrics.py
- M observatory/frontend/src/App.tsx
- M observatory/frontend/src/components/AppShellLayout.tsx
- M observatory/frontend/src/components/MetricChart.tsx
- M observatory/frontend/src/lib/api.ts
- M observatory/frontend/src/styles.css
- M observatory/outputs/experiment_runs/exp_ap_behavioral_curriculum_small_v2_20260506_004306_7604/metrics.jsonl
- M observatory/tests/test_observatory_flow.py
- M observatory/tests/test_observatory_regressions.py
- D observatory/web_static_next/assets/ExperimentPage-ZncJoSYw.js
- D observatory/web_static_next/assets/IconPlus-CGWqpnCx.js
- D observatory/web_static_next/assets/InspectorPage-yiw92_CY.js
- D observatory/web_static_next/assets/RulesPage-C9y7ThrO.js
- D observatory/web_static_next/assets/charts-DColeav3.js
- D observatory/web_static_next/assets/editor-CVZuDaeG.js
- D observatory/web_static_next/assets/flow-CFxtMj5Y.js
- D observatory/web_static_next/assets/index-BA0PVOJI.css
- D observatory/web_static_next/assets/index-tWb-g5t6.js
- D observatory/web_static_next/assets/mantine-Bkg7l5wa.js
- D observatory/web_static_next/assets/table-DsOFFSmq.js
- M observatory/web_static_next/index.html
- M state_pool/_snapshot_engine.py
- M state_pool/_state_item_builder.py
- M time_sensor/main.py
- M time_sensor/tests/test_time_sensor_projection_bindings.py
- M tools/cleanup_runtime_outputs.ps1
- M "\345\277\253\351\200\237\345\220\257\345\212\250\350\247\202\346\265\213\345\217\260.bat"
- M "\346\234\200\345\260\217\345\216\237\345\236\213\350\247\202\346\265\213\345\217\260\350\257\264\346\230\216\344\271\246.md"
- M "\346\270\205\347\220\206\346\227\245\345\277\227\345\222\214\344\270\264\346\227\266\350\276\223\345\207\272.bat"
-?? .codex_backups/
-?? docs/
-?? observatory/agent_runtime.py
-?? observatory/frontend/src/pages/AgentPage.tsx
-?? observatory/tests/test_agent_diary_tools.py
-?? observatory/tests/test_agent_library_runtime_package.py
-?? observatory/tests/test_agent_public_projection.py
-?? observatory/tests/test_agent_web_lifecycle.py
-?? observatory/web_static_next/assets/AgentPage-DhoLhPWv.js
-?? observatory/web_static_next/assets/ExperimentPage-D-HaNuOl.js
-?? observatory/web_static_next/assets/IconPlus-ChWvw2tp.js
-?? observatory/web_static_next/assets/InspectorPage-DT8-Yg1y.js
-?? observatory/web_static_next/assets/MetricChart-SLoa8Qcn.js
-?? observatory/web_static_next/assets/RulesPage-BLS5vEco.js
-?? observatory/web_static_next/assets/charts-C2vx3wtB.js
-?? observatory/web_static_next/assets/editor-qdyfJ8ZH.js
-?? observatory/web_static_next/assets/flow-CowUnAYm.js
-?? observatory/web_static_next/assets/index-BWwEoIUT.js
-?? observatory/web_static_next/assets/index-DtMqF0fy.css
-?? observatory/web_static_next/assets/mantine-DysGogXf.js
-?? observatory/web_static_next/assets/table-DIAy9LZP.js
-?? scripts/
-?? start-napcat-pa.bat
-?? start-napcat-pa.ps1
-?? tmp_probe_e02_live.py
-?? "\344\270\200\351\224\256\345\220\257\345\212\250PA-Agent\344\270\216AP\345\220\216\347\253\257.bat"
-?? "\344\270\200\351\224\256\346\211\223\345\274\200NapCat.bat"
-?? "\344\270\200\351\224\256\346\213\211\345\217\226PsyArch-Agent\345\210\260\346\234\254\345\234\260.bat"
-?? "\344\270\200\351\224\256\346\213\211\345\217\226\346\210\226\346\233\264\346\226\260NapCat.bat"
-?? "\344\270\200\351\224\256\351\205\215\347\275\256NapCat\350\277\236\346\216\245PA.bat"
+AP prototype reference
+======================
+
+Recorded prototype commit:
+f1a54e84bc2b9575fc41a3e00c5addc5a639c0bf
+
+Public reproduction policy
+--------------------------
+
+This attachment package is designed to be used with the public AP prototype
+repository released alongside the paper. Keep the prototype repository as a
+sibling directory named `Artificial-PsyArch`, or adjust `AP_ROOT` at the top of
+the scripts under `scripts/`.
+
+The experiment attachments in this repository contain the data files, summary
+tables, charts, script copies, and SHA-256 hashes used by the paper. The root
+`manifest.json` records portable logical source identifiers:
+
+- `ap-paper-artifacts://...` identifies the original paper experiment output
+  branch used when assembling the public attachment package.
+- `ap-prototype://...` identifies a path relative to the AP prototype
+  repository.
+
+These logical identifiers are provided for provenance. They do not require the
+reader to reproduce the author's local directory layout.
+
+Integrity check
+---------------
+
+Use `manifest.json` to verify the published attachment files. The `bytes` and
+`sha256` fields are computed over the files included in this repository.

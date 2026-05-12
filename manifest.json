@@ -3017,5 +3017,5 @@
   "total_judgement_records": 914,
   "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。",
   "source_reference_note": "Public manifests use ap-paper-artifacts:// and ap-prototype:// logical source URIs. They identify original experiment branches or prototype-relative files without exposing a local drive path. SHA-256 values are computed over the copied public files listed by target.",
-  "manifest_integrity_note": "The root manifest was refreshed after public path sanitization; listed bytes and SHA-256 values refer to the files as published in this attachment repository."
+  "manifest_integrity_note": "The root manifest was refreshed after public path and prototype-status sanitization; listed bytes and SHA-256 values refer to the files as published in this attachment repository."
 }
