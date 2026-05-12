@@ -10,8 +10,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -21,7 +21,6 @@ from emotion import EmotionManager
 from innate_script import InnateScriptManager
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E14_ROOT = ARTIFACT_ROOT / "E14_action_threshold_modulation"
 TABLE_DIR = E14_ROOT / "tables"
 CHART_DIR = E14_ROOT / "charts"

@@ -12,8 +12,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -22,7 +22,6 @@ import run_paper_e11_energy_graph_experiment as e11
 from hdb import HDB
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E17_ROOT = ARTIFACT_ROOT / "E17_internal_narrative_chain"
 TABLE_DIR = E17_ROOT / "tables"
 CHART_DIR = E17_ROOT / "charts"

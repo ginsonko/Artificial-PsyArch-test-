@@ -10,7 +10,9 @@ workspace/
   Artificial-PsyArch-test实验论文数据集附件/
 ```
 
-`scripts/*.py` 默认假定 AP 原型目录位于附件仓库的同级目录，名称为 `Artificial-PsyArch`。如果实际目录不同，可以修改脚本顶部的 `AP_ROOT`，也可以在运行前建立同名目录链接。
+`scripts/*.py` 默认假定 AP 原型目录位于附件仓库的同级目录，名称为 `Artificial-PsyArch`。如果实际目录不同，建议在运行前设置环境变量 `AP_ROOT`，不需要改动脚本源码。
+
+默认复现输出会写入附件仓库下的 `reproduction_outputs/`。如需把结果写到其他位置，可以设置 `AP_PAPER_ARTIFACT_ROOT`。重新生成论文总览图时，脚本默认读取附件仓库内的 `experiments/` 终稿强证据数据；如需读取其他发布数据目录，可以设置 `AP_PUBLISHED_EXPERIMENT_ROOT`。重新生成的总览图默认写入 `reproduction_outputs/paper_quality_charts_v02/`，也可以用 `AP_PAPER_QUALITY_OUTPUT_ROOT` 覆盖。
 
 ## 2. 环境准备
 
@@ -27,7 +29,15 @@ python .\scripts\run_paper_e02_label_switch_experiment.py --help
 python .\scripts\run_paper_e17_internal_narrative_chain_experiment.py --help
 ```
 
-不同实验的参数略有差异。建议先运行 `--help`，再按报告中的终稿批次参数执行。默认脚本会把实验结果写入 AP 原型仓库的论文实验输出目录（artifact）；复现者可以直接比较新旧 `summary.json`、CSV 与图表，也可以在脚本顶部调整输出目录以适配自己的工作区。
+不同实验的参数略有差异。建议先运行 `--help`，再按报告中的终稿批次参数执行。默认脚本会把新结果写入 `reproduction_outputs/`，复现者可以直接比较新旧 `summary.json`、CSV 与图表，也可以通过 `AP_PAPER_ARTIFACT_ROOT` 指定独立输出目录。
+
+PowerShell 示例：
+
+```powershell
+$env:AP_ROOT = "D:\workspace\Artificial-PsyArch"
+$env:AP_PAPER_ARTIFACT_ROOT = "D:\workspace\ap_reproduction_outputs"
+python .\scripts\run_paper_e02_label_switch_experiment.py --help
+```
 
 ## 4. 重新生成论文级总览图
 
@@ -35,7 +45,7 @@ python .\scripts\run_paper_e17_internal_narrative_chain_experiment.py --help
 python .\scripts\make_paper_quality_charts_v02.py
 ```
 
-该脚本只读取终稿强证据表格，并重新生成 `paper_quality_charts_v02` 中的总览图。若你加入新的强证据实验，应同步更新脚本中的实验索引。
+该脚本默认读取附件仓库 `experiments/` 中的终稿强证据表格，并把重新生成的总览图写入 `reproduction_outputs/paper_quality_charts_v02/`。这样既能复查图表生成逻辑，也不会覆盖本仓库随论文发布的原始图表。若你加入新的强证据实验，应同步更新脚本中的实验索引。
 
 ## 5. 校验附件完整性
 

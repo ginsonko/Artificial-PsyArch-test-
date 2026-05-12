@@ -30,8 +30,8 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -42,7 +42,6 @@ from observatory.experiment.runner import RunOptions, run_dataset
 from observatory.experiment.storage import DatasetFileRef, imported_datasets_dir, resolve_run_dir
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E03_ROOT = ARTIFACT_ROOT / "E03_reward_shaping"
 DATASET_DIR = E03_ROOT / "datasets"
 RUN_DIR = E03_ROOT / "runs"
@@ -891,36 +890,36 @@ def write_report(
     alias_ttl: int,
 ) -> Path:
     lines: list[str] = []
-    lines.append(f"# E03 ???????????{stamp}?")
+    lines.append(f"# E03 教师奖惩信号局部塑形实验报告（{stamp}）")
     lines.append("")
-    lines.append("## ??")
-    lines.append(f"- ?????**{summary.get('support_level', 'unknown')}**")
-    lines.append(f"- pair ??{summary.get('pair_count', 0)}")
-    lines.append(f"- reward lookup ?????{float(summary.get('reward_lookup_ratio', 0.0)):.3f}")
-    lines.append(f"- punish lookup ?????{float(summary.get('punish_lookup_ratio', 0.0)):.3f}")
-    lines.append(f"- neutral ???????{float(summary.get('neutral_quiet_ratio', 0.0)):.3f}")
-    lines.append(f"- ????????{float(summary.get('clean_causal_chain_ratio', 0.0)):.3f}")
-    lines.append(f"- ???????????{float(summary.get('reward_bonus_effect_mean', 0.0)):.4f}")
-    lines.append(f"- ???????????{float(summary.get('punish_penalty_effect_mean', 0.0)):.4f}")
-    lines.append(f"- ?????? sign test p?{float(summary.get('reward_bonus_sign_p', 1.0)):.6f}")
-    lines.append(f"- ?????? sign test p?{float(summary.get('punish_penalty_sign_p', 1.0)):.6f}")
+    lines.append("## 结论摘要")
+    lines.append(f"- 支持等级：**{summary.get('support_level', 'unknown')}**")
+    lines.append(f"- pair 数：{summary.get('pair_count', 0)}")
+    lines.append(f"- 奖励历史局部命中比例：{float(summary.get('reward_lookup_ratio', 0.0)):.3f}")
+    lines.append(f"- 惩罚历史局部命中比例：{float(summary.get('punish_lookup_ratio', 0.0)):.3f}")
+    lines.append(f"- 中性对照静默比例：{float(summary.get('neutral_quiet_ratio', 0.0)):.3f}")
+    lines.append(f"- 清晰因果链比例：{float(summary.get('clean_causal_chain_ratio', 0.0)):.3f}")
+    lines.append(f"- 奖励局部增益均值：{float(summary.get('reward_bonus_effect_mean', 0.0)):.4f}")
+    lines.append(f"- 惩罚局部减益均值：{float(summary.get('punish_penalty_effect_mean', 0.0)):.4f}")
+    lines.append(f"- 奖励局部增益 sign test p 值：{float(summary.get('reward_bonus_sign_p', 1.0)):.6f}")
+    lines.append(f"- 惩罚局部减益 sign test p 值：{float(summary.get('punish_penalty_sign_p', 1.0)):.6f}")
     lines.append("")
-    lines.append("## ????")
-    lines.append(f"- ?????{reward_strength:.3f}")
-    lines.append(f"- ?????{punish_strength:.3f}")
-    lines.append(f"- ???????{reward_coef:.3f}")
-    lines.append(f"- ???????{punish_coef:.3f}")
-    lines.append(f"- ?? alias TTL?{alias_ttl}")
-    lines.append("- ?? contains_text ?????????????st????????????????em????????")
-    lines.append("- ? teacher alias ??????? action text fallback ?????????? 4?????????????? probe?")
-    lines.append("- ???? reward/punish ?????????? drive ???")
-    lines.append("- ???? fatigue???? drive_decay_ratio=0??????????? drive ????")
+    lines.append("## 设计逻辑")
+    lines.append(f"- 奖励强度：{reward_strength:.3f}")
+    lines.append(f"- 惩罚强度：{punish_strength:.3f}")
+    lines.append(f"- 奖励局部系数：{reward_coef:.3f}")
+    lines.append(f"- 惩罚局部系数：{punish_coef:.3f}")
+    lines.append(f"- 局部 alias TTL：{alias_ttl}")
+    lines.append("- 训练 tick 使用 contains_text 绑定目标城市文本，使反馈写入稳定局部锚点。")
+    lines.append("- 教师 alias 通过行动侧 text fallback 被后续弱天气 probe 读取。")
+    lines.append("- 关闭全局 reward/punish 阈值调制，只保留局部 drive 调制。")
+    lines.append("- 关闭行动疲劳，并将 drive_decay_ratio 设为 0，避免残留 drive 污染后续 probe。")
     lines.append("")
-    lines.append("## ????")
+    lines.append("## 图表")
     for path in charts:
         lines.append(f"- {path}")
     lines.append("")
-    lines.append("## Pair ??")
+    lines.append("## Pair 明细")
     lines.append("")
     lines.append("| case | rep | city | reward_bonus | punish_penalty | reward_hit | punish_hit | neutral_quiet | clean | reward_drive | neutral_drive | punish_drive |")
     lines.append("| --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |")
@@ -933,7 +932,7 @@ def write_report(
             f"{num(row, 'reward_probe_drive'):.3f} | {num(row, 'neutral_probe_drive'):.3f} | {num(row, 'punish_probe_drive'):.3f} |"
         )
     lines.append("")
-    lines.append("## ????")
+    lines.append("## 数据规模")
     lines.append(f"- datasets: {len(datasets)}")
     lines.append(f"- runs: {len(run_infos)}")
     path = REPORT_DIR / f"E03_reward_shaping_report_{stamp}.md"

@@ -33,8 +33,8 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -46,7 +46,6 @@ from observatory.experiment.storage import DatasetFileRef, imported_datasets_dir
 import run_paper_e01_experiment as e01
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E01_ROOT = ARTIFACT_ROOT / "E01_lexical_abstraction"
 V4_ROOT = E01_ROOT / "strong_reuse_v4_crossover_probe"
 DATASET_DIR = V4_ROOT / "datasets"
@@ -767,14 +766,14 @@ def write_report(
     lines.append(f"- 机制通过率：{float(evidence_summary.get('pass_mechanism_rate', 0.0)):.4f}；平均有序 probe 路径优势：{float(evidence_summary.get('ordered_probe_path_advantage_mean', 0.0)):.4f}；平均乱序 probe 路径优势：{float(evidence_summary.get('permuted_probe_path_advantage_mean', 0.0)):.4f}。\n\n")
     lines.append("## 附件\n\n")
     for path in chart_paths:
-        lines.append(f"- `{path.relative_to(ROOT)}`\n")
+        lines.append(f"- `{path.relative_to(ATTACHMENT_ROOT)}`\n")
     for name in (
         f"e01_v4_crossover_row_metrics_{stamp}.csv",
         f"e01_v4_crossover_phase_summary_{stamp}.csv",
         f"e01_v4_crossover_family_evidence_{stamp}.csv",
     ):
-        lines.append(f"- `{(TABLE_DIR / name).relative_to(ROOT)}`\n")
-    lines.append(f"- `{(REPORT_DIR / 'E01_v4_crossover_design_logic.md').relative_to(ROOT)}`\n")
+        lines.append(f"- `{(TABLE_DIR / name).relative_to(ATTACHMENT_ROOT)}`\n")
+    lines.append(f"- `{(REPORT_DIR / 'E01_v4_crossover_design_logic.md').relative_to(ATTACHMENT_ROOT)}`\n")
     path = REPORT_DIR / f"E01_v4_crossover_report_{stamp}.md"
     path.write_text("".join(lines), encoding="utf-8")
     return path

@@ -6,7 +6,7 @@ __pycache__/
 
 # Large local prototype/runtime folders
 Artificial-PsyArch/
-docs/paper_artifacts_2026-05-11/**/runs/
+reproduction_outputs/
 **/outputs/
 **/*.sqlite3
 **/*.log

@@ -12,8 +12,8 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -22,7 +22,6 @@ from attention.main import AttentionFilter
 from innate_script._rules_engine import evaluate_rules, normalize_rules_doc
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E10_ROOT = ARTIFACT_ROOT / "E10_repeat_fatigue"
 TABLE_DIR = E10_ROOT / "tables"
 CHART_DIR = E10_ROOT / "charts"

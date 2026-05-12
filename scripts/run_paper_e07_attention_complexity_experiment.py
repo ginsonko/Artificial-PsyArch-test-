@@ -36,8 +36,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -46,7 +46,6 @@ from observatory._app import ObservatoryApp
 from observatory.experiment.runner import apply_experiment_default_app_overrides
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E07_ROOT = ARTIFACT_ROOT / "E07_attention_complexity"
 TABLE_DIR = E07_ROOT / "tables"
 CHART_DIR = E07_ROOT / "charts"

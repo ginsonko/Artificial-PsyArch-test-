@@ -8,10 +8,10 @@ from typing import Any
 
 import run_paper_e01_experiment as e01
 
+from _reproduction_paths import PAPER_QUALITY_OUTPUT_ROOT, PUBLISHED_EXPERIMENT_ROOT
 
-ROOT = Path(__file__).resolve().parent
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
-OUT_DIR = ARTIFACT_ROOT / "paper_quality_charts_v02"
+EXPERIMENT_ROOT = PUBLISHED_EXPERIMENT_ROOT
+OUT_DIR = PAPER_QUALITY_OUTPUT_ROOT
 DATA_DIR = OUT_DIR / "data"
 
 
@@ -65,9 +65,9 @@ def load_final_summaries(paths: dict[str, Path]) -> dict[str, dict[str, Any]]:
     for eid in range(4, 18):
         if f"E{eid:02d}" in out:
             continue
-        candidates = sorted(ARTIFACT_ROOT.glob(f"E{eid:02d}_*/tables/*summary*final_v*.json"))
-        if eid == 12:
-            candidates = [p for p in candidates if "final_v2" in p.name]
+        candidates = sorted((EXPERIMENT_ROOT / f"E{eid:02d}" / "tables" / "source_tables").glob("*summary_final.json"))
+        if not candidates:
+            candidates = sorted((EXPERIMENT_ROOT / f"E{eid:02d}" / "tables").glob("summary.json"))
         if candidates:
             out[f"E{eid:02d}"] = read_json(candidates[-1])
     return out
@@ -266,30 +266,30 @@ def save_json(name: str, data: Any) -> None:
 
 
 def final_paths() -> dict[str, Path]:
-    r = ARTIFACT_ROOT
+    r = EXPERIMENT_ROOT
     return {
-        "E01_SUMMARY": r / "E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_evidence_summary_smoke3_20260511_e01_v4_crossover_f2.json",
-        "E01_FAMILY": r / "E01_lexical_abstraction/strong_reuse_v4_crossover_probe/tables/e01_v4_crossover_family_evidence_smoke3_20260511_e01_v4_crossover_f2.csv",
-        "E02_SUMMARY": r / "E02_label_switch_sensitivity/tables/e02_label_switch_summary_e02_label_switch_holdout_confirm_v1.json",
-        "E02_PAIR": r / "E02_label_switch_sensitivity/tables/e02_label_switch_pair_rows_e02_label_switch_holdout_confirm_v1.csv",
-        "E03_SUMMARY": r / "E03_reward_shaping/tables/e03_reward_shaping_summary_e03_final_v1.json",
-        "E03_PAIR": r / "E03_reward_shaping/tables/e03_reward_shaping_pair_rows_e03_final_v1.csv",
-        "E04_PAIR": r / "E04_punish_correction/tables/e04_punish_correction_pair_rows_e04_final_v1.csv",
-        "E05_PAIR": r / "E05_action_closure/tables/e05_action_closure_pair_rows_e05_final_v1.csv",
-        "E06_SUMMARY": r / "E06_time_interval_closure/tables/e06_time_interval_summary_e06_final_v1.json",
-        "E06_PAIR": r / "E06_time_interval_closure/tables/e06_time_interval_pair_rows_e06_final_v1.csv",
-        "E07_SUMMARY": r / "E07_attention_complexity/tables/e07_attention_complexity_summary_e07_final_v1.json",
-        "E07_PAIR": r / "E07_attention_complexity/tables/e07_attention_complexity_pair_rows_e07_final_v1.csv",
-        "E08_PAIR": r / "E08_time_like_residual_promotion/tables/e08_time_like_residual_promotion_pair_rows_e08_final_v1.csv",
-        "E09_PAIR": r / "E09_conflict_relief/tables/e09_conflict_relief_pair_rows_e09_final_v1.csv",
-        "E10_PAIR": r / "E10_repeat_fatigue/tables/e10_repeat_fatigue_pair_rows_e10_final_v1.csv",
-        "E11_PAIR": r / "E11_energy_graph/tables/e11_energy_graph_pair_rows_e11_final_v1.csv",
-        "E12_PAIR": r / "E12_process_memory_state/tables/e12_process_memory_pair_rows_e12_final_v2.csv",
-        "E13_FAMILY": r / "E13_agent_memory_projection/tables/e13_agent_memory_projection_family_rows_e13_final_v1.csv",
-        "E14_FAMILY": r / "E14_action_threshold_modulation/tables/e14_action_threshold_modulation_family_rows_e14_final_v1.csv",
-        "E15_FAMILY": r / "E15_auto_tuner_stability/tables/e15_auto_tuner_stability_family_rows_e15_final_v1.csv",
-        "E16_FAMILY": r / "E16_multimodal_symbol_grounding/tables/e16_multimodal_symbol_grounding_family_rows_e16_final_v1.csv",
-        "E17_FAMILY": r / "E17_internal_narrative_chain/tables/e17_internal_narrative_chain_family_rows_e17_final_v1.csv",
+        "E01_SUMMARY": r / "E01/tables/summary.json",
+        "E01_FAMILY": r / "E01/tables/source_tables/e01_v4_crossover_family_evidence_final.csv",
+        "E02_SUMMARY": r / "E02/tables/summary.json",
+        "E02_PAIR": r / "E02/tables/source_tables/e02_label_switch_pair_rows_final.csv",
+        "E03_SUMMARY": r / "E03/tables/summary.json",
+        "E03_PAIR": r / "E03/tables/source_tables/e03_reward_shaping_pair_rows_final.csv",
+        "E04_PAIR": r / "E04/tables/source_tables/e04_punish_correction_pair_rows_final.csv",
+        "E05_PAIR": r / "E05/tables/source_tables/e05_action_closure_pair_rows_final.csv",
+        "E06_SUMMARY": r / "E06/tables/summary.json",
+        "E06_PAIR": r / "E06/tables/source_tables/e06_time_interval_pair_rows_final.csv",
+        "E07_SUMMARY": r / "E07/tables/summary.json",
+        "E07_PAIR": r / "E07/tables/source_tables/e07_attention_complexity_pair_rows_final.csv",
+        "E08_PAIR": r / "E08/tables/source_tables/e08_time_like_residual_promotion_pair_rows_final.csv",
+        "E09_PAIR": r / "E09/tables/source_tables/e09_conflict_relief_pair_rows_final.csv",
+        "E10_PAIR": r / "E10/tables/source_tables/e10_repeat_fatigue_pair_rows_final.csv",
+        "E11_PAIR": r / "E11/tables/source_tables/e11_energy_graph_pair_rows_final.csv",
+        "E12_PAIR": r / "E12/tables/source_tables/e12_process_memory_pair_rows_final.csv",
+        "E13_FAMILY": r / "E13/tables/source_tables/e13_agent_memory_projection_family_rows_final.csv",
+        "E14_FAMILY": r / "E14/tables/source_tables/e14_action_threshold_modulation_family_rows_final.csv",
+        "E15_FAMILY": r / "E15/tables/source_tables/e15_auto_tuner_stability_family_rows_final.csv",
+        "E16_FAMILY": r / "E16/tables/source_tables/e16_multimodal_symbol_grounding_family_rows_final.csv",
+        "E17_FAMILY": r / "E17/tables/source_tables/e17_internal_narrative_chain_family_rows_final.csv",
     }
 
 
@@ -371,7 +371,7 @@ def chart_experiment_logic_flow(plt, paths: dict[str, Path]) -> Path:
         ("对照与消融", "让输入文本、起点或参数尽量可比"),
         ("真实模块运行", "调用原型中的状态池、HDB、行动或调参链路"),
         ("判据", "结果必须方向一致、可追溯、可复现"),
-        ("正文准入", "只保留强证据，pilot 与失败扫描进入附件"),
+        ("正文准入", "只保留强证据，探索批次与失败扫描不进入正文图层"),
     ]
     x0, y0, w, h, gap = 0.03, 0.48, 0.14, 0.28, 0.025
     for idx, (title, subtitle) in enumerate(steps):
@@ -633,7 +633,7 @@ def write_manifest(paths: list[Path]) -> None:
     lines = [
         "# Paper-quality chart manifest",
         "",
-        "These charts are derived only from final strong-evidence CSV/JSON files. Pilot, smoke, and parameter-search artifacts are intentionally excluded from this presentation layer.",
+        "These charts are derived only from final strong-evidence CSV/JSON files. Exploratory, quick-check, and parameter-search artifacts are intentionally excluded from this presentation layer.",
         "",
         "| file | purpose |",
         "|---|---|",

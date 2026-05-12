@@ -2901,119 +2901,125 @@
     {
       "source": "run_paper_e01_experiment.py",
       "target": "scripts\\run_paper_e01_experiment.py",
-      "bytes": 92688,
-      "sha256": "e5b54b270b3238dc94c760dec14a37bf864b8b00a6778b8ee46ee80ba119eaed"
+      "bytes": 92608,
+      "sha256": "47ea62b884e7ecf8b9b5866e8e593645a692fb4cc57454e234b80a4c3ebc2458"
     },
     {
       "source": "run_paper_e01_crossover_probe_experiment.py",
       "target": "scripts\\run_paper_e01_crossover_probe_experiment.py",
-      "bytes": 46307,
-      "sha256": "4a031f3b9cf9a3d191fb00aa62fe20a8dd9c6e48be975787f33760c990baf626"
+      "bytes": 46275,
+      "sha256": "7b6325541eb88d5656fd170f84fbe3db20385bca0546fd7182fab536bd43adc0"
     },
     {
       "source": "run_paper_e02_label_switch_experiment.py",
       "target": "scripts\\run_paper_e02_label_switch_experiment.py",
-      "bytes": 42814,
-      "sha256": "950be9ef6a3eea89acce1e4eb8d2ed3144ff322ef611b641f761fb8ce7369689"
+      "bytes": 42749,
+      "sha256": "f788ff91ffd0810cb278aed67c6797b0ff27462176326c6696723970f054ce77"
     },
     {
       "source": "run_paper_e03_reward_shaping_experiment.py",
       "target": "scripts\\run_paper_e03_reward_shaping_experiment.py",
-      "bytes": 51250,
-      "sha256": "94594e58ece953571667c6e69a80ee040f2e614883d691b64317948e2231f353"
+      "bytes": 50437,
+      "sha256": "2fee2993935dfba64753ffea2e26a0fb9b1afcc27af834b7d2b218c21009ccf2"
     },
     {
       "source": "run_paper_e04_punish_correction_experiment.py",
       "target": "scripts\\run_paper_e04_punish_correction_experiment.py",
-      "bytes": 55073,
-      "sha256": "2cfbd00cfbf1774dbf1df21cc258b02ea1c9c458a6f6d56e3131726ebeed36df"
+      "bytes": 55008,
+      "sha256": "56bc7512a37f217f04c03c78b64d41315d9b71f17dadec05b8580b92bb79ce88"
     },
     {
       "source": "run_paper_e05_action_closure_experiment.py",
       "target": "scripts\\run_paper_e05_action_closure_experiment.py",
-      "bytes": 38885,
-      "sha256": "2d0b69b68b38a97574aad2f1aadc5f1733fa145bb9106457b7dc820f78781d06"
+      "bytes": 38820,
+      "sha256": "39fb2abb8ccf8d8a6652fd7536365eef737e6e06955ff6350fb6152725517411"
     },
     {
       "source": "run_paper_e06_time_interval_experiment.py",
       "target": "scripts\\run_paper_e06_time_interval_experiment.py",
-      "bytes": 48031,
-      "sha256": "77b3b50e31bba7a987f18f5cc20ea6e49cecc4e11a85b6beb9c91edf46981c31"
+      "bytes": 47966,
+      "sha256": "203f6a359c893e05c8911da3768e89c217bfe7997162e2d0b9e65bd6ca8a17b4"
     },
     {
       "source": "run_paper_e07_attention_complexity_experiment.py",
       "target": "scripts\\run_paper_e07_attention_complexity_experiment.py",
-      "bytes": 36503,
-      "sha256": "6157c5eb773ca5e212423e9b9d1f4604c847a011269a34c8c8d1ad19d6ed39ce"
+      "bytes": 36438,
+      "sha256": "ab7c000b799152f03a3087d09f4f15044808125f013c08820eaa593554c7a444"
     },
     {
       "source": "run_paper_e08_time_like_residual_promotion_experiment.py",
       "target": "scripts\\run_paper_e08_time_like_residual_promotion_experiment.py",
-      "bytes": 38509,
-      "sha256": "1a5578e15572c11b3fcc8b7d71c1013db2fa978bc716f824a759bfcde014ea7f"
+      "bytes": 38444,
+      "sha256": "29a9936e7c80013a31590b4ed6bab614e29183c17b240a4aa2be933c931f217f"
     },
     {
       "source": "run_paper_e09_conflict_relief_experiment.py",
       "target": "scripts\\run_paper_e09_conflict_relief_experiment.py",
-      "bytes": 43509,
-      "sha256": "108c2ccd152117c0032d290279ac288d650c52d7b1df4868c5fba08481a147b1"
+      "bytes": 43444,
+      "sha256": "8178fd53f2de982c8b0b5e735b68dbe8c9b9b0e1a69153ddac4e3ad5e36e7e32"
     },
     {
       "source": "run_paper_e10_repeat_fatigue_experiment.py",
       "target": "scripts\\run_paper_e10_repeat_fatigue_experiment.py",
-      "bytes": 45261,
-      "sha256": "938b60f8be794b20b5561aa07211ab300f87a60bf9ee240f36c5d7c92e377037"
+      "bytes": 45196,
+      "sha256": "15a123cb4cbda9c3ebcae55d36fac29eee6e665f120c175889fbcffb1c3cf5fc"
     },
     {
       "source": "run_paper_e11_energy_graph_experiment.py",
       "target": "scripts\\run_paper_e11_energy_graph_experiment.py",
-      "bytes": 45379,
-      "sha256": "2d3b54c742f44d4149e981a2963c3130c9b3949a21bc9f110073c82784143b24"
+      "bytes": 45314,
+      "sha256": "d451be78d5d05d37dd5b445ebdcd5ddf7a55d5a5cb1c4155da71abfa64cff14c"
     },
     {
       "source": "run_paper_e12_process_memory_experiment.py",
       "target": "scripts\\run_paper_e12_process_memory_experiment.py",
-      "bytes": 40251,
-      "sha256": "ac9bdc6b2a0e9540f1c2f4b5551aa8a4619fbb2baf3eb3c1820ae606e4b5e20c"
+      "bytes": 40186,
+      "sha256": "457adf81ee5cf4be9c0b5bdec133231c9b5eef9d8135606b056294ab7f85fba6"
     },
     {
       "source": "run_paper_e13_agent_memory_projection_experiment.py",
       "target": "scripts\\run_paper_e13_agent_memory_projection_experiment.py",
-      "bytes": 38958,
-      "sha256": "3542bece504be356cca82dfdbb97947ebd817071fda1357dfe9e7737001415f5"
+      "bytes": 38893,
+      "sha256": "7f9db0dbf0b4d019c8f6cdd3e973766e27b217110844c08090c9cbbc85003471"
     },
     {
       "source": "run_paper_e14_action_threshold_modulation_experiment.py",
       "target": "scripts\\run_paper_e14_action_threshold_modulation_experiment.py",
-      "bytes": 47737,
-      "sha256": "9edc4cc8af0398fb4cac2acf87de11cc4caf05cc0def998fa161ac707d19a62b"
+      "bytes": 47672,
+      "sha256": "ec5065470ee0323095181fc1c0494d72fe5556788c5888c799d69dd903b27c63"
     },
     {
       "source": "run_paper_e15_auto_tuner_stability_experiment.py",
       "target": "scripts\\run_paper_e15_auto_tuner_stability_experiment.py",
-      "bytes": 40393,
-      "sha256": "e9e1fc9b4a4fabb705c176614f0e109e187db665407e2835c28a2ae77a008e00"
+      "bytes": 40328,
+      "sha256": "d59ba5d2c6fa2a78229f364b289af110e7165ede2371e4f18f28164f83149cff"
     },
     {
       "source": "run_paper_e16_multimodal_symbol_grounding_experiment.py",
       "target": "scripts\\run_paper_e16_multimodal_symbol_grounding_experiment.py",
-      "bytes": 40695,
-      "sha256": "0f312502326711a9bd0f810b79907d6ba0be54550df82a600eab9a07c20a4153"
+      "bytes": 40630,
+      "sha256": "997c1252e08cdcde9a6f65aac1bf14859404af2ee6bb00d6470d13880545ffcc"
     },
     {
       "source": "run_paper_e17_internal_narrative_chain_experiment.py",
       "target": "scripts\\run_paper_e17_internal_narrative_chain_experiment.py",
-      "bytes": 37067,
-      "sha256": "76c52357f0d4d313dd59020da2c1f942e030e9a055b572106db7759869e2699d"
+      "bytes": 37002,
+      "sha256": "55c17d7d573f840cee904fb2dc2d989fff7729018647187861d8d7312a2f5e8b"
     },
     {
       "source": "make_paper_quality_charts_v02.py",
       "target": "scripts\\make_paper_quality_charts_v02.py",
-      "bytes": 34271,
-      "sha256": "d81c5ef4ed529e57e5460e1057c83688587b3b96497169b65c060dbf88c5fa94"
+      "bytes": 33702,
+      "sha256": "200473d87676a885ada960ac78b886750a9907f97810ab17bc5c6da49363f730"
+    },
+    {
+      "source": "scripts\\_reproduction_paths.py",
+      "target": "scripts\\_reproduction_paths.py",
+      "bytes": 754,
+      "sha256": "dcff2bbaed254baa2d7b4c38c81156b4925a426f0b5452a54c7aa41567fa00f8"
     }
   ],
-  "total_copied_files": 473,
+  "total_copied_files": 474,
   "total_judgement_records": 914,
   "source_filename_note": "manifest.json 保留原始 artifact 的源路径和源文件名，用于哈希追溯；个别源文件名包含早期批次 token，这些 token 只是历史文件名的一部分，不改变本清单以 support_level=strong_evidence 为准的正文证据级别。",
   "source_reference_note": "Public manifests use ap-paper-artifacts:// and ap-prototype:// logical source URIs. They identify original experiment branches or prototype-relative files without exposing a local drive path. SHA-256 values are computed over the copied public files listed by target.",

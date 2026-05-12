@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """Build and run paper E01 lexical-abstraction experiments.
 
-This script is intentionally local-only. It generates controlled datasets,
-runs them through the existing AP Observatory experiment runner, and writes
-paper-facing charts/tables/reports under docs/paper_artifacts_2026-05-11.
+This script generates controlled datasets, runs them through the existing AP
+Observatory experiment runner, and writes reproduction charts/tables/reports
+under the configured AP_PAPER_ARTIFACT_ROOT directory.
 """
 
 from __future__ import annotations
@@ -24,8 +24,8 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -35,7 +35,6 @@ from observatory.experiment.storage import DatasetFileRef, imported_datasets_dir
 from observatory.experiment.io import sha256_file
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E01_ROOT = ARTIFACT_ROOT / "E01_lexical_abstraction"
 DATASET_ARTIFACT_DIR = E01_ROOT / "datasets"
 RUN_ARTIFACT_DIR = E01_ROOT / "runs"
@@ -1810,7 +1809,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run AP paper E01 controlled experiment.")
     parser.add_argument("--replicates", type=int, default=3, help="Number of deterministic order replicates per condition.")
     parser.add_argument("--empty-repeat", type=int, default=2, help="Empty ticks after each real text tick.")
-    parser.add_argument("--max-ticks", type=int, default=0, help="Optional max source ticks per run for smoke tests.")
+    parser.add_argument("--max-ticks", type=int, default=0, help="Optional max source ticks per run for quick checks.")
     parser.add_argument("--make-only", action="store_true", help="Only generate datasets, do not run AP.")
     parser.add_argument("--analyze-existing-stamp", default="", help="Analyze existing runs for this stamp without rerunning AP.")
     parser.add_argument("--stamp", default="", help="Optional run stamp for reproducibility.")

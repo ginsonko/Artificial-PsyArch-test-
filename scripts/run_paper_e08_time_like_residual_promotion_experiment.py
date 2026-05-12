@@ -42,8 +42,8 @@ from typing import Any
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent
-AP_ROOT = ROOT / "Artificial-PsyArch"
+from _reproduction_paths import AP_ROOT, ARTIFACT_ROOT, ATTACHMENT_ROOT
+
 if str(AP_ROOT) not in sys.path:
     sys.path.insert(0, str(AP_ROOT))
 
@@ -54,7 +54,6 @@ from observatory.experiment.runner import RunOptions, apply_experiment_default_a
 from observatory.experiment.storage import DatasetFileRef, imported_datasets_dir, resolve_run_dir
 
 
-ARTIFACT_ROOT = ROOT / "docs" / "paper_artifacts_2026-05-11"
 E08_ROOT = ARTIFACT_ROOT / "E08_time_like_residual_promotion"
 DATASET_DIR = E08_ROOT / "datasets"
 RUN_DIR = E08_ROOT / "runs"
