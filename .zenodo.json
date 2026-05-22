@@ -1,0 +1,20 @@
+{
+  "title": "Artificial PsyArch Test Appendix: Reproducible Experiment Dataset and Prototype Delta",
+  "description": "Reproducible appendix for the Artificial PsyArch paper, including E01-E17 experiment designs, reports, datasets, tables, charts, scripts, manifests, and a minimal AP prototype reproduction delta.",
+  "creators": [
+    {
+      "name": "ginsonko, Yinzi"
+    }
+  ],
+  "license": "other-open",
+  "keywords": [
+    "Artificial PsyArch",
+    "cognitive architecture",
+    "reproducible experiments",
+    "agent memory",
+    "state pool",
+    "holographic deep database"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}
